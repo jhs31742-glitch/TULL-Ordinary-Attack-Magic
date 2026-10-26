@@ -3,7 +3,7 @@
   "runtime": "CP031_CORE_23_OF_23_USER_PASS;V101_USER_RUNTIME_NOT_RUN",
   "nativeSourceExact": true,
   "dependencies": "gitlinks pinned inDEPENDENCIES.lock.json",
-  "DLLSHA256": "369706C0CDD8E39683646C2EE19455E29FE0ECDC5F1B8F019A4E737A921D10F7",
+  "DLLSHA256": "16DF9E9C1BDBDF89A3B71C2A80A7B5772F76D22C6CDCB45092FF9F304AF97C61",
   "publication": "PRIVATE_UNTIL_NEXUS_LAUNCH",
   "damageMultiplierDefault": 1.0,
   "costReductionCap": 0.8,
@@ -305,8 +305,8 @@
     },
     {
       "path": "Docs/CIRCLE_MATERIAL_AUDIT.md",
-      "bytes": 8703,
-      "sha256": "94C6CC0ACB5A7DEE6EF4DEB1B6777454880AE1DE71ADF24D192652B399A8BC6C"
+      "bytes": 9366,
+      "sha256": "565BD7BC6FCEC2569C9F8E4AC3EE663830FBA0F4355EEEE34DACF6A2EB413314"
     },
     {
       "path": "Docs/COLOR_PRESET_MAPPING.md",
@@ -330,8 +330,8 @@
     },
     {
       "path": "Docs/CP033_V101_IMPLEMENTATION_REPORT.md",
-      "bytes": 6228,
-      "sha256": "11EA136058337B9017F8C1E858C120E34D6B48D6ECA19FF0AE46E986360A2925"
+      "bytes": 6891,
+      "sha256": "C2A13A187BF3FAA474CE576CA3A50E9ED79229EA2FAF8FEAC77B1997420DC116"
     },
     {
       "path": "Docs/CREDITS.txt",
@@ -480,13 +480,13 @@
     },
     {
       "path": "Research/RESEARCH_SOURCE_INDEX.csv",
-      "bytes": 59546,
-      "sha256": "AD323E5231341E385941A3D723FD7AE150DBBF7374C3F7BD44F9516CB47C33C0"
+      "bytes": 59539,
+      "sha256": "A4674EE93386DFC9FC68BF33F27252069CB9FC2CC9CEE3E3A77D0F453BE24583"
     },
     {
       "path": "Research/TOAM_RESEARCH_COMPENDIUM.md",
-      "bytes": 365895,
-      "sha256": "55BF518DF1EB62CE0DEE819440DB9C45B5109B72C1DF319AB389F0E2377EA286"
+      "bytes": 366558,
+      "sha256": "483751ED6C544DACA222ABF54556DB55E05061F6181A2453CC1F5F96DA37F917"
     },
     {
       "path": "THIRD_PARTY_LICENSES/CommonLibSSE-NG.txt",
@@ -1025,8 +1025,8 @@
     },
     {
       "path": "src/VFX/CircleTint.cpp",
-      "bytes": 6870,
-      "sha256": "165144C370F8ACA3BE498AA8DAAD1924CC2D700117DB85377649FC19E5B31172"
+      "bytes": 7453,
+      "sha256": "E6AE6F05A20A50B06DBA5AD66D0A42367847DA1FDE7C5951ECAA79F2F8680725"
     },
     {
       "path": "src/VFX/CircleTint.h",
@@ -1281,5 +1281,6 @@
     ],
     "preview": false
   },
-  "win32SettingsAssertions": 31
+  "win32SettingsAssertions": 31,
+  "rootAndAncestorOwnershipGuard": true
 }

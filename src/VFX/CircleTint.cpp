@@ -18,6 +18,7 @@ struct Plan {
 };
 bool PrepareGeometry(RE::NiAVObject* o,Plan& plan,unsigned depth){
  if(!o||depth>24||++plan.nodes>256)return false;
+ if(depth&&o->AsNode()&&o->GetRefCount()!=1)return false;
  if(auto* g=o->AsGeometry()){
   // One parent reference is required. Shared cached geometry fails closed.
   if(g->GetRefCount()!=1||plan.count==plan.entries.size())return false;
@@ -70,6 +71,12 @@ void Apply(State& state,RE::NiAVObject* root) noexcept {
  if(!root||state.color==Presentation::Color::Default||state.color>=Presentation::Color::Count||root==state.attemptedRoot)return;
  state.attemptedRoot=root;const auto start=std::chrono::steady_clock::now();
  if(REL::Module::get().version()!=SKSE::RUNTIME_SSE_1_5_97||!root->GetObjectByName(RE::BSFixedString{"AS_CirclePose"}))return;
+ // ModelReferenceEffect::artObject3D owns one NiPointer (pinned SE +C8).
+ // An attached parent must own exactly one additional child reference.
+ unsigned parentReferences=0;
+ if(root->parent){const auto& children=root->parent->GetChildren();if(children.size()>256)return;for(const auto& child:children)if(child.get()==root)++parentReferences;if(parentReferences!=1)return;}
+ if(root->GetRefCount()!=1U+parentReferences){logger::warn("[TOAM][CircleColor] Shared root ownership rejected; original retained");return;}
+
  try{
   Plan plan;if(!PrepareGeometry(root,plan,0)||!plan.count){logger::warn("[TOAM][CircleColor] Rejected property/geometry ownership; original retained");return;}
   for(std::size_t i=0;i<plan.count;++i)if(!Configure(plan.entries[i],state.color)){logger::warn("[TOAM][CircleColor] Rejected material/neutral texture; original retained");return;}
