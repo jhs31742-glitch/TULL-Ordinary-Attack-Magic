@@ -4,6 +4,7 @@ FlightSettings flightSettings{};FlightCombatSettings flightCombatSettings{};Flig
 RE::NiPoint3 flightVelocity{},flightLastPosition{};RE::TESObjectCELL* flightCell=nullptr;RE::TESWorldSpace* flightWorld=nullptr;
 std::atomic_bool flightToggleRequested{false},flightSettingsReloadRequested{false};float flightAge=0;
 void QueueFlightSettingsReload() noexcept {flightSettingsReloadRequested.store(true,std::memory_order_release);}
+TOAM::Presentation::Color flightCircleColor{TOAM::Presentation::Color::Default};
 struct FlightSigil {ArtSlot art{};RE::NiPoint3 position{};float age=0,wait=0;bool active=false,cancelled=false;};
 std::array<FlightSigil,4> flightSigils{};unsigned flightSigilCursor=0;bool flightUp=false,flightDown=false,flightBoost=false,flightRecoverPending=false,flightReadyPending=false;
 bool FlightActive(){return flightPhase==FlightPhase::Flying;}
@@ -17,7 +18,7 @@ void FlightEnsureSigil(FlightSigil& s,RE::BGSArtObject* form,RE::PlayerCharacter
  if(s.art.requested&&!s.art.effect)s.art.effect=FindCircle(p,form);
 }
 void FlightShowSigil(RE::PlayerCharacter* p){
- int index=flightSigilCursor++%4;auto& s=flightSigils[index];FinishCircle(s.art);s=FlightSigil{};s.active=true;s.position=p->GetPosition()+RE::NiPoint3{0,0,3};
+ int index=flightSigilCursor++%4;auto& s=flightSigils[index];FinishCircle(s.art);s=FlightSigil{};s.art.tint.color=flightCircleColor;s.active=true;s.position=p->GetPosition()+RE::NiPoint3{0,0,3};
  FlightEnsureSigil(s,forms.flightCircle[index],p);
 }
 void FlightUpdateSigils(RE::PlayerCharacter* p,float dt){
@@ -48,7 +49,7 @@ void FlightAscentFrame(RE::PlayerCharacter* p,float dt,bool ascending){
    auto& s=ascentBands[i];if(s.active)continue;
    auto old=circleRequests.find(forms.flightAscent[i]);
    if(old!=circleRequests.end()&&!old->second.acquired&&Clock()<old->second.reuseAfter)continue;
-   s=FlightSigil{};s.active=true;s.position=p->GetPosition()+RE::NiPoint3{0,0,-4};
+   s=FlightSigil{};s.art.tint.color=flightCircleColor;s.active=true;s.position=p->GetPosition()+RE::NiPoint3{0,0,-4};
    FlightEnsureSigil(s,forms.flightAscent[i],p);break;
   }
  }
@@ -92,8 +93,9 @@ void FlightStopHum(){
 }
 void FlightUpdateHum(RE::PlayerCharacter* p){
  if(!FlightActive()||!flightHumEnabled||flightHumVolume<=0||!flightHumForm)return;auto* root=p?p->Get3D(false):nullptr;if(!root)return;
- if(!flightHumRequested){Sound(flightHum,flightHumForm,root,0.f);flightHumRequested=flightHum.IsValid();logger::info("FLIGHT_HUM_REQUEST valid={} [audibility unverified]",flightHumRequested);}
- if(flightHum.IsValid()){flightHum.SetObjectToFollow(root);static_cast<void>(flightHum.SetVolume(flightHumVolume*std::clamp(flightAge/.30f,0.f,1.f)));}
+ if(!flightHumRequested&&TOAM::Presentation::Resolve(TOAM::Presentation::Event::FoolHum,flightHumVolume).volume<=0){flightHumRequested=true;return;}
+ if(!flightHumRequested){Sound(flightHum,flightHumForm,root,0.f,TOAM::Presentation::Event::FoolHum);flightHumRequested=flightHum.IsValid();logger::info("FLIGHT_HUM_REQUEST valid={} [audibility unverified]",flightHumRequested);}
+ if(flightHum.IsValid()){flightHum.SetObjectToFollow(root);static_cast<void>(flightHum.SetVolume(TOAM::Presentation::Resolve(TOAM::Presentation::Event::FoolHum,flightHumVolume).volume*std::clamp(flightAge/.30f,0.f,1.f)));}
 }
 
 void FlightReset(bool clearMarker=true,bool clearSigils=true){
@@ -151,7 +153,7 @@ void FlightFrame(RE::PlayerCharacter* p,float dt){
  if(!FlightEligible(p)||!flightSettings.enabled){FlightReset();return;}
  if(gameplay&&flightToggleRequested.exchange(false)){
   if(flightPhase==FlightPhase::Flying){FlightReset(true,false);logger::info("FLIGHT_TOGGLE_OFF immediateNormal=true noTransition=true");}
-  else{flightPhase=FlightPhase::Flying;flightAge=0;flightVelocity={0,0,flightSettings.takeoffSpeed};flightCell=p->GetParentCell();flightWorld=p->GetWorldspace();flightLastPosition=p->GetPosition();FlightMarker(p,true);FlightShowSigil(p);if(p->IsInJumpState()){bool accepted=p->NotifyAnimationGraph("JumpLandEnd");p->SetGraphVariableBool("bInJumpState",false);logger::info("FLIGHT_AIR_TRANSITION jumpLandEndAccepted={} [not animation visibility proof]",accepted);}
+  else{flightCircleColor=TOAM::Presentation::Snapshot(TOAM::Presentation::Spell::Fool);flightPhase=FlightPhase::Flying;flightAge=0;flightVelocity={0,0,flightSettings.takeoffSpeed};flightCell=p->GetParentCell();flightWorld=p->GetWorldspace();flightLastPosition=p->GetPosition();FlightMarker(p,true);FlightShowSigil(p);if(p->IsInJumpState()){bool accepted=p->NotifyAnimationGraph("JumpLandEnd");p->SetGraphVariableBool("bInJumpState",false);logger::info("FLIGHT_AIR_TRANSITION jumpLandEndAccepted={} [not animation visibility proof]",accepted);}
    logger::info("FLIGHT_TOGGLE_ON animationMarker={:08X}",forms.flightMarker->GetFormID());}
  }
  if(!FlightOwnsMovement())return;if(!std::isfinite(dt)||dt<=0)return;dt=std::min(dt,.05f);

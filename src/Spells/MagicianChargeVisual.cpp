@@ -356,6 +356,7 @@ namespace TOAM::Spells::Magician
             return false;
         }
 
+        _renderer.SnapshotColor(Presentation::Spell::Magician);
         _renderer.SetStyle(VFX::EngineCircle::Style::SunFull);
         _parent =
             parent;

@@ -3,6 +3,7 @@
 #include "PCH.h"
 #include "Core/Runtime.h"
 #include "Core/DamageSettings.h"
+#include "Core/PresentationSettings.h"
 
 namespace logger = SKSE::log;
 
@@ -27,6 +28,7 @@ namespace
             TOAM::Core::DamageSettings::RegisterMenu();
             break;
         case SKSE::MessagingInterface::kDataLoaded:
+            TOAM::Presentation::DataLoaded();
             logger::info("[TOAM][Plugin] Message=DataLoaded");
             TOAM::Core::Runtime::OnDataLoaded();
             break;
@@ -106,6 +108,7 @@ SKSEPluginLoad(const SKSE::LoadInterface* skse)
     }
 
     static_cast<void>(TOAM::Core::DamageSettings::Reload());
+    static_cast<void>(TOAM::Presentation::Reload());
     if(!Arcana::InstallHooks()) {return false;}
 
     logger::info(

@@ -1,3 +1,6 @@
+# TOAM1.0.1 addendum / CP033
+Current presentation settings:[EN/KR](PRESENTATION_SETTINGS_EN_KR.md). Core gameplay/requirements and historical1.0details below are retained. New1.0.1 runtime QA/LOCK pending;private draft only.
+
 # TULL Ordinary Attack Magic1.0 — Nexus description draft
 
 A tarot-themed ordinary attack/general-magic collection with charged beams,target-directed artillery,player/target formations,staves,levitation and airborne casting. Core TOAM and embedded Arcana share one Native host with independent cast/resource ownership.

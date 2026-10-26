@@ -1,3 +1,6 @@
+# TOAM1.0.1 addendum / CP033
+Current presentation settings:[EN/KR](PRESENTATION_SETTINGS_EN_KR.md). Core gameplay/requirements and historical1.0details below are retained. New1.0.1 runtime QA/LOCK pending;private draft only.
+
 # TULL Ordinary Attack Magic1.0 — 넥서스 업로드 초안
 
 일반공격마법·일반교양마법 컨셉의 타로 주문과 지팡이,공중전투·부유 기능을 제공합니다. TOAM과 Arcana는 하나의 Native 호스트를 사용하면서 손별 자원·충전 소유권을 분리합니다.

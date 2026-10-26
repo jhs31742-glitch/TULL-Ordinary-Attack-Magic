@@ -1,4 +1,4 @@
-# TULL Ordinary Attack Magic 1.0.0
+# TULL Ordinary Attack Magic 1.0.1
 Reviewed source for the single TOAM SKSE host,owned plugin record sources,unified technical/art research and reusable offline formation editor.
 
 - [Build](BUILDING.md) / [Dependency pins](DEPENDENCIES.lock.json)
@@ -15,7 +15,11 @@ Open tools/formation_editor/index.html locally. Mouse/sliders are primary;precis
 
 Parent v0.8.12 user-confirmed damage-menu and merchant-sales QA remains recorded. New1.0 render/flight-menu/distribution changes pass static/build/deploy gates but require user runtime QA. SE1.5.97 only;AE/VR are disabled. Existing damage/resources/cadence/defense policies are unchanged.
 
-GitHub stays PRIVATE until Nexus launch. No Nexus upload or public switch is performed here. MO2 profile/checkboxes/saves are user-controlled. SMP is excluded;its failed experiments remain research history. Native source is exact build input;runtime art/animation/audio binaries are excluded pending publication rights review. See LICENSE_NOTICE.md and Docs/THIRD_PARTY_NOTICES.md. Historical documents under Docs/History_CP030 are superseded by the current Nexus drafts.
+GitHub stays PRIVATE until Nexus launch. No Nexus upload or public switch is performed here. MO2 profile/checkboxes/saves are user-controlled. SMP is excluded;its failed experiments remain research history. Native source is exact build input;runtime art/animation/audio binaries are excluded pending publication rights review. See LICENSING.md and Docs/THIRD_PARTY_NOTICES.md. Historical documents under Docs/History_CP030 are superseded by the current Nexus drafts.
 
 ## CP032 static staff cloth correction
 CP031core23/23 user-confirmed with no observed CTD/freeze;CP032 corrected-cloth runtime NOT_RUN. Gold ribbon winding/normal/tangent fix only;Fern/Silver inspected and unchanged. No Native/ESP/gameplay/DLL change. [Report](Docs/CP032_STAFF_CLOTH_REPORT.md) | [Repair source](tools/staff_cloth/README.md).
+
+## 1.0.1 /CP033 current
+Immutable parent is1.0.0/CP032. New audio volume/source IDs,camera intensity and13 independent circle-color presets are documented in [settings](Docs/PRESENTATION_SETTINGS_EN_KR.md),[audio catalog](Docs/AUDIO_CATALOG.md),[material audit](Docs/CIRCLE_MATERIAL_AUDIT.md),[mapping](Docs/COLOR_PRESET_MAPPING.md) and [implementation](Docs/CP033_V101_IMPLEMENTATION_REPORT.md). CP031 core23/23 user QA is preserved;all new1.0.1 runtime behavior and final LOCK are pending. [Minimum user QA](Docs/CP033_ONE_BOOT_QA.md).
+Existing art,plugin records,formation editor/AI samples and gameplay values remain the CP032 bytes. The new runtime clones only verified private material instances;Default preserves original appearance. Rejection retains original art and must be recorded as a failed/unverified color application. Repository stays private.

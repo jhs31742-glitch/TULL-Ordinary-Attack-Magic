@@ -21,3 +21,6 @@ The archived layout editor is an authoring tool,not a live source/INI loader. Re
 ##1.0 formation/flight presentation additions
 Native build remains the existing MSVCx64/Ninja project. New headers CircleMotion.h and FlightMenuPolicy.h have no external SDK dependency. The optional Framework3.x integration dynamically resolves its audited ABI.
 Tests:cl /std:c++latest /EHsc /Isrc tests/circle_flight_policy_tests.cpp;node tools/formation_editor/tests/engine.test.cjs. Editor runs offline without npm installation. Do not interpret authoring/browser tests as Skyrim runtime proof. Runtime art must be obtained from the separately released authorized Main package.
+
+##1.0.1 tests
+Compile tests/presentation_policy_tests.cpp with MSVCx64 /std:c++latest /EHsc /Isrc. The policy harness passed1922 checks. tests/presentation_settings_win32_tests.cpp exercises the actual PresentationSettings.cpp linked with current CommonLib/fmt/spdlog and system libraries;its two host-only shims are CommonIniMutex and unused CircleTint::Prepare. Do not call DataLoaded or GPU functions in this host test. Actual Win32 INI save/reload/custom-key/failure cases passed27 assertions outside MO2. Test artifacts stay outside the plugin build output;only existing build/msvc is used for the plugin. No runtime performance claim follows.

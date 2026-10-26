@@ -369,6 +369,7 @@ namespace TOAM::Spells::Judgement::Runtime
             // Charge-only, damage-free guide. Never share markingBeam.
             VFX::BeamRenderer chargeGuide{};
             VFX::CircleRenderer chargeGuideCircle{};
+            Presentation::Color circleColor{Presentation::Color::Default};
             RE::NiNode* chargeGuideCircleRoot{};
             RE::NiNode* chargeGuideRoot{};
             bool chargeGuideWanted{};
@@ -889,6 +890,7 @@ namespace TOAM::Spells::Judgement::Runtime
 
             visual.circles.
                 ReleaseAll();
+            visual.circles.SetColor(state.circleColor);
 
 
             std::size_t
@@ -2434,6 +2436,8 @@ namespace TOAM::Spells::Judgement::Runtime
     void BeginChargeGuide() noexcept
     {
         ReleaseChargeGuide();
+        GetRuntimeState().circleColor=Presentation::Snapshot(Presentation::Spell::Judgement);
+        GetRuntimeState().chargeGuideCircle.SetColor(GetRuntimeState().circleColor);
         GetRuntimeState().chargeGuideWanted = true;
         logger::info("[TOAM][S06GUIDE] BEGIN | Damage=false");
     }

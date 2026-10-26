@@ -41,14 +41,14 @@ void Update(RE::ActorMagicCaster* c,float dt){
  if(h.mode==Hermit){UpdateWorld(c,h,side,actor,root,feet,flat,dt,t);return;}
  if(h.mode==Sentry){if(t>=.24f){
   if(!StartResource(c,h,modes[Sentry].cost)){DenyCast(c,h);return;}
-  PlaceSentry(side,actor,root,front,FlightActive()?rot:flat,h.damageMultiplier);Complete(h,side,actor);c->currentSpellCost=0;}return;}
+  PlaceSentry(side,actor,root,front,FlightActive()?rot:flat,h.damageMultiplier,h.circleColor);Complete(h,side,actor);c->currentSpellCost=0;}return;}
  if(h.mode==Tracking){UpdateTracking(c,h,side,actor,root,front,rot,dt,t);return;}
  if(h.mode==Rain){UpdateRain(c,h,side,actor,root,feet,flat,dt,t);return;}
  if(h.mode==SolarCrown&&UltimateDone(t)){logger::warn("SUN_READINESS_TIMEOUT charge={} spawned={}",t,h.launched);Complete(h,side,actor);c->currentSpellCost=0;return;}
- if(!h.soundStarted){h.soundStarted=true;if(h.mode==Sustain)Sound(h.shots[h.soundSlot++%16],forms.sound[6],root,.65f);}
+ if(!h.soundStarted){h.soundStarted=true;if(h.mode==Sustain)Sound(h.shots[h.soundSlot++%16],forms.sound[6],root,.65f,TOAM::Presentation::Event::StrengthStart);}
  bool ult=h.mode==SolarCrown&&UltimateFiring(t);
  bool auditSun=ult&&!h.releasePlayed;
- if(h.mode==Sustain&&!h.loop.IsValid())Sound(h.loop,forms.sound[1],root,.78f);
+ if(h.mode==Sustain&&!h.loop.IsValid())Sound(h.loop,forms.sound[1],root,.78f,TOAM::Presentation::Event::StrengthLoop);
  int count=CircleCount(h.mode,t);float fit=1,lift=0;
  if(h.mode==SolarCrown&&!FlightActive()){
   for(int i=0;i<8;i++){auto axis=UltimateAxisOffset(i,t);auto p=front+rot*RE::NiPoint3{axis.x,axis.y,axis.z};lift=std::max(lift,feetClearance+UltimateScale(i,t)*fit*circleGroundRadius-(p.z-feet.z));}
@@ -81,6 +81,6 @@ void Update(RE::ActorMagicCaster* c,float dt){
   auto fireRot=h.mode==Sustain?DirectionRotation(base+rot*RE::NiPoint3{0,3000,0}-p):rot; Launch(h,side,c,actor,root,p,fireRot,h.mode);
   if(h.done)return;
  }
- if(h.mode==SolarCrown){h.releasePlayed=true;Sound(ultimateVoices[ultimateVoiceCursor++%ultimateVoices.size()],forms.sound[11],root,.90f);Shake(actor,ultimateKickStrength,ultimateKickSeconds);logger::info("SUN_BOLT_RELEASE charge={} sweptBolts={} failures={}",t,h.launched,h.failed);Complete(h,side,actor);c->currentSpellCost=0;return;}
- if(h.launched>launchesBefore&&(h.mode==Rapid||h.mode==Fivefold))Sound(h.shots[h.soundSlot++%16],forms.sound[0],root,h.mode==Rapid?.68f:.54f);
+ if(h.mode==SolarCrown){h.releasePlayed=true;Sound(ultimateVoices[ultimateVoiceCursor++%ultimateVoices.size()],forms.sound[11],root,.90f,TOAM::Presentation::Event::SunRelease);Shake(actor,ultimateKickStrength,ultimateKickSeconds);logger::info("SUN_BOLT_RELEASE charge={} sweptBolts={} failures={}",t,h.launched,h.failed);Complete(h,side,actor);c->currentSpellCost=0;return;}
+ if(h.launched>launchesBefore&&(h.mode==Rapid||h.mode==Fivefold))Sound(h.shots[h.soundSlot++%16],forms.sound[0],root,h.mode==Rapid?.68f:.54f,h.mode==Rapid?TOAM::Presentation::Event::EmperorShot:TOAM::Presentation::Event::ChariotShot);
 }

@@ -42,6 +42,8 @@ namespace TOAM::VFX
 
         CircleRenderer() = default;
         void SetStyle(EngineCircle::Style style) noexcept { _style=style; }
+        void SetColor(Presentation::Color color) noexcept {_color=color;}
+        void SnapshotColor(Presentation::Spell spell) noexcept {_color=Presentation::Snapshot(spell);}
 
         CircleRenderer(
             const CircleRenderer&) = delete;
@@ -111,6 +113,7 @@ namespace TOAM::VFX
             const CirclePose& pose) noexcept;
 
     private:
+        Presentation::Color _color{Presentation::Color::Default};
         EngineCircle::Style _style{EngineCircle::Style::Original};
         std::array<RE::NiPointer<RE::NiNode>,kCapacity> _parents{};
         std::array<

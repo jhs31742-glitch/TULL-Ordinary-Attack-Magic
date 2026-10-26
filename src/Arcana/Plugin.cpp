@@ -20,6 +20,8 @@
 #include <cstring>
 #include "Integration.h"
 #include "Core/DamageSettings.h"
+#include "Core/PresentationSettings.h"
+#include "VFX/CircleTint.h"
 #include "VFX/CircleMotion.h"
 #include "IntegratedFormMap.h"
 using namespace std::literals;
@@ -55,6 +57,7 @@ struct Forms {
  RE::SpellItem* flightPower{};RE::SpellItem* flightMarker{};RE::SpellItem* slow{};RE::SpellItem* solarContact{};RE::SpellItem* sentryContact{};bool ready=false;
 } forms;
 struct ArtSlot {
+ TOAM::VFX::CircleTint::State tint{};
  RE::NiPointer<RE::ModelReferenceEffect> effect{};RE::BGSArtObject* form{};
  RE::NiPoint3 pos{};RE::NiMatrix3 rot{};float scale=.001f,alpha=0;bool requested=false;
  float motionAge=0,spinPhase=0;
@@ -65,6 +68,7 @@ struct TrackLane {
  float age=0,wait=0;bool active=false,fired=false,hasPrevious=false;
 };
 struct Hand {
+ TOAM::Presentation::Color circleColor{TOAM::Presentation::Color::Default};
  RE::MagicItem* spell{};int mode=-1,family=0,bank=0;Cadence cadence{};FivefoldCadence fivefold{};
  std::array<ArtSlot,12> circles{};std::array<TrackLane,5> lanes{};std::vector<RE::ActorHandle> targets{};
  RE::NiPoint3 field{},sky{};bool fieldSet=false;
@@ -90,10 +94,15 @@ RE::NiMatrix3 AimRotation(float pitch,float heading){
  r.entry[0][2]=sh*sp;r.entry[1][2]=ch*sp;r.entry[2][2]=cp;return r;
 }
 RE::NiMatrix3 DirectionRotation(const RE::NiPoint3& d){return AimRotation(-std::atan2(d.z,std::hypot(d.x,d.y)),std::atan2(d.x,d.y));}
-void Sound(RE::BSSoundHandle& h,RE::BGSSoundDescriptorForm* descriptor,RE::NiAVObject* follow,float volume){
- if(h.IsValid())static_cast<void>(h.Stop());auto* mgr=RE::BSAudioManager::GetSingleton();
+void Sound(RE::BSSoundHandle& h,RE::BGSSoundDescriptorForm* descriptor,RE::NiAVObject* follow,float volume,TOAM::Presentation::Event event){
+ if(h.IsValid())static_cast<void>(h.Stop());h=RE::BSSoundHandle{};
+ const auto choice=TOAM::Presentation::Resolve(event,volume);
+ const bool silentStart=event==TOAM::Presentation::Event::FoolHum&&volume==0&&TOAM::Presentation::Resolve(event,1).volume>0;
+ if(choice.volume<=0&&!silentStart)return;
+ if(auto* selected=TOAM::Presentation::Descriptor(choice.id))descriptor=selected;
+ auto* mgr=RE::BSAudioManager::GetSingleton();
  if(!mgr||!descriptor||!follow||!RE::BSAudioManager::QPlatformInstance())return;if(!mgr->GetSoundHandle(h,descriptor))return;
- h.SetObjectToFollow(follow);static_cast<void>(h.SetVolume(volume));static_cast<void>(h.Play());
+ h.SetObjectToFollow(follow);if(!h.SetVolume(choice.volume)||!h.Play()){static_cast<void>(h.Stop());h=RE::BSSoundHandle{};}
 }
 struct CircleRequestTicket {RE::ActorHandle actor{};double deadline=0,reuseAfter=0;unsigned searches=0;bool acquired=false;};
 std::unordered_map<RE::BGSArtObject*,CircleRequestTicket> circleRequests{};

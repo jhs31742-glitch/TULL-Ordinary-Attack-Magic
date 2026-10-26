@@ -3,3 +3,5 @@ User decision2026-10-26:upload this repository PRIVATE now. Make it public toget
 Before public launch: review imported animation/Bethesda-derived assets, choose the license for owned code/research without relicensing external work, confirm CP029 manual gameplay QA, verify exact source/DLL/ZIP checksums, draft Nexus credits/dependencies/install/version notes, then publish the matching source tag and Nexus files together.
 Distribution archives, source ZIP, GitHub checkout and chat handoff are kept in separate delivery folders. The private source repository excludes the runtime binary asset package and private logs/evidence registry. It is not a secret-bearing personal backup.
 MO2 instruction:deploy files ONLY to the mod folder. The user owns ALL mod/plugin activation, including disabling prior SMP and enabling the stance addon. Do not edit profiles/modlist.txt/plugins.txt or enablement from a future session without a new direct instruction.
+
+CP033:1.0.1 final LOCK and Nexus/public visibility require separate user approval after new audio/visual/runtime QA. CP031 core23/23 does not auto-pass1.0.1.

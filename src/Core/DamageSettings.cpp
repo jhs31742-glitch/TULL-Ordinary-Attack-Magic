@@ -1,4 +1,5 @@
 #include "Core/DamageSettings.h"
+#include "Core/PresentationSettings.h"
 #include "Core/DamagePolicy.h"
 #include "Core/FlightMenuPolicy.h"
 #include "Arcana/Integration.h"
@@ -103,6 +104,7 @@ void __stdcall RenderFlight(){
  text(L("Speeds use game units per second. These controls do not change spell costs or damage.","속도 단위는 게임 유닛/초입니다. 주문 비용과 피해량은 변경하지 않습니다."),nullptr);
  if(!status.empty())text(status.c_str(),nullptr);
 }
+#include "PresentationMenu.inl"
 void __stdcall Render(){
  Language();static float draft=GetMultiplier();static std::string status;
  text(L("One common multiplier for offensive spell and staff damage.","공격 주문과 지팡이 피해에 적용하는 공통 배율입니다."),nullptr);
@@ -118,6 +120,7 @@ void __stdcall Render(){
  if(!status.empty())text(status.c_str(),nullptr);
 }
 }
+std::mutex& CommonIniMutex() noexcept {return iniMutex;}
 float GetMultiplier() noexcept {return multiplier.load(std::memory_order_relaxed);}
 bool Reload() noexcept {
     try {
@@ -153,7 +156,10 @@ void RegisterMenu() noexcept {
     if(!add||!text||!input||!slider||!button||!sameLine||!checkbox||!version){SKSE::log::warn("[TOAM][DamageMenu] Missing required exports; optional page disabled");return;}
     const float v=version();if(!std::isfinite(v)||v<3.0F||v>=4.0F){SKSE::log::warn("[TOAM][DamageMenu] Unverified framework ABI {}; INI remains available",v);return;}
     add("TULL Ordinary Attack Magic/Damage - 피해 배율",Render);
-    add("TULL Ordinary Attack Magic/Flight - 비행 설정",RenderFlight);registered=true;
+    add("TULL Ordinary Attack Magic/Flight - 비행 설정",RenderFlight);
+    add("TULL Ordinary Attack Magic/Audio - 효과음",RenderAudio);
+    add("TULL Ordinary Attack Magic/Camera Shake - 화면 흔들림",RenderCamera);
+    add("TULL Ordinary Attack Magic/Circle Colors - 마법진 색상",RenderColors);registered=true;
     SKSE::log::info("[TOAM][DamageMenu] Page registered; framework={}; runtime visual QA pending",v);
 }
 }

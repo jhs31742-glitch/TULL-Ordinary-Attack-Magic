@@ -9,6 +9,7 @@ namespace {
 constexpr std::size_t capacity=193; // Last slot is the independent Temperance halo.
 constexpr float requestLifetime=2.0F, acquireLimit=1.8F, quarantineSeconds=2.2F;
 struct Slot {
+ CircleTint::State tint{};
  RE::NiPointer<RE::ModelReferenceEffect> effect{};
  RE::BGSArtObject* form{};
  RE::NiTransform world{};
@@ -72,6 +73,7 @@ void Alpha(RE::NiAVObject* object,float a){
 bool Pose(Slot& s,float alpha,float growth){
  if(!s.effect||s.effect->finished)return false;
  auto* root=s.effect->Get3D();if(!root)return false;
+ CircleTint::Apply(s.tint,root);
  RE::NiUpdateData update{};root->Update(update);
  static const RE::BSFixedString poseName{"AS_CirclePose"};
  auto* node=root->GetObjectByName(poseName);if(!node||!node->parent)return false;
@@ -86,7 +88,7 @@ bool Pose(Slot& s,float alpha,float growth){
  return true;
 }
 }
-VFXHandle Spawn(RE::NiNode* parent,const RE::NiTransform& local,bool visible,Style style) noexcept {
+VFXHandle Spawn(RE::NiNode* parent,const RE::NiTransform& local,bool visible,Style style,Presentation::Color color) noexcept {
  ResolveForms();auto* player=RE::PlayerCharacter::GetSingleton();
  if(!formsReady||!player||!player->Get3D(false)||!parent||!Finite(local)){
   static unsigned rejects{};if(rejects++<8)logger::warn("[TOAM][CP021C] REQUEST_REJECTED | Forms={} | Player={} | Parent={} | Transform={}",formsReady,player!=nullptr,parent!=nullptr,Finite(local));return {};
@@ -99,7 +101,7 @@ VFXHandle Spawn(RE::NiNode* parent,const RE::NiTransform& local,bool visible,Sty
  for(std::size_t i=begin;i<end;++i){
   auto& s=slots[i];if(s.occupied||!resources[i])continue;
   auto generation=static_cast<std::uint16_t>(s.generation+1);if(!generation)generation=1;
-  s=Slot{};s.generation=generation;s.occupied=true;s.form=forms[i];s.world=world;s.visible=visible;s.style=style;
+  s=Slot{};s.generation=generation;s.occupied=true;s.form=forms[i];s.world=world;s.visible=visible;s.style=style;s.tint.color=color;
   // Arcana SE97 adapter: ApplyArtObject ID22289 returns BOOL, not an effect pointer.
   using Apply=bool(*)(RE::TESObjectREFR*,RE::BGSArtObject*,float,RE::TESObjectREFR*,bool,bool,RE::NiAVObject*,bool);
   static REL::Relocation<Apply> apply{REL::RelocationID(22289,22769)};

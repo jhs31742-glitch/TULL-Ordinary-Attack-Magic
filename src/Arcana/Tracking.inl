@@ -47,5 +47,5 @@ void UpdateTracking(RE::ActorMagicCaster* c,Hand& h,int side,RE::Actor* a,RE::Ni
    lane.active=false;lane.wait=std::max(.02f,trackingPeriods[i]-lane.age);PoseCircle(art,lane.position,facing,.001f,0);
   }
  }
- if(sound)Sound(h.shots[h.soundSlot++%16],forms.sound[0],root,.47f);
+ if(sound)Sound(h.shots[h.soundSlot++%16],forms.sound[0],root,.47f,TOAM::Presentation::Event::StarShot);
 }

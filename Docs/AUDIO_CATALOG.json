@@ -1,0 +1,1006 @@
+{
+  "version": "1.0.1",
+  "sources": [
+    {
+      "id": "001",
+      "en": "Magician launch",
+      "kr": "마법사 발사",
+      "path": "sound/fx/TOAM/Spells/Arcana_Magician_Launch.xwm",
+      "descriptor": "0",
+      "loop": false
+    },
+    {
+      "id": "002",
+      "en": "Magician heavy launch",
+      "kr": "마법사 강한 발사",
+      "path": "sound/fx/TOAM/Spells/Arcana_Magician_HeavyLaunch.xwm",
+      "descriptor": "0",
+      "loop": false
+    },
+    {
+      "id": "003",
+      "en": "Judgement launch",
+      "kr": "심판 발사",
+      "path": "sound/fx/TOAM/Spells/Arcana_Judgement_Launch.xwm",
+      "descriptor": "0",
+      "loop": false
+    },
+    {
+      "id": "004",
+      "en": "Temperance proc",
+      "kr": "절제 발동",
+      "path": "sound/fx/TOAM/Spells/Arcana_Temperance_Proc.xwm",
+      "descriptor": "0",
+      "loop": false
+    },
+    {
+      "id": "005",
+      "en": "Emperor shot",
+      "kr": "황제 발사",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Emperor_Shot.wav",
+      "descriptor": "0xA51",
+      "loop": false
+    },
+    {
+      "id": "006",
+      "en": "Strength loop",
+      "kr": "힘 지속음",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Strength_Loop.wav",
+      "descriptor": "0xA52",
+      "loop": true
+    },
+    {
+      "id": "007",
+      "en": "Formation (silent)",
+      "kr": "전개음 (무음 원본)",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Formation.wav",
+      "descriptor": "0xA53",
+      "loop": false
+    },
+    {
+      "id": "008",
+      "en": "Charge loop (silent)",
+      "kr": "충전 지속음 (무음 원본)",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Charge_Loop.wav",
+      "descriptor": "0xA54",
+      "loop": true
+    },
+    {
+      "id": "009",
+      "en": "Sun release",
+      "kr": "태양 발사 원본",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Sun_Release.wav",
+      "descriptor": "0xA55",
+      "loop": false
+    },
+    {
+      "id": "010",
+      "en": "Sun charge",
+      "kr": "태양 충전음",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Sun_Charge.wav",
+      "descriptor": "0xA56",
+      "loop": true
+    },
+    {
+      "id": "011",
+      "en": "Strength start",
+      "kr": "힘 시작음",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Strength_Start.wav",
+      "descriptor": "0xA57",
+      "loop": false
+    },
+    {
+      "id": "012",
+      "en": "Strength end",
+      "kr": "힘 종료음",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Strength_End.wav",
+      "descriptor": "0xA58",
+      "loop": false
+    },
+    {
+      "id": "013",
+      "en": "Tower shot",
+      "kr": "탑 발사",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Tower_Shot.wav",
+      "descriptor": "0xA59",
+      "loop": false
+    },
+    {
+      "id": "014",
+      "en": "Hermit detonation",
+      "kr": "은둔자 폭발 원본",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Hermit_Detonation.wav",
+      "descriptor": "0xC77",
+      "loop": false
+    },
+    {
+      "id": "015",
+      "en": "Hermit aftershock",
+      "kr": "은둔자 여진 원본",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Hermit_Aftershock.wav",
+      "descriptor": "0xC78",
+      "loop": false
+    },
+    {
+      "id": "016",
+      "en": "Sun impact",
+      "kr": "태양 충격음",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Sun_Impact.wav",
+      "descriptor": "0xC85",
+      "loop": false
+    },
+    {
+      "id": "017",
+      "en": "Burst explosion",
+      "kr": "공통 폭발",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Burst_Explosion.wav",
+      "descriptor": "0xC88",
+      "loop": false
+    },
+    {
+      "id": "018",
+      "en": "Fool hover",
+      "kr": "광대 부유음",
+      "path": "sound/fx/TOAM/Arcana/Arcana_Fool_Hover.wav",
+      "descriptor": "0xCA9",
+      "loop": true
+    }
+  ],
+  "events": [
+    {
+      "key": "MagicianLaunch",
+      "kr": "마법사 발사",
+      "spell": "Magician",
+      "defaultID": "001",
+      "policy": "tiers1..4:.85/.90/.95/1;1.161s,cap3,60ms fade"
+    },
+    {
+      "key": "MagicianHeavyLaunch",
+      "kr": "마법사 강한 발사",
+      "spell": "Magician",
+      "defaultID": "002",
+      "policy": "tiers5..8:.95/1/1/1;1.719s,shared Magician cap3,60ms fade"
+    },
+    {
+      "key": "JudgementShot",
+      "kr": "심판 포격",
+      "spell": "Judgement",
+      "defaultID": "003",
+      "policy": ".95;1.394s,cap3,60ms fade;only shotIndex%3==0 and >=80ms catch-up gate"
+    },
+    {
+      "key": "WorldRelease",
+      "kr": "세계 해제",
+      "spell": "World",
+      "defaultID": "002",
+      "policy": "stages.85/.95/1;1.719s,cap3,60ms fade"
+    },
+    {
+      "key": "TemperanceProc",
+      "kr": "절제 발동",
+      "spell": "Temperance",
+      "defaultID": "004",
+      "policy": ".95;1.533s,cap2,100ms fade"
+    },
+    {
+      "key": "EmperorShot",
+      "kr": "황제 발사",
+      "spell": "Emperor",
+      "defaultID": "005",
+      "policy": ".68;per-hand16 shot slots;existing completion stops"
+    },
+    {
+      "key": "ChariotShot",
+      "kr": "전차 발사",
+      "spell": "Chariot",
+      "defaultID": "005",
+      "policy": ".54;per-hand16 shot slots;existing five independent cadences"
+    },
+    {
+      "key": "StrengthStart",
+      "kr": "힘 시작",
+      "spell": "Strength",
+      "defaultID": "011",
+      "policy": ".65;per-hand16 shot slots;one start event"
+    },
+    {
+      "key": "StrengthLoop",
+      "kr": "힘 지속",
+      "spell": "Strength",
+      "defaultID": "006",
+      "policy": ".78;one sustain per hand;existing FadeSustain"
+    },
+    {
+      "key": "SunRelease",
+      "kr": "태양 발사",
+      "spell": "Sun",
+      "defaultID": "016",
+      "policy": ".90;four ultimate voices;existing natural tail/clear"
+    },
+    {
+      "key": "SunCancel",
+      "kr": "태양 취소",
+      "spell": "Sun",
+      "defaultID": "012",
+      "policy": ".50;four ending slots;existing clear"
+    },
+    {
+      "key": "StarShot",
+      "kr": "별 발사",
+      "spell": "Star",
+      "defaultID": "005",
+      "policy": ".47;per-hand16 shot slots;one request for an actual lane dispatch"
+    },
+    {
+      "key": "JusticeLoop",
+      "kr": "정의 지속",
+      "spell": "Justice",
+      "defaultID": "006",
+      "policy": ".42;one loop per installed sentry;existing release"
+    },
+    {
+      "key": "TowerShot",
+      "kr": "탑 발사",
+      "spell": "Tower",
+      "defaultID": "013",
+      "policy": ".34;per-hand16 shot slots;actual queued-shot launch only"
+    },
+    {
+      "key": "HermitExplosion",
+      "kr": "은둔자 폭발",
+      "spell": "Hermit",
+      "defaultID": "017",
+      "policy": ".94;existing burst voice side*4;full tail policy"
+    },
+    {
+      "key": "TowerExplosion",
+      "kr": "탑 폭발",
+      "spell": "Tower",
+      "defaultID": "017",
+      "policy": "1.00;existing burst voice side*4;full tail policy"
+    },
+    {
+      "key": "FoolHum",
+      "kr": "광대 부유",
+      "spell": "Fool",
+      "defaultID": "018",
+      "policy": "starts0 then Flight/HumVolume(default.35) x original.30s fade-in;one hover loop;existing sustain fade"
+    }
+  ],
+  "audio": [
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Burst_Explosion.wav",
+      "bytes": 342646,
+      "sha256": "5CD47249EC456EA5013EDB206EE68E0E0AD071902E6C72BB5956340548742D8A",
+      "channels": 1,
+      "rate": 32000,
+      "bits": 16,
+      "seconds": 5.352,
+      "peak": 1.0,
+      "rms": 0.3587915933895953
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Charge_Loop.wav",
+      "bytes": 4454,
+      "sha256": "73B42AB23BE05EBEADA04E01D7A8B903A1CDD1753A090C5032983DA1066BACC2",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.05,
+      "peak": 0.0,
+      "rms": 0.0
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Emperor_Shot.wav",
+      "bytes": 68840,
+      "sha256": "FAC17A95F54FE58C04E5826B45E05B037C909F7E42A6A6228A3B298BFF7FD9F3",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.78,
+      "peak": 0.501190185546875,
+      "rms": 0.05142858580555348
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Fool_Hover.wav",
+      "bytes": 1058444,
+      "sha256": "7F0095FEDEDE80A40A6DB81BBFF7838E2B8CEA11C9D8703157DCA9862B50FF5E",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 12.0,
+      "peak": 0.399993896484375,
+      "rms": 0.19758209167434146
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Formation.wav",
+      "bytes": 4454,
+      "sha256": "73B42AB23BE05EBEADA04E01D7A8B903A1CDD1753A090C5032983DA1066BACC2",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.05,
+      "peak": 0.0,
+      "rms": 0.0
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Hermit_Aftershock.wav",
+      "bytes": 21212,
+      "sha256": "682EA38C982DDCC4710EC01337060C066E07BCE60CB73CD25C2F72477B0136A5",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.24,
+      "peak": 0.6199951171875,
+      "rms": 0.251742609710313
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Hermit_Detonation.wav",
+      "bytes": 44144,
+      "sha256": "37070E34D8DB87EA484399FBCDF1947F746CAD51EABCF00C19025BD2831B25DB",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.5,
+      "peak": 0.89996337890625,
+      "rms": 0.39248253307430087
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Strength_End.wav",
+      "bytes": 44144,
+      "sha256": "8287B76719E80CA354BD6E3D6D8AB8B3EC13C674CB6835275E7219A726EAF922",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.5,
+      "peak": 0.6199951171875,
+      "rms": 0.136800137318042
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Strength_Loop.wav",
+      "bytes": 705644,
+      "sha256": "C5B3CBF225E1B1B062A7F7CF207FACBBC9184BD29B1276B71B5E483836FA0800",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 8.0,
+      "peak": 0.712371826171875,
+      "rms": 0.17499466224541507
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Strength_Start.wav",
+      "bytes": 28268,
+      "sha256": "D3B7FF45D3A739536BDCB5ACD98060443DE29417F42A1D93E72791A76A9F70F8",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.32,
+      "peak": 0.5,
+      "rms": 0.1372601045497764
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Sun_Charge.wav",
+      "bytes": 41498,
+      "sha256": "D8345ECF4B119D912DC08E5BF084EF125B3A49196A14A4DCE00D86F64101D3B6",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.47,
+      "peak": 0.65997314453125,
+      "rms": 0.18563965192432114
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Sun_Impact.wav",
+      "bytes": 511604,
+      "sha256": "FDDDC11294A570562461B8404963ACA1E3848D70912F41E138726100B9B6456E",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 5.8,
+      "peak": 0.91998291015625,
+      "rms": 0.15024796978116464
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Sun_Release.wav",
+      "bytes": 28268,
+      "sha256": "D0D5ACE2950685CC9D7686F36010000AADD5CB83495E3A1B15812D384EEFF7E6",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.32,
+      "peak": 0.8599853515625,
+      "rms": 0.24435392774058023
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Tower_Shot.wav",
+      "bytes": 5776,
+      "sha256": "EFF37F0D07C9D82990400E481F5962EDB6B8BA0B6F52BF85D3FF985E95BA44CA",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.06498866213151927,
+      "peak": 0.50115966796875,
+      "rms": 0.146344607961288
+    },
+    {
+      "path": "sound/fx/TOAM/Spells/Arcana_Judgement_Launch.xwm",
+      "bytes": 8990,
+      "sha256": "8D04957850C4183E63976051912556F0CE590399ECD4AC0652997F6BBC691E27",
+      "riff": "524946461623000058574d41",
+      "chunks": {
+        "fmt ": "6101010044ac000070170000b60810000000",
+        "dpds": "0060000000d000000070010000e00100",
+        "data": {
+          "bytes": 8920
+        }
+      },
+      "seconds": 1.3931972789115645,
+      "durationProof": "RIFF dpds final decoded PCM bytes / sample-rate/channels/bits"
+    },
+    {
+      "path": "sound/fx/TOAM/Spells/Arcana_Magician_HeavyLaunch.xwm",
+      "bytes": 11224,
+      "sha256": "CAF0F0A54181FDEA4B0637870F11DDCFF53B4D422C5BB762BAE2213BDEC6F666",
+      "riff": "52494646d02b000058574d41",
+      "chunks": {
+        "fmt ": "6101010044ac000070170000b60810000000",
+        "dpds": "0060000000d000000070010000f0010000500200",
+        "data": {
+          "bytes": 11150
+        }
+      },
+      "seconds": 1.7182766439909296,
+      "durationProof": "RIFF dpds final decoded PCM bytes / sample-rate/channels/bits"
+    },
+    {
+      "path": "sound/fx/TOAM/Spells/Arcana_Magician_Launch.xwm",
+      "bytes": 8990,
+      "sha256": "7B58DF2264B30A44664F2290722B326989767501982BE9B503DD37D3CC44E90B",
+      "riff": "524946461623000058574d41",
+      "chunks": {
+        "fmt ": "6101010044ac000070170000b60810000000",
+        "dpds": "0060000000d000000070010000900100",
+        "data": {
+          "bytes": 8920
+        }
+      },
+      "seconds": 1.1609977324263039,
+      "durationProof": "RIFF dpds final decoded PCM bytes / sample-rate/channels/bits"
+    },
+    {
+      "path": "sound/fx/TOAM/Spells/Arcana_Temperance_Proc.xwm",
+      "bytes": 11224,
+      "sha256": "6C3D972F96430900FACF5850964A6E887477F69F423DC046BFE31F6C8122AEFD",
+      "riff": "52494646d02b000058574d41",
+      "chunks": {
+        "fmt ": "6101010044ac000070170000b60810000000",
+        "dpds": "0060000000c000000070010000f0010000100200",
+        "data": {
+          "bytes": 11150
+        }
+      },
+      "seconds": 1.5325170068027212,
+      "durationProof": "RIFF dpds final decoded PCM bytes / sample-rate/channels/bits"
+    }
+  ],
+  "soundDescriptors": [
+    {
+      "id": "01000A51",
+      "edid": "TOAM_Arcana_Emperor_Shot_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f456d7065726f725f53686f745f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f456d7065726f725f53686f742e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Emperor_Shot.wav"
+      ]
+    },
+    {
+      "id": "01000A52",
+      "edid": "TOAM_Arcana_Strength_Loop_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f537472656e6774685f4c6f6f705f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "631e0700"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f537472656e6774685f4c6f6f702e77617600"
+        ],
+        [
+          "ONAM",
+          "b4780d00"
+        ],
+        [
+          "LNAM",
+          "01080000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Strength_Loop.wav"
+      ]
+    },
+    {
+      "id": "01000A53",
+      "edid": "TOAM_Arcana_Formation_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f466f726d6174696f6e5f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f466f726d6174696f6e2e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Formation.wav"
+      ]
+    },
+    {
+      "id": "01000A54",
+      "edid": "TOAM_Arcana_Charge_Loop_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f4368617267655f4c6f6f705f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "631e0700"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f4368617267655f4c6f6f702e77617600"
+        ],
+        [
+          "ONAM",
+          "b4780d00"
+        ],
+        [
+          "LNAM",
+          "01080000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Charge_Loop.wav"
+      ]
+    },
+    {
+      "id": "01000A55",
+      "edid": "TOAM_Arcana_Sun_Release_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f53756e5f52656c656173655f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f53756e5f52656c656173652e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Sun_Release.wav"
+      ]
+    },
+    {
+      "id": "01000A56",
+      "edid": "TOAM_Arcana_Sun_Charge_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f53756e5f4368617267655f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "631e0700"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f53756e5f4368617267652e77617600"
+        ],
+        [
+          "ONAM",
+          "b4780d00"
+        ],
+        [
+          "LNAM",
+          "01080000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Sun_Charge.wav"
+      ]
+    },
+    {
+      "id": "01000A57",
+      "edid": "TOAM_Arcana_Strength_Start_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f537472656e6774685f53746172745f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f537472656e6774685f53746172742e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Strength_Start.wav"
+      ]
+    },
+    {
+      "id": "01000A58",
+      "edid": "TOAM_Arcana_Strength_End_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f537472656e6774685f456e645f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f537472656e6774685f456e642e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Strength_End.wav"
+      ]
+    },
+    {
+      "id": "01000A59",
+      "edid": "TOAM_Arcana_Tower_Shot_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f546f7765725f53686f745f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f546f7765725f53686f742e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Tower_Shot.wav"
+      ]
+    },
+    {
+      "id": "01000C77",
+      "edid": "TOAM_Arcana_Hermit_Detonation_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f4865726d69745f4465746f6e6174696f6e5f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f4865726d69745f4465746f6e6174696f6e2e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Hermit_Detonation.wav"
+      ]
+    },
+    {
+      "id": "01000C78",
+      "edid": "TOAM_Arcana_Hermit_Aftershock_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f4865726d69745f416674657273686f636b5f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f4865726d69745f416674657273686f636b2e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Hermit_Aftershock.wav"
+      ]
+    },
+    {
+      "id": "01000C85",
+      "edid": "TOAM_Arcana_Sun_ImpactSound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f53756e5f496d70616374536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f53756e5f496d706163742e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Sun_Impact.wav"
+      ]
+    },
+    {
+      "id": "01000C88",
+      "edid": "TOAM_Arcana_World_ExplosionSound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f576f726c645f4578706c6f73696f6e536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f42757273745f4578706c6f73696f6e2e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Burst_Explosion.wav"
+      ]
+    },
+    {
+      "id": "01000CA9",
+      "edid": "TOAM_Arcana_FlightHoverHum",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f466c69676874486f76657248756d00"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "631e0700"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f466f6f6c5f486f7665722e77617600"
+        ],
+        [
+          "ONAM",
+          "b4780d00"
+        ],
+        [
+          "LNAM",
+          "01080000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Fool_Hover.wav"
+      ]
+    }
+  ]
+}

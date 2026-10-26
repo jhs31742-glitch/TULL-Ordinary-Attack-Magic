@@ -1,0 +1,7514 @@
+{
+  "circleNifs": [
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Chariot.nif",
+      "sha256": "2C8D86128CB2C752D6918EB7128E92194C50922B97DFC017DD8607361299C0D8",
+      "bytes": 39827,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "0D5186646CD5785DC8CD2CC44A81FA375587F520FFBF572CB72BD698154BF423"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "6D59C6561ACB565F52BDF488B6011D2F407B7445697A3BA55D062F2A60A2D948"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "95961E78E8A3F684C998CE6964D0D84F3635F6225F33F3D8BAB794EF31270720"
+        },
+        {
+          "block": 19,
+          "type": "BSTriShape",
+          "sha256": "5283D7E581AA21218E1CBE9E5FF0335442C12474DE32347CD1B0823F0A08E6AC"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 20,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 21,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000A87",
+          "edid": "TOAM_Arcana_LegacyCircle_18"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A8F",
+          "edid": "TOAM_Arcana_LegacyCircle_26"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Emperor.nif",
+      "sha256": "7CCB2542FF3C25C9776DA31DFC44FE444BBDE422CF621640FDB4AD8E032A5ACE",
+      "bytes": 40252,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "3EC9CE2295BAA316AA11F458E79FA697B209B82EA7DC83EEBD3BA0004E84B2A1"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "D878CEAE087D0DE64B624602B2F568C7C234D0D2B0A75E706A5A471175F23640"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "0F67FBE793E8693148C7E75E7F6BBEA25228755275FBD5663FFFEC1F18B17ECD"
+        },
+        {
+          "block": 19,
+          "type": "BSTriShape",
+          "sha256": "5283D7E581AA21218E1CBE9E5FF0335442C12474DE32347CD1B0823F0A08E6AC"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "9A4619BC6C164412584392AF68F2C9B97E93B21890CE07956890E2A6725BA6E3"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 20,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "021A7589AD37D1E6218CC7FD0DFA0DE1ED5D652AFA24F428A0EC12E3CAA9AB3B",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 21,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 24,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000A41",
+          "edid": "TOAM_Arcana_LegacyCircle_0"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A42",
+          "edid": "TOAM_Arcana_LegacyCircle_1"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A43",
+          "edid": "TOAM_Arcana_LegacyCircle_2"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A44",
+          "edid": "TOAM_Arcana_LegacyCircle_3"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A45",
+          "edid": "TOAM_Arcana_LegacyCircle_4"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A46",
+          "edid": "TOAM_Arcana_LegacyCircle_5"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A47",
+          "edid": "TOAM_Arcana_LegacyCircle_6"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A48",
+          "edid": "TOAM_Arcana_LegacyCircle_7"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A49",
+          "edid": "TOAM_Arcana_LegacyCircle_8"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A4A",
+          "edid": "TOAM_Arcana_LegacyCircle_9"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A4B",
+          "edid": "TOAM_Arcana_LegacyCircle_10"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A4C",
+          "edid": "TOAM_Arcana_LegacyCircle_11"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A4D",
+          "edid": "TOAM_Arcana_LegacyCircle_12"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A4E",
+          "edid": "TOAM_Arcana_LegacyCircle_13"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A4F",
+          "edid": "TOAM_Arcana_LegacyCircle_14"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A50",
+          "edid": "TOAM_Arcana_LegacyCircle_15"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A85",
+          "edid": "TOAM_Arcana_LegacyCircle_16"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A8D",
+          "edid": "TOAM_Arcana_LegacyCircle_24"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000AF7",
+          "edid": "TOAM_Arcana_CircleGen_0"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000AF8",
+          "edid": "TOAM_Arcana_CircleGen_1"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000AF9",
+          "edid": "TOAM_Arcana_CircleGen_2"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000AFA",
+          "edid": "TOAM_Arcana_CircleGen_3"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000AFB",
+          "edid": "TOAM_Arcana_CircleGen_4"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000AFC",
+          "edid": "TOAM_Arcana_CircleGen_5"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000AFD",
+          "edid": "TOAM_Arcana_CircleGen_6"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000AFE",
+          "edid": "TOAM_Arcana_CircleGen_7"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000AFF",
+          "edid": "TOAM_Arcana_CircleGen_8"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B00",
+          "edid": "TOAM_Arcana_CircleGen_9"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B01",
+          "edid": "TOAM_Arcana_CircleGen_10"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B02",
+          "edid": "TOAM_Arcana_CircleGen_11"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B03",
+          "edid": "TOAM_Arcana_CircleGen_12"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B04",
+          "edid": "TOAM_Arcana_CircleGen_13"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B05",
+          "edid": "TOAM_Arcana_CircleGen_14"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B06",
+          "edid": "TOAM_Arcana_CircleGen_15"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B07",
+          "edid": "TOAM_Arcana_CircleGen_16"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B08",
+          "edid": "TOAM_Arcana_CircleGen_17"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B09",
+          "edid": "TOAM_Arcana_CircleGen_18"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B0A",
+          "edid": "TOAM_Arcana_CircleGen_19"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B0B",
+          "edid": "TOAM_Arcana_CircleGen_20"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B0C",
+          "edid": "TOAM_Arcana_CircleGen_21"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B0D",
+          "edid": "TOAM_Arcana_CircleGen_22"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B0E",
+          "edid": "TOAM_Arcana_CircleGen_23"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B0F",
+          "edid": "TOAM_Arcana_CircleGen_24"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B10",
+          "edid": "TOAM_Arcana_CircleGen_25"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B11",
+          "edid": "TOAM_Arcana_CircleGen_26"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B12",
+          "edid": "TOAM_Arcana_CircleGen_27"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B13",
+          "edid": "TOAM_Arcana_CircleGen_28"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B14",
+          "edid": "TOAM_Arcana_CircleGen_29"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B15",
+          "edid": "TOAM_Arcana_CircleGen_30"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B16",
+          "edid": "TOAM_Arcana_CircleGen_31"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B17",
+          "edid": "TOAM_Arcana_CircleGen_32"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B18",
+          "edid": "TOAM_Arcana_CircleGen_33"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B19",
+          "edid": "TOAM_Arcana_CircleGen_34"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B1A",
+          "edid": "TOAM_Arcana_CircleGen_35"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B1B",
+          "edid": "TOAM_Arcana_CircleGen_36"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B1C",
+          "edid": "TOAM_Arcana_CircleGen_37"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B1D",
+          "edid": "TOAM_Arcana_CircleGen_38"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B1E",
+          "edid": "TOAM_Arcana_CircleGen_39"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B1F",
+          "edid": "TOAM_Arcana_CircleGen_40"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B20",
+          "edid": "TOAM_Arcana_CircleGen_41"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B21",
+          "edid": "TOAM_Arcana_CircleGen_42"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B22",
+          "edid": "TOAM_Arcana_CircleGen_43"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B23",
+          "edid": "TOAM_Arcana_CircleGen_44"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B24",
+          "edid": "TOAM_Arcana_CircleGen_45"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B25",
+          "edid": "TOAM_Arcana_CircleGen_46"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B26",
+          "edid": "TOAM_Arcana_CircleGen_47"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B27",
+          "edid": "TOAM_Arcana_CircleGen_48"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B28",
+          "edid": "TOAM_Arcana_CircleGen_49"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B29",
+          "edid": "TOAM_Arcana_CircleGen_50"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B2A",
+          "edid": "TOAM_Arcana_CircleGen_51"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B2B",
+          "edid": "TOAM_Arcana_CircleGen_52"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B2C",
+          "edid": "TOAM_Arcana_CircleGen_53"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B2D",
+          "edid": "TOAM_Arcana_CircleGen_54"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B2E",
+          "edid": "TOAM_Arcana_CircleGen_55"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B2F",
+          "edid": "TOAM_Arcana_CircleGen_56"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B30",
+          "edid": "TOAM_Arcana_CircleGen_57"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B31",
+          "edid": "TOAM_Arcana_CircleGen_58"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B32",
+          "edid": "TOAM_Arcana_CircleGen_59"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B33",
+          "edid": "TOAM_Arcana_CircleGen_60"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B34",
+          "edid": "TOAM_Arcana_CircleGen_61"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B35",
+          "edid": "TOAM_Arcana_CircleGen_62"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B36",
+          "edid": "TOAM_Arcana_CircleGen_63"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B37",
+          "edid": "TOAM_Arcana_CircleGen_64"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B38",
+          "edid": "TOAM_Arcana_CircleGen_65"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B39",
+          "edid": "TOAM_Arcana_CircleGen_66"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B3A",
+          "edid": "TOAM_Arcana_CircleGen_67"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B3B",
+          "edid": "TOAM_Arcana_CircleGen_68"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B3C",
+          "edid": "TOAM_Arcana_CircleGen_69"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B3D",
+          "edid": "TOAM_Arcana_CircleGen_70"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B3E",
+          "edid": "TOAM_Arcana_CircleGen_71"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B3F",
+          "edid": "TOAM_Arcana_CircleGen_72"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B40",
+          "edid": "TOAM_Arcana_CircleGen_73"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B41",
+          "edid": "TOAM_Arcana_CircleGen_74"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B42",
+          "edid": "TOAM_Arcana_CircleGen_75"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B43",
+          "edid": "TOAM_Arcana_CircleGen_76"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B44",
+          "edid": "TOAM_Arcana_CircleGen_77"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B45",
+          "edid": "TOAM_Arcana_CircleGen_78"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B46",
+          "edid": "TOAM_Arcana_CircleGen_79"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B47",
+          "edid": "TOAM_Arcana_CircleGen_80"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B48",
+          "edid": "TOAM_Arcana_CircleGen_81"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B49",
+          "edid": "TOAM_Arcana_CircleGen_82"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B4A",
+          "edid": "TOAM_Arcana_CircleGen_83"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B4B",
+          "edid": "TOAM_Arcana_CircleGen_84"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B4C",
+          "edid": "TOAM_Arcana_CircleGen_85"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B4D",
+          "edid": "TOAM_Arcana_CircleGen_86"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B4E",
+          "edid": "TOAM_Arcana_CircleGen_87"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B4F",
+          "edid": "TOAM_Arcana_CircleGen_88"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B50",
+          "edid": "TOAM_Arcana_CircleGen_89"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B51",
+          "edid": "TOAM_Arcana_CircleGen_90"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B52",
+          "edid": "TOAM_Arcana_CircleGen_91"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B53",
+          "edid": "TOAM_Arcana_CircleGen_92"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B54",
+          "edid": "TOAM_Arcana_CircleGen_93"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B55",
+          "edid": "TOAM_Arcana_CircleGen_94"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B56",
+          "edid": "TOAM_Arcana_CircleGen_95"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B9F",
+          "edid": "TOAM_Arcana_RainMuzzle_0"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BA0",
+          "edid": "TOAM_Arcana_RainMuzzle_1"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BA1",
+          "edid": "TOAM_Arcana_RainMuzzle_2"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BA2",
+          "edid": "TOAM_Arcana_RainMuzzle_3"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BA3",
+          "edid": "TOAM_Arcana_RainMuzzle_4"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BA4",
+          "edid": "TOAM_Arcana_RainMuzzle_5"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BA5",
+          "edid": "TOAM_Arcana_RainMuzzle_6"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BA6",
+          "edid": "TOAM_Arcana_RainMuzzle_7"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BA7",
+          "edid": "TOAM_Arcana_RainMuzzle_8"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BA8",
+          "edid": "TOAM_Arcana_RainMuzzle_9"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BA9",
+          "edid": "TOAM_Arcana_RainMuzzle_10"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BAA",
+          "edid": "TOAM_Arcana_RainMuzzle_11"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BAB",
+          "edid": "TOAM_Arcana_RainMuzzle_12"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BAC",
+          "edid": "TOAM_Arcana_RainMuzzle_13"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BAD",
+          "edid": "TOAM_Arcana_RainMuzzle_14"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BAE",
+          "edid": "TOAM_Arcana_RainMuzzle_15"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BAF",
+          "edid": "TOAM_Arcana_RainMuzzle_16"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BB0",
+          "edid": "TOAM_Arcana_RainMuzzle_17"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BB1",
+          "edid": "TOAM_Arcana_RainMuzzle_18"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BB2",
+          "edid": "TOAM_Arcana_RainMuzzle_19"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BB3",
+          "edid": "TOAM_Arcana_RainMuzzle_20"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BB4",
+          "edid": "TOAM_Arcana_RainMuzzle_21"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BB5",
+          "edid": "TOAM_Arcana_RainMuzzle_22"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BB6",
+          "edid": "TOAM_Arcana_RainMuzzle_23"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BB7",
+          "edid": "TOAM_Arcana_RainMuzzle_24"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BB8",
+          "edid": "TOAM_Arcana_RainMuzzle_25"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BB9",
+          "edid": "TOAM_Arcana_RainMuzzle_26"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BBA",
+          "edid": "TOAM_Arcana_RainMuzzle_27"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BBB",
+          "edid": "TOAM_Arcana_RainMuzzle_28"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BBC",
+          "edid": "TOAM_Arcana_RainMuzzle_29"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BBD",
+          "edid": "TOAM_Arcana_RainMuzzle_30"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BBE",
+          "edid": "TOAM_Arcana_RainMuzzle_31"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BBF",
+          "edid": "TOAM_Arcana_RainMuzzle_32"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BC0",
+          "edid": "TOAM_Arcana_RainMuzzle_33"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BC1",
+          "edid": "TOAM_Arcana_RainMuzzle_34"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BC2",
+          "edid": "TOAM_Arcana_RainMuzzle_35"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BC3",
+          "edid": "TOAM_Arcana_RainMuzzle_36"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BC4",
+          "edid": "TOAM_Arcana_RainMuzzle_37"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BC5",
+          "edid": "TOAM_Arcana_RainMuzzle_38"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BC6",
+          "edid": "TOAM_Arcana_RainMuzzle_39"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BC7",
+          "edid": "TOAM_Arcana_RainMuzzle_40"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BC8",
+          "edid": "TOAM_Arcana_RainMuzzle_41"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BC9",
+          "edid": "TOAM_Arcana_RainMuzzle_42"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BCA",
+          "edid": "TOAM_Arcana_RainMuzzle_43"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BCB",
+          "edid": "TOAM_Arcana_RainMuzzle_44"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BCC",
+          "edid": "TOAM_Arcana_RainMuzzle_45"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BCD",
+          "edid": "TOAM_Arcana_RainMuzzle_46"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BCE",
+          "edid": "TOAM_Arcana_RainMuzzle_47"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BCF",
+          "edid": "TOAM_Arcana_RainMuzzle_48"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BD0",
+          "edid": "TOAM_Arcana_RainMuzzle_49"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BD1",
+          "edid": "TOAM_Arcana_RainMuzzle_50"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BD2",
+          "edid": "TOAM_Arcana_RainMuzzle_51"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BD3",
+          "edid": "TOAM_Arcana_RainMuzzle_52"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BD4",
+          "edid": "TOAM_Arcana_RainMuzzle_53"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BD5",
+          "edid": "TOAM_Arcana_RainMuzzle_54"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BD6",
+          "edid": "TOAM_Arcana_RainMuzzle_55"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BD7",
+          "edid": "TOAM_Arcana_RainMuzzle_56"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BD8",
+          "edid": "TOAM_Arcana_RainMuzzle_57"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BD9",
+          "edid": "TOAM_Arcana_RainMuzzle_58"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BDA",
+          "edid": "TOAM_Arcana_RainMuzzle_59"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BDB",
+          "edid": "TOAM_Arcana_RainMuzzle_60"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BDC",
+          "edid": "TOAM_Arcana_RainMuzzle_61"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BDD",
+          "edid": "TOAM_Arcana_RainMuzzle_62"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BDE",
+          "edid": "TOAM_Arcana_RainMuzzle_63"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BDF",
+          "edid": "TOAM_Arcana_RainMuzzle_64"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BE0",
+          "edid": "TOAM_Arcana_RainMuzzle_65"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BE1",
+          "edid": "TOAM_Arcana_RainMuzzle_66"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BE2",
+          "edid": "TOAM_Arcana_RainMuzzle_67"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BE3",
+          "edid": "TOAM_Arcana_RainMuzzle_68"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BE4",
+          "edid": "TOAM_Arcana_RainMuzzle_69"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BE5",
+          "edid": "TOAM_Arcana_RainMuzzle_70"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BE6",
+          "edid": "TOAM_Arcana_RainMuzzle_71"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BE7",
+          "edid": "TOAM_Arcana_RainMuzzle_72"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BE8",
+          "edid": "TOAM_Arcana_RainMuzzle_73"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BE9",
+          "edid": "TOAM_Arcana_RainMuzzle_74"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BEA",
+          "edid": "TOAM_Arcana_RainMuzzle_75"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BEB",
+          "edid": "TOAM_Arcana_RainMuzzle_76"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BEC",
+          "edid": "TOAM_Arcana_RainMuzzle_77"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BED",
+          "edid": "TOAM_Arcana_RainMuzzle_78"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BEE",
+          "edid": "TOAM_Arcana_RainMuzzle_79"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BEF",
+          "edid": "TOAM_Arcana_RainMuzzle_80"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BF0",
+          "edid": "TOAM_Arcana_RainMuzzle_81"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BF1",
+          "edid": "TOAM_Arcana_RainMuzzle_82"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BF2",
+          "edid": "TOAM_Arcana_RainMuzzle_83"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BF3",
+          "edid": "TOAM_Arcana_RainMuzzle_84"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BF4",
+          "edid": "TOAM_Arcana_RainMuzzle_85"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BF5",
+          "edid": "TOAM_Arcana_RainMuzzle_86"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BF6",
+          "edid": "TOAM_Arcana_RainMuzzle_87"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BF7",
+          "edid": "TOAM_Arcana_RainMuzzle_88"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BF8",
+          "edid": "TOAM_Arcana_RainMuzzle_89"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BF9",
+          "edid": "TOAM_Arcana_RainMuzzle_90"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BFA",
+          "edid": "TOAM_Arcana_RainMuzzle_91"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BFB",
+          "edid": "TOAM_Arcana_RainMuzzle_92"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BFC",
+          "edid": "TOAM_Arcana_RainMuzzle_93"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BFD",
+          "edid": "TOAM_Arcana_RainMuzzle_94"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BFE",
+          "edid": "TOAM_Arcana_RainMuzzle_95"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000BFF",
+          "edid": "TOAM_Arcana_RainMuzzle_96"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C00",
+          "edid": "TOAM_Arcana_RainMuzzle_97"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C01",
+          "edid": "TOAM_Arcana_RainMuzzle_98"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C02",
+          "edid": "TOAM_Arcana_RainMuzzle_99"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C03",
+          "edid": "TOAM_Arcana_RainMuzzle_100"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C04",
+          "edid": "TOAM_Arcana_RainMuzzle_101"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C05",
+          "edid": "TOAM_Arcana_RainMuzzle_102"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C06",
+          "edid": "TOAM_Arcana_RainMuzzle_103"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C07",
+          "edid": "TOAM_Arcana_RainMuzzle_104"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C08",
+          "edid": "TOAM_Arcana_RainMuzzle_105"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C09",
+          "edid": "TOAM_Arcana_RainMuzzle_106"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C0A",
+          "edid": "TOAM_Arcana_RainMuzzle_107"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C0B",
+          "edid": "TOAM_Arcana_RainMuzzle_108"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C0C",
+          "edid": "TOAM_Arcana_RainMuzzle_109"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C0D",
+          "edid": "TOAM_Arcana_RainMuzzle_110"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C0E",
+          "edid": "TOAM_Arcana_RainMuzzle_111"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C0F",
+          "edid": "TOAM_Arcana_RainMuzzle_112"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C10",
+          "edid": "TOAM_Arcana_RainMuzzle_113"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C11",
+          "edid": "TOAM_Arcana_RainMuzzle_114"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C12",
+          "edid": "TOAM_Arcana_RainMuzzle_115"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C13",
+          "edid": "TOAM_Arcana_RainMuzzle_116"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C14",
+          "edid": "TOAM_Arcana_RainMuzzle_117"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C15",
+          "edid": "TOAM_Arcana_RainMuzzle_118"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C16",
+          "edid": "TOAM_Arcana_RainMuzzle_119"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C17",
+          "edid": "TOAM_Arcana_RainMuzzle_120"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C18",
+          "edid": "TOAM_Arcana_RainMuzzle_121"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C19",
+          "edid": "TOAM_Arcana_RainMuzzle_122"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C1A",
+          "edid": "TOAM_Arcana_RainMuzzle_123"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C1B",
+          "edid": "TOAM_Arcana_RainMuzzle_124"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C1C",
+          "edid": "TOAM_Arcana_RainMuzzle_125"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C1D",
+          "edid": "TOAM_Arcana_RainMuzzle_126"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C1E",
+          "edid": "TOAM_Arcana_RainMuzzle_127"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C1F",
+          "edid": "TOAM_Arcana_RainMuzzle_128"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C20",
+          "edid": "TOAM_Arcana_RainMuzzle_129"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C21",
+          "edid": "TOAM_Arcana_RainMuzzle_130"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C22",
+          "edid": "TOAM_Arcana_RainMuzzle_131"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C23",
+          "edid": "TOAM_Arcana_RainMuzzle_132"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C24",
+          "edid": "TOAM_Arcana_RainMuzzle_133"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C25",
+          "edid": "TOAM_Arcana_RainMuzzle_134"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C26",
+          "edid": "TOAM_Arcana_RainMuzzle_135"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C27",
+          "edid": "TOAM_Arcana_RainMuzzle_136"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C28",
+          "edid": "TOAM_Arcana_RainMuzzle_137"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C29",
+          "edid": "TOAM_Arcana_RainMuzzle_138"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C2A",
+          "edid": "TOAM_Arcana_RainMuzzle_139"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C2B",
+          "edid": "TOAM_Arcana_RainMuzzle_140"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C2C",
+          "edid": "TOAM_Arcana_RainMuzzle_141"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C2D",
+          "edid": "TOAM_Arcana_RainMuzzle_142"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C2E",
+          "edid": "TOAM_Arcana_RainMuzzle_143"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C2F",
+          "edid": "TOAM_Arcana_RainMuzzle_144"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C30",
+          "edid": "TOAM_Arcana_RainMuzzle_145"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C31",
+          "edid": "TOAM_Arcana_RainMuzzle_146"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C32",
+          "edid": "TOAM_Arcana_RainMuzzle_147"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C33",
+          "edid": "TOAM_Arcana_RainMuzzle_148"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C34",
+          "edid": "TOAM_Arcana_RainMuzzle_149"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C35",
+          "edid": "TOAM_Arcana_RainMuzzle_150"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C36",
+          "edid": "TOAM_Arcana_RainMuzzle_151"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C37",
+          "edid": "TOAM_Arcana_RainMuzzle_152"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C38",
+          "edid": "TOAM_Arcana_RainMuzzle_153"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C39",
+          "edid": "TOAM_Arcana_RainMuzzle_154"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C3A",
+          "edid": "TOAM_Arcana_RainMuzzle_155"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C3B",
+          "edid": "TOAM_Arcana_RainMuzzle_156"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C3C",
+          "edid": "TOAM_Arcana_RainMuzzle_157"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C3D",
+          "edid": "TOAM_Arcana_RainMuzzle_158"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C3E",
+          "edid": "TOAM_Arcana_RainMuzzle_159"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C3F",
+          "edid": "TOAM_Arcana_RainMuzzle_160"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C40",
+          "edid": "TOAM_Arcana_RainMuzzle_161"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C41",
+          "edid": "TOAM_Arcana_RainMuzzle_162"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C42",
+          "edid": "TOAM_Arcana_RainMuzzle_163"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C43",
+          "edid": "TOAM_Arcana_RainMuzzle_164"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C44",
+          "edid": "TOAM_Arcana_RainMuzzle_165"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C45",
+          "edid": "TOAM_Arcana_RainMuzzle_166"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C46",
+          "edid": "TOAM_Arcana_RainMuzzle_167"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C47",
+          "edid": "TOAM_Arcana_RainMuzzle_168"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C48",
+          "edid": "TOAM_Arcana_RainMuzzle_169"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C49",
+          "edid": "TOAM_Arcana_RainMuzzle_170"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C4A",
+          "edid": "TOAM_Arcana_RainMuzzle_171"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C4B",
+          "edid": "TOAM_Arcana_RainMuzzle_172"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C4C",
+          "edid": "TOAM_Arcana_RainMuzzle_173"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C4D",
+          "edid": "TOAM_Arcana_RainMuzzle_174"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C4E",
+          "edid": "TOAM_Arcana_RainMuzzle_175"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C4F",
+          "edid": "TOAM_Arcana_RainMuzzle_176"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C50",
+          "edid": "TOAM_Arcana_RainMuzzle_177"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C51",
+          "edid": "TOAM_Arcana_RainMuzzle_178"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C52",
+          "edid": "TOAM_Arcana_RainMuzzle_179"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C53",
+          "edid": "TOAM_Arcana_RainMuzzle_180"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C54",
+          "edid": "TOAM_Arcana_RainMuzzle_181"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C55",
+          "edid": "TOAM_Arcana_RainMuzzle_182"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C56",
+          "edid": "TOAM_Arcana_RainMuzzle_183"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C57",
+          "edid": "TOAM_Arcana_RainMuzzle_184"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C58",
+          "edid": "TOAM_Arcana_RainMuzzle_185"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C59",
+          "edid": "TOAM_Arcana_RainMuzzle_186"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C5A",
+          "edid": "TOAM_Arcana_RainMuzzle_187"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C5B",
+          "edid": "TOAM_Arcana_RainMuzzle_188"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C5C",
+          "edid": "TOAM_Arcana_RainMuzzle_189"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C5D",
+          "edid": "TOAM_Arcana_RainMuzzle_190"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C5E",
+          "edid": "TOAM_Arcana_RainMuzzle_191"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C79",
+          "edid": "TOAM_Arcana_Sentry_0"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C7A",
+          "edid": "TOAM_Arcana_Sentry_1"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C7B",
+          "edid": "TOAM_Arcana_Sentry_2"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C7C",
+          "edid": "TOAM_Arcana_Sentry_3"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C7D",
+          "edid": "TOAM_Arcana_Sentry_4"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C7E",
+          "edid": "TOAM_Arcana_Sentry_5"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C7F",
+          "edid": "TOAM_Arcana_Sentry_6"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C80",
+          "edid": "TOAM_Arcana_Sentry_7"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C81",
+          "edid": "TOAM_Arcana_Sentry_8"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C82",
+          "edid": "TOAM_Arcana_Sentry_9"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C83",
+          "edid": "TOAM_Arcana_Sentry_10"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C84",
+          "edid": "TOAM_Arcana_Sentry_11"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C92",
+          "edid": "TOAM_Arcana_FlightTakeoff_0"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C93",
+          "edid": "TOAM_Arcana_FlightTakeoff_1"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C94",
+          "edid": "TOAM_Arcana_FlightTakeoff_2"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000C95",
+          "edid": "TOAM_Arcana_FlightTakeoff_3"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Field_Band.nif",
+      "sha256": "E265A294FCD8B891779D3A1E2FEA21D9EB8EEFC96A00A2E9D356C56DFFE9AD41",
+      "bytes": 47004,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "CE3E42FA2CA0797E166D2C3B24A8B9A657B148DBAC81835FF6E48EF34121330D"
+        },
+        {
+          "block": 10,
+          "type": "BSTriShape",
+          "sha256": "7B71E142B9B8D036C93C09737555BCDC9BE00D2AD2F841ABEE548C3273FEC47E"
+        },
+        {
+          "block": 13,
+          "type": "BSTriShape",
+          "sha256": "2069DD76F5C11FD105E6044C66C866FFF3AEDB71DC3CBA16A3B3706EFFCBCE49"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 8,
+          "shaderSHA": "00CEC8B3E0AB39FB656AF1A9EC4B4D48547FAD3BFC2BBF1C761A086D63014424",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.949999988079071
+          ],
+          "gain": 2.0999999046325684,
+          "controller": 4294967295
+        },
+        {
+          "block": 11,
+          "shaderSHA": "5E9578C500CCC5CDEA0D8A8865F74BF5FBBF91BA8B971C2A5FD029BA39FD93E1",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 2.0999999046325684,
+          "controller": 4294967295
+        },
+        {
+          "block": 14,
+          "shaderSHA": "5E9578C500CCC5CDEA0D8A8865F74BF5FBBF91BA8B971C2A5FD029BA39FD93E1",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 2.0999999046325684,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffffed1000"
+        },
+        {
+          "block": 12,
+          "raw": "ffffffff00000000ffffffffed1000"
+        },
+        {
+          "block": 15,
+          "raw": "ffffffff00000000ffffffffed1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000B97",
+          "edid": "TOAM_Arcana_FieldGen_0"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B98",
+          "edid": "TOAM_Arcana_FieldGen_1"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B99",
+          "edid": "TOAM_Arcana_FieldGen_2"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B9A",
+          "edid": "TOAM_Arcana_FieldGen_3"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B9B",
+          "edid": "TOAM_Arcana_FieldGen_4"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B9C",
+          "edid": "TOAM_Arcana_FieldGen_5"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B9D",
+          "edid": "TOAM_Arcana_FieldGen_6"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B9E",
+          "edid": "TOAM_Arcana_FieldGen_7"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Hermit.nif",
+      "sha256": "C2E3A312E82B03CB9DB912042023C4FE6151B1F6761CC731FAA80171CB45ED6D",
+      "bytes": 40252,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "A57E6F34DF9ED681E66028E936530395253D826810C9777487F2E782D2940899"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "B8BBC38BC6C3447B369814CE8036A3755B405550EAD4ACCAF8C264E8062F162A"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "B9F5491B70A5196728625672A777EB29A7A12A439D5F1C32BD124BC6EEAB61B9"
+        },
+        {
+          "block": 19,
+          "type": "BSTriShape",
+          "sha256": "5283D7E581AA21218E1CBE9E5FF0335442C12474DE32347CD1B0823F0A08E6AC"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "D9CF86D15B0558570D6D68C2F33652F420CEAAD0369A2BC0F23B3547D81F3F4C"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 20,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "021A7589AD37D1E6218CC7FD0DFA0DE1ED5D652AFA24F428A0EC12E3CAA9AB3B",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 21,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 24,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000A86",
+          "edid": "TOAM_Arcana_LegacyCircle_17"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A8E",
+          "edid": "TOAM_Arcana_LegacyCircle_25"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Justice.nif",
+      "sha256": "F0F575DCF82571F2662DAF62B8304B0C0F2D3ED659FC015F955BF2B8C6EDDB9D",
+      "bytes": 49327,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "7E8DF97B650E5F4D7138F7519D79BB2E5EB6DE0E03A2570D3BD3A6D2C9EEBB08"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "6D59C6561ACB565F52BDF488B6011D2F407B7445697A3BA55D062F2A60A2D948"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "637D9235909BE407F5F838A1749757A5223F4DE1F0DD7E71F3CC9E071CFE1614"
+        },
+        {
+          "block": 17,
+          "type": "BSTriShape",
+          "sha256": "4F570D2C5619C5AAE1A268BAB17406598C8BC2609975AA5F526349474D92ED56"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "E1E9858A982608DD92C18B8199735BA470CFB9AA2AAB1E8498F56F41F548F94E"
+        },
+        {
+          "block": 25,
+          "type": "BSTriShape",
+          "sha256": "59FF01C1ED3D685E98C5C872237EFE2CEE5B23F8590B6772130516AEEB2D3D27"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 18,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 26,
+          "shaderSHA": "021A7589AD37D1E6218CC7FD0DFA0DE1ED5D652AFA24F428A0EC12E3CAA9AB3B",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 19,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 24,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 27,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000A8A",
+          "edid": "TOAM_Arcana_LegacyCircle_21"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A92",
+          "edid": "TOAM_Arcana_LegacyCircle_29"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Star.nif",
+      "sha256": "A3A126A954019B8D0AE07D0C32143564E0DC3068632B9370B67F667BCCF038D6",
+      "bytes": 49327,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "4DF21A48F90BC412032D4D558757C87CC077D8BA8A841F31CDC23DDC2449EEE9"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "D878CEAE087D0DE64B624602B2F568C7C234D0D2B0A75E706A5A471175F23640"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "9F0F079445B15C78B5D03CF1C0C949FF8500EA0650865CFD0F37167A4601CD65"
+        },
+        {
+          "block": 17,
+          "type": "BSTriShape",
+          "sha256": "9D510B097F4F20B6FBAA44DFA6FFF9B107BA615DAC311A01B9F1F8001E10C38C"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "E1E9858A982608DD92C18B8199735BA470CFB9AA2AAB1E8498F56F41F548F94E"
+        },
+        {
+          "block": 25,
+          "type": "BSTriShape",
+          "sha256": "E3F0D7DD89A779BA756433FDA22C26B7CBF7E82CD950AB8AABFA53639AE350FC"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 18,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 26,
+          "shaderSHA": "021A7589AD37D1E6218CC7FD0DFA0DE1ED5D652AFA24F428A0EC12E3CAA9AB3B",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 19,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 24,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 27,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000A8B",
+          "edid": "TOAM_Arcana_LegacyCircle_22"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A93",
+          "edid": "TOAM_Arcana_LegacyCircle_30"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Strength.nif",
+      "sha256": "A466E7DEB6AE020C9AB71CEE7F971EBC229FBE23673144E0F17F76A774CBA5DE",
+      "bytes": 48902,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "00089F8EB9D63CE2E81E98D89F129A975524DFDF2CDA78254CDCE05072771319"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "B8BBC38BC6C3447B369814CE8036A3755B405550EAD4ACCAF8C264E8062F162A"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "26D45DB45E19837274F6046F4DC1E471BC69BFB47587F7C17A065FB0EC9E283B"
+        },
+        {
+          "block": 17,
+          "type": "BSTriShape",
+          "sha256": "298323D5FFB9D3B800DF6FE64C7A5050B4443BB556227468B7537103058EAFD1"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "E1E9858A982608DD92C18B8199735BA470CFB9AA2AAB1E8498F56F41F548F94E"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 18,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 19,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 24,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000A89",
+          "edid": "TOAM_Arcana_LegacyCircle_20"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A91",
+          "edid": "TOAM_Arcana_LegacyCircle_28"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Sun.nif",
+      "sha256": "E1D2FA1F2AF3FCC31E33B659C858F70D77F9247D264B8B4CA6469B828FA814FF",
+      "bytes": 49327,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "D9894F95D5ECA14734EE4767676695D565106D00B4AF5B0EE609A7093F9A5A97"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "D878CEAE087D0DE64B624602B2F568C7C234D0D2B0A75E706A5A471175F23640"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "B65E085FA95F2F8079908DFB6DE9C65305625C6BE36B835F42A0F06960A31D54"
+        },
+        {
+          "block": 17,
+          "type": "BSTriShape",
+          "sha256": "9D510B097F4F20B6FBAA44DFA6FFF9B107BA615DAC311A01B9F1F8001E10C38C"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "E1E9858A982608DD92C18B8199735BA470CFB9AA2AAB1E8498F56F41F548F94E"
+        },
+        {
+          "block": 25,
+          "type": "BSTriShape",
+          "sha256": "F117D70E8169AB0F5B886D8AD3FF5938CC8A85037B667E27AA89B1786C97D54D"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 18,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 26,
+          "shaderSHA": "021A7589AD37D1E6218CC7FD0DFA0DE1ED5D652AFA24F428A0EC12E3CAA9AB3B",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 19,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 24,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 27,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000A88",
+          "edid": "TOAM_Arcana_LegacyCircle_19"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A90",
+          "edid": "TOAM_Arcana_LegacyCircle_27"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Sun_Full.nif",
+      "sha256": "B36FA1ED3094B50B0A777001ADFF544FDCA32D01300474B7BEA2AB76D3F343A5",
+      "bytes": 40251,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "3EC9CE2295BAA316AA11F458E79FA697B209B82EA7DC83EEBD3BA0004E84B2A1"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "D878CEAE087D0DE64B624602B2F568C7C234D0D2B0A75E706A5A471175F23640"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "0F67FBE793E8693148C7E75E7F6BBEA25228755275FBD5663FFFEC1F18B17ECD"
+        },
+        {
+          "block": 19,
+          "type": "BSTriShape",
+          "sha256": "5283D7E581AA21218E1CBE9E5FF0335442C12474DE32347CD1B0823F0A08E6AC"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "9A4619BC6C164412584392AF68F2C9B97E93B21890CE07956890E2A6725BA6E3"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 20,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "021A7589AD37D1E6218CC7FD0DFA0DE1ED5D652AFA24F428A0EC12E3CAA9AB3B",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 21,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 24,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000D80",
+          "edid": "TOAM_ART_Circle_128"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D81",
+          "edid": "TOAM_ART_Circle_129"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D82",
+          "edid": "TOAM_ART_Circle_130"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D83",
+          "edid": "TOAM_ART_Circle_131"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D84",
+          "edid": "TOAM_ART_Circle_132"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D85",
+          "edid": "TOAM_ART_Circle_133"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D86",
+          "edid": "TOAM_ART_Circle_134"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D87",
+          "edid": "TOAM_ART_Circle_135"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D88",
+          "edid": "TOAM_ART_Circle_136"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D89",
+          "edid": "TOAM_ART_Circle_137"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D8A",
+          "edid": "TOAM_ART_Circle_138"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D8B",
+          "edid": "TOAM_ART_Circle_139"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D8C",
+          "edid": "TOAM_ART_Circle_140"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D8D",
+          "edid": "TOAM_ART_Circle_141"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D8E",
+          "edid": "TOAM_ART_Circle_142"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D8F",
+          "edid": "TOAM_ART_Circle_143"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B57",
+          "edid": "TOAM_Arcana_UltimateGen_0"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B59",
+          "edid": "TOAM_Arcana_UltimateGen_2"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B5B",
+          "edid": "TOAM_Arcana_UltimateGen_4"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B5E",
+          "edid": "TOAM_Arcana_UltimateGen_7"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B5F",
+          "edid": "TOAM_Arcana_UltimateGen_8"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B61",
+          "edid": "TOAM_Arcana_UltimateGen_10"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B63",
+          "edid": "TOAM_Arcana_UltimateGen_12"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B66",
+          "edid": "TOAM_Arcana_UltimateGen_15"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B67",
+          "edid": "TOAM_Arcana_UltimateGen_16"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B69",
+          "edid": "TOAM_Arcana_UltimateGen_18"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B6B",
+          "edid": "TOAM_Arcana_UltimateGen_20"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B6E",
+          "edid": "TOAM_Arcana_UltimateGen_23"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B6F",
+          "edid": "TOAM_Arcana_UltimateGen_24"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B71",
+          "edid": "TOAM_Arcana_UltimateGen_26"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B73",
+          "edid": "TOAM_Arcana_UltimateGen_28"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B76",
+          "edid": "TOAM_Arcana_UltimateGen_31"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B77",
+          "edid": "TOAM_Arcana_UltimateGen_32"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B79",
+          "edid": "TOAM_Arcana_UltimateGen_34"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B7B",
+          "edid": "TOAM_Arcana_UltimateGen_36"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B7E",
+          "edid": "TOAM_Arcana_UltimateGen_39"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B7F",
+          "edid": "TOAM_Arcana_UltimateGen_40"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B81",
+          "edid": "TOAM_Arcana_UltimateGen_42"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B83",
+          "edid": "TOAM_Arcana_UltimateGen_44"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B86",
+          "edid": "TOAM_Arcana_UltimateGen_47"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B87",
+          "edid": "TOAM_Arcana_UltimateGen_48"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B89",
+          "edid": "TOAM_Arcana_UltimateGen_50"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B8B",
+          "edid": "TOAM_Arcana_UltimateGen_52"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B8E",
+          "edid": "TOAM_Arcana_UltimateGen_55"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B8F",
+          "edid": "TOAM_Arcana_UltimateGen_56"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B91",
+          "edid": "TOAM_Arcana_UltimateGen_58"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B93",
+          "edid": "TOAM_Arcana_UltimateGen_60"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B96",
+          "edid": "TOAM_Arcana_UltimateGen_63"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Sun_OuterBand.nif",
+      "sha256": "E818F544600DAB68B0DB439C7467A3E3EC817633C13DBB8E64CCF9EE5C4F6225",
+      "bytes": 38361,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 4,
+          "type": "BSTriShape",
+          "sha256": "AFDBC709FC21860DB020F64C9C867A421F5F8A83F724A09A62F6CEFEA99B1EBF"
+        },
+        {
+          "block": 8,
+          "type": "BSTriShape",
+          "sha256": "A1F303D4626729823D9C4D89D2EC56EEC4E775E04C10CB62248387987CC3A98F"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "B11B39494FEB48800BFB5CCFE8E7E69912146DAED60BC9B36F62BC7CDA00906D"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 5,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 9,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 6,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 10,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000D90",
+          "edid": "TOAM_ART_Circle_144"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D91",
+          "edid": "TOAM_ART_Circle_145"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D92",
+          "edid": "TOAM_ART_Circle_146"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D93",
+          "edid": "TOAM_ART_Circle_147"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D94",
+          "edid": "TOAM_ART_Circle_148"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D95",
+          "edid": "TOAM_ART_Circle_149"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D96",
+          "edid": "TOAM_ART_Circle_150"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D97",
+          "edid": "TOAM_ART_Circle_151"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D98",
+          "edid": "TOAM_ART_Circle_152"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D99",
+          "edid": "TOAM_ART_Circle_153"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D9A",
+          "edid": "TOAM_ART_Circle_154"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D9B",
+          "edid": "TOAM_ART_Circle_155"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D9C",
+          "edid": "TOAM_ART_Circle_156"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D9D",
+          "edid": "TOAM_ART_Circle_157"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D9E",
+          "edid": "TOAM_ART_Circle_158"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D9F",
+          "edid": "TOAM_ART_Circle_159"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B58",
+          "edid": "TOAM_Arcana_UltimateGen_1"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B5A",
+          "edid": "TOAM_Arcana_UltimateGen_3"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B5C",
+          "edid": "TOAM_Arcana_UltimateGen_5"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B5D",
+          "edid": "TOAM_Arcana_UltimateGen_6"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B60",
+          "edid": "TOAM_Arcana_UltimateGen_9"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B62",
+          "edid": "TOAM_Arcana_UltimateGen_11"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B64",
+          "edid": "TOAM_Arcana_UltimateGen_13"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B65",
+          "edid": "TOAM_Arcana_UltimateGen_14"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B68",
+          "edid": "TOAM_Arcana_UltimateGen_17"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B6A",
+          "edid": "TOAM_Arcana_UltimateGen_19"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B6C",
+          "edid": "TOAM_Arcana_UltimateGen_21"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B6D",
+          "edid": "TOAM_Arcana_UltimateGen_22"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B70",
+          "edid": "TOAM_Arcana_UltimateGen_25"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B72",
+          "edid": "TOAM_Arcana_UltimateGen_27"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B74",
+          "edid": "TOAM_Arcana_UltimateGen_29"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B75",
+          "edid": "TOAM_Arcana_UltimateGen_30"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B78",
+          "edid": "TOAM_Arcana_UltimateGen_33"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B7A",
+          "edid": "TOAM_Arcana_UltimateGen_35"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B7C",
+          "edid": "TOAM_Arcana_UltimateGen_37"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B7D",
+          "edid": "TOAM_Arcana_UltimateGen_38"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B80",
+          "edid": "TOAM_Arcana_UltimateGen_41"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B82",
+          "edid": "TOAM_Arcana_UltimateGen_43"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B84",
+          "edid": "TOAM_Arcana_UltimateGen_45"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B85",
+          "edid": "TOAM_Arcana_UltimateGen_46"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B88",
+          "edid": "TOAM_Arcana_UltimateGen_49"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B8A",
+          "edid": "TOAM_Arcana_UltimateGen_51"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B8C",
+          "edid": "TOAM_Arcana_UltimateGen_53"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B8D",
+          "edid": "TOAM_Arcana_UltimateGen_54"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B90",
+          "edid": "TOAM_Arcana_UltimateGen_57"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B92",
+          "edid": "TOAM_Arcana_UltimateGen_59"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B94",
+          "edid": "TOAM_Arcana_UltimateGen_61"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000B95",
+          "edid": "TOAM_Arcana_UltimateGen_62"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Tower.nif",
+      "sha256": "B249A415B14C92ED3102FEBFBDC28105DCC0E7CFEA41CC284D71B423078B15E5",
+      "bytes": 49327,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "D9894F95D5ECA14734EE4767676695D565106D00B4AF5B0EE609A7093F9A5A97"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "B8BBC38BC6C3447B369814CE8036A3755B405550EAD4ACCAF8C264E8062F162A"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "2CE73C5F3BE489A02B6D45AA6DF3D1D4B330BDBAF51936EE669CDF6651DCC32F"
+        },
+        {
+          "block": 17,
+          "type": "BSTriShape",
+          "sha256": "298323D5FFB9D3B800DF6FE64C7A5050B4443BB556227468B7537103058EAFD1"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "E1E9858A982608DD92C18B8199735BA470CFB9AA2AAB1E8498F56F41F548F94E"
+        },
+        {
+          "block": 25,
+          "type": "BSTriShape",
+          "sha256": "05777B6D6D0EDE7782D8534975A17633256EE5C5CF004EC11039F053FEF2CA61"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 18,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 26,
+          "shaderSHA": "021A7589AD37D1E6218CC7FD0DFA0DE1ED5D652AFA24F428A0EC12E3CAA9AB3B",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 19,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 24,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 27,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000A8C",
+          "edid": "TOAM_Arcana_LegacyCircle_23"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000A94",
+          "edid": "TOAM_Arcana_LegacyCircle_31"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_Tower_Sky_Thin.nif",
+      "sha256": "660F67D3FED343B0D98D897F6FEFD2810B627E088039BFE52BB8F0EA5DD0AA4D",
+      "bytes": 40252,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "3EC9CE2295BAA316AA11F458E79FA697B209B82EA7DC83EEBD3BA0004E84B2A1"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "D878CEAE087D0DE64B624602B2F568C7C234D0D2B0A75E706A5A471175F23640"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "70348A0210E221C83AF39F36A2E31799FD581FFDAAA82B705EF724282F76AD3E"
+        },
+        {
+          "block": 19,
+          "type": "BSTriShape",
+          "sha256": "5283D7E581AA21218E1CBE9E5FF0335442C12474DE32347CD1B0823F0A08E6AC"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "9A4619BC6C164412584392AF68F2C9B97E93B21890CE07956890E2A6725BA6E3"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 20,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "021A7589AD37D1E6218CC7FD0DFA0DE1ED5D652AFA24F428A0EC12E3CAA9AB3B",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 21,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 24,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000DC6",
+          "edid": "TOAM_TowerSkyThin_Bank_0"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DC7",
+          "edid": "TOAM_TowerSkyThin_Bank_1"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DC8",
+          "edid": "TOAM_TowerSkyThin_Bank_2"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DC9",
+          "edid": "TOAM_TowerSkyThin_Bank_3"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DCA",
+          "edid": "TOAM_TowerSkyThin_Bank_4"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DCB",
+          "edid": "TOAM_TowerSkyThin_Bank_5"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DCC",
+          "edid": "TOAM_TowerSkyThin_Bank_6"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DCD",
+          "edid": "TOAM_TowerSkyThin_Bank_7"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Circles/Arcana_World_Harmonized.nif",
+      "sha256": "A5C3625B0DDDB07F9D483C8BF81F627E213C6F4CA725CB34C1A097101214BB38",
+      "bytes": 40252,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "A57E6F34DF9ED681E66028E936530395253D826810C9777487F2E782D2940899"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "B8BBC38BC6C3447B369814CE8036A3755B405550EAD4ACCAF8C264E8062F162A"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "B9F5491B70A5196728625672A777EB29A7A12A439D5F1C32BD124BC6EEAB61B9"
+        },
+        {
+          "block": 19,
+          "type": "BSTriShape",
+          "sha256": "6A90CBE7684D8404402438247F628D433DDDCE9F7408B77A3C77DF72337D93C7"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "850389AFFE22824C4FC5F01A2BB4DE74F1BF2D7EBECF023E011D100D97229EFE"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "D1802D2CA8D1F42577518730E99D3DF6DD0DB39E038895C394ED84C704B7EC27",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 0.8640000820159912,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "744E144D00340C0E37CF8E59ADCB3BD2F3765F5F4106EC9E325E9C083FA57F47",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "147E7EAAE91536F309A8A2A5C936D98B44393B7441237B9E79377AD1971CFA58",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        },
+        {
+          "block": 20,
+          "shaderSHA": "997F61BD6638DE254E518D44D691B86D9CB1E1B99B2677790838DC38F9BD97D3",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.152000069618225,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "021A7589AD37D1E6218CC7FD0DFA0DE1ED5D652AFA24F428A0EC12E3CAA9AB3B",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.2960000038146973,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 21,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 24,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000DA0",
+          "edid": "TOAM_ART_Circle_160"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DA1",
+          "edid": "TOAM_ART_Circle_161"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DA2",
+          "edid": "TOAM_ART_Circle_162"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DA3",
+          "edid": "TOAM_ART_Circle_163"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DA4",
+          "edid": "TOAM_ART_Circle_164"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DA5",
+          "edid": "TOAM_ART_Circle_165"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DA6",
+          "edid": "TOAM_ART_Circle_166"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DA7",
+          "edid": "TOAM_ART_Circle_167"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DA8",
+          "edid": "TOAM_ART_Circle_168"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DA9",
+          "edid": "TOAM_ART_Circle_169"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DAA",
+          "edid": "TOAM_ART_Circle_170"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DAB",
+          "edid": "TOAM_ART_Circle_171"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DAC",
+          "edid": "TOAM_ART_Circle_172"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DAD",
+          "edid": "TOAM_ART_Circle_173"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DAE",
+          "edid": "TOAM_ART_Circle_174"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DAF",
+          "edid": "TOAM_ART_Circle_175"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DB0",
+          "edid": "TOAM_ART_Circle_176"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DB1",
+          "edid": "TOAM_ART_Circle_177"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DB2",
+          "edid": "TOAM_ART_Circle_178"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DB3",
+          "edid": "TOAM_ART_Circle_179"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DB4",
+          "edid": "TOAM_ART_Circle_180"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DB5",
+          "edid": "TOAM_ART_Circle_181"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DB6",
+          "edid": "TOAM_ART_Circle_182"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DB7",
+          "edid": "TOAM_ART_Circle_183"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DB8",
+          "edid": "TOAM_ART_Circle_184"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DB9",
+          "edid": "TOAM_ART_Circle_185"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DBA",
+          "edid": "TOAM_ART_Circle_186"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DBB",
+          "edid": "TOAM_ART_Circle_187"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DBC",
+          "edid": "TOAM_ART_Circle_188"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DBD",
+          "edid": "TOAM_ART_Circle_189"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DBE",
+          "edid": "TOAM_ART_Circle_190"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DBF",
+          "edid": "TOAM_ART_Circle_191"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/Arcana/Flight/Arcana_Fool_AscentBand.nif",
+      "sha256": "51704849ECEA56315BE3BEAD5B0B3210CADBA48772BCCE32421C7404E0982446",
+      "bytes": 38361,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 4,
+          "type": "BSTriShape",
+          "sha256": "AFDBC709FC21860DB020F64C9C867A421F5F8A83F724A09A62F6CEFEA99B1EBF"
+        },
+        {
+          "block": 8,
+          "type": "BSTriShape",
+          "sha256": "A1F303D4626729823D9C4D89D2EC56EEC4E775E04C10CB62248387987CC3A98F"
+        },
+        {
+          "block": 11,
+          "type": "BSTriShape",
+          "sha256": "B11B39494FEB48800BFB5CCFE8E7E69912146DAED60BC9B36F62BC7CDA00906D"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 5,
+          "shaderSHA": "0727A7F7ECA984124FCFE35BC43E4BB45D6302B5B5591B440CDAD607BD6577D4",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 1.900800108909607,
+          "controller": 4294967295
+        },
+        {
+          "block": 9,
+          "shaderSHA": "28837714060E22A2915D1F718DB9E3D74DCE53F6EEC319C695385B0978FBE4E7",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 2.138400077819824,
+          "controller": 4294967295
+        },
+        {
+          "block": 12,
+          "shaderSHA": "28837714060E22A2915D1F718DB9E3D74DCE53F6EEC319C695385B0978FBE4E7",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+          "rgba": [
+            0.8700000047683716,
+            0.9549999833106995,
+            1.0,
+            1.0
+          ],
+          "gain": 2.138400077819824,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 6,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 10,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 13,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000DC1",
+          "edid": "TOAM_Arcana_Fool_AscentBand_0"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DC2",
+          "edid": "TOAM_Arcana_Fool_AscentBand_1"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DC3",
+          "edid": "TOAM_Arcana_Fool_AscentBand_2"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000DC4",
+          "edid": "TOAM_Arcana_Fool_AscentBand_3"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/VFX/Circles/Arcana_Temperance_Halo.nif",
+      "sha256": "2AB9ECA432088ABDD70FBA4A1EC422C2987684E38E8A377EBDC9AB2079A38950",
+      "bytes": 37885,
+      "enginePose": false,
+      "shapes": [
+        {
+          "block": 2,
+          "type": "BSTriShape",
+          "sha256": "13C6446F8036D70824DD1FBA2F2EE8FA265E3215AB6EF40DC02DE43D6B792DBE"
+        },
+        {
+          "block": 6,
+          "type": "BSTriShape",
+          "sha256": "361A10B13F04D648EC8732E1B3E973DFFF12C62C3F626F2E839297AD006631B2"
+        },
+        {
+          "block": 9,
+          "type": "BSTriShape",
+          "sha256": "43B69DC08C4D965DDE62D3400BE1A0618B9A3B1C09DB2C2A9D03856632477E91"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 3,
+          "shaderSHA": "2D26B45955C97C21671F93E0816497EE103F5FAC7BF40F6F2517E9F9DB29199B",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.600000023841858,
+          "controller": 4294967295
+        },
+        {
+          "block": 7,
+          "shaderSHA": "412187BF82297FC9E191B240A468B738E2A5BCD40F5FBCC66D4C9AE8F0B8F42F",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.7999999523162842,
+          "controller": 4294967295
+        },
+        {
+          "block": 10,
+          "shaderSHA": "412187BF82297FC9E191B240A468B738E2A5BCD40F5FBCC66D4C9AE8F0B8F42F",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.7999999523162842,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 4,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 8,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 11,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ACTI",
+          "id": "0100081A",
+          "edid": "TOAM_VFX_CircleOuterBandStatic_ACTI"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/VFX/Circles/Arcana_Temperance_Halo_Engine.nif",
+      "sha256": "D673776063B70A3C7247A769B3F76D6D67409A7A0E7D6F04DBA6061DD4338D29",
+      "bytes": 38016,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "EE9466C5B106760088E99E8032FCD158F6833968B4F1EB08E9586354F531A780"
+        },
+        {
+          "block": 7,
+          "type": "BSTriShape",
+          "sha256": "08DF67474B8F9D069A66EDEF842FFCD33F9B57BB76531C5004F83926DBBE35D7"
+        },
+        {
+          "block": 10,
+          "type": "BSTriShape",
+          "sha256": "370BAA350EDF9F9C2479A2A5CD64F2C98D1CB494A8E585565ABC67D30D2D3F4D"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "F8102C8D1C957D22E5C5BC4124BB0AB59ECD20EA7B3792F4587B4D5210E343D2",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 2.640000104904175,
+          "controller": 4294967295
+        },
+        {
+          "block": 8,
+          "shaderSHA": "D5042EC34E577EC21D7C792CC1FF705ABE68344214613B0CA6678003DB45DDCB",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 2.9700000286102295,
+          "controller": 4294967295
+        },
+        {
+          "block": 11,
+          "shaderSHA": "D5042EC34E577EC21D7C792CC1FF705ABE68344214613B0CA6678003DB45DDCB",
+          "flags": [
+            2151677952,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 2.9700000286102295,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 5,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 9,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 12,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000DC5",
+          "edid": "TOAM_ART_TemperanceHalo"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/VFX/Circles/TOAM_Circle_Animated.nif",
+      "sha256": "5860CB9950C8D3F04CABDA442646B02A17C0545F1DC82B3E468A92C938AFED44",
+      "bytes": 13263,
+      "enginePose": false,
+      "shapes": [
+        {
+          "block": 2,
+          "type": "BSTriShape",
+          "sha256": "F476EB66B9CC2B1EF4B007CADC0B65DEE87FBC2D4D163A75861E80C811B3A94E"
+        },
+        {
+          "block": 12,
+          "type": "BSTriShape",
+          "sha256": "F7FBFA1891199D90A8609A0E4E9F391A45573727DC1111ED70FE87B25114596C"
+        },
+        {
+          "block": 19,
+          "type": "BSTriShape",
+          "sha256": "9C577038D69FC7C5D9DBF7B0231BE500C1CCDF4CF7F872F282DEE5EDD343E416"
+        },
+        {
+          "block": 24,
+          "type": "BSTriShape",
+          "sha256": "18DFA629E511EAB560B45962EEB269B8066FB0F0B0768FABC0490A054C05C0D4"
+        },
+        {
+          "block": 30,
+          "type": "BSTriShape",
+          "sha256": "DD7C1DA2DA9DB25FD1CC6D4BAD43F7B996034058FC7E1E7DF21F0CB2D33D07B1"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 3,
+          "shaderSHA": "08E30E87C21F82500CA0B4FD38CAEB9AB612B84869C2262535B05A073A379F9E",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            0.3100000023841858,
+            0.6589999794960022,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 1.2000000476837158,
+          "controller": 4
+        },
+        {
+          "block": 13,
+          "shaderSHA": "2D26B45955C97C21671F93E0816497EE103F5FAC7BF40F6F2517E9F9DB29199B",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.600000023841858,
+          "controller": 4294967295
+        },
+        {
+          "block": 20,
+          "shaderSHA": "412187BF82297FC9E191B240A468B738E2A5BCD40F5FBCC66D4C9AE8F0B8F42F",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.7999999523162842,
+          "controller": 4294967295
+        },
+        {
+          "block": 25,
+          "shaderSHA": "41582E02BCBECBFE1359FEA5AA74DA54437D96D4F3F0F4E6E1620052BDF387B7",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.600000023841858,
+          "controller": 26
+        },
+        {
+          "block": 31,
+          "shaderSHA": "2BF9F82C357019933288990379AE478D474D2FC6338D821FA0D8A6D5A30E08BD",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Face.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.7999999523162842,
+          "controller": 32
+        }
+      ],
+      "alpha": [
+        {
+          "block": 7,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 14,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 21,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 29,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 35,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [
+        {
+          "block": 4,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "84594C1B18FBD464C5D7ACC0732BE9234F47F47AC03176A267DECEB2BDC84D3B"
+        },
+        {
+          "block": 9,
+          "type": "NiTransformController",
+          "rawSHA": "4704ED792931160A41B204F04810927DD024A9C8236D5C1E805096B43E3FAFC0"
+        },
+        {
+          "block": 16,
+          "type": "NiTransformController",
+          "rawSHA": "4BE369DC86A2FA32A318D90F0517D65B532E660D192FA3C394AC6EAE907285F9"
+        },
+        {
+          "block": 26,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "263FA2F1D737744A0A2EBADFA0BADA1C1C82C7D5147774D7A5740C1ED37F2F0D"
+        },
+        {
+          "block": 32,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "B7870C88E63F393B8B38F22AFE937EB3073A612FC7C57A6078066C7C00F3566E"
+        }
+      ],
+      "espReferences": [
+        {
+          "type": "ACTI",
+          "id": "01000819",
+          "edid": "TOAM_VFX_CircleAnimated_ACTI"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/VFX/Circles/TOAM_Circle_Core_Animated.nif",
+      "sha256": "BC7C70DC1F07338FDC7EFCED8BFC606049AEF7B608D617C021360EF1493D314E",
+      "bytes": 22561,
+      "enginePose": false,
+      "shapes": [
+        {
+          "block": 2,
+          "type": "BSTriShape",
+          "sha256": "F476EB66B9CC2B1EF4B007CADC0B65DEE87FBC2D4D163A75861E80C811B3A94E"
+        },
+        {
+          "block": 12,
+          "type": "BSTriShape",
+          "sha256": "F7FBFA1891199D90A8609A0E4E9F391A45573727DC1111ED70FE87B25114596C"
+        },
+        {
+          "block": 19,
+          "type": "BSTriShape",
+          "sha256": "9C577038D69FC7C5D9DBF7B0231BE500C1CCDF4CF7F872F282DEE5EDD343E416"
+        },
+        {
+          "block": 24,
+          "type": "BSTriShape",
+          "sha256": "18DFA629E511EAB560B45962EEB269B8066FB0F0B0768FABC0490A054C05C0D4"
+        },
+        {
+          "block": 30,
+          "type": "BSTriShape",
+          "sha256": "DD7C1DA2DA9DB25FD1CC6D4BAD43F7B996034058FC7E1E7DF21F0CB2D33D07B1"
+        },
+        {
+          "block": 37,
+          "type": "BSTriShape",
+          "sha256": "9DBCCF1AE6D6DD92101960D03CBFB4EC39E15A77C66E33014C337F9D749DDD4E"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 3,
+          "shaderSHA": "8A35B49C0D86648847EDD1B861CAF88ABE10552664A82206785A01B3139D42FC",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            0.3100000023841858,
+            0.6589999794960022,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 1.559999942779541,
+          "controller": 4
+        },
+        {
+          "block": 13,
+          "shaderSHA": "9FF9864874E75EC6E48D80F10011415152F956C6C22E41D2A3423D83C8696BCE",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 2.0799999237060547,
+          "controller": 4294967295
+        },
+        {
+          "block": 20,
+          "shaderSHA": "2F76341DCD07C8923BB42F8B0D07551D288E2422D7EF8DF0EA0B500AEE3BF431",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 2.3399999141693115,
+          "controller": 4294967295
+        },
+        {
+          "block": 25,
+          "shaderSHA": "3D837F60645F8B6AA15C4A7D898BEC64D96B27A9777B5CD9770C38716680DA66",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 2.0799999237060547,
+          "controller": 26
+        },
+        {
+          "block": 31,
+          "shaderSHA": "8DC306EAF9D98BDF5C1E42C058C74B6DD15AB3C534F9ECFE32879458AD9DD25E",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Face.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 2.3399999141693115,
+          "controller": 32
+        },
+        {
+          "block": 38,
+          "shaderSHA": "945F40F475D3697690F9D977C98DADF036155DAD48C18D24EF2EE1CEE2290753",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            0.8999999761581421
+          ],
+          "gain": 2.200000047683716,
+          "controller": 39
+        }
+      ],
+      "alpha": [
+        {
+          "block": 7,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 14,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 21,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 29,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 35,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 42,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [
+        {
+          "block": 4,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "84594C1B18FBD464C5D7ACC0732BE9234F47F47AC03176A267DECEB2BDC84D3B"
+        },
+        {
+          "block": 9,
+          "type": "NiTransformController",
+          "rawSHA": "4704ED792931160A41B204F04810927DD024A9C8236D5C1E805096B43E3FAFC0"
+        },
+        {
+          "block": 16,
+          "type": "NiTransformController",
+          "rawSHA": "4BE369DC86A2FA32A318D90F0517D65B532E660D192FA3C394AC6EAE907285F9"
+        },
+        {
+          "block": 26,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "263FA2F1D737744A0A2EBADFA0BADA1C1C82C7D5147774D7A5740C1ED37F2F0D"
+        },
+        {
+          "block": 32,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "B7870C88E63F393B8B38F22AFE937EB3073A612FC7C57A6078066C7C00F3566E"
+        },
+        {
+          "block": 39,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "20DCA19CCFAB16AD1AD699CE6E80C5870F11174DAE7F3671BC2F891C4DDB22CF"
+        }
+      ],
+      "espReferences": []
+    },
+    {
+      "path": "meshes/TOAM/VFX/Circles/TOAM_Circle_Core_Static.nif",
+      "sha256": "9C1CEEE90C3438FB581670D5744A7E17D4EE0CEEFAD08C445C404BF5AA65C7C3",
+      "bytes": 21930,
+      "enginePose": false,
+      "shapes": [
+        {
+          "block": 2,
+          "type": "BSTriShape",
+          "sha256": "F476EB66B9CC2B1EF4B007CADC0B65DEE87FBC2D4D163A75861E80C811B3A94E"
+        },
+        {
+          "block": 9,
+          "type": "BSTriShape",
+          "sha256": "98A1A5389A2F4CFB9EB895657C8ED0202D9076D24EAE1EA900E4052AE5E57275"
+        },
+        {
+          "block": 13,
+          "type": "BSTriShape",
+          "sha256": "E8FE2F22C40DE5D2B2DFEABB52737E3C389B309070E7FFD8A8FB2E07D21A08B1"
+        },
+        {
+          "block": 18,
+          "type": "BSTriShape",
+          "sha256": "6220C9E009DE95F042ACC6B34A88722C4745CC64207681360CBCA1ADCD75FD2C"
+        },
+        {
+          "block": 24,
+          "type": "BSTriShape",
+          "sha256": "10B6ABA31409EEF791F398C1015DD77CEBEEA3796B2E644DCB3EA48A7FC2B2C7"
+        },
+        {
+          "block": 31,
+          "type": "BSTriShape",
+          "sha256": "C413A172BBE95D2FADB16D28174CFD58D55CE8C85FD183FA44F557BAD117D741"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 3,
+          "shaderSHA": "8A35B49C0D86648847EDD1B861CAF88ABE10552664A82206785A01B3139D42FC",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            0.3100000023841858,
+            0.6589999794960022,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 1.559999942779541,
+          "controller": 4
+        },
+        {
+          "block": 10,
+          "shaderSHA": "9FF9864874E75EC6E48D80F10011415152F956C6C22E41D2A3423D83C8696BCE",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 2.0799999237060547,
+          "controller": 4294967295
+        },
+        {
+          "block": 14,
+          "shaderSHA": "2F76341DCD07C8923BB42F8B0D07551D288E2422D7EF8DF0EA0B500AEE3BF431",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 2.3399999141693115,
+          "controller": 4294967295
+        },
+        {
+          "block": 19,
+          "shaderSHA": "2240C89F4E8FE4B38D9920976A74509A20D01D8C1248D701CC54DF9C0DD2BDE6",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 2.0799999237060547,
+          "controller": 20
+        },
+        {
+          "block": 25,
+          "shaderSHA": "D08F90A023FFBA9231FBB1475D6706513AB07C4D6F4DB8CE5DFF5FF06E7C345E",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Face.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 2.3399999141693115,
+          "controller": 26
+        },
+        {
+          "block": 32,
+          "shaderSHA": "4815844BBD87CD97485A3CA73CD19AA1ADD8AB6A208F2F638501CC0509A23D56",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            0.8999999761581421
+          ],
+          "gain": 2.200000047683716,
+          "controller": 33
+        }
+      ],
+      "alpha": [
+        {
+          "block": 7,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 11,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 15,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 23,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 29,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 36,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [
+        {
+          "block": 4,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "84594C1B18FBD464C5D7ACC0732BE9234F47F47AC03176A267DECEB2BDC84D3B"
+        },
+        {
+          "block": 20,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "740542261313092B92198E95BFA55AC25C694262EB8A9F44B3AB142EB84F5927"
+        },
+        {
+          "block": 26,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "263FA2F1D737744A0A2EBADFA0BADA1C1C82C7D5147774D7A5740C1ED37F2F0D"
+        },
+        {
+          "block": 33,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "EA34BBAF0BE77CF3B7540ABDDA412265F94BE1D509CB9730D1DA500DA1102218"
+        }
+      ],
+      "espReferences": []
+    },
+    {
+      "path": "meshes/TOAM/VFX/Circles/TOAM_Circle_OuterBand_Static.nif",
+      "sha256": "DCB600BF2C08DBCAC5B63D73DA6864D1DEFF08ABDC918CDD11717A4E9E36439C",
+      "bytes": 9937,
+      "enginePose": false,
+      "shapes": [
+        {
+          "block": 2,
+          "type": "BSTriShape",
+          "sha256": "13C6446F8036D70824DD1FBA2F2EE8FA265E3215AB6EF40DC02DE43D6B792DBE"
+        },
+        {
+          "block": 6,
+          "type": "BSTriShape",
+          "sha256": "361A10B13F04D648EC8732E1B3E973DFFF12C62C3F626F2E839297AD006631B2"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 3,
+          "shaderSHA": "2D26B45955C97C21671F93E0816497EE103F5FAC7BF40F6F2517E9F9DB29199B",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.600000023841858,
+          "controller": 4294967295
+        },
+        {
+          "block": 7,
+          "shaderSHA": "412187BF82297FC9E191B240A468B738E2A5BCD40F5FBCC66D4C9AE8F0B8F42F",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.7999999523162842,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 4,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 8,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": []
+    },
+    {
+      "path": "meshes/TOAM/VFX/Circles/TOAM_Circle_Small.nif",
+      "sha256": "ACB3E20A45482DAC43597B16B368B2D20549ABA939D9B07ACF6934AED9FE68C0",
+      "bytes": 1297,
+      "enginePose": false,
+      "shapes": [
+        {
+          "block": 2,
+          "type": "BSTriShape",
+          "sha256": "13C6446F8036D70824DD1FBA2F2EE8FA265E3215AB6EF40DC02DE43D6B792DBE"
+        },
+        {
+          "block": 6,
+          "type": "BSTriShape",
+          "sha256": "880CAD6A99716964CADD31131F037F98A72F44DC89331022527A7720E9AC15A1"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 3,
+          "shaderSHA": "85F2DF5D11C15B41EAD526F256C00EED98CF2F0D6A10E44D13C9F9DBD0E1C6A9",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            0.3100000023841858,
+            0.6589999794960022,
+            1.0,
+            0.18000000715255737
+          ],
+          "gain": 0.800000011920929,
+          "controller": 4294967295
+        },
+        {
+          "block": 7,
+          "shaderSHA": "20196C27AB25CF49FBE4F420425BBA7C9712734DD27CC8639312B4CDCEB4EBF5",
+          "flags": [
+            2147483648,
+            16
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Small.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.399999976158142,
+          "controller": 4294967295
+        }
+      ],
+      "alpha": [
+        {
+          "block": 4,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 8,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [],
+      "espReferences": []
+    },
+    {
+      "path": "meshes/TOAM/VFX/Circles/TOAM_Circle_Static.nif",
+      "sha256": "915EEB7C94EA790FA871F0808F316FFEBB6D56FFB4978542C974D8521957D598",
+      "bytes": 12632,
+      "enginePose": false,
+      "shapes": [
+        {
+          "block": 2,
+          "type": "BSTriShape",
+          "sha256": "F476EB66B9CC2B1EF4B007CADC0B65DEE87FBC2D4D163A75861E80C811B3A94E"
+        },
+        {
+          "block": 9,
+          "type": "BSTriShape",
+          "sha256": "98A1A5389A2F4CFB9EB895657C8ED0202D9076D24EAE1EA900E4052AE5E57275"
+        },
+        {
+          "block": 13,
+          "type": "BSTriShape",
+          "sha256": "E8FE2F22C40DE5D2B2DFEABB52737E3C389B309070E7FFD8A8FB2E07D21A08B1"
+        },
+        {
+          "block": 18,
+          "type": "BSTriShape",
+          "sha256": "6220C9E009DE95F042ACC6B34A88722C4745CC64207681360CBCA1ADCD75FD2C"
+        },
+        {
+          "block": 24,
+          "type": "BSTriShape",
+          "sha256": "10B6ABA31409EEF791F398C1015DD77CEBEEA3796B2E644DCB3EA48A7FC2B2C7"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 3,
+          "shaderSHA": "B6D9EFD4011487135ADCE80112F992A6A1C03860FDF99294DF05CE5872F06EE2",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            0.3100000023841858,
+            0.6589999794960022,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 1.2000000476837158,
+          "controller": 4
+        },
+        {
+          "block": 10,
+          "shaderSHA": "4741695FAFBED971C751B8D9CBAFDC6845AF1CBAA6D1D1F372D27E1A7C88DAFA",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.600000023841858,
+          "controller": 4294967295
+        },
+        {
+          "block": 14,
+          "shaderSHA": "E401B1658FDF83D7453E1914E44CB1FA968B8357B353843B8BBBCF511C218AB9",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.7999999523162842,
+          "controller": 4294967295
+        },
+        {
+          "block": 19,
+          "shaderSHA": "E01059B47B0B4CAB63D0DAB235958D0629B2EF3480690450BA8781C80DF1C2E6",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.600000023841858,
+          "controller": 20
+        },
+        {
+          "block": 25,
+          "shaderSHA": "0DF06823F5AEF0C93A7099A341698A74C7ABABBCA29D7C07EB9332A36B5EEA24",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Face.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.7999999523162842,
+          "controller": 26
+        }
+      ],
+      "alpha": [
+        {
+          "block": 7,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 11,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 15,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 23,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 29,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [
+        {
+          "block": 4,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "84594C1B18FBD464C5D7ACC0732BE9234F47F47AC03176A267DECEB2BDC84D3B"
+        },
+        {
+          "block": 20,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "740542261313092B92198E95BFA55AC25C694262EB8A9F44B3AB142EB84F5927"
+        },
+        {
+          "block": 26,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "263FA2F1D737744A0A2EBADFA0BADA1C1C82C7D5147774D7A5740C1ED37F2F0D"
+        }
+      ],
+      "espReferences": [
+        {
+          "type": "ACTI",
+          "id": "01000818",
+          "edid": "TOAM_VFX_CircleStatic_ACTI"
+        }
+      ]
+    },
+    {
+      "path": "meshes/TOAM/VFX/Circles/TOAM_Engine_Circle.nif",
+      "sha256": "F11F1D92405685DBA6FAB5C28C7AA3405CE2C6E69A3DE55765D3FE9E2196A2CE",
+      "bytes": 40711,
+      "enginePose": true,
+      "shapes": [
+        {
+          "block": 3,
+          "type": "BSTriShape",
+          "sha256": "2D2880E245CC0BDD93366C26F8EE7755C84A6E9042278531A826709570D93B0C"
+        },
+        {
+          "block": 10,
+          "type": "BSTriShape",
+          "sha256": "272BB709322E62BE9807C4D1B50798F95F1DD5A5A1ED827A048975724F11033E"
+        },
+        {
+          "block": 14,
+          "type": "BSTriShape",
+          "sha256": "A3BCD7481E8F14CEA30C5D8F34EAE5C8A8120AB7A33971D40B967EC3A4018E74"
+        },
+        {
+          "block": 17,
+          "type": "BSTriShape",
+          "sha256": "8F664B66C35477231FE4CA319C528ADDEADA77FE8158056BBA7AC537C7429E1A"
+        },
+        {
+          "block": 22,
+          "type": "BSTriShape",
+          "sha256": "59A3A39756DB4471B5D2985303E9D3BD74D24B4C8BC0D6BB380747B34D7C4778"
+        },
+        {
+          "block": 28,
+          "type": "BSTriShape",
+          "sha256": "BE34CD016E903E8A9EC72F7766355B1F0A2A14B6C5A0230C783DA88994208328"
+        }
+      ],
+      "shaders": [
+        {
+          "block": 4,
+          "shaderSHA": "B5E122448D2016223F2CDD89592ABFB666A4F4D0F38BF5D390477B2F3F3DB15A",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            0.3100000023841858,
+            0.6589999794960022,
+            1.0,
+            0.3499999940395355
+          ],
+          "gain": 1.2000000476837158,
+          "controller": 5
+        },
+        {
+          "block": 11,
+          "shaderSHA": "4741695FAFBED971C751B8D9CBAFDC6845AF1CBAA6D1D1F372D27E1A7C88DAFA",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.600000023841858,
+          "controller": 4294967295
+        },
+        {
+          "block": 15,
+          "shaderSHA": "E401B1658FDF83D7453E1914E44CB1FA968B8357B353843B8BBBCF511C218AB9",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.7999999523162842,
+          "controller": 4294967295
+        },
+        {
+          "block": 18,
+          "shaderSHA": "E401B1658FDF83D7453E1914E44CB1FA968B8357B353843B8BBBCF511C218AB9",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.7999999523162842,
+          "controller": 4294967295
+        },
+        {
+          "block": 23,
+          "shaderSHA": "3067D2900BA3CF43162087A571D607A79EDD0E3543FF11629865FCA7C1009D4A",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            0.550000011920929
+          ],
+          "gain": 1.600000023841858,
+          "controller": 24
+        },
+        {
+          "block": 29,
+          "shaderSHA": "18CE965E2B13E77B72E17C6B6FA3464CA9712EA4D17818486B794FBF988C3340",
+          "flags": [
+            2151677960,
+            48
+          ],
+          "path": "textures\\TOAM\\VFX\\TOAM_Circle_Face.dds",
+          "rgba": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "gain": 1.7999999523162842,
+          "controller": 30
+        }
+      ],
+      "alpha": [
+        {
+          "block": 8,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 12,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 16,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 19,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 27,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        },
+        {
+          "block": 33,
+          "raw": "ffffffff00000000ffffffff0d1000"
+        }
+      ],
+      "controllers": [
+        {
+          "block": 5,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "25D339E012FC1894FFD917B62840B157B2DD3E263D7B51A1FFF8675430B63737"
+        },
+        {
+          "block": 24,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "AA4698C4C409CC6A61F31F1A50F3B4FC490A0DEE3DBA310EDE8BBA5172C15EAA"
+        },
+        {
+          "block": 30,
+          "type": "BSEffectShaderPropertyFloatController",
+          "rawSHA": "C21D275D838DAE7B1606B29020855A6EF441F2913BA012146D73B89F7AFCB306"
+        }
+      ],
+      "espReferences": [
+        {
+          "type": "ARTO",
+          "id": "01000D00",
+          "edid": "TOAM_ART_Circle_000"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D01",
+          "edid": "TOAM_ART_Circle_001"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D02",
+          "edid": "TOAM_ART_Circle_002"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D03",
+          "edid": "TOAM_ART_Circle_003"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D04",
+          "edid": "TOAM_ART_Circle_004"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D05",
+          "edid": "TOAM_ART_Circle_005"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D06",
+          "edid": "TOAM_ART_Circle_006"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D07",
+          "edid": "TOAM_ART_Circle_007"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D08",
+          "edid": "TOAM_ART_Circle_008"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D09",
+          "edid": "TOAM_ART_Circle_009"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D0A",
+          "edid": "TOAM_ART_Circle_010"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D0B",
+          "edid": "TOAM_ART_Circle_011"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D0C",
+          "edid": "TOAM_ART_Circle_012"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D0D",
+          "edid": "TOAM_ART_Circle_013"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D0E",
+          "edid": "TOAM_ART_Circle_014"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D0F",
+          "edid": "TOAM_ART_Circle_015"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D10",
+          "edid": "TOAM_ART_Circle_016"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D11",
+          "edid": "TOAM_ART_Circle_017"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D12",
+          "edid": "TOAM_ART_Circle_018"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D13",
+          "edid": "TOAM_ART_Circle_019"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D14",
+          "edid": "TOAM_ART_Circle_020"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D15",
+          "edid": "TOAM_ART_Circle_021"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D16",
+          "edid": "TOAM_ART_Circle_022"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D17",
+          "edid": "TOAM_ART_Circle_023"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D18",
+          "edid": "TOAM_ART_Circle_024"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D19",
+          "edid": "TOAM_ART_Circle_025"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D1A",
+          "edid": "TOAM_ART_Circle_026"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D1B",
+          "edid": "TOAM_ART_Circle_027"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D1C",
+          "edid": "TOAM_ART_Circle_028"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D1D",
+          "edid": "TOAM_ART_Circle_029"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D1E",
+          "edid": "TOAM_ART_Circle_030"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D1F",
+          "edid": "TOAM_ART_Circle_031"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D20",
+          "edid": "TOAM_ART_Circle_032"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D21",
+          "edid": "TOAM_ART_Circle_033"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D22",
+          "edid": "TOAM_ART_Circle_034"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D23",
+          "edid": "TOAM_ART_Circle_035"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D24",
+          "edid": "TOAM_ART_Circle_036"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D25",
+          "edid": "TOAM_ART_Circle_037"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D26",
+          "edid": "TOAM_ART_Circle_038"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D27",
+          "edid": "TOAM_ART_Circle_039"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D28",
+          "edid": "TOAM_ART_Circle_040"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D29",
+          "edid": "TOAM_ART_Circle_041"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D2A",
+          "edid": "TOAM_ART_Circle_042"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D2B",
+          "edid": "TOAM_ART_Circle_043"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D2C",
+          "edid": "TOAM_ART_Circle_044"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D2D",
+          "edid": "TOAM_ART_Circle_045"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D2E",
+          "edid": "TOAM_ART_Circle_046"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D2F",
+          "edid": "TOAM_ART_Circle_047"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D30",
+          "edid": "TOAM_ART_Circle_048"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D31",
+          "edid": "TOAM_ART_Circle_049"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D32",
+          "edid": "TOAM_ART_Circle_050"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D33",
+          "edid": "TOAM_ART_Circle_051"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D34",
+          "edid": "TOAM_ART_Circle_052"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D35",
+          "edid": "TOAM_ART_Circle_053"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D36",
+          "edid": "TOAM_ART_Circle_054"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D37",
+          "edid": "TOAM_ART_Circle_055"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D38",
+          "edid": "TOAM_ART_Circle_056"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D39",
+          "edid": "TOAM_ART_Circle_057"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D3A",
+          "edid": "TOAM_ART_Circle_058"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D3B",
+          "edid": "TOAM_ART_Circle_059"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D3C",
+          "edid": "TOAM_ART_Circle_060"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D3D",
+          "edid": "TOAM_ART_Circle_061"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D3E",
+          "edid": "TOAM_ART_Circle_062"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D3F",
+          "edid": "TOAM_ART_Circle_063"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D40",
+          "edid": "TOAM_ART_Circle_064"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D41",
+          "edid": "TOAM_ART_Circle_065"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D42",
+          "edid": "TOAM_ART_Circle_066"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D43",
+          "edid": "TOAM_ART_Circle_067"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D44",
+          "edid": "TOAM_ART_Circle_068"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D45",
+          "edid": "TOAM_ART_Circle_069"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D46",
+          "edid": "TOAM_ART_Circle_070"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D47",
+          "edid": "TOAM_ART_Circle_071"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D48",
+          "edid": "TOAM_ART_Circle_072"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D49",
+          "edid": "TOAM_ART_Circle_073"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D4A",
+          "edid": "TOAM_ART_Circle_074"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D4B",
+          "edid": "TOAM_ART_Circle_075"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D4C",
+          "edid": "TOAM_ART_Circle_076"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D4D",
+          "edid": "TOAM_ART_Circle_077"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D4E",
+          "edid": "TOAM_ART_Circle_078"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D4F",
+          "edid": "TOAM_ART_Circle_079"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D50",
+          "edid": "TOAM_ART_Circle_080"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D51",
+          "edid": "TOAM_ART_Circle_081"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D52",
+          "edid": "TOAM_ART_Circle_082"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D53",
+          "edid": "TOAM_ART_Circle_083"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D54",
+          "edid": "TOAM_ART_Circle_084"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D55",
+          "edid": "TOAM_ART_Circle_085"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D56",
+          "edid": "TOAM_ART_Circle_086"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D57",
+          "edid": "TOAM_ART_Circle_087"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D58",
+          "edid": "TOAM_ART_Circle_088"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D59",
+          "edid": "TOAM_ART_Circle_089"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D5A",
+          "edid": "TOAM_ART_Circle_090"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D5B",
+          "edid": "TOAM_ART_Circle_091"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D5C",
+          "edid": "TOAM_ART_Circle_092"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D5D",
+          "edid": "TOAM_ART_Circle_093"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D5E",
+          "edid": "TOAM_ART_Circle_094"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D5F",
+          "edid": "TOAM_ART_Circle_095"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D60",
+          "edid": "TOAM_ART_Circle_096"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D61",
+          "edid": "TOAM_ART_Circle_097"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D62",
+          "edid": "TOAM_ART_Circle_098"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D63",
+          "edid": "TOAM_ART_Circle_099"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D64",
+          "edid": "TOAM_ART_Circle_100"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D65",
+          "edid": "TOAM_ART_Circle_101"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D66",
+          "edid": "TOAM_ART_Circle_102"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D67",
+          "edid": "TOAM_ART_Circle_103"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D68",
+          "edid": "TOAM_ART_Circle_104"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D69",
+          "edid": "TOAM_ART_Circle_105"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D6A",
+          "edid": "TOAM_ART_Circle_106"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D6B",
+          "edid": "TOAM_ART_Circle_107"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D6C",
+          "edid": "TOAM_ART_Circle_108"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D6D",
+          "edid": "TOAM_ART_Circle_109"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D6E",
+          "edid": "TOAM_ART_Circle_110"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D6F",
+          "edid": "TOAM_ART_Circle_111"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D70",
+          "edid": "TOAM_ART_Circle_112"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D71",
+          "edid": "TOAM_ART_Circle_113"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D72",
+          "edid": "TOAM_ART_Circle_114"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D73",
+          "edid": "TOAM_ART_Circle_115"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D74",
+          "edid": "TOAM_ART_Circle_116"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D75",
+          "edid": "TOAM_ART_Circle_117"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D76",
+          "edid": "TOAM_ART_Circle_118"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D77",
+          "edid": "TOAM_ART_Circle_119"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D78",
+          "edid": "TOAM_ART_Circle_120"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D79",
+          "edid": "TOAM_ART_Circle_121"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D7A",
+          "edid": "TOAM_ART_Circle_122"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D7B",
+          "edid": "TOAM_ART_Circle_123"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D7C",
+          "edid": "TOAM_ART_Circle_124"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D7D",
+          "edid": "TOAM_ART_Circle_125"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D7E",
+          "edid": "TOAM_ART_Circle_126"
+        },
+        {
+          "type": "ARTO",
+          "id": "01000D7F",
+          "edid": "TOAM_ART_Circle_127"
+        }
+      ]
+    }
+  ],
+  "texturePaths": [
+    "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+    "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+    "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+    "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+    "textures\\TOAM\\VFX\\TOAM_Circle_Face.dds",
+    "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+    "textures\\TOAM\\VFX\\TOAM_Circle_Small.dds",
+    "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+    "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds"
+  ],
+  "sourceTextures": [
+    {
+      "path": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+      "sha256": "80DCCF1FFF3F2A42202A0D67D54398811A86E6582C05196FF6D64CE96DBEFB2F",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "DDS",
+      "alphaSHA": "9B24CBDC0F6F2C96672CE62A324744F0FD4065592E99984BA45C57FCC2066DE0",
+      "rgbMin": [
+        0,
+        0,
+        0
+      ],
+      "rgbMax": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "path": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+      "sha256": "0CE000B88E1AF243E98CDE296E9A14383A77C1A1ABC1BC50F042B8BD40AC3748",
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "DDS",
+      "alphaSHA": "F7F3B2C3CE0CA300ED6FB5F46BEECBC039BEAA3053436E603AB5F4CD6A5C49DC",
+      "rgbMin": [
+        0,
+        0,
+        0
+      ],
+      "rgbMax": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "path": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+      "sha256": "0944204CF2750AA372BE184379625D090F00777F97396AE10D5BB3FFC2CFA64B",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DDS",
+      "alphaSHA": "DC17D4EECF93D3539A442BB52097F9D3391F064D9D7E04B0DE58DEE394F0C57C",
+      "rgbMin": [
+        255,
+        255,
+        255
+      ],
+      "rgbMax": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "path": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+      "sha256": "D20221B7AF3EABCA747278F195BA95675390FBA1F84851DEC0AB0A8281A451AB",
+      "size": [
+        4096,
+        256
+      ],
+      "format": "DDS",
+      "alphaSHA": "8105B3134B95D1926B1C8595001ABC76F8324067E0321EED324F345603BFA16C",
+      "rgbMin": [
+        0,
+        0,
+        0
+      ],
+      "rgbMax": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "path": "textures\\TOAM\\VFX\\TOAM_Circle_Face.dds",
+      "sha256": "3675AE64ADE1D0FF54B17D6326BE85C303E59D7C6E11DD15543C6CFFD4742120",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "DDS",
+      "alphaSHA": "9B24CBDC0F6F2C96672CE62A324744F0FD4065592E99984BA45C57FCC2066DE0",
+      "rgbMin": [
+        0,
+        0,
+        0
+      ],
+      "rgbMax": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "path": "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+      "sha256": "6DC533E223C1739BB08E7F93B57A0A5CB62FA2E10C9A673DFFD27FC2C1BF276B",
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "DDS",
+      "alphaSHA": "F7F3B2C3CE0CA300ED6FB5F46BEECBC039BEAA3053436E603AB5F4CD6A5C49DC",
+      "rgbMin": [
+        0,
+        0,
+        0
+      ],
+      "rgbMax": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "path": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+      "sha256": "579B1267A008A9133F093EAE8C094186948D19073ADB8A2E21965BC2697F222E",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DDS",
+      "alphaSHA": "DC17D4EECF93D3539A442BB52097F9D3391F064D9D7E04B0DE58DEE394F0C57C",
+      "rgbMin": [
+        233,
+        247,
+        255
+      ],
+      "rgbMax": [
+        233,
+        247,
+        255
+      ]
+    },
+    {
+      "path": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+      "sha256": "D200975D9FF405EB0C5E73B520CB3537487DA149DB6D2132A0A0CEF424AEE370",
+      "size": [
+        4096,
+        256
+      ],
+      "format": "DDS",
+      "alphaSHA": "8105B3134B95D1926B1C8595001ABC76F8324067E0321EED324F345603BFA16C",
+      "rgbMin": [
+        0,
+        0,
+        0
+      ],
+      "rgbMax": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "path": "textures\\TOAM\\VFX\\TOAM_Smoke_Cloud_Neutral.dds",
+      "sha256": "DADAB46B5BA9D0B80A9D7DCD222A2A9329A32543BDB954A2B7582933FEBBF28A",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DDS",
+      "alphaSHA": "A090B2ECC02C5A92D9BAAFFC416C8153B79867BB23546BE1E1144126A0F7FEDF",
+      "rgbMin": [
+        119,
+        119,
+        119
+      ],
+      "rgbMax": [
+        213,
+        213,
+        213
+      ]
+    }
+  ],
+  "alphaPairs": [
+    {
+      "a": "textures\\TOAM\\VFX\\Arcana_Circle_Face.dds",
+      "b": "textures\\TOAM\\VFX\\TOAM_Circle_Face.dds",
+      "alpha": "PIXEL_IDENTICAL",
+      "rgbEqual": false
+    },
+    {
+      "a": "textures\\TOAM\\VFX\\Arcana_Circle_Rings.dds",
+      "b": "textures\\TOAM\\VFX\\TOAM_Circle_Rings.dds",
+      "alpha": "PIXEL_IDENTICAL",
+      "rgbEqual": false
+    },
+    {
+      "a": "textures\\TOAM\\VFX\\Arcana_Glow_Soft.dds",
+      "b": "textures\\TOAM\\VFX\\TOAM_Glow_Soft.dds",
+      "alpha": "PIXEL_IDENTICAL",
+      "rgbEqual": false
+    },
+    {
+      "a": "textures\\TOAM\\VFX\\Arcana_Hebrew_Band.dds",
+      "b": "textures\\TOAM\\VFX\\TOAM_Hebrew_Band.dds",
+      "alpha": "PIXEL_IDENTICAL",
+      "rgbEqual": false
+    }
+  ],
+  "soundDescriptors": [
+    {
+      "id": "01000A51",
+      "edid": "TOAM_Arcana_Emperor_Shot_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f456d7065726f725f53686f745f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f456d7065726f725f53686f742e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Emperor_Shot.wav"
+      ]
+    },
+    {
+      "id": "01000A52",
+      "edid": "TOAM_Arcana_Strength_Loop_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f537472656e6774685f4c6f6f705f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "631e0700"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f537472656e6774685f4c6f6f702e77617600"
+        ],
+        [
+          "ONAM",
+          "b4780d00"
+        ],
+        [
+          "LNAM",
+          "01080000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Strength_Loop.wav"
+      ]
+    },
+    {
+      "id": "01000A53",
+      "edid": "TOAM_Arcana_Formation_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f466f726d6174696f6e5f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f466f726d6174696f6e2e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Formation.wav"
+      ]
+    },
+    {
+      "id": "01000A54",
+      "edid": "TOAM_Arcana_Charge_Loop_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f4368617267655f4c6f6f705f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "631e0700"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f4368617267655f4c6f6f702e77617600"
+        ],
+        [
+          "ONAM",
+          "b4780d00"
+        ],
+        [
+          "LNAM",
+          "01080000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Charge_Loop.wav"
+      ]
+    },
+    {
+      "id": "01000A55",
+      "edid": "TOAM_Arcana_Sun_Release_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f53756e5f52656c656173655f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f53756e5f52656c656173652e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Sun_Release.wav"
+      ]
+    },
+    {
+      "id": "01000A56",
+      "edid": "TOAM_Arcana_Sun_Charge_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f53756e5f4368617267655f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "631e0700"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f53756e5f4368617267652e77617600"
+        ],
+        [
+          "ONAM",
+          "b4780d00"
+        ],
+        [
+          "LNAM",
+          "01080000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Sun_Charge.wav"
+      ]
+    },
+    {
+      "id": "01000A57",
+      "edid": "TOAM_Arcana_Strength_Start_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f537472656e6774685f53746172745f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f537472656e6774685f53746172742e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Strength_Start.wav"
+      ]
+    },
+    {
+      "id": "01000A58",
+      "edid": "TOAM_Arcana_Strength_End_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f537472656e6774685f456e645f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f537472656e6774685f456e642e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Strength_End.wav"
+      ]
+    },
+    {
+      "id": "01000A59",
+      "edid": "TOAM_Arcana_Tower_Shot_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f546f7765725f53686f745f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f546f7765725f53686f742e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Tower_Shot.wav"
+      ]
+    },
+    {
+      "id": "01000C77",
+      "edid": "TOAM_Arcana_Hermit_Detonation_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f4865726d69745f4465746f6e6174696f6e5f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f4865726d69745f4465746f6e6174696f6e2e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Hermit_Detonation.wav"
+      ]
+    },
+    {
+      "id": "01000C78",
+      "edid": "TOAM_Arcana_Hermit_Aftershock_Sound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f4865726d69745f416674657273686f636b5f536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f4865726d69745f416674657273686f636b2e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Hermit_Aftershock.wav"
+      ]
+    },
+    {
+      "id": "01000C85",
+      "edid": "TOAM_Arcana_Sun_ImpactSound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f53756e5f496d70616374536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f53756e5f496d706163742e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Sun_Impact.wav"
+      ]
+    },
+    {
+      "id": "01000C88",
+      "edid": "TOAM_Arcana_World_ExplosionSound",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f576f726c645f4578706c6f73696f6e536f756e6400"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "bda00100"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f42757273745f4578706c6f73696f6e2e77617600"
+        ],
+        [
+          "ONAM",
+          "4fcb0600"
+        ],
+        [
+          "LNAM",
+          "01000000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Burst_Explosion.wav"
+      ]
+    },
+    {
+      "id": "01000CA9",
+      "edid": "TOAM_Arcana_FlightHoverHum",
+      "fields": [
+        [
+          "EDID",
+          "544f414d5f417263616e615f466c69676874486f76657248756d00"
+        ],
+        [
+          "CNAM",
+          "0a54ef1e"
+        ],
+        [
+          "GNAM",
+          "631e0700"
+        ],
+        [
+          "ANAM",
+          "66785c544f414d5c417263616e615c417263616e615f466f6f6c5f486f7665722e77617600"
+        ],
+        [
+          "ONAM",
+          "b4780d00"
+        ],
+        [
+          "LNAM",
+          "01080000"
+        ],
+        [
+          "BNAM",
+          "000080000000"
+        ]
+      ],
+      "files": [
+        "fx\\TOAM\\Arcana\\Arcana_Fool_Hover.wav"
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Burst_Explosion.wav",
+      "bytes": 342646,
+      "sha256": "5CD47249EC456EA5013EDB206EE68E0E0AD071902E6C72BB5956340548742D8A",
+      "channels": 1,
+      "rate": 32000,
+      "bits": 16,
+      "seconds": 5.352,
+      "peak": 1.0,
+      "rms": 0.3587915933895953
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Charge_Loop.wav",
+      "bytes": 4454,
+      "sha256": "73B42AB23BE05EBEADA04E01D7A8B903A1CDD1753A090C5032983DA1066BACC2",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.05,
+      "peak": 0.0,
+      "rms": 0.0
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Emperor_Shot.wav",
+      "bytes": 68840,
+      "sha256": "FAC17A95F54FE58C04E5826B45E05B037C909F7E42A6A6228A3B298BFF7FD9F3",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.78,
+      "peak": 0.501190185546875,
+      "rms": 0.05142858580555348
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Fool_Hover.wav",
+      "bytes": 1058444,
+      "sha256": "7F0095FEDEDE80A40A6DB81BBFF7838E2B8CEA11C9D8703157DCA9862B50FF5E",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 12.0,
+      "peak": 0.399993896484375,
+      "rms": 0.19758209167434146
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Formation.wav",
+      "bytes": 4454,
+      "sha256": "73B42AB23BE05EBEADA04E01D7A8B903A1CDD1753A090C5032983DA1066BACC2",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.05,
+      "peak": 0.0,
+      "rms": 0.0
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Hermit_Aftershock.wav",
+      "bytes": 21212,
+      "sha256": "682EA38C982DDCC4710EC01337060C066E07BCE60CB73CD25C2F72477B0136A5",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.24,
+      "peak": 0.6199951171875,
+      "rms": 0.251742609710313
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Hermit_Detonation.wav",
+      "bytes": 44144,
+      "sha256": "37070E34D8DB87EA484399FBCDF1947F746CAD51EABCF00C19025BD2831B25DB",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.5,
+      "peak": 0.89996337890625,
+      "rms": 0.39248253307430087
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Strength_End.wav",
+      "bytes": 44144,
+      "sha256": "8287B76719E80CA354BD6E3D6D8AB8B3EC13C674CB6835275E7219A726EAF922",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.5,
+      "peak": 0.6199951171875,
+      "rms": 0.136800137318042
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Strength_Loop.wav",
+      "bytes": 705644,
+      "sha256": "C5B3CBF225E1B1B062A7F7CF207FACBBC9184BD29B1276B71B5E483836FA0800",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 8.0,
+      "peak": 0.712371826171875,
+      "rms": 0.17499466224541507
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Strength_Start.wav",
+      "bytes": 28268,
+      "sha256": "D3B7FF45D3A739536BDCB5ACD98060443DE29417F42A1D93E72791A76A9F70F8",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.32,
+      "peak": 0.5,
+      "rms": 0.1372601045497764
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Sun_Charge.wav",
+      "bytes": 41498,
+      "sha256": "D8345ECF4B119D912DC08E5BF084EF125B3A49196A14A4DCE00D86F64101D3B6",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.47,
+      "peak": 0.65997314453125,
+      "rms": 0.18563965192432114
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Sun_Impact.wav",
+      "bytes": 511604,
+      "sha256": "FDDDC11294A570562461B8404963ACA1E3848D70912F41E138726100B9B6456E",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 5.8,
+      "peak": 0.91998291015625,
+      "rms": 0.15024796978116464
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Sun_Release.wav",
+      "bytes": 28268,
+      "sha256": "D0D5ACE2950685CC9D7686F36010000AADD5CB83495E3A1B15812D384EEFF7E6",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.32,
+      "peak": 0.8599853515625,
+      "rms": 0.24435392774058023
+    },
+    {
+      "path": "sound/fx/TOAM/Arcana/Arcana_Tower_Shot.wav",
+      "bytes": 5776,
+      "sha256": "EFF37F0D07C9D82990400E481F5962EDB6B8BA0B6F52BF85D3FF985E95BA44CA",
+      "channels": 1,
+      "rate": 44100,
+      "bits": 16,
+      "seconds": 0.06498866213151927,
+      "peak": 0.50115966796875,
+      "rms": 0.146344607961288
+    },
+    {
+      "path": "sound/fx/TOAM/Spells/Arcana_Judgement_Launch.xwm",
+      "bytes": 8990,
+      "sha256": "8D04957850C4183E63976051912556F0CE590399ECD4AC0652997F6BBC691E27",
+      "riff": "524946461623000058574d41",
+      "chunks": {
+        "fmt ": "6101010044ac000070170000b60810000000",
+        "dpds": "0060000000d000000070010000e00100",
+        "data": {
+          "bytes": 8920
+        }
+      },
+      "seconds": 1.3931972789115645,
+      "durationProof": "RIFF dpds final decoded PCM bytes / sample-rate/channels/bits"
+    },
+    {
+      "path": "sound/fx/TOAM/Spells/Arcana_Magician_HeavyLaunch.xwm",
+      "bytes": 11224,
+      "sha256": "CAF0F0A54181FDEA4B0637870F11DDCFF53B4D422C5BB762BAE2213BDEC6F666",
+      "riff": "52494646d02b000058574d41",
+      "chunks": {
+        "fmt ": "6101010044ac000070170000b60810000000",
+        "dpds": "0060000000d000000070010000f0010000500200",
+        "data": {
+          "bytes": 11150
+        }
+      },
+      "seconds": 1.7182766439909296,
+      "durationProof": "RIFF dpds final decoded PCM bytes / sample-rate/channels/bits"
+    },
+    {
+      "path": "sound/fx/TOAM/Spells/Arcana_Magician_Launch.xwm",
+      "bytes": 8990,
+      "sha256": "7B58DF2264B30A44664F2290722B326989767501982BE9B503DD37D3CC44E90B",
+      "riff": "524946461623000058574d41",
+      "chunks": {
+        "fmt ": "6101010044ac000070170000b60810000000",
+        "dpds": "0060000000d000000070010000900100",
+        "data": {
+          "bytes": 8920
+        }
+      },
+      "seconds": 1.1609977324263039,
+      "durationProof": "RIFF dpds final decoded PCM bytes / sample-rate/channels/bits"
+    },
+    {
+      "path": "sound/fx/TOAM/Spells/Arcana_Temperance_Proc.xwm",
+      "bytes": 11224,
+      "sha256": "6C3D972F96430900FACF5850964A6E887477F69F423DC046BFE31F6C8122AEFD",
+      "riff": "52494646d02b000058574d41",
+      "chunks": {
+        "fmt ": "6101010044ac000070170000b60810000000",
+        "dpds": "0060000000c000000070010000f0010000100200",
+        "data": {
+          "bytes": 11150
+        }
+      },
+      "seconds": 1.5325170068027212,
+      "durationProof": "RIFF dpds final decoded PCM bytes / sample-rate/channels/bits"
+    }
+  ],
+  "descriptorRecordReferences": [],
+  "counts": {
+    "nifs": 23,
+    "shaders": 116,
+    "dds": 9,
+    "enginePoseNifs": 16,
+    "enginePoseShaders": 87
+  }
+}

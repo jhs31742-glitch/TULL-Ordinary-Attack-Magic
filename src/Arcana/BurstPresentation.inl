@@ -27,7 +27,7 @@ void UpdateBursts(int side,RE::Actor* actor,float dt){
   if(!CircleReady(b.art))continue;
   if(!b.started){
    b.started=true;int local=i<baseBurstSlots?i-side*burstsPerHand:-1;
-   if(BurstSoundDue(b.kind,local)){auto& voice=burstVoices[side*4];voice.age=0;Sound(voice.handle,forms.sound[12],root,b.kind==BurstKind::Rain?1.f:.94f);logger::info("VANILLA_EXPLOSION_REQUEST hand={} kind={} source=private_firestorm fullTail=true",side,static_cast<int>(b.kind));}
+   if(BurstSoundDue(b.kind,local)){auto& voice=burstVoices[side*4];voice.age=0;Sound(voice.handle,forms.sound[12],root,b.kind==BurstKind::Rain?1.f:.94f,b.kind==BurstKind::Rain?TOAM::Presentation::Event::TowerExplosion:TOAM::Presentation::Event::HermitExplosion);logger::info("VANILLA_EXPLOSION_REQUEST hand={} kind={} source=private_firestorm fullTail=true",side,static_cast<int>(b.kind));}
    if(b.kind==BurstKind::Rain&&local==0)Shake(actor,1.f,.75f);
    else if(b.kind==BurstKind::World&&local%3==0){int group=local/3;Shake(actor,group?.88f:1.f,group?.40f:.80f);}
   }

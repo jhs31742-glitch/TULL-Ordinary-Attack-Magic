@@ -9,10 +9,10 @@ void StopSentryBeam(SentrySlot& s,bool tail=true){
 }
 void RemoveSentry(SentrySlot& s){StopSentryBeam(s);RetireCircle(s.circle,s.side,false,RE::PlayerCharacter::GetSingleton(),0,circleTailFade,0,circleTailHold,0,true);s=SentrySlot{};}
 void ClearSentries(){for(auto& s:sentries){StopSentryBeam(s,false);RemoveSentry(s);}}
-void PlaceSentry(int side,RE::Actor* actor,RE::NiAVObject* root,const RE::NiPoint3& position,const RE::NiMatrix3& facing,float damageMultiplier){
+void PlaceSentry(int side,RE::Actor* actor,RE::NiAVObject* root,const RE::NiPoint3& position,const RE::NiMatrix3& facing,float damageMultiplier,TOAM::Presentation::Color color){
  std::array<SentryLife,3> life{};for(int i=0;i<3;i++)life[i]=sentries[i].life;int index=SentryReplacement(life);auto& s=sentries[index];bool replaced=s.life.active;RemoveSentry(s);
  s.life={true,++sentrySerial,0};s.position=position;s.facing=facing;s.side=side;s.cell=actor->GetParentCell();s.world=actor->GetWorldspace();s.next=.24f;s.damageMultiplier=damageMultiplier;
- auto* art=forms.sentry[index*4+(++sentryBanks[index])%4];EnsureCircle(s.circle,art,actor,root);
+ s.circle.tint.color=color;auto* art=forms.sentry[index*4+(++sentryBanks[index])%4];EnsureCircle(s.circle,art,actor,root);
  logger::info("SENTRY_PLACED slot={} serial={} replacedOldest={} seconds=3 heldBeam=true position=({},{},{})",index,s.life.serial,replaced,position.x,position.y,position.z);
 }
 RE::Actor* SentryTarget(SentrySlot& s,RE::Actor* actor,RE::ActorHandle& handle){
@@ -41,7 +41,7 @@ void UpdateSentries(int side,RE::MagicCaster*,RE::Actor* actor,float dt){
    s.facing=AimRotation(pitch,yaw);
    if(s.beam>=0&&(!beamSlots[s.beam].active||beamSlots[s.beam].serial!=s.beamSerial))s.beam=-1;
    s.beam=ShowBeam(side,actor,root,s.position,s.facing,Sentry,sentryRadius,0,s.beam);
-   if(s.beam>=0){auto& beam=beamSlots[s.beam];s.beamSerial=beam.serial;if(!s.loop.IsValid())Sound(s.loop,forms.sound[1],root,.42f);
+   if(s.beam>=0){auto& beam=beamSlots[s.beam];s.beamSerial=beam.serial;if(!s.loop.IsValid())Sound(s.loop,forms.sound[1],root,.42f,TOAM::Presentation::Event::JusticeLoop);
     auto direction=s.facing*RE::NiPoint3{0,1,0};float dot=direction.x*desired.x+direction.y*desired.y+direction.z*desired.z;
     bool clear=beam.length+64>=Length(delta);
     // CP029: continue110 contacts at the original .20s interval for the original3s lifetime.

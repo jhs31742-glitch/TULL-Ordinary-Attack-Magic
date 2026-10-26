@@ -1,6 +1,6 @@
 void PlayEnd(){
  auto* p=RE::PlayerCharacter::GetSingleton();if(!gameReady||!p||p->IsDead())return;
- if(auto* root=p->Get3D(false))Sound(endingSounds[endingSlot++%4],forms.sound[7],root,.50f);
+ if(auto* root=p->Get3D(false))Sound(endingSounds[endingSlot++%4],forms.sound[7],root,.50f,TOAM::Presentation::Event::SunCancel);
 }
 void Stop(Hand& h,bool tail=true){
  if(h.mode<0)return;int side=&h==&hands[0]?0:1;
@@ -50,6 +50,7 @@ bool Begin(RE::ActorMagicCaster* c,Hand& h,int id){
  Stop(h);int side=&h==&hands[0]?0:1;h.spell=c->currentSpell;h.adaptive=id>=8;h.family=h.adaptive?id-8:id/4;
  h.mode=h.adaptive?SelectMode(h.family,ReadStance(c->actor)):id;
  h.damageMultiplier=TOAM::Core::DamageSettings::GetMultiplier();
+ h.circleColor=TOAM::Presentation::Snapshot(TOAM::Presentation::modeSpell[h.mode]);for(auto& art:h.circles)art.tint.color=h.circleColor;
  const auto& other=hands[1-side];
  auto* otherCaster=c->actor->GetMagicCaster(side==0?RE::MagicSystem::CastingSource::kRightHand:RE::MagicSystem::CastingSource::kLeftHand);
  const bool otherActive=otherCaster&&OwnsHandMagic(otherCaster->currentSpell)&&other.spell==otherCaster->currentSpell&&!other.done;

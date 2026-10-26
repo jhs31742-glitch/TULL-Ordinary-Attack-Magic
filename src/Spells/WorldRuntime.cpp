@@ -93,6 +93,7 @@ namespace TOAM::Spells::World::Runtime
 
             bool buttonHeld{};
             bool releasePending{};
+            TOAM::Presentation::Color circleColor{TOAM::Presentation::Color::Default};
             bool airborneVisual{}; // Snapshot at Begin, as Arcana Hermit does.
 
             double requested{};
@@ -1002,6 +1003,7 @@ namespace TOAM::Spells::World::Runtime
             }
 
 
+            visual.circles.SetColor(GetState().circleColor);
             visual.circles.SetStyle(TOAM::VFX::EngineCircle::Style::Dome);
             bool allReady =
                 true;
@@ -1823,6 +1825,7 @@ namespace TOAM::Spells::World::Runtime
         }
 
 
+        state.circleColor=TOAM::Presentation::Snapshot(TOAM::Presentation::Spell::World);
         state.airborneVisual=Arcana::FlightActive();
         logger::info("[TOAM][CP021WORLD] FORMATION_MODE | Air={} | GroupGrowth=0.12 | Beam=64 | AirEndpointRadius=176 | DamagePolicy=UNCHANGED",state.airborneVisual);
         state.buttonHeld =

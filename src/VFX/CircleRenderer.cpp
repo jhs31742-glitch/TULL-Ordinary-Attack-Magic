@@ -16,7 +16,7 @@ bool CircleRenderer::SpawnTransform(std::size_t slot,RE::NiNode* parent,AssetID 
  static_cast<void>(Release(slot));
  auto style=_style;
  if(style==EngineCircle::Style::SunFull&&asset==AssetID::kCircleOuterBandStatic)style=EngineCircle::Style::SunOuter;
- auto handle=EngineCircle::Spawn(parent,t,visible,style);
+ auto handle=EngineCircle::Spawn(parent,t,visible,style,_color);
  if(!handle.IsValid())return false;
  _handles[slot]=handle;_parents[slot]=RE::NiPointer<RE::NiNode>(parent);return true;
 }

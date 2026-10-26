@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 
 project(
     ordinaryattackmagic
-    VERSION 1.0.0
+    VERSION 1.0.1
     DESCRIPTION "Ordinary Attack Magic SKSE plugin"
     LANGUAGES CXX)
 
@@ -84,6 +84,8 @@ else()
         src/Core/DataCache.cpp
         src/Core/Runtime.cpp
         src/Core/DamageSettings.cpp
+        src/Core/PresentationSettings.cpp
+        src/VFX/CircleTint.cpp
         src/Core/MagickaTransaction.cpp
         src/Charge/ChargeProfile.cpp
         src/Charge/ChargeSession.cpp

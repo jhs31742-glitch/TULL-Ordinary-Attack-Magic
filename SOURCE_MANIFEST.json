@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
-  "runtime": "CP031_CORE_23_OF_23_USER_PASS;CP032_CLOTH_NOT_RUN",
+  "version": "1.0.1",
+  "runtime": "CP031_CORE_23_OF_23_USER_PASS;V101_USER_RUNTIME_NOT_RUN",
   "nativeSourceExact": true,
   "dependencies": "gitlinks pinned inDEPENDENCIES.lock.json",
-  "DLLSHA256": "52A053CAC87DB74E611EF3B25F5A3BBF488D17CC352174996559487261107FBA",
+  "DLLSHA256": "369706C0CDD8E39683646C2EE19455E29FE0ECDC5F1B8F019A4E737A921D10F7",
   "publication": "PRIVATE_UNTIL_NEXUS_LAUNCH",
   "damageMultiplierDefault": 1.0,
   "costReductionCap": 0.8,
@@ -215,13 +215,13 @@
     },
     {
       "path": "BUILDING.md",
-      "bytes": 3119,
-      "sha256": "FF3919943F8D9335D1809137A860256D1717E56EA8E98D6E906D9C9E39A37BFC"
+      "bytes": 3769,
+      "sha256": "19DE69C8C0F1CA9F593D2E81B455B64C1032CE3AB72CB68FF37EB39A9F7EDB6C"
     },
     {
       "path": "CMakeLists.txt",
-      "bytes": 8896,
-      "sha256": "212475C92F96A61DB36ABE202F779971304D526646B084C4708CDACD8C7DDD71"
+      "bytes": 8969,
+      "sha256": "4C5F87455EEE9BD4A8FABFED31619CD5DC3E9E416C5318C621F9D0D0688F1EB4"
     },
     {
       "path": "CMakePresets.json",
@@ -285,8 +285,33 @@
     },
     {
       "path": "DataSources/TOAM.ini",
-      "bytes": 514,
-      "sha256": "1ECCA3435372602E48832EC12CA7F0DFCCBF53A092CD1207F321143847282003"
+      "bytes": 1634,
+      "sha256": "840907E924B259CC63F8F6847F5DD020BBE362F028ACAE9D49D2DBA570BD95B7"
+    },
+    {
+      "path": "Docs/AUDIO_CATALOG.json",
+      "bytes": 24125,
+      "sha256": "28AC2EF74F72DB091BDA5501E1FD9995CFF01EE03F27E5B330D66E9906E81F5E"
+    },
+    {
+      "path": "Docs/AUDIO_CATALOG.md",
+      "bytes": 7462,
+      "sha256": "32C7E067FEE1228D7DDA036BEF1BA4F23FF59EA53FC379A67612D1C9BA8FA014"
+    },
+    {
+      "path": "Docs/CIRCLE_MATERIAL_AUDIT.json",
+      "bytes": 191974,
+      "sha256": "A1B1B218EC6FD0A989DA470C3775957072AE9EF8A2A5E9E6B6B86F7B17175FF4"
+    },
+    {
+      "path": "Docs/CIRCLE_MATERIAL_AUDIT.md",
+      "bytes": 8703,
+      "sha256": "94C6CC0ACB5A7DEE6EF4DEB1B6777454880AE1DE71ADF24D192652B399A8BC6C"
+    },
+    {
+      "path": "Docs/COLOR_PRESET_MAPPING.md",
+      "bytes": 3114,
+      "sha256": "1C96AAF106C1F2C278BF7EB46AED43DEC6EB729606F6699DF15D318B103023DB"
     },
     {
       "path": "Docs/CP031_IMPLEMENTATION_REPORT.md",
@@ -297,6 +322,16 @@
       "path": "Docs/CP032_STAFF_CLOTH_REPORT.md",
       "bytes": 7001,
       "sha256": "7B2D96F5A0F41B1144EACFC2CE8547E35E4B784DCAB4E7672511C8EA3B690668"
+    },
+    {
+      "path": "Docs/CP033_ONE_BOOT_QA.md",
+      "bytes": 2264,
+      "sha256": "6565CDE47ECE7AF3277C8128521BAF3D255C95975757336DB5BADAB567A4872F"
+    },
+    {
+      "path": "Docs/CP033_V101_IMPLEMENTATION_REPORT.md",
+      "bytes": 6228,
+      "sha256": "11EA136058337B9017F8C1E858C120E34D6B48D6ECA19FF0AE46E986360A2925"
     },
     {
       "path": "Docs/CREDITS.txt",
@@ -390,13 +425,18 @@
     },
     {
       "path": "Docs/NEXUS_DESCRIPTION_EN.md",
-      "bytes": 11066,
-      "sha256": "2C3A09697EFA170CEBC272345DC1DD0D3A0ACBD230AF250B11728D02AE318F90"
+      "bytes": 11292,
+      "sha256": "041712FE956D521075EFA24E49B01B3AAFD2D0C8C6BDC4B2F7885AF67285041D"
     },
     {
       "path": "Docs/NEXUS_DESCRIPTION_KR.md",
-      "bytes": 8749,
-      "sha256": "C399D0EFD6141D2A2934B1234CC85EFA818FF8E94A5E6A71216405F64FD2A203"
+      "bytes": 8975,
+      "sha256": "7A43227188C7A9FE96F8A78D398B731A069FA07D7FBB8221D4B6C75702326E6B"
+    },
+    {
+      "path": "Docs/PRESENTATION_SETTINGS_EN_KR.md",
+      "bytes": 4028,
+      "sha256": "FC2D36EAC4C3E3CF9483165E115215F707C862D90A9E5B33FD320B8491448CD1"
     },
     {
       "path": "Docs/README.md",
@@ -405,8 +445,8 @@
     },
     {
       "path": "Docs/README.txt",
-      "bytes": 1994,
-      "sha256": "C2DE6BD6F0EFB37AE032C3C7B1DF7DA651BE25D31E99D0CB270D29D435AC39BC"
+      "bytes": 3687,
+      "sha256": "78581C69A3D57183A6886E8F0813C6108992E5367C4D9A032F1116F015CA1D44"
     },
     {
       "path": "Docs/README_Stances.txt",
@@ -425,8 +465,8 @@
     },
     {
       "path": "PUBLICATION_PLAN.md",
-      "bytes": 1137,
-      "sha256": "FE430814183353119122EA5E3CFB66594D4914C92E1D14CF8CD93E8ADD472B8C"
+      "bytes": 1296,
+      "sha256": "5720579559C3BF26C16632361A60F6D040857A09D039EB6D30E063FB5A3C86B1"
     },
     {
       "path": "QA/007_ONE_BOOT_QA_CHECKLIST.md",
@@ -435,18 +475,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 2483,
-      "sha256": "EEB19F5517842CC5A7735455285D2D02CA8AC17362CF69A2340B1E80EB150A64"
+      "bytes": 3340,
+      "sha256": "CDF173DCF917C5E55E1C611C31A689BB54735A9EF939BBB2EF61E0386A20DDE4"
     },
     {
       "path": "Research/RESEARCH_SOURCE_INDEX.csv",
-      "bytes": 55548,
-      "sha256": "24B868EE3E575AF613DDEC1EFFC1CF0DABE86D496DD2916967F595CA79CB3665"
+      "bytes": 59546,
+      "sha256": "AD323E5231341E385941A3D723FD7AE150DBBF7374C3F7BD44F9516CB47C33C0"
     },
     {
       "path": "Research/TOAM_RESEARCH_COMPENDIUM.md",
-      "bytes": 361790,
-      "sha256": "CBF5C91A8945771E8113445118777A6CBED68FE812D5125CF91E1028175015A4"
+      "bytes": 365895,
+      "sha256": "55BF518DF1EB62CE0DEE819440DB9C45B5109B72C1DF319AB389F0E2377EA286"
     },
     {
       "path": "THIRD_PARTY_LICENSES/CommonLibSSE-NG.txt",
@@ -490,8 +530,8 @@
     },
     {
       "path": "src/Arcana/ArsenalFeatures.inl",
-      "bytes": 7497,
-      "sha256": "5BA01030480067FEE1E2A18A7CBA3C2EAA470C0C76D107B4695F8015733A810B"
+      "bytes": 7575,
+      "sha256": "D25BC18933424C0A66EFF29A213A49B429CC0DF8F27198E3D171A67EA85EE3F8"
     },
     {
       "path": "src/Arcana/AudioPresentation.inl",
@@ -510,18 +550,18 @@
     },
     {
       "path": "src/Arcana/BurstPresentation.inl",
-      "bytes": 3757,
-      "sha256": "114DA871901BA7C546FEB0465874F5B886126F662AE233672EC53C1030544702"
+      "bytes": 3866,
+      "sha256": "C5AB31F3FB7E6EEC76470543BBE7C6D75CF7EAF148C3DA1BE3B35FD61E1A01DD"
     },
     {
       "path": "src/Arcana/Casting.inl",
-      "bytes": 14171,
-      "sha256": "69A2FD1C92CC1E87375EE98B926F747EAB7A891B99E80EAAF81D8B76F6A1B242"
+      "bytes": 14345,
+      "sha256": "4CA3EBD8E07C591C83F8EE176DD4CEC7C682401DBC972963CB6826B122892E24"
     },
     {
       "path": "src/Arcana/CirclePresentation.inl",
-      "bytes": 5814,
-      "sha256": "A61AA9EC0296A74C21401C7927E5D7798E6B2B8EE4744CD5FC4ECDDCEAC7882E"
+      "bytes": 5871,
+      "sha256": "10E9D6497477965FCDDA24853BB23A100C2403514FE62864F25C9C1C55E64B4A"
     },
     {
       "path": "src/Arcana/Design.h",
@@ -530,8 +570,8 @@
     },
     {
       "path": "src/Arcana/Flight.inl",
-      "bytes": 16196,
-      "sha256": "3FEA74EFBAAD5C14D755200A5D4FA377856F826EF2BE1A0A28348EAD76DCFE93"
+      "bytes": 16886,
+      "sha256": "EEF5344CDC80F71A377A60D5FC873DEF9E39300F0694A27C2A7B1542F3985D72"
     },
     {
       "path": "src/Arcana/FlightCombat.inl",
@@ -560,8 +600,8 @@
     },
     {
       "path": "src/Arcana/HandUpdate.inl",
-      "bytes": 6578,
-      "sha256": "BEA9BC319D05E8260B58AFE1EDDEEC76D06FB19F1266098B40914FC8B5C4975A"
+      "bytes": 6803,
+      "sha256": "8551B11958D489AA423CAE241B4EA8B401CB740579373F768363086EF9805BFA"
     },
     {
       "path": "src/Arcana/IntegratedFormMap.h",
@@ -590,8 +630,8 @@
     },
     {
       "path": "src/Arcana/Plugin.cpp",
-      "bytes": 13065,
-      "sha256": "C889560C119EAFEBA12F1202A279F4D863BFEE833E566285950BE9372A77F406"
+      "bytes": 13878,
+      "sha256": "E1580F78CF7B616724A0414CD5258A52E1A7B4E4B4B2E80664745C203FC4B466"
     },
     {
       "path": "src/Arcana/Rain.inl",
@@ -605,8 +645,8 @@
     },
     {
       "path": "src/Arcana/RainMuzzles.inl",
-      "bytes": 3029,
-      "sha256": "5FB7D2B08C7872DCC9467400B22E32686E0018358239B010ADE759735A4CB9AD"
+      "bytes": 3103,
+      "sha256": "17881F557A6FCCECEC4A65E7F7CFF9F80EC84BCD306B21C2CB6D6E12F50DBE6C"
     },
     {
       "path": "src/Arcana/RainTimeline.h",
@@ -615,8 +655,8 @@
     },
     {
       "path": "src/Arcana/Sentry.inl",
-      "bytes": 5713,
-      "sha256": "B4A56601285B1C5D6C09CCA6AFED5255F1467E39B87300DC02D5C88BB17D51FD"
+      "bytes": 5810,
+      "sha256": "358EFDA4B6E7AE26CAA073A33ACBBE86240397BA6B09E453ED85724615070CB2"
     },
     {
       "path": "src/Arcana/SentryPolicy.h",
@@ -630,8 +670,8 @@
     },
     {
       "path": "src/Arcana/Tracking.inl",
-      "bytes": 3180,
-      "sha256": "245E55425510A4FBA0D2ADF650CC32753903A26FFAB2930C7E936E40DE2A08CB"
+      "bytes": 3216,
+      "sha256": "BB736A13362574BF14ADBB4A06A671A8DC2D86A661E293E320570DD6618BAEE5"
     },
     {
       "path": "src/Arcana/WorldFormationData.h",
@@ -650,8 +690,8 @@
     },
     {
       "path": "src/Audio/SpellAudio.cpp",
-      "bytes": 11572,
-      "sha256": "432FAABA43D17C74170858A5E35EE5F6285E7F2896B0B52B73A386564AACE54B"
+      "bytes": 12000,
+      "sha256": "8CFA7FC504C81FC4F83BA465337A7C8D1D179FCAF20C43E8622B9ACE1B34BEB6"
     },
     {
       "path": "src/Audio/SpellAudio.h",
@@ -760,13 +800,13 @@
     },
     {
       "path": "src/Core/DamageSettings.cpp",
-      "bytes": 11747,
-      "sha256": "2FCAD8D47FA37570BECBBE13AFEBCC28018F55F250D13A104C00D7F5247B9434"
+      "bytes": 12113,
+      "sha256": "1F4BD4FCFBE22BCE87A16AC3E15FFD6E75E6B3BF74AF94F0AE3B8D56F51D84AA"
     },
     {
       "path": "src/Core/DamageSettings.h",
-      "bytes": 302,
-      "sha256": "99E3A0EC0C519E07EF0E30614C4524EFB9AC6D7699B86A867309D894CE81D2E4"
+      "bytes": 358,
+      "sha256": "EC75DA838D46A70E130A430880CC1B7814210240FAAE0ECE486BED0B03EEA7DB"
     },
     {
       "path": "src/Core/DataCache.cpp",
@@ -794,6 +834,26 @@
       "sha256": "420B344DCCAC735A54B8E9D0F56C40EC734386E1FD96C614F965A7EC15CBD8DE"
     },
     {
+      "path": "src/Core/PresentationMenu.inl",
+      "bytes": 5341,
+      "sha256": "0259F23939BA75B64EDA62AB4E2789C02AF608D8D401F44BF43D1A00AB68028F"
+    },
+    {
+      "path": "src/Core/PresentationPolicy.h",
+      "bytes": 6617,
+      "sha256": "44D0C8319F4CF916390AD3E768760739694BEB48AD06C069A15DA265B6B8CD1C"
+    },
+    {
+      "path": "src/Core/PresentationSettings.cpp",
+      "bytes": 5987,
+      "sha256": "3DCBD289C8D9B0FF25D27F2E1CE1676B9114415EFBA63267D86C2803E8338F3C"
+    },
+    {
+      "path": "src/Core/PresentationSettings.h",
+      "bytes": 479,
+      "sha256": "3746C0BC7A2706C6E849B9A5A840AD797EBDE76B3ABDB8F908CE63D395604A2C"
+    },
+    {
       "path": "src/Core/Runtime.cpp",
       "bytes": 4790,
       "sha256": "F945D594575D183B7F6369DF733A17C5929946A0DC51F7269E87C20140305A2C"
@@ -810,8 +870,8 @@
     },
     {
       "path": "src/Plugin.cpp",
-      "bytes": 3963,
-      "sha256": "08652627CB70184F74331CF4615619CD0707136F69C64B76C0E50479BAA65F36"
+      "bytes": 4101,
+      "sha256": "AA01257E39867E8EAAECD862CAC5CEDF0E6589C4060BCDFEF75DCC8E1DD629CB"
     },
     {
       "path": "src/Spells/ArcanaLimiterRuntime.cpp",
@@ -835,8 +895,8 @@
     },
     {
       "path": "src/Spells/JudgementRuntime.cpp",
-      "bytes": 65715,
-      "sha256": "E5A72C19AFD9468C933D57777E15CF965FD0BC18C69757BC5AF35F286B572165"
+      "bytes": 66026,
+      "sha256": "663216146F4064006FC9E19F49BD403944B2AB0EADB45270D4138E501D66C677"
     },
     {
       "path": "src/Spells/JudgementRuntime.h",
@@ -845,8 +905,8 @@
     },
     {
       "path": "src/Spells/MagicianChargeVisual.cpp",
-      "bytes": 16494,
-      "sha256": "F1265B0D5E946A4DF31658261364A96448599442810D465C2F90575B83836263"
+      "bytes": 16558,
+      "sha256": "E56F3E43E66D90B6C7A25FC43588F4300DCC7981A1CB6D6501839024424450C4"
     },
     {
       "path": "src/Spells/MagicianChargeVisual.h",
@@ -875,8 +935,8 @@
     },
     {
       "path": "src/Spells/TemperanceRuntime.cpp",
-      "bytes": 57124,
-      "sha256": "70FE7C90D7001E6412214DCD13B299C319A1623055A8C98A827C6DC162A06586"
+      "bytes": 57625,
+      "sha256": "D5899FA97D90BFECC54D7DE69A886A9C1E19189A69EDB5AA21DCF87B39880FCA"
     },
     {
       "path": "src/Spells/TemperanceRuntime.h",
@@ -910,8 +970,8 @@
     },
     {
       "path": "src/Spells/WorldRuntime.cpp",
-      "bytes": 54222,
-      "sha256": "8B731FD8BB13C9DDBDE5BEAFD7A15514F731C5266E9A11C423ABAE34E8273864"
+      "bytes": 54460,
+      "sha256": "AA6CD7BDFA3752D06DC7C6E361C0DE26882FFBAEEFD0E67EB8B9E8892618D283"
     },
     {
       "path": "src/Spells/WorldRuntime.h",
@@ -955,23 +1015,33 @@
     },
     {
       "path": "src/VFX/CircleRenderer.cpp",
-      "bytes": 3045,
-      "sha256": "EA4A58AA02903CEE6DD879B93D9CC6E0DC281BC675852EFAF8C44F98A3FDB256"
+      "bytes": 3052,
+      "sha256": "1B620030C6178B635EC22A93D943C294A7B1A61ADA54EA256696C3F70D9C53E8"
     },
     {
       "path": "src/VFX/CircleRenderer.h",
-      "bytes": 2751,
-      "sha256": "8E53B6F58FD5717739307198A3D299FFCA5393B68E35C18C34D9EBB174B7CB19"
+      "bytes": 2994,
+      "sha256": "CD2AE8024D3C1AFDB4CE87505FEFE35E5671B99745E76E3BD9DF93D5D1B9E07A"
+    },
+    {
+      "path": "src/VFX/CircleTint.cpp",
+      "bytes": 6870,
+      "sha256": "165144C370F8ACA3BE498AA8DAAD1924CC2D700117DB85377649FC19E5B31172"
+    },
+    {
+      "path": "src/VFX/CircleTint.h",
+      "bytes": 388,
+      "sha256": "69799062D93EF587D64398D72B7DF8BB9E749061BB0657A06D67F3AEDCF6CC31"
     },
     {
       "path": "src/VFX/EngineCircle.cpp",
-      "bytes": 11767,
-      "sha256": "718D74EAFD08DB585AA3693A1A4A53B0B58797F48C85B7E876C1C28960E9554B"
+      "bytes": 11872,
+      "sha256": "05B1F64265E251969A65CD76C8EC7A0AB6C4DA71A51C7FE2FBAF6F8B1E7A5375"
     },
     {
       "path": "src/VFX/EngineCircle.h",
-      "bytes": 713,
-      "sha256": "A81D373CC7DB91E2852B16B9AA10AE6E9EB06CD13FEFB524F477CC75A8E1CA12"
+      "bytes": 767,
+      "sha256": "E488BBEFA3254DE4B05BF4F9AAE2CD295DAB23FB193486C456CC7BB1DD5FB871"
     },
     {
       "path": "src/VFX/PresentationMath.h",
@@ -1022,6 +1092,16 @@
       "path": "tests/damage_policy_tests.cpp",
       "bytes": 678,
       "sha256": "EEB6FF884240B2BDA657B10CEBBBA0267AE4A71F49ED43B06FF4A92FEAAF80AB"
+    },
+    {
+      "path": "tests/presentation_policy_tests.cpp",
+      "bytes": 2328,
+      "sha256": "F912D7F475DF1A3D58B4A63FA5E40DB30950E4F71313163000F20FF92E179739"
+    },
+    {
+      "path": "tests/presentation_settings_win32_tests.cpp",
+      "bytes": 3438,
+      "sha256": "81BB6416A30BEAE639434DE617E1723400D9A66FE9348D6DA1EC78CB5A655677"
     },
     {
       "path": "tools/circle_adapter.cpp",
@@ -1185,5 +1265,21 @@
     }
   ],
   "provenanceIndexPolicy": "RESEARCH_SOURCE_INDEX excludes itself and SOURCE_MANIFEST to avoid cyclic hashes;SOURCE_MANIFEST externally describes all other230files;ZIP checksum is external.",
-  "assetCorrection": "CP032"
+  "assetCorrection": "CP032",
+  "parent": "QA1-CP032-STAFF-CLOTH",
+  "presentation": {
+    "audioSources": 18,
+    "audioEvents": 17,
+    "spellColors": 13,
+    "volumeRange": [
+      0,
+      1
+    ],
+    "shakeRange": [
+      0,
+      3
+    ],
+    "preview": false
+  },
+  "win32SettingsAssertions": 31
 }

@@ -8,6 +8,7 @@ RE::NiPoint3 Center(RE::Actor* a){
 }
 void Shake(RE::Actor* a,float strength,float duration){
  auto* c=RE::PlayerCamera::GetSingleton();if(!a||!c||!c->currentState||!c->cameraRoot||c->cameraRoot->GetChildren().empty())return;
+ strength=TOAM::Presentation::CameraStrength(strength);if(strength<=0)return;
  RE::ShakeCamera(strength,a->GetPosition(),duration);
 }
 #include "Flight.inl"

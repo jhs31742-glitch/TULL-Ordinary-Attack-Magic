@@ -106,6 +106,7 @@ namespace TOAM::Spells::Temperance::Runtime
 
         struct PendingProc final
         {
+            TOAM::Presentation::Color circleColor{TOAM::Presentation::Color::Default};
             RE::ActorHandle target{};
 
             std::array<
@@ -148,6 +149,7 @@ namespace TOAM::Spells::Temperance::Runtime
                 TOAM::Combat::kUpperHemisphereSlotCount
             }};
             std::uint16_t lastPowerMask{};
+            TOAM::Presentation::Color haloColor{TOAM::Presentation::Color::Default};
             bool enabled{};
             bool spellSinkInstalled{};
         };
@@ -714,6 +716,7 @@ namespace TOAM::Spells::Temperance::Runtime
         std::size_t SpawnProcCircles(
             const PendingProc& proc) noexcept
         {
+            GetVisualState().circles.SetColor(proc.circleColor);
             if (
                 !proc.visualGeometryValid ||
                 proc.visualCount == 0 ||
@@ -1212,6 +1215,7 @@ namespace TOAM::Spells::Temperance::Runtime
             world.rotate.entry[1][0]=-sn;world.rotate.entry[1][1]=c;world.rotate.entry[1][2]=0;
             world.rotate.entry[2][0]=0;world.rotate.entry[2][1]=0;world.rotate.entry[2][2]=1;
             const auto local=parent->world.Invert()*world;
+            state.renderer.SetColor(GetState().haloColor);
             state.renderer.SetStyle(TOAM::VFX::EngineCircle::Style::Halo);
             if(!state.renderer.IsActive(0)){
                 state.lastRoot=nullptr;state.spinParts.fill(nullptr);
@@ -1239,6 +1243,7 @@ namespace TOAM::Spells::Temperance::Runtime
             state.enabled =
                 !state.enabled;
             if (state.enabled) {
+                state.haloColor=TOAM::Presentation::Snapshot(TOAM::Presentation::Spell::Temperance);
                 UpdateHaloInternal();
             } else {
                 ReleaseHalo("TOGGLE_OFF");
@@ -1662,6 +1667,7 @@ namespace TOAM::Spells::Temperance::Runtime
             proc->elapsedSeconds =
                 0.0F;
 
+            proc->circleColor=TOAM::Presentation::Snapshot(TOAM::Presentation::Spell::Temperance);
             proc->active =
                 true;
 

@@ -1,5 +1,6 @@
 #include "Audio/SpellAudio.h"
 #include "Audio/AudioPolicy.h"
+#include "Core/PresentationSettings.h"
 #include "REL/Module.h"
 #include "REL/Relocation.h"
 #include "RE/B/BGSDefaultObjectManager.h"
@@ -195,22 +196,26 @@ namespace TOAM::Audio
     {
 
         if(tier<1 || tier>8) {return;}
-        Play(Group::Magician,tier<=4 ? "sound\\fx\\TOAM\\Spells\\Arcana_Magician_Launch.xwm" : "sound\\fx\\TOAM\\Spells\\Arcana_Magician_HeavyLaunch.xwm",Policy::kMagicianGain[tier-1],tier<=4 ? 1.161F : 1.719F,3,60,p);
+        const auto choice=Presentation::Resolve(tier<=4?Presentation::Event::MagicianLaunch:Presentation::Event::MagicianHeavyLaunch,Policy::kMagicianGain[tier-1]);
+        if(choice.volume>0)Play(Group::Magician,Presentation::sources[choice.id-1].path,choice.volume,tier<=4 ? 1.161F : 1.719F,3,60,p);
     }
     void WorldFinal(std::size_t stage,const RE::NiPoint3& p) noexcept
     {
 
         if(stage<1 || stage>3) {return;}
-        Play(Group::World,"sound\\fx\\TOAM\\Spells\\Arcana_Magician_HeavyLaunch.xwm",Policy::kWorldGain[stage-1],1.719F,3,60,p);
+        const auto choice=Presentation::Resolve(Presentation::Event::WorldRelease,Policy::kWorldGain[stage-1]);
+        if(choice.volume>0)Play(Group::World,Presentation::sources[choice.id-1].path,choice.volume,1.719F,3,60,p);
     }
     void JudgementShot(std::size_t shotIndex,const RE::NiPoint3& p) noexcept
     {
         if(!Policy::JudgementAudibleShot(shotIndex)) {return;}
-        Play(Group::Judgement,"sound\\fx\\TOAM\\Spells\\Arcana_Judgement_Launch.xwm",.95F,1.394F,Policy::kJudgementVoices,60,p);
+        const auto choice=Presentation::Resolve(Presentation::Event::JudgementShot,.95F);
+        if(choice.volume>0)Play(Group::Judgement,Presentation::sources[choice.id-1].path,choice.volume,1.394F,Policy::kJudgementVoices,60,p);
     }
     void TemperanceProc(const RE::NiPoint3& p) noexcept
     {
-        Play(Group::Temperance,"sound\\fx\\TOAM\\Spells\\Arcana_Temperance_Proc.xwm",.95F,1.533F,Policy::kTemperanceVoices,100,p);
+        const auto choice=Presentation::Resolve(Presentation::Event::TemperanceProc,.95F);
+        if(choice.volume>0)Play(Group::Temperance,Presentation::sources[choice.id-1].path,choice.volume,1.533F,Policy::kTemperanceVoices,100,p);
     }
     void Reset() noexcept
     {
