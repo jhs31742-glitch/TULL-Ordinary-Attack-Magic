@@ -15,6 +15,13 @@ struct Mode {float interval,damage,cost;int maxCircles;};
 // Strength/second, Justice/placement, Star/activation (+150/deployed lane/second), Tower/activation.
 inline constexpr std::array<Mode,8> modes{{{.20f,55,105,1},{3.f,120,132,12},{.40f,64,1500,5},{.10f,3040,4650,8},{.10f,19.5f,750,1},{.20f,110,1500,3},{.10f,1,480,5},{1.f/15.f,150,4800,2}}};
 inline constexpr float trackingUpkeepPerLane=150.f,rainTargetBaseCap=27900.f;
+// CP029 R2: all Arcana ordinary/adaptive spells and staffs pay at least20%.
+// Do not clamp cost increases above1 or alter TOAM's independent resource policy.
+inline constexpr float minimumArcanaCostFactor=.20f;
+inline float CapArcanaCostFactor(float factor){
+ if(!std::isfinite(factor)||factor<0)return -1.f;
+ return factor<minimumArcanaCostFactor?minimumArcanaCostFactor:factor;
+}
 inline float Smooth(float x){x=std::clamp(x,0.f,1.f);return x*x*(3-2*x);}
 inline constexpr float ordinaryWidthMultiplier=1.62f,ordinaryReviewMultiplier=2.1f;
 inline constexpr float stageSeconds=.80f,growSeconds=.24f,ultimateChargeSeconds=8,ultimateFireSeconds=0;

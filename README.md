@@ -5,7 +5,7 @@ TOOM and Arcana Staffs0.7.4 FlightStateFix share one native host and a merged ma
 
 ## Current scope
 Native source, locked build dependencies, plugin record sources, OAR conditions, current install/balance/credits, manual QA and one unified engineering/art research compendium. All Native source bytes match the verified local build inputs.
-All Arcana costs x3; Justice110/.2s during3s; Sun3040; Tower150/beam+900finale/cap27900. TOAM four spell numeric contracts unchanged. Staff charge20000/Unbound40000,zero player MP. Staff SMP is withdrawn.
+All Arcana costs x3;cost reduction capped at80% for ordinary/adaptive spells AND staff charge,minimum20% paid. Justice110/.2s during3s; Sun3040; Tower150/beam+900finale/cap27900. TOAM four spell numeric contracts unchanged. Staff charge20000/Unbound40000,zero player MP. Staff SMP is withdrawn.
 CP028 core gameplay was user-tested. CP029 changes are NOT_RUN in game; static/build/deployment acceptance is separate. AE/VR are not enabled.
 
 ## Start here

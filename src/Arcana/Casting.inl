@@ -64,9 +64,13 @@ bool IsStaff(const RE::MagicItem* item){
 void SessionCost(RE::ActorMagicCaster* c,Hand& h){
  if(!OwnsHandMagic(c->currentSpell)||h.mode<0||h.spell!=c->currentSpell)return;
  if(IsStaff(c->currentSpell)||h.done||h.mode!=Hermit){c->currentSpellCost=0;return;}
- // Hermit keeps engine billing; CP029 changes only its declared base cost to132/s.
- if(!h.adaptive)return;
- if(h.sessionCost<0)h.sessionCost=forms.carrier[h.mode]->CalculateMagickaCost(c->actor);
+ // Hermit remains engine-billed. Apply the same80% reduction ceiling before
+ // the original engine update, without adding a second Native Magicka debit.
+ const float factor=ResourceFactor(c->actor,Hermit);
+ if(!std::isfinite(factor)||factor<0){DenyCast(c,h);return;}
+ const float cappedCost=float(forms.carrier[Hermit]->data.costOverride)*factor;
+ if(!h.adaptive){c->currentSpellCost=cappedCost;return;}
+ if(h.sessionCost<0)h.sessionCost=cappedCost;
  if(std::isfinite(h.sessionCost)&&h.sessionCost>=0)c->currentSpellCost=h.sessionCost;
 }
 bool CheckFromHost(HostCheckFn next,RE::ActorMagicCaster* c,RE::MagicItem* spell,bool dual,float* strength,RE::MagicSystem::CannotCastReason* reason,bool baseCost){
@@ -79,7 +83,9 @@ bool CheckFromHost(HostCheckFn next,RE::ActorMagicCaster* c,RE::MagicItem* spell
  const auto* live=GetHand(c);
  const int mode=live&&live->spell==spell&&!live->done&&c->state==RE::MagicCaster::State::kCasting?
   live->mode:(id>=8?SelectMode(id-8,ReadStance(c->actor)):id);
- if(mode==Hermit&&!IsStaff(spell)){if(reason)*reason=observed;return originalOK;}
+ // Preserve vanilla Hermit denial, then add capped-cost admission even when
+ // vanilla CalculateMagickaCost returns0 from100% equipment reduction.
+ if(mode==Hermit&&!IsStaff(spell)&&!originalOK){if(reason)*reason=observed;return false;}
  // Admission only: exact billing is committed in the owning Hand at its trigger.
  const bool staff=IsStaff(spell);float available=0;
  if(!staff&&RE::PlayerCharacter::IsGodMode()){if(reason)*reason=RE::MagicSystem::CannotCastReason::kOK;return true;}

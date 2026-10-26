@@ -1,12 +1,12 @@
 {
   "format": "TOAM_ORDERED_ESP_V1",
   "path": "Language/kr/TULL Ordinary Attack Magic.esp",
-  "bytes": 204343,
-  "sha256": "59B8259BD376AF0A17694754E66C43E98C2E8CC2F3045DB5320A6FCC877995BD",
+  "bytes": 206575,
+  "sha256": "27E584E8C16F861CB5FACA3637C18601A8892BC859876EE8BA06FDA9F6D92310",
   "header": "544553345d0000000002000000000000000000002c000000484544520c0048e1da3f86050000cf0d0000434e414d050054554c4c00534e414d1b0054554c4c204f7264696e6172792041747461636b204d61676963004d4153540b00536b7972696d2e65736d004441544108000000000000000000",
   "groups": [
     {
-      "header": "47525550b22700004d474546000000000000000000000000",
+      "header": "475255509a2a00004d474546000000000000000000000000",
       "records": [
         {
           "header": "4d474546de0000000000000008080001000000002c000000",
@@ -114,7 +114,7 @@
           ]
         },
         {
-          "header": "4d47454687010000000000005a0a0001000000002c000000",
+          "header": "4d474546e4010000000000005a0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -146,7 +146,7 @@
             },
             {
               "signature": "DNAM",
-              "hex": "3535ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ed8384ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aebb09ceb8bb920eba7a4eca780ecb9b43130352e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "3535ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ed8384ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aebb09ceb8bb920eba7a4eca780ecb9b43130352e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             }
           ]
         },
@@ -188,7 +188,7 @@
           ]
         },
         {
-          "header": "4d474546bf010000000000005b0a0001000000002c000000",
+          "header": "4d4745461c020000000000005b0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -220,7 +220,7 @@
             },
             {
               "signature": "DNAM",
-              "hex": "ecb59ceb8c8038302520ed94bced95b420eab2bdeab090ec9d9820ebb3b4ed98b820eb8f94ec9d8420ed9895ec84b1ed9598eab3a020ed95b4eca09c20ed8fadebb09ceba19c313230ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43133322e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "ecb59ceb8c8038302520ed94bced95b420eab2bdeab090ec9d9820ebb3b4ed98b820eb8f94ec9d8420ed9895ec84b1ed9598eab3a020ed95b4eca09c20ed8fadebb09ceba19c313230ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43133322e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             }
           ]
         },
@@ -262,7 +262,7 @@
           ]
         },
         {
-          "header": "4d474546b6010000000000005c0a0001000000002c000000",
+          "header": "4d47454613020000000000005c0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -294,7 +294,7 @@
             },
             {
               "signature": "DNAM",
-              "hex": "eb8f85eba6bd20ebb09cec82aced9598eb8a9420eba788ebb295eca78435eab09ceba5bc20eca084eab09ced95a9eb8b88eb8ba42e20ebb09ceb8bb920ed94bced95b436342c20eab8b0ebb3b820ec868cebaaa8333030ec9db4eba9b035ebb09c20ed95a9eab38420ec868cebaaa8eb8a9431353030ec9e85eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "eb8f85eba6bd20ebb09cec82aced9598eb8a9420eba788ebb295eca78435eab09ceba5bc20eca084eab09ced95a9eb8b88eb8ba42e20ebb09ceb8bb920ed94bced95b436342c20eab8b0ebb3b820ec868cebaaa8333030ec9db4eba9b035ebb09c20ed95a9eab38420ec868cebaaa8eb8a9431353030ec9e85eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             }
           ]
         },
@@ -336,7 +336,7 @@
           ]
         },
         {
-          "header": "4d474546bf010000000000005d0a0001000000002c000000",
+          "header": "4d4745461c020000000000005d0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -368,7 +368,7 @@
             },
             {
               "signature": "DNAM",
-              "hex": "38ecb48820eb8f99ec958820ecb6a9eca084ed9598ec97ac33303430ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ecb49d20ec868cebaaa834363530ec9d8420ecb6a9eca08420eca49120eca090eca784eca081ec9cbceba19c20eca780ebb688ed95a9eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "38ecb48820eb8f99ec958820ecb6a9eca084ed9598ec97ac33303430ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ecb49d20ec868cebaaa834363530ec9d8420ecb6a9eca08420eca49120eca090eca784eca081ec9cbceba19c20eca780ebb688ed95a9eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             }
           ]
         },
@@ -410,7 +410,7 @@
           ]
         },
         {
-          "header": "4d4745468f010000000000005e0a0001000000002c000000",
+          "header": "4d474546ec010000000000005e0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -442,7 +442,7 @@
             },
             {
               "signature": "DNAM",
-              "hex": "ecb488eb8bb9313935ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ec9ca0eca780ed95a9eb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43735302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "ecb488eb8bb9313935ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ec9ca0eca780ed95a9eb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43735302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             }
           ]
         },
@@ -484,7 +484,7 @@
           ]
         },
         {
-          "header": "4d474546ed010000000000005f0a0001000000002c000000",
+          "header": "4d4745464a020000000000005f0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -516,7 +516,7 @@
             },
             {
               "signature": "DNAM",
-              "hex": "33ecb48820eb8f99ec958820ec9ca0eca780eb9098eb8a9420ed8faceab2a9eca784ec9d8420ec84a4ecb998ed95a9eb8b88eb8ba42e20ec82b4ec958420ec9e88eb8a9420eca081ec9d8420eca095ed9995ed9e8820eca1b0eca480ed9598eb8a9420eb8f99ec9588302e32ecb488eba788eb8ba4313130ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aec84a4ecb998eb8bb920eba7a4eca780ecb9b4313530302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "33ecb48820eb8f99ec958820ec9ca0eca780eb9098eb8a9420ed8faceab2a9eca784ec9d8420ec84a4ecb998ed95a9eb8b88eb8ba42e20ec82b4ec958420ec9e88eb8a9420eca081ec9d8420eca095ed9995ed9e8820eca1b0eca480ed9598eb8a9420eb8f99ec9588302e32ecb488eba788eb8ba4313130ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aec84a4ecb998eb8bb920eba7a4eca780ecb9b4313530302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             }
           ]
         },
@@ -558,7 +558,7 @@
           ]
         },
         {
-          "header": "4d474546e301000000000000600a0001000000002c000000",
+          "header": "4d4745464002000000000000600a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -590,7 +590,7 @@
             },
             {
               "signature": "DNAM",
-              "hex": "ecb59ceb8c8035eab09cec9d9820eca780ec9b9020eba788ebb295eca784ec9d8420eca084eab09ced9598ec97ac20ed95a9eab38420eab8b0eca48020ecb488eb8bb920ec95bd313030ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ebb09ceb8f99ebb9843438302c20eca084eab09ceb909c20eca784eba788eb8ba420ecb488eb8bb920eba7a4eca780ecb9b4313530ec9d8420ec868cebaaa8ed95a9eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "ecb59ceb8c8035eab09cec9d9820eca780ec9b9020eba788ebb295eca784ec9d8420eca084eab09ced9598ec97ac20ed95a9eab38420eab8b0eca48020ecb488eb8bb920ec95bd313030ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ebb09ceb8f99ebb9843438302c20eca084eab09ceb909c20eca784eba788eb8ba420ecb488eb8bb920eba7a4eca780ecb9b4313530ec9d8420ec868cebaaa8ed95a9eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             }
           ]
         },
@@ -632,7 +632,7 @@
           ]
         },
         {
-          "header": "4d474546df01000000000000610a0001000000002c000000",
+          "header": "4d4745463c02000000000000610a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -664,7 +664,7 @@
             },
             {
               "signature": "DNAM",
-              "hex": "ebb09ceb8bb931353020ed94bced95b4ec9d9820ebb994313830ebb09ceba19c20eca780ec97adec9d8420ed8faceab2a9ed9598eab3a020eba788eca780eba789ec979039303020ed94bced95b4ec9d9820ed8fadebb09cec9d8420ec9dbcec9cbced82b5eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa8343830302c20ec8b9ceca084eb8bb920eb8c80ec8381ebb38420eab8b0ebb3b820ed94bced95b420ec8381ed959c32373930302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "ebb09ceb8bb931353020ed94bced95b4ec9d9820ebb994313830ebb09ceba19c20eca780ec97adec9d8420ed8faceab2a9ed9598eab3a020eba788eca780eba789ec979039303020ed94bced95b4ec9d9820ed8fadebb09cec9d8420ec9dbcec9cbced82b5eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa8343830302c20ec8b9ceca084eb8bb920eb8c80ec8381ebb38420eab8b0ebb3b820ed94bced95b420ec8381ed959c32373930302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             }
           ]
         },
@@ -2733,7 +2733,7 @@
       ]
     },
     {
-      "header": "47525550b2130000424f4f4b000000000000000000000000",
+      "header": "475255509a160000424f4f4b000000000000000000000000",
       "records": [
         {
           "header": "424f4f4b310100000000000004080001000000002c000000",
@@ -2916,7 +2916,7 @@
           ]
         },
         {
-          "header": "424f4f4b5101000000000000390a0001000000002c000000",
+          "header": "424f4f4bae01000000000000390a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -2936,7 +2936,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "3535ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ed8384ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aebb09ceb8bb920eba7a4eca780ecb9b43130352e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "3535ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ed8384ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aebb09ceb8bb920eba7a4eca780ecb9b43130352e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "KSIZ",
@@ -2961,7 +2961,7 @@
           ]
         },
         {
-          "header": "424f4f4b89010000000000003a0a0001000000002c000000",
+          "header": "424f4f4be6010000000000003a0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -2981,7 +2981,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "ecb59ceb8c8038302520ed94bced95b420eab2bdeab090ec9d9820ebb3b4ed98b820eb8f94ec9d8420ed9895ec84b1ed9598eab3a020ed95b4eca09c20ed8fadebb09ceba19c313230ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43133322e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "ecb59ceb8c8038302520ed94bced95b420eab2bdeab090ec9d9820ebb3b4ed98b820eb8f94ec9d8420ed9895ec84b1ed9598eab3a020ed95b4eca09c20ed8fadebb09ceba19c313230ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43133322e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "KSIZ",
@@ -3006,7 +3006,7 @@
           ]
         },
         {
-          "header": "424f4f4b80010000000000003b0a0001000000002c000000",
+          "header": "424f4f4bdd010000000000003b0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3026,7 +3026,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "eb8f85eba6bd20ebb09cec82aced9598eb8a9420eba788ebb295eca78435eab09ceba5bc20eca084eab09ced95a9eb8b88eb8ba42e20ebb09ceb8bb920ed94bced95b436342c20eab8b0ebb3b820ec868cebaaa8333030ec9db4eba9b035ebb09c20ed95a9eab38420ec868cebaaa8eb8a9431353030ec9e85eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "eb8f85eba6bd20ebb09cec82aced9598eb8a9420eba788ebb295eca78435eab09ceba5bc20eca084eab09ced95a9eb8b88eb8ba42e20ebb09ceb8bb920ed94bced95b436342c20eab8b0ebb3b820ec868cebaaa8333030ec9db4eba9b035ebb09c20ed95a9eab38420ec868cebaaa8eb8a9431353030ec9e85eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "KSIZ",
@@ -3051,7 +3051,7 @@
           ]
         },
         {
-          "header": "424f4f4b89010000000000003c0a0001000000002c000000",
+          "header": "424f4f4be6010000000000003c0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3071,7 +3071,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "38ecb48820eb8f99ec958820ecb6a9eca084ed9598ec97ac33303430ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ecb49d20ec868cebaaa834363530ec9d8420ecb6a9eca08420eca49120eca090eca784eca081ec9cbceba19c20eca780ebb688ed95a9eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "38ecb48820eb8f99ec958820ecb6a9eca084ed9598ec97ac33303430ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ecb49d20ec868cebaaa834363530ec9d8420ecb6a9eca08420eca49120eca090eca784eca081ec9cbceba19c20eca780ebb688ed95a9eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "KSIZ",
@@ -3096,7 +3096,7 @@
           ]
         },
         {
-          "header": "424f4f4b59010000000000003d0a0001000000002c000000",
+          "header": "424f4f4bb6010000000000003d0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3116,7 +3116,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "ecb488eb8bb9313935ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ec9ca0eca780ed95a9eb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43735302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "ecb488eb8bb9313935ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ec9ca0eca780ed95a9eb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43735302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "KSIZ",
@@ -3141,7 +3141,7 @@
           ]
         },
         {
-          "header": "424f4f4bb7010000000000003e0a0001000000002c000000",
+          "header": "424f4f4b14020000000000003e0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3161,7 +3161,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "33ecb48820eb8f99ec958820ec9ca0eca780eb9098eb8a9420ed8faceab2a9eca784ec9d8420ec84a4ecb998ed95a9eb8b88eb8ba42e20ec82b4ec958420ec9e88eb8a9420eca081ec9d8420eca095ed9995ed9e8820eca1b0eca480ed9598eb8a9420eb8f99ec9588302e32ecb488eba788eb8ba4313130ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aec84a4ecb998eb8bb920eba7a4eca780ecb9b4313530302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "33ecb48820eb8f99ec958820ec9ca0eca780eb9098eb8a9420ed8faceab2a9eca784ec9d8420ec84a4ecb998ed95a9eb8b88eb8ba42e20ec82b4ec958420ec9e88eb8a9420eca081ec9d8420eca095ed9995ed9e8820eca1b0eca480ed9598eb8a9420eb8f99ec9588302e32ecb488eba788eb8ba4313130ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aec84a4ecb998eb8bb920eba7a4eca780ecb9b4313530302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "KSIZ",
@@ -3186,7 +3186,7 @@
           ]
         },
         {
-          "header": "424f4f4bad010000000000003f0a0001000000002c000000",
+          "header": "424f4f4b0a020000000000003f0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3206,7 +3206,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "ecb59ceb8c8035eab09cec9d9820eca780ec9b9020eba788ebb295eca784ec9d8420eca084eab09ced9598ec97ac20ed95a9eab38420eab8b0eca48020ecb488eb8bb920ec95bd313030ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ebb09ceb8f99ebb9843438302c20eca084eab09ceb909c20eca784eba788eb8ba420ecb488eb8bb920eba7a4eca780ecb9b4313530ec9d8420ec868cebaaa8ed95a9eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "ecb59ceb8c8035eab09cec9d9820eca780ec9b9020eba788ebb295eca784ec9d8420eca084eab09ced9598ec97ac20ed95a9eab38420eab8b0eca48020ecb488eb8bb920ec95bd313030ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ebb09ceb8f99ebb9843438302c20eca084eab09ceb909c20eca784eba788eb8ba420ecb488eb8bb920eba7a4eca780ecb9b4313530ec9d8420ec868cebaaa8ed95a9eb8b88eb8ba42e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "KSIZ",
@@ -3231,7 +3231,7 @@
           ]
         },
         {
-          "header": "424f4f4ba901000000000000400a0001000000002c000000",
+          "header": "424f4f4b0602000000000000400a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3251,7 +3251,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "ebb09ceb8bb931353020ed94bced95b4ec9d9820ebb994313830ebb09ceba19c20eca780ec97adec9d8420ed8faceab2a9ed9598eab3a020eba788eca780eba789ec979039303020ed94bced95b4ec9d9820ed8fadebb09cec9d8420ec9dbcec9cbced82b5eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa8343830302c20ec8b9ceca084eb8bb920eb8c80ec8381ebb38420eab8b0ebb3b820ed94bced95b420ec8381ed959c32373930302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e00"
+              "hex": "ebb09ceb8bb931353020ed94bced95b4ec9d9820ebb994313830ebb09ceba19c20eca780ec97adec9d8420ed8faceab2a9ed9598eab3a020eba788eca780eba789ec979039303020ed94bced95b4ec9d9820ed8fadebb09cec9d8420ec9dbcec9cbced82b5eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa8343830302c20ec8b9ceca084eb8bb920eb8c80ec8381ebb38420eab8b0ebb3b820ed94bced95b420ec8381ed959c32373930302e20ed8c8ceab4b4eba788ebb29520ebb984ec9aa920eab090ec868ceab08020eca081ec9aa9eb90a9eb8b88eb8ba42e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "KSIZ",
@@ -31123,10 +31123,10 @@
       ]
     },
     {
-      "header": "475255503915000057454150000000000000000000000000",
+      "header": "475255502118000057454150000000000000000000000000",
       "records": [
         {
-          "header": "574541505502000000000000310a0001000000002c000000",
+          "header": "57454150b202000000000000310a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -31166,7 +31166,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "3535ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ed8384ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aebb09ceb8bb920eba7a4eca780ecb9b43130352e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e00"
+              "hex": "3535ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ed8384ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aebb09ceb8bb920eba7a4eca780ecb9b43130352e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "WNAM",
@@ -31211,7 +31211,7 @@
           ]
         },
         {
-          "header": "574541508d02000000000000320a0001000000002c000000",
+          "header": "57454150ea02000000000000320a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -31251,7 +31251,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "ecb59ceb8c8038302520ed94bced95b420eab2bdeab090ec9d9820ebb3b4ed98b820eb8f94ec9d8420ed9895ec84b1ed9598eab3a020ed95b4eca09c20ed8fadebb09ceba19c313230ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43133322e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e00"
+              "hex": "ecb59ceb8c8038302520ed94bced95b420eab2bdeab090ec9d9820ebb3b4ed98b820eb8f94ec9d8420ed9895ec84b1ed9598eab3a020ed95b4eca09c20ed8fadebb09ceba19c313230ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43133322e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "WNAM",
@@ -31296,7 +31296,7 @@
           ]
         },
         {
-          "header": "574541508402000000000000330a0001000000002c000000",
+          "header": "57454150e102000000000000330a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -31336,7 +31336,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "eb8f85eba6bd20ebb09cec82aced9598eb8a9420eba788ebb295eca78435eab09ceba5bc20eca084eab09ced95a9eb8b88eb8ba42e20ebb09ceb8bb920ed94bced95b436342c20eab8b0ebb3b820ec868cebaaa8333030ec9db4eba9b035ebb09c20ed95a9eab38420ec868cebaaa8eb8a9431353030ec9e85eb8b88eb8ba42e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e00"
+              "hex": "eb8f85eba6bd20ebb09cec82aced9598eb8a9420eba788ebb295eca78435eab09ceba5bc20eca084eab09ced95a9eb8b88eb8ba42e20ebb09ceb8bb920ed94bced95b436342c20eab8b0ebb3b820ec868cebaaa8333030ec9db4eba9b035ebb09c20ed95a9eab38420ec868cebaaa8eb8a9431353030ec9e85eb8b88eb8ba42e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "WNAM",
@@ -31381,7 +31381,7 @@
           ]
         },
         {
-          "header": "574541508d02000000000000340a0001000000002c000000",
+          "header": "57454150ea02000000000000340a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -31421,7 +31421,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "38ecb48820eb8f99ec958820ecb6a9eca084ed9598ec97ac33303430ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ecb49d20ec868cebaaa834363530ec9d8420ecb6a9eca08420eca49120eca090eca784eca081ec9cbceba19c20eca780ebb688ed95a9eb8b88eb8ba42e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e00"
+              "hex": "38ecb48820eb8f99ec958820ecb6a9eca084ed9598ec97ac33303430ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ebb09cec82aced95a9eb8b88eb8ba42e20eab8b0ebb3b820ecb49d20ec868cebaaa834363530ec9d8420ecb6a9eca08420eca49120eca090eca784eca081ec9cbceba19c20eca780ebb688ed95a9eb8b88eb8ba42e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "WNAM",
@@ -31466,7 +31466,7 @@
           ]
         },
         {
-          "header": "574541505b02000000000000350a0001000000002c000000",
+          "header": "57454150b802000000000000350a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -31506,7 +31506,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "ecb488eb8bb9313935ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ec9ca0eca780ed95a9eb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43735302e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e00"
+              "hex": "ecb488eb8bb9313935ec9d9820ed94bced95b4eba5bc20eca3bceb8a9420ebb994ec9d8420ec9ca0eca780ed95a9eb8b88eb8ba42e20eab8b0ebb3b820ec9ca0eca780ebb9843aecb488eb8bb920eba7a4eca780ecb9b43735302e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "WNAM",
@@ -31551,7 +31551,7 @@
           ]
         },
         {
-          "header": "57454150b902000000000000360a0001000000002c000000",
+          "header": "574541501603000000000000360a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -31591,7 +31591,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "33ecb48820eb8f99ec958820ec9ca0eca780eb9098eb8a9420ed8faceab2a9eca784ec9d8420ec84a4ecb998ed95a9eb8b88eb8ba42e20ec82b4ec958420ec9e88eb8a9420eca081ec9d8420eca095ed9995ed9e8820eca1b0eca480ed9598eb8a9420eb8f99ec9588302e32ecb488eba788eb8ba4313130ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aec84a4ecb998eb8bb920eba7a4eca780ecb9b4313530302e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e00"
+              "hex": "33ecb48820eb8f99ec958820ec9ca0eca780eb9098eb8a9420ed8faceab2a9eca784ec9d8420ec84a4ecb998ed95a9eb8b88eb8ba42e20ec82b4ec958420ec9e88eb8a9420eca081ec9d8420eca095ed9995ed9e8820eca1b0eca480ed9598eb8a9420eb8f99ec9588302e32ecb488eba788eb8ba4313130ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa83aec84a4ecb998eb8bb920eba7a4eca780ecb9b4313530302e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "WNAM",
@@ -31636,7 +31636,7 @@
           ]
         },
         {
-          "header": "57454150af02000000000000370a0001000000002c000000",
+          "header": "574541500c03000000000000370a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -31676,7 +31676,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "ecb59ceb8c8035eab09cec9d9820eca780ec9b9020eba788ebb295eca784ec9d8420eca084eab09ced9598ec97ac20ed95a9eab38420eab8b0eca48020ecb488eb8bb920ec95bd313030ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ebb09ceb8f99ebb9843438302c20eca084eab09ceb909c20eca784eba788eb8ba420ecb488eb8bb920eba7a4eca780ecb9b4313530ec9d8420ec868cebaaa8ed95a9eb8b88eb8ba42e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e00"
+              "hex": "ecb59ceb8c8035eab09cec9d9820eca780ec9b9020eba788ebb295eca784ec9d8420eca084eab09ced9598ec97ac20ed95a9eab38420eab8b0eca48020ecb488eb8bb920ec95bd313030ec9d9820ed94bced95b4eba5bc20eca48deb8b88eb8ba42e20eab8b0ebb3b820ebb09ceb8f99ebb9843438302c20eca084eab09ceb909c20eca784eba788eb8ba420ecb488eb8bb920eba7a4eca780ecb9b4313530ec9d8420ec868cebaaa8ed95a9eb8b88eb8ba42e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "WNAM",
@@ -31721,7 +31721,7 @@
           ]
         },
         {
-          "header": "57454150ab02000000000000380a0001000000002c000000",
+          "header": "574541500803000000000000380a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -31761,7 +31761,7 @@
             },
             {
               "signature": "DESC",
-              "hex": "ebb09ceb8bb931353020ed94bced95b4ec9d9820ebb994313830ebb09ceba19c20eca780ec97adec9d8420ed8faceab2a9ed9598eab3a020eba788eca780eba789ec979039303020ed94bced95b4ec9d9820ed8fadebb09cec9d8420ec9dbcec9cbced82b5eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa8343830302c20ec8b9ceca084eb8bb920eb8c80ec8381ebb38420eab8b0ebb3b820ed94bced95b420ec8381ed959c32373930302e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e00"
+              "hex": "ebb09ceb8bb931353020ed94bced95b4ec9d9820ebb994313830ebb09ceba19c20eca780ec97adec9d8420ed8faceab2a9ed9598eab3a020eba788eca780eba789ec979039303020ed94bced95b4ec9d9820ed8fadebb09cec9d8420ec9dbcec9cbced82b5eb8b88eb8ba42e20eab8b0ebb3b820ec868cebaaa8343830302c20ec8b9ceca084eb8bb920eb8c80ec8381ebb38420eab8b0ebb3b820ed94bced95b420ec8381ed959c32373930302e20eba7a4eca780ecb9b420eb8c80ec8ba020eca780ed8ca1ec9db420ecb6a9eca084eb9f89ec9d8420ec82acec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8032303030302c20ec868cec9ab8eca0ac20ec9eacecb6a9eca08420eab080eb8aa52e20ec9584eba5b4ecb9b4eb829820ebb984ec9aa920eab090ec868ceb8a9420ecb59ceb8c80383025ec9db4eba9b020eab8b0ebb3b820ebb984ec9aa9ec9d9820ecb59cec868c323025eba5bc20eca780ebb688ed95a9eb8b88eb8ba42e00"
             },
             {
               "signature": "WNAM",

@@ -9,8 +9,8 @@
       "localID": "000809",
       "baseCost": "105/shot",
       "baseDamage": "55/shot",
-      "discount": "engineCalculateMagickaCost(actor)/declaredBase; zero permitted",
-      "staff": "same discounted billing units; MP0; ordinary20000/Unbound40000"
+      "discount": "max(0.20,engineCalculateMagickaCost(actor)/declaredBase);applies to ordinary/adaptiveMP and staff charge",
+      "staff": "same capped billing;MP0;capacities20000/Unbound40000"
     },
     {
       "card": "Hermit",
@@ -19,8 +19,8 @@
       "localID": "00080A",
       "baseCost": "132/second",
       "baseDamage": "originalward+120burst",
-      "discount": "engineCalculateMagickaCost(actor)/declaredBase; zero permitted",
-      "staff": "same discounted billing units; MP0; ordinary20000/Unbound40000"
+      "discount": "max(0.20,engineCalculateMagickaCost(actor)/declaredBase);applies to ordinary/adaptiveMP and staff charge",
+      "staff": "same capped billing;MP0;capacities20000/Unbound40000"
     },
     {
       "card": "Chariot",
@@ -29,8 +29,8 @@
       "localID": "00080B",
       "baseCost": "300/shot;1500/5shots",
       "baseDamage": "64/shot;320/5shots",
-      "discount": "engineCalculateMagickaCost(actor)/declaredBase; zero permitted",
-      "staff": "same discounted billing units; MP0; ordinary20000/Unbound40000"
+      "discount": "max(0.20,engineCalculateMagickaCost(actor)/declaredBase);applies to ordinary/adaptiveMP and staff charge",
+      "staff": "same capped billing;MP0;capacities20000/Unbound40000"
     },
     {
       "card": "Sun",
@@ -39,8 +39,8 @@
       "localID": "00080C",
       "baseCost": "4650gradual/8s",
       "baseDamage": "3040max",
-      "discount": "engineCalculateMagickaCost(actor)/declaredBase; zero permitted",
-      "staff": "same discounted billing units; MP0; ordinary20000/Unbound40000"
+      "discount": "max(0.20,engineCalculateMagickaCost(actor)/declaredBase);applies to ordinary/adaptiveMP and staff charge",
+      "staff": "same capped billing;MP0;capacities20000/Unbound40000"
     },
     {
       "card": "Strength",
@@ -49,8 +49,8 @@
       "localID": "00080D",
       "baseCost": "750/second",
       "baseDamage": "195/second",
-      "discount": "engineCalculateMagickaCost(actor)/declaredBase; zero permitted",
-      "staff": "same discounted billing units; MP0; ordinary20000/Unbound40000"
+      "discount": "max(0.20,engineCalculateMagickaCost(actor)/declaredBase);applies to ordinary/adaptiveMP and staff charge",
+      "staff": "same capped billing;MP0;capacities20000/Unbound40000"
     },
     {
       "card": "Justice",
@@ -59,8 +59,8 @@
       "localID": "00080E",
       "baseCost": "1500/placement",
       "baseDamage": "110/contact every0.2s during3s;no five-contact cap",
-      "discount": "engineCalculateMagickaCost(actor)/declaredBase; zero permitted",
-      "staff": "same discounted billing units; MP0; ordinary20000/Unbound40000"
+      "discount": "max(0.20,engineCalculateMagickaCost(actor)/declaredBase);applies to ordinary/adaptiveMP and staff charge",
+      "staff": "same capped billing;MP0;capacities20000/Unbound40000"
     },
     {
       "card": "Star",
@@ -69,8 +69,8 @@
       "localID": "000A1F",
       "baseCost": "480activation+150/deployedlane/second;max750/second",
       "baseDamage": "100combinednominal/second",
-      "discount": "engineCalculateMagickaCost(actor)/declaredBase; zero permitted",
-      "staff": "same discounted billing units; MP0; ordinary20000/Unbound40000"
+      "discount": "max(0.20,engineCalculateMagickaCost(actor)/declaredBase);applies to ordinary/adaptiveMP and staff charge",
+      "staff": "same capped billing;MP0;capacities20000/Unbound40000"
     },
     {
       "card": "Tower",
@@ -79,8 +79,10 @@
       "localID": "000A20",
       "baseCost": "4800/activation",
       "baseDamage": "150/beam+900finale;cap27900/target/cast",
-      "discount": "engineCalculateMagickaCost(actor)/declaredBase; zero permitted",
-      "staff": "same discounted billing units; MP0; ordinary20000/Unbound40000"
+      "discount": "max(0.20,engineCalculateMagickaCost(actor)/declaredBase);applies to ordinary/adaptiveMP and staff charge",
+      "staff": "same capped billing;MP0;capacities20000/Unbound40000"
     }
-  ]
+  ],
+  "costReductionCap": 0.8,
+  "minimumFinalCostFactor": 0.2
 }

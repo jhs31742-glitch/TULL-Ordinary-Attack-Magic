@@ -7,7 +7,7 @@ float ResourceFactor(RE::Actor* actor,int mode){
  if(!actor||mode<0||mode>=8||!forms.carrier[mode])return -1;
  auto* probe=forms.carrier[mode];const float base=float(probe->data.costOverride);
  const float final=probe->CalculateMagickaCost(actor);
- return base>0&&std::isfinite(final)&&final>=0?final/base:-1;
+ return base>0&&std::isfinite(final)&&final>=0?CapArcanaCostFactor(final/base):-1;
 }
 struct StaffResource {RE::TESObjectWEAP* weapon{};RE::ExtraDataList* instance{};bool left{};};
 StaffResource StaffInstance(RE::ActorMagicCaster* c){

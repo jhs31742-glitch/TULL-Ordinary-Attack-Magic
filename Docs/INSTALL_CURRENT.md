@@ -14,8 +14,11 @@ Levitation book: Ordinary General Magic: Arcana - Fool (Levitation) / 일반교�
 Ring: Arcana Limiter / 술식 출력 제한 반지.
 
 Staffs consume their own charge, never player Magicka. Ordinary capacity20000; Unbound capacity40000. Recharge using soul gems. Original unique enchantments remain protected.
-All eight Arcana base costs were tripled in0.8.11; vanilla Destruction cost reductions still apply, including zero final cost. TOAM Magician/Judgement/World/Temperance numbers remain unchanged. See BALANCE.md.
+All eight Arcana base costs were tripled in0.8.11; vanilla Destruction cost reductions still apply, capped at80% reduction, with at least20% of base cost paid. TOAM Magician/Judgement/World/Temperance numbers remain unchanged. See BALANCE.md.
 
 Staff SMP is withdrawn and excluded. Disable earlier Staff SMP options and their ESP/patch before testing this static-cloth release. Experimental authoring remains in the private development history.
 CP028 core gameplay was reported successful by the user. CP029 resource/damage changes and restored addon master have not received game testing. Existing158 QA questions are preserved; see RELEASE_NOTES.md for the focused remaining checks.
 The GitHub repository stays private until the Nexus release. Do not publish the binary package until imported-asset permissions are resolved. Credits and provenance are in this folder.
+
+## CP029 R2 — Arcana maximum cost reduction80%
+User-approved2026-10-26:applies to all8 ordinary/adaptive Arcana spells and staff charge. Final resource factor=max(.20,engineCalculateMagickaCost/baseCost). TOAM cost/limiter/damage unchanged. Hermit stays engine-billed through currentSpellCost with the same floor, never a second Native debit. Staff player MP remains0. God Mode remains the explicit engine cheat exception. The unchanged vanilla MagicMenu estimate may differ from the actual capped Native payment; use actual payment/charge and this policy for QA.
