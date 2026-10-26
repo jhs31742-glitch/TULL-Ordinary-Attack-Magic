@@ -1,0 +1,58 @@
+{
+  "schema": "oom.magician.mixed-parts.candidate.v6",
+  "visual_revision": "User explicitly requested C5 full and C6/C7 outer+band. Current FULL C1/C3/C5/C8; OUTER_BAND C2/C4/C6/C7. Existing scales and 10-second timing retained. Hebrew-only and ring-only reusable assets remain available without active slots in this candidate.",
+  "status": "CANDIDATE VALUES ONLY",
+  "runtime_status": "RUNTIME UNVERIFIED",
+  "architecture": "Reusable full circle and reusable outer parts independently instantiated; no tier-specific baked rig",
+  "coordinate_system": {"forward": "+Y", "plane": "XZ", "up": "+Z", "units": "Skyrim game units"},
+  "templates": {
+    "FULL": {"plain": "meshes/effects/ChargeCannon/Charge_Circle_Static.nif", "tintable": "meshes/effects/ChargeCannon/Tintable/Charge_Circle_Static_Tintable.nif", "authority": "original_r3", "root": "CC_Root", "nominal_radius": 190, "source_pulse_controllers": 3},
+    "OUTER_BAND": {"plain": "meshes/effects/ChargeCannon/Derived/Common/Charge_Circle_OuterBand_Static.nif", "tintable": "meshes/effects/ChargeCannon/Derived/Common/Charge_Circle_OuterBand_Static_Tintable.nif", "authority": "isolated_out", "root": "CC_Root", "nominal_radius": 190, "source_pulse_controllers": 0},
+    "HEBREW_BAND": {"plain": "meshes/effects/ChargeCannon/Derived/Common/Charge_Circle_HebrewBand_Static.nif", "tintable": "meshes/effects/ChargeCannon/Derived/Common/Charge_Circle_HebrewBand_Static_Tintable.nif", "authority": "isolated_out", "root": "CC_Root", "nominal_radius": 172, "source_pulse_controllers": 0},
+    "OUTER_RING": {"plain": "meshes/effects/ChargeCannon/Derived/Common/Charge_Circle_OuterRing_Static.nif", "tintable": "meshes/effects/ChargeCannon/Derived/Common/Charge_Circle_OuterRing_Static_Tintable.nif", "authority": "isolated_out", "root": "CC_Root", "nominal_radius": 190, "source_pulse_controllers": 0}
+  },
+  "circles": [
+    {"id": "C1", "instance_key": "MAG_Circle01", "template": "FULL", "target_scale": 1.00, "fixed_anchor": true},
+    {"id": "C2", "instance_key": "MAG_Circle02", "template": "OUTER_BAND", "target_scale": 1.35, "fixed_anchor": false},
+    {"id": "C3", "instance_key": "MAG_Circle03", "template": "FULL", "target_scale": 0.70, "fixed_anchor": false},
+    {"id": "C4", "instance_key": "MAG_Circle04", "template": "OUTER_BAND", "target_scale": 1.55, "fixed_anchor": false},
+    {"id": "C5", "instance_key": "MAG_Circle05", "template": "FULL", "target_scale": 1.05, "fixed_anchor": false},
+    {"id": "C6", "instance_key": "MAG_Circle06", "template": "OUTER_BAND", "target_scale": 0.65, "fixed_anchor": false},
+    {"id": "C7", "instance_key": "MAG_Circle07", "template": "OUTER_BAND", "target_scale": 1.40, "fixed_anchor": false},
+    {"id": "C8", "instance_key": "MAG_Circle08", "template": "FULL", "target_scale": 0.90, "fixed_anchor": false}
+  ],
+  "thresholds_mp": [100, 300, 600, 1200, 2000, 3000, 4000, 5000],
+  "reference_timing": {
+    "t8_seconds": 10.0,
+    "charge_rate_mp_per_second": 500.0,
+    "tier_arrival_seconds": [0.2, 0.6, 1.2, 2.4, 4.0, 6.0, 8.0, 10.0],
+    "source_audit": "Read-only S02 ChargeProfile.cpp: 500 MP/s per hand; ChargeSession.cpp multiplies by held hand count and accumulates actual consumed MP.",
+    "authority_boundary": "10 seconds is the requested nominal reference, consistent with one active hand at 500 MP/s. Two fully serviced hands nominally reach 5000 MP in 5 seconds in current source. This asset task changes neither drain nor tiers; main runtime maps real progress and handles rate changes."
+  },
+  "compression_candidate": {
+    "start_at_tier": 3,
+    "start_seconds": 1.2,
+    "end_seconds": 10.0,
+    "start_charge_mp": 600,
+    "end_charge_mp": 5000,
+    "spacing_y_start": 96.0,
+    "spacing_y_end": 60.0,
+    "curve": "quintic smootherstep",
+    "formula": "u=clamp((t-1.2)/8.8,0,1); h=6*u^5-15*u^4+10*u^3; spacing=96-36*h; Y(Ci)=(i-1)*spacing",
+    "charge_equivalent": "u=clamp((consumedMP-600)/4400,0,1) at nominal reference; never derive gameplay authority from a wall clock",
+    "tier_reset": false,
+    "c1": "Position (0,0,0), scale 1.00, rotation 0 stays fixed",
+    "size_identity": "Existing circles retain target_scale; only +Y spacing compresses",
+    "retarget_boundary": "Nominal offline curve only. Future runtime must continue from CURRENT transforms and velocity if progress/rate changes; do not snap to a sampled preset."
+  },
+  "appearance_candidate": {
+    "duration_seconds": 0.24,
+    "initial_fraction_of_target_scale": 0.02,
+    "curve": "quintic smootherstep",
+    "strict_visibility": "Ci is not visible before Ti threshold. C1 appears fixed at scale 1.00; C2..8 grow after their threshold.",
+    "t8_boundary": "Compression finishes at 10.00 s; C8 begins appearance at 10.00 s and reaches full size at 10.24 s. This visual tail never delays gameplay firing or changes tier eligibility."
+  },
+  "static_sheet": "Full-size structural inspection at each tier arrival spacing; appearance growth is intentionally omitted and disclosed. Motion GIF shows the actual proposed appearance timing.",
+  "controller_policy": "All new parts have 0 controllers. No NIF stores charge/tier transitions. Original FULL template pulse controllers are ignored by software preview and remain runtime-unverified.",
+  "reference_sketches": ["work/reference_sketches/user_sketch_expanded.png", "work/reference_sketches/user_sketch_compact.png"]
+}

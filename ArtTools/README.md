@@ -1,0 +1,5 @@
+# Historical art authoring evidence
+These scripts/specifications preserve image-reference interpretation, procedural modeling, circle generation, texture authoring, mesh/UV corrections and withdrawn SMP experiments. The single research compendium explains each workflow and its limits.
+They are ARCHIVAL examples, not a one-command current release builder. Private paths in historical scripts are redacted. Inspect/adapt roots, dependencies, fonts and output guards in an isolated authoring workspace before reuse; never replay them against Production.
+No Blender binary, copyrighted input photo, vanilla extracted NIF/DDS/audio, third-party animation, FSMP library or reference-mod content is bundled. Obtain legitimate templates and dependencies separately. Fern_v010 numbers describe its initial version, not today's two staff meshes. Millennial spec and assembler are verified; a complete original image/modeling-generation session was not recovered.
+Use actual pinned nifly/PyNifly license files, not an old README's conflicting license label. Source examples do not relicense linked libraries. SMP is withdrawn and must not be installed from this evidence.

@@ -1,0 +1,12 @@
+{
+  "CommonLibSSE_NG": {
+    "url": "https://github.com/alandtse/CommonLibSSE-NG.git",
+    "commit": "8c4025b01fac2bea1bbe73a3a9da7b4fde338343"
+  },
+  "vcpkg": {
+    "url": "https://github.com/microsoft/vcpkg.git",
+    "commit": "4bc07e3eb00c5a9539a5a7a83415150a9260f8db"
+  },
+  "runtime": "SE1.5.97",
+  "AE": "NOT_ENABLED"
+}

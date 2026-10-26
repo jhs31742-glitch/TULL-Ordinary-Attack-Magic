@@ -1,0 +1,669 @@
+{
+  "format": "TOAM_ORDERED_ESP_V1",
+  "path": "Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
+  "bytes": 5204,
+  "sha256": "682EBB388D624D17096AE68E0921B2F6178E75A0F940BF23BE93095669013595",
+  "header": "54455334dd0000000002000000000000000000002c000000484544520c009a99d93f14000000d2080000434e414d050054554c4c00534e414d2b0054554c4c204f7264696e6172792041747461636b204d61676963202d205374616e636573204164646f6e004d4153540b00536b7972696d2e65736d0044415441080000000000000000004d4153541f0054554c4c204f7264696e6172792041747461636b204d616769632e6573700044415441080000000000000000004d41535429005374616e636573202d2044796e616d696320576561706f6e204d6f7665736574732053452e657370004441544108000000000000000000",
+  "groups": [
+    {
+      "header": "47525550cb0300004d474546000000000000000000000000",
+      "records": [
+        {
+          "header": "4d474546cf0100000000000070080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e6365436172726965725f486967685072696573746573735f556e626f756e6400"
+            },
+            {
+              "signature": "FULL",
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec97acec82aceca09c00"
+            },
+            {
+              "signature": "MDOB",
+              "hex": "a5350400"
+            },
+            {
+              "signature": "KSIZ",
+              "hex": "01000000"
+            },
+            {
+              "signature": "KWDA",
+              "hex": "afce0100"
+            },
+            {
+              "signature": "DATA",
+              "hex": "050a20080000803f00000000140000002c000000000000000000000000000000000000000000000019000000000000000000000000000000000000000000000000000000180000006d0a0001000000000200000002000000ffffffff00000000000000000000000000000000000000000000803f000000000000000000000000000000000000000000000000000000000000000000000000"
+            },
+            {
+              "signature": "SNDD",
+              "hex": ""
+            },
+            {
+              "signature": "DNAM",
+              "hex": "eca491eba6bd3a20ed99a9eca09c202f20ed9598eb8ba83a20ec9d80eb9194ec9e90202f20eca491eb8ba83a20eca084ecb0a8202f20ec8381eb8ba83a20ed839cec96912e20ec8b9ceca08420ec8b9cec9e9120ec8b9c20ecb9b4eb939cec998020eab2b0eca09ceba5bc20eab3a0eca095ed9598eba9b020ec8aa4ed83a0ec8aa420ebb380eab2bdec9d8020eb8ba4ec9d8c20ec8b9ceca084ebb680ed84b020eca081ec9aa9ed95a9eb8b88eb8ba42e00"
+            }
+          ]
+        },
+        {
+          "header": "4d474546b40100000000000071080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e6365436172726965725f4d6f6f6e5f556e626f756e6400"
+            },
+            {
+              "signature": "FULL",
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20eb8bac00"
+            },
+            {
+              "signature": "MDOB",
+              "hex": "a5350400"
+            },
+            {
+              "signature": "KSIZ",
+              "hex": "01000000"
+            },
+            {
+              "signature": "KWDA",
+              "hex": "afce0100"
+            },
+            {
+              "signature": "DATA",
+              "hex": "050a20080000803f00000000140000002c000000000000000000000000000000000000000000000032000000000000000000000000000000000000000000000000000000180000006d0a0001000000000200000002000000ffffffff00000000000000000000000000000000000000000000803f000000000000000000000000000000000000000000000000000000000000000000000000"
+            },
+            {
+              "signature": "SNDD",
+              "hex": ""
+            },
+            {
+              "signature": "DNAM",
+              "hex": "eca491eba6bd3a20ed9e98202f20ed9598eb8ba83a20eca095ec9d98202f20eca491eb8ba83a20ebb384202f20ec8381eb8ba83a20ed83912e20ec8b9ceca08420ec8b9cec9e9120ec8b9c20ecb9b4eb939cec998020eab2b0eca09ceba5bc20eab3a0eca095ed9598eba9b020ec8aa4ed83a0ec8aa420ebb380eab2bdec9d8020eb8ba4ec9d8c20ec8b9ceca084ebb680ed84b020eca081ec9aa9ed95a9eb8b88eb8ba42e00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "47525550cb0100005350454c000000000000000000000000",
+      "records": [
+        {
+          "header": "5350454cc90000000000000000080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e63655370656c6c5f486967685072696573746573735f556e626f756e6400"
+            },
+            {
+              "signature": "OBND",
+              "hex": "000000000000000000000000"
+            },
+            {
+              "signature": "FULL",
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec97acec82aceca09c00"
+            },
+            {
+              "signature": "MDOB",
+              "hex": "64fa0900"
+            },
+            {
+              "signature": "ETYP",
+              "hex": "443f0100"
+            },
+            {
+              "signature": "DESC",
+              "hex": "00000000"
+            },
+            {
+              "signature": "SPIT",
+              "hex": "6900000001000000000000009a99193e02000000020000000000000000000000bf440c00"
+            },
+            {
+              "signature": "EFID",
+              "hex": "70080003"
+            },
+            {
+              "signature": "EFIT",
+              "hex": "000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "header": "5350454cba0000000000000001080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e63655370656c6c5f4d6f6f6e5f556e626f756e6400"
+            },
+            {
+              "signature": "OBND",
+              "hex": "000000000000000000000000"
+            },
+            {
+              "signature": "FULL",
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20eb8bac00"
+            },
+            {
+              "signature": "MDOB",
+              "hex": "64fa0900"
+            },
+            {
+              "signature": "ETYP",
+              "hex": "443f0100"
+            },
+            {
+              "signature": "DESC",
+              "hex": "00000000"
+            },
+            {
+              "signature": "SPIT",
+              "hex": "ee02000001000000000000009a99193e02000000020000000000000000000000c0440c00"
+            },
+            {
+              "signature": "EFID",
+              "hex": "71080003"
+            },
+            {
+              "signature": "EFIT",
+              "hex": "000000000000000000000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "47525550c9010000454e4348000000000000000000000000",
+      "records": [
+        {
+          "header": "454e4348c80000000000000010080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e6365456e6368616e745f486967685072696573746573735f556e626f756e6400"
+            },
+            {
+              "signature": "OBND",
+              "hex": "000000000000000000000000"
+            },
+            {
+              "signature": "FULL",
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec97acec82aceca09c20eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+            },
+            {
+              "signature": "ENIT",
+              "hex": "00000000010000000200000000000000020000000c000000000000000000000000000000"
+            },
+            {
+              "signature": "EFID",
+              "hex": "70080003"
+            },
+            {
+              "signature": "EFIT",
+              "hex": "000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "header": "454e4348b90000000000000011080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e6365456e6368616e745f4d6f6f6e5f556e626f756e6400"
+            },
+            {
+              "signature": "OBND",
+              "hex": "000000000000000000000000"
+            },
+            {
+              "signature": "FULL",
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20eb8bac20eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+            },
+            {
+              "signature": "ENIT",
+              "hex": "00000000010000000200000000000000020000000c000000000000000000000000000000"
+            },
+            {
+              "signature": "EFID",
+              "hex": "71080003"
+            },
+            {
+              "signature": "EFIT",
+              "hex": "000000000000000000000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "47525550f905000057454150000000000000000000000000",
+      "records": [
+        {
+          "header": "57454150e70200000000000030080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e636553746166665f486967685072696573746573735f556e626f756e6400"
+            },
+            {
+              "signature": "OBND",
+              "hex": "f2ffb9fff8ff0e0067000800"
+            },
+            {
+              "signature": "FULL",
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec97acec82aceca09cec9d9820eca780ed8ca1ec9db42028ed95b4ebb0a92900"
+            },
+            {
+              "signature": "MODL",
+              "hex": "544f414d5c5374616666735c417263616e615f53746166665f53696c7665722e6e696600"
+            },
+            {
+              "signature": "ETYP",
+              "hex": "423f0100"
+            },
+            {
+              "signature": "BIDS",
+              "hex": "c6930100"
+            },
+            {
+              "signature": "BAMT",
+              "hex": "b6740700"
+            },
+            {
+              "signature": "KSIZ",
+              "hex": "03000000"
+            },
+            {
+              "signature": "KWDA",
+              "hex": "16e70100a4370900bd270c00"
+            },
+            {
+              "signature": "DESC",
+              "hex": "eca491eba6bd3a20ed99a9eca09c202f20ed9598eb8ba83a20ec9d80eb9194ec9e90202f20eca491eb8ba83a20eca084ecb0a8202f20ec8381eb8ba83a20ed839cec96912e20ec8b9ceca08420ec8b9cec9e9120ec8b9c20ecb9b4eb939cec998020eab2b0eca09ceba5bc20eab3a0eca095ed9598eba9b020ec8aa4ed83a0ec8aa420ebb380eab2bdec9d8020eb8ba4ec9d8c20ec8b9ceca084ebb680ed84b020eca081ec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8020ecb6a9eca084eb9f892034303030302e20ec9881ed98bcec849d20ec9eacecb6a9eca08420eab080eb8aa52e204d5020ec868cebb98420ec9786ec9d8c2e20eab3a0ec9ca020ec9db8ecb188ed8ab820ecb694ecb69cc2b7eb8daeec96b4ec93b0eab8b020eab888eca7802e00"
+            },
+            {
+              "signature": "WNAM",
+              "hex": "730a0001"
+            },
+            {
+              "signature": "TNAM",
+              "hex": "30c70300"
+            },
+            {
+              "signature": "NAM9",
+              "hex": "2cde0300"
+            },
+            {
+              "signature": "NAM8",
+              "hex": "2dde0300"
+            },
+            {
+              "signature": "DATA",
+              "hex": "b0040000000000410000"
+            },
+            {
+              "signature": "DNAM",
+              "hex": "080000000000803f6666a63f00000000000000000000000000ff0100000000000000000000000000000000000000803f0000803f0000003f0000803fc3f5a83e000000000000000000000000160000000000000000000000ffffffff0000000000000000"
+            },
+            {
+              "signature": "CRDT",
+              "hex": "000012000000803f01000000010000000000000000000000"
+            },
+            {
+              "signature": "VNAM",
+              "hex": "01000000"
+            },
+            {
+              "signature": "EITM",
+              "hex": "10080003"
+            },
+            {
+              "signature": "EAMT",
+              "hex": "409c"
+            }
+          ]
+        },
+        {
+          "header": "57454150ca0200000000000031080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e636553746166665f4d6f6f6e5f556e626f756e6400"
+            },
+            {
+              "signature": "OBND",
+              "hex": "f2ffbcfff8ff0e0050000800"
+            },
+            {
+              "signature": "FULL",
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20eb8bacec9d9820eca780ed8ca1ec9db42028ed95b4ebb0a92900"
+            },
+            {
+              "signature": "MODL",
+              "hex": "544f414d5c5374616666735c417263616e615f53746166665f476f6c642e6e696600"
+            },
+            {
+              "signature": "ETYP",
+              "hex": "423f0100"
+            },
+            {
+              "signature": "BIDS",
+              "hex": "c6930100"
+            },
+            {
+              "signature": "BAMT",
+              "hex": "b6740700"
+            },
+            {
+              "signature": "KSIZ",
+              "hex": "03000000"
+            },
+            {
+              "signature": "KWDA",
+              "hex": "16e70100a4370900bd270c00"
+            },
+            {
+              "signature": "DESC",
+              "hex": "eca491eba6bd3a20ed9e98202f20ed9598eb8ba83a20eca095ec9d98202f20eca491eb8ba83a20ebb384202f20ec8381eb8ba83a20ed83912e20ec8b9ceca08420ec8b9cec9e9120ec8b9c20ecb9b4eb939cec998020eab2b0eca09ceba5bc20eab3a0eca095ed9598eba9b020ec8aa4ed83a0ec8aa420ebb380eab2bdec9d8020eb8ba4ec9d8c20ec8b9ceca084ebb680ed84b020eca081ec9aa9ed95a9eb8b88eb8ba42e20ecb59ceb8c8020ecb6a9eca084eb9f892034303030302e20ec9881ed98bcec849d20ec9eacecb6a9eca08420eab080eb8aa52e204d5020ec868cebb98420ec9786ec9d8c2e20eab3a0ec9ca020ec9db8ecb188ed8ab820ecb694ecb69cc2b7eb8daeec96b4ec93b0eab8b020eab888eca7802e00"
+            },
+            {
+              "signature": "WNAM",
+              "hex": "740a0001"
+            },
+            {
+              "signature": "TNAM",
+              "hex": "30c70300"
+            },
+            {
+              "signature": "NAM9",
+              "hex": "2cde0300"
+            },
+            {
+              "signature": "NAM8",
+              "hex": "2dde0300"
+            },
+            {
+              "signature": "DATA",
+              "hex": "b0040000000000410000"
+            },
+            {
+              "signature": "DNAM",
+              "hex": "080000000000803f6666a63f00000000000000000000000000ff0100000000000000000000000000000000000000803f0000803f0000003f0000803fc3f5a83e000000000000000000000000160000000000000000000000ffffffff0000000000000000"
+            },
+            {
+              "signature": "CRDT",
+              "hex": "000012000000803f01000000010000000000000000000000"
+            },
+            {
+              "signature": "VNAM",
+              "hex": "01000000"
+            },
+            {
+              "signature": "EITM",
+              "hex": "11080003"
+            },
+            {
+              "signature": "EAMT",
+              "hex": "409c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "475255505f030000424f4f4b000000000000000000000000",
+      "records": [
+        {
+          "header": "424f4f4b990100000000000040080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e6365546f6d655f486967685072696573746573735f556e626f756e6400"
+            },
+            {
+              "signature": "OBND",
+              "hex": "f7fff5ffffff09000b000200"
+            },
+            {
+              "signature": "FULL",
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20ec97acec82aceca09c00"
+            },
+            {
+              "signature": "MODL",
+              "hex": "544f414d5c426f6f6b735c417263616e615f546f6d655f576f726c642e6e696600"
+            },
+            {
+              "signature": "DESC",
+              "hex": "eca491eba6bd3a20ed99a9eca09c202f20ed9598eb8ba83a20ec9d80eb9194ec9e90202f20eca491eb8ba83a20eca084ecb0a8202f20ec8381eb8ba83a20ed839cec96912e20ec8b9ceca08420ec8b9cec9e9120ec8b9c20ecb9b4eb939cec998020eab2b0eca09ceba5bc20eab3a0eca095ed9598eba9b020ec8aa4ed83a0ec8aa420ebb380eab2bdec9d8020eb8ba4ec9d8c20ec8b9ceca084ebb680ed84b020eca081ec9aa9ed95a9eb8b88eb8ba42e00"
+            },
+            {
+              "signature": "KSIZ",
+              "hex": "02000000"
+            },
+            {
+              "signature": "KWDA",
+              "hex": "a2370900a5370900"
+            },
+            {
+              "signature": "DATA",
+              "hex": "0400000000080003fa0000000000803f"
+            },
+            {
+              "signature": "INAM",
+              "hex": "c00d0001"
+            },
+            {
+              "signature": "CNAM",
+              "hex": "00000000"
+            }
+          ]
+        },
+        {
+          "header": "424f4f4b7e0100000000000041080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e6365546f6d655f4d6f6f6e5f556e626f756e6400"
+            },
+            {
+              "signature": "OBND",
+              "hex": "f7fff5ffffff09000b000200"
+            },
+            {
+              "signature": "FULL",
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20eb8bac00"
+            },
+            {
+              "signature": "MODL",
+              "hex": "544f414d5c426f6f6b735c417263616e615f546f6d655f576f726c642e6e696600"
+            },
+            {
+              "signature": "DESC",
+              "hex": "eca491eba6bd3a20ed9e98202f20ed9598eb8ba83a20eca095ec9d98202f20eca491eb8ba83a20ebb384202f20ec8381eb8ba83a20ed83912e20ec8b9ceca08420ec8b9cec9e9120ec8b9c20ecb9b4eb939cec998020eab2b0eca09ceba5bc20eab3a0eca095ed9598eba9b020ec8aa4ed83a0ec8aa420ebb380eab2bdec9d8020eb8ba4ec9d8c20ec8b9ceca084ebb680ed84b020eca081ec9aa9ed95a9eb8b88eb8ba42e00"
+            },
+            {
+              "signature": "KSIZ",
+              "hex": "02000000"
+            },
+            {
+              "signature": "KWDA",
+              "hex": "a2370900a5370900"
+            },
+            {
+              "signature": "DATA",
+              "hex": "0400000001080003580200000000803f"
+            },
+            {
+              "signature": "INAM",
+              "hex": "c00d0001"
+            },
+            {
+              "signature": "CNAM",
+              "hex": "00000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "47525550a8020000434f424a000000000000000000000000",
+      "records": [
+        {
+          "header": "434f424a9800000000000000c0080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e636553746166665265636970655f486967685072696573746573735f556e626f756e6400"
+            },
+            {
+              "signature": "COCT",
+              "hex": "04000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "93f9060002000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "e3ac050002000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "463b060001000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "f3e4020001000000"
+            },
+            {
+              "signature": "CNAM",
+              "hex": "30080003"
+            },
+            {
+              "signature": "BNAM",
+              "hex": "05810800"
+            },
+            {
+              "signature": "NAM1",
+              "hex": "0100"
+            }
+          ]
+        },
+        {
+          "header": "434f424a8900000000000000d0080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e6365546f6d655265636970655f486967685072696573746573735f556e626f756e6400"
+            },
+            {
+              "signature": "COCT",
+              "hex": "03000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "6137030002000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "6037030001000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "f3e4020001000000"
+            },
+            {
+              "signature": "CNAM",
+              "hex": "40080003"
+            },
+            {
+              "signature": "BNAM",
+              "hex": "05810800"
+            },
+            {
+              "signature": "NAM1",
+              "hex": "0100"
+            }
+          ]
+        },
+        {
+          "header": "434f424a8f00000000000000c1080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e636553746166665265636970655f4d6f6f6e5f556e626f756e6400"
+            },
+            {
+              "signature": "COCT",
+              "hex": "04000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "93f9060002000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "e3ac050002000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "463b060001000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "f3e4020001000000"
+            },
+            {
+              "signature": "CNAM",
+              "hex": "31080003"
+            },
+            {
+              "signature": "BNAM",
+              "hex": "05810800"
+            },
+            {
+              "signature": "NAM1",
+              "hex": "0100"
+            }
+          ]
+        },
+        {
+          "header": "434f424a8000000000000000d1080003000000002c000000",
+          "subrecords": [
+            {
+              "signature": "EDID",
+              "hex": "544f414d5f417263616e615f5374616e6365546f6d655265636970655f4d6f6f6e5f556e626f756e6400"
+            },
+            {
+              "signature": "COCT",
+              "hex": "03000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "6137030002000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "6037030001000000"
+            },
+            {
+              "signature": "CNTO",
+              "hex": "f3e4020001000000"
+            },
+            {
+              "signature": "CNAM",
+              "hex": "41080003"
+            },
+            {
+              "signature": "BNAM",
+              "hex": "05810800"
+            },
+            {
+              "signature": "NAM1",
+              "hex": "0100"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

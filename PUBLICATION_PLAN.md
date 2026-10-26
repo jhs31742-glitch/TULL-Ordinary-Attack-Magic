@@ -1,0 +1,5 @@
+# Publication and handoff policy
+User decision2026-10-26:upload this repository PRIVATE now. Make it public together with the Nexus Mods launch, after the launch review. No automatic visibility change, scheduled task or Nexus upload is authorized by this document.
+Before public launch: review imported animation/Bethesda-derived assets, choose the license for owned code/research without relicensing external work, confirm CP029 manual gameplay QA, verify exact source/DLL/ZIP checksums, draft Nexus credits/dependencies/install/version notes, then publish the matching source tag and Nexus files together.
+Distribution archives, source ZIP, GitHub checkout and chat handoff are kept in separate delivery folders. The private source repository excludes the runtime binary asset package and private logs/evidence registry. It is not a secret-bearing personal backup.
+MO2 instruction:deploy files ONLY to the mod folder. The user owns ALL mod/plugin activation, including disabling prior SMP and enabling the stance addon. Do not edit profiles/modlist.txt/plugins.txt or enablement from a future session without a new direct instruction.

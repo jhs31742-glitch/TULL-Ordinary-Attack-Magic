@@ -1,0 +1,14 @@
+Title: קסם התקפי רגיל
+Meaning: Ordinary Offensive Magic / 일반적인 공격 마법
+Original band source: assets/ChargeCannon/r3/Source/scripts/make_textures.py line62.
+הקסם נאגר בטבעות
+הטבעות מתיישרות לקנה אחד
+הקרן נורית ועוברת בכל אויב
+בפגיעה באדמה האור מתפוצץ
+Author credit: מחברת: פרירן
+Meaning: Author: Frieren / 저자: 프리렌 (in-universe flavor credit).
+Art direction: plain required introductory coursebook; no ornate magic circle or gold filigree.
+Generation: built-in image_gen, vanilla UV atlas edit reference, final selected source copied into the project.
+Diffuse encoding: BC3/DXT5 1024x1024, complete11-level mip chain.
+Mesh: vanilla world low-poly plus inventory high-poly; geometry/UV/collision/controller/shader parameters retained.
+Normal: vanilla plain-back normal to avoid retaining the flame-school embossing. Emission: black mask.

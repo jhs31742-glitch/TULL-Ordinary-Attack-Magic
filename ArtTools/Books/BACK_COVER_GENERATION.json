@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "precise-object-edit",
+  "source": "6ECBD72BCB8E996560D2F1E81D3D319AF7A5EA0A5EAC605925547FB17E9F6BA6",
+  "instruction": "Remove all letters and separator from existing worn blue book atlas; preserve material, borders and UV layout. Plain textbook back cover.",
+  "integration": "2x2 DDS UV atlas, original front BC3 blocks preserved at mips0-8, blank back/inner tiles; negative-Z outward vertices routed to blank tile; topology, skinning, controllers unchanged.",
+  "RUNTIME": "NOT_RUN"
+}
