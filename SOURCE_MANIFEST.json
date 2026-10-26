@@ -435,8 +435,8 @@
     },
     {
       "path": "Research/RESEARCH_SOURCE_INDEX.csv",
-      "bytes": 54944,
-      "sha256": "55316919EA1F99D3D36C7E92CB982FA4A67CBC81D2BF69463893A44C04496EE3"
+      "bytes": 54414,
+      "sha256": "525FDD153022E873428608A923B15F0BC2FE29C072DF6F14AEDE70F27D6E5065"
     },
     {
       "path": "Research/TOAM_RESEARCH_COMPENDIUM.md",
@@ -1158,5 +1158,6 @@
       "bytes": 465,
       "sha256": "EF0EE52DBDAC1BF296AE75F802AB7039EDF7836C24E7AC66C97ABB0FFA31C26C"
     }
-  ]
+  ],
+  "provenanceIndexPolicy": "RESEARCH_SOURCE_INDEX excludes itself and SOURCE_MANIFEST to avoid cyclic hashes;SOURCE_MANIFEST externally describes all other230files;ZIP checksum is external."
 }
