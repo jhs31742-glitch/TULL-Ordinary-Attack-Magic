@@ -2,6 +2,7 @@
 #include "Audio/SpellAudio.h"
 
 #include "Spells/WorldRuntime.h"
+#include "Core/DamageSettings.h"
 
 #include "Charge/ChargeSession.h"
 #include "Charge/MagickaChargeArbiter.h"
@@ -2087,7 +2088,7 @@ namespace TOAM::Spells::World::Runtime
 
         const float explosionDamage =
             TOAM::Spells::World::kExplosionDamage *
-                damageMultiplier;
+                damageMultiplier * Core::DamageSettings::GetMultiplier();
 
 
         ReleaseExecutionResult

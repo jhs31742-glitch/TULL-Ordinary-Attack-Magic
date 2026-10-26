@@ -49,6 +49,7 @@ int ReadStance(RE::Actor* a){return forms.stancesReady?StanceMode(a->HasPerk(for
 bool Begin(RE::ActorMagicCaster* c,Hand& h,int id){
  Stop(h);int side=&h==&hands[0]?0:1;h.spell=c->currentSpell;h.adaptive=id>=8;h.family=h.adaptive?id-8:id/4;
  h.mode=h.adaptive?SelectMode(h.family,ReadStance(c->actor)):id;
+ h.damageMultiplier=TOAM::Core::DamageSettings::GetMultiplier();
  const auto& other=hands[1-side];
  auto* otherCaster=c->actor->GetMagicCaster(side==0?RE::MagicSystem::CastingSource::kRightHand:RE::MagicSystem::CastingSource::kLeftHand);
  const bool otherActive=otherCaster&&OwnsHandMagic(otherCaster->currentSpell)&&other.spell==otherCaster->currentSpell&&!other.done;

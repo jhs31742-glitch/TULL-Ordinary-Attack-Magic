@@ -1,6 +1,6 @@
 # TULL Ordinary Attack Magic
 
-Private source/research staging repository for TOAM v0.8.11 (Skyrim SE1.5.97).
+Private source/research staging repository for TOAM v0.8.12 (Skyrim SE1.5.97).
 TOOM and Arcana Staffs0.7.4 FlightStateFix share one native host and a merged main plugin. Optional High Priestess/Moon stance content uses the TOAM Stances Addon.
 
 ## Current scope
@@ -20,3 +20,10 @@ CP028 core gameplay was user-tested. CP029 changes are NOT_RUN in game; static/b
 No NIF/DDS/HKX/WAV/DLL or game executables are included. The native plugin can be built from this tree; reproducing a full asset package requires the separately reviewed runtime assets and their permissions. DataSources contains roundtrippable plugin records and conditions, not third-party art.
 
 Development: TULL (design, requirements, runtime QA); OpenAI Codex/ChatGPT (AI-assisted C++ integration, procedural art/tooling and technical documentation). Imported authors retain their own rights.
+
+##0.8.12 additions
+One common damage-only INI setting and optional SKSE Menu Framework3.xpage. ALL Temperance,Limiter,marking,Hermit defense,resource,cadence/count and coordinates stay fixed.
+Weighted CID merchant/dungeon book/staff distribution;cheap books;rare stance pools.
+[Settings](Docs/DAMAGE_SETTINGS.md) | [Distribution and weights](Docs/DISTRIBUTION.md) | [Nexus/handoff specifications](Docs/NEXUS_RELEASE_GUIDE.md) | [Manual placement editor](tools/layout_editor/README_TOAM.md).
+Actual manually edited JSON and original offline editor/reference diagram are retained alongside a current source-coordinate snapshot.
+CP030 static/build/deploy passed;new game runtime NOT_RUN. AE/VR disabled;GitHub stays PRIVATE until Nexus launch.

@@ -15,11 +15,12 @@ void Shake(RE::Actor* a,float strength,float duration){
 void Launch(Hand& h,int side,RE::MagicCaster* c,RE::Actor* actor,RE::NiAVObject* root,const RE::NiPoint3& p,const RE::NiMatrix3& r,int mode,float maxLength=4096,float width=0,float launchPhase=-1,float powerOverride=-1){
  if(mode==Rapid&&!PayResource(static_cast<RE::ActorMagicCaster*>(c),h,modes[Rapid].cost)){DenyCast(static_cast<RE::ActorMagicCaster*>(c),h);return;}
  if(mode==Fivefold&&!PayResource(static_cast<RE::ActorMagicCaster*>(c),h,modes[Fivefold].cost/5.f)){DenyCast(static_cast<RE::ActorMagicCaster*>(c),h);return;}
- if(mode==SolarCrown){int slot=ShowBeam(side,actor,root,p,r,mode,solarMaxRange,width);if(slot>=0&&StartSolarFlight(slot,actor,root))++h.launched;else{if(slot>=0)ReleaseBeam(beamSlots[slot]);++h.failed;}return;}
+ if(mode==SolarCrown){int slot=ShowBeam(side,actor,root,p,r,mode,solarMaxRange,width);if(slot>=0&&StartSolarFlight(slot,actor,root,h.damageMultiplier))++h.launched;else{if(slot>=0)ReleaseBeam(beamSlots[slot]);++h.failed;}return;}
  auto d=r*RE::NiPoint3{0,1,0};RE::Projectile::ProjectileRot angles{-std::atan2(d.z,std::hypot(d.x,d.y)),std::atan2(d.x,d.y)};
  RE::Projectile::LaunchData data(actor,p,angles,forms.payload[mode]);data.useOrigin=true;data.autoAim=false;data.castingSource=c->GetCastingSource();
  // Star lanes retain their five independent native periods. Payload magnitude=1.
  if(mode==Tracking&&powerOverride>=0)data.power*=powerOverride;
+ data.power*=h.damageMultiplier; // Magnitude only; trajectory/cadence/fees are unchanged.
  ShowBeam(side,actor,root,p,r,mode,maxLength,width);RE::ProjectileHandle result;
  auto previous=currentRainContext;currentRainContext=mode==Rain?RainContext{true,side,launchPhase>=0?launchPhase:h.cadence.elapsed,powerOverride>=0?powerOverride:RainShake(h.rainFired),d}:RainContext{};if(mode==Rain){currentRainContext.generation=generations[side];currentRainContext.finale=h.rainFired+1==rainShots;}
  RE::Projectile::Launch(&result,data);if(mode==Rain){auto projectile=result.get();if(projectile)RegisterRainProjectile(projectile.get(),currentRainContext);}currentRainContext=previous;

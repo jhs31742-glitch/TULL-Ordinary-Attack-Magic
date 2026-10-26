@@ -1,8 +1,12 @@
 {
-  "version": "0.8.11",
-  "runtime": "NOT_RUN_CP029",
+  "version": "0.8.12",
+  "runtime": "NOT_RUN_CP030",
   "nativeSourceExact": true,
   "dependencies": "gitlinks pinned inDEPENDENCIES.lock.json",
+  "DLLSHA256": "50657943CB6A00F80EDA8322CCCE71F1AA65229F94AFE0F36E70CC99F44A8B43",
+  "publication": "PRIVATE_UNTIL_NEXUS_LAUNCH",
+  "damageMultiplierDefault": 1.0,
+  "costReductionCap": 0.8,
   "files": [
     {
       "path": ".gitattributes",
@@ -211,13 +215,13 @@
     },
     {
       "path": "BUILDING.md",
-      "bytes": 2056,
-      "sha256": "E5BD7FBD766A1BFF4FF3E9CC33F7583862F29C5CA9C73D47800445A6D43B14D9"
+      "bytes": 2537,
+      "sha256": "F620401A223EE6AC19A2C987D6EB2CBC30717728B3373B8090B927F1C9CA7943"
     },
     {
       "path": "CMakeLists.txt",
-      "bytes": 8861,
-      "sha256": "B6DA2BE4823171E6BE68CD606AB232074BB07797EAF592B9BD75D9D6A50D7BB6"
+      "bytes": 8897,
+      "sha256": "9C455E6EA45483EB1C631B83FF25D23FC0497DE2BC3F7FDED4B702316E09CABA"
     },
     {
       "path": "CMakePresets.json",
@@ -230,49 +234,59 @@
       "sha256": "155DA061EC947B494D2B251FB591F9E5B6680A29F9C16CB9EE447E16B3FFD9AD"
     },
     {
+      "path": "DataSources/Distribution/TOAM_Stances_CID.ini",
+      "bytes": 69744,
+      "sha256": "313C3560774DE5CDBB1AC74923A5F47EC8A436C0BDC079E90E08F9EF30CB1E04"
+    },
+    {
+      "path": "DataSources/Distribution/TOAM_WorldDistribution_CID.ini",
+      "bytes": 66890,
+      "sha256": "400BD94A57C743A8FE7DB8AA9FBDC3209F39F9EB09A394DF2F9209B78CAABD61"
+    },
+    {
       "path": "DataSources/FORM_MAP.json",
       "bytes": 291389,
       "sha256": "94737447D3E09CD776118AF2B8AC02682332D3E79056A2249EA9D76D39136BCA"
     },
     {
       "path": "DataSources/PluginRecords/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp.json",
-      "bytes": 23676,
-      "sha256": "2240CDC8BA7DCBDE01F9AB3C3B90CC05F1832E7EE5E9BED9C1E6C53B42C821EF"
+      "bytes": 28177,
+      "sha256": "4888A33ABA8D81CC812AC4612C80D310BB51905D781B57A4097216FAF13C54B3"
     },
     {
       "path": "DataSources/PluginRecords/Language/en/TULL Ordinary Attack Magic.esp.json",
-      "bytes": 994785,
-      "sha256": "AEB939E48D321D1CAD02844A88920686768C6063CDBF1858E1C3736DD0D61711"
+      "bytes": 1059050,
+      "sha256": "70A206C26933A3C02A64C76F60C8531C9C4267E1C00C4A9EA66614E29FC1178C"
     },
     {
       "path": "DataSources/PluginRecords/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp.json",
-      "bytes": 24698,
-      "sha256": "B8A2B387840BDAADAD4245626666F64928D407ADC1B61DCC371810378AD3B125"
+      "bytes": 29199,
+      "sha256": "1F2F11EB692AA692883388A3474906BE693D4D17A7D669F1E92BA4F564CB439C"
     },
     {
       "path": "DataSources/PluginRecords/Language/kr/TULL Ordinary Attack Magic.esp.json",
-      "bytes": 998933,
-      "sha256": "F91FC7BB8A035815D15C22B9941C2D6CDACC1F6E28383F5B30A92CB537C90313"
+      "bytes": 1063198,
+      "sha256": "45FFE2F9974FFBB30322B865A2CD055994AAC18096107D4D5222819025853609"
     },
     {
       "path": "DataSources/PluginRecords/TULL Ordinary Attack Magic - Stances Addon.esp.json",
-      "bytes": 23664,
-      "sha256": "06154614FB5A304DB3DE474A6087C725C5E5F0F053CD899E7D1AE24A62C4B737"
+      "bytes": 28165,
+      "sha256": "5596ED1DB0AE15CF9286ACE4323FF9A25442E10DEF5442CBF11B26D986981B25"
     },
     {
       "path": "DataSources/PluginRecords/TULL Ordinary Attack Magic.esp.json",
-      "bytes": 994773,
-      "sha256": "512CD4D4A17467573EC1CB913828899DA2330331A569B21AD0BE75C35AA92C29"
+      "bytes": 1059038,
+      "sha256": "0E583817DF073AD07B7A7B0B29790E7EDBA68E04326DB5C01A2A5B7353240E56"
     },
     {
       "path": "DataSources/RUNTIME_ASSETS_MANIFEST.json",
-      "bytes": 223687,
-      "sha256": "1DBB7BA5F67CCB04F4BE90B456CA160C05D84884F4F8E49004A989391ECEEDEB"
+      "bytes": 224662,
+      "sha256": "822F230D3B8DBB71B9B278B5B1DC0870A8F5803BF8D6F7B94BA7F2F74CCF4E79"
     },
     {
       "path": "DataSources/TOAM.ini",
-      "bytes": 262,
-      "sha256": "28CB61B05F99F75540614952FA63EFF9027B229CE8B38FDC5CF5842320E8CFEE"
+      "bytes": 443,
+      "sha256": "55ED4E6A8B16B702C7F69C7A25FBC7C87C003BED3C06C82116AB9023A1FCA37F"
     },
     {
       "path": "Docs/ARCANA_BALANCE.json",
@@ -285,14 +299,39 @@
       "sha256": "E8602D78284188557B91B4EB90A210599C410904BFB7B33AEA01E6127D925920"
     },
     {
+      "path": "Docs/CP030_IMPLEMENTATION_REPORT.md",
+      "bytes": 17097,
+      "sha256": "7C6D7A47F4AB44DB4A51F3117C58A3BF1C08912C38443724AC505B2335905E2C"
+    },
+    {
       "path": "Docs/CREDITS_AIR_COMBAT.md",
       "bytes": 8178,
       "sha256": "D0EEA1AC3B51D2CB2621B10EC10F0167851B52C427403BA306DA185D6803A802"
     },
     {
+      "path": "Docs/DAMAGE_SETTINGS.md",
+      "bytes": 2441,
+      "sha256": "E0F8031526332C5BA1A726E4C01F79A90347D2B7F2EC2C2BE0C8207F81646429"
+    },
+    {
+      "path": "Docs/DISTRIBUTION.json",
+      "bytes": 31619,
+      "sha256": "79CB4F9A8DF4F0750ADC7E75358E907F0C5E79929A059FCD3655C760AAA21352"
+    },
+    {
+      "path": "Docs/DISTRIBUTION.md",
+      "bytes": 3868,
+      "sha256": "E617FF41EBC96B83588D67276A4850BFBBCD38BB15815E348E8D995E037D93C6"
+    },
+    {
       "path": "Docs/INSTALL_CURRENT.md",
-      "bytes": 3265,
-      "sha256": "147CB3DF7F3C76EC8DC2228C6DC73D38C678A476D79A91F3698BF08C164A4949"
+      "bytes": 3590,
+      "sha256": "8918D44A75C6A6A10338FBC95877BCA0AB7889DADB8E3BB50289A734B8707959"
+    },
+    {
+      "path": "Docs/NEXUS_RELEASE_GUIDE.md",
+      "bytes": 9815,
+      "sha256": "E29018110924D529BF194297EA6B74B11D76114FED32F47C0A4813DBC3F4D1CF"
     },
     {
       "path": "Docs/README_EN.md",
@@ -306,8 +345,8 @@
     },
     {
       "path": "Docs/RELEASE_NOTES.md",
-      "bytes": 1880,
-      "sha256": "D87378FF8668B0A3440C307618CC26E50E312162B3D96F62E90F04252F575683"
+      "bytes": 2121,
+      "sha256": "FBA18ED210F728C246EF686FE69DF2D9705644CE54F5943F2B2051C0469D32F9"
     },
     {
       "path": "Docs/RUNTIME_COMPATIBILITY.md",
@@ -341,18 +380,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 1795,
-      "sha256": "66E7C347758B34948A175644EA783A24C0C90EB2585985A2FD2CCDAF7D836680"
+      "bytes": 2537,
+      "sha256": "F93BDCA3427DAC647E803457D80112BFAAA3652FD94297BAD5587386FC69CF80"
     },
     {
       "path": "Research/RESEARCH_SOURCE_INDEX.csv",
-      "bytes": 34228,
-      "sha256": "84326A2FCABA6403C91E4C59161EA1E231F4700A49A544077EDD76DC20D745AF"
+      "bytes": 43725,
+      "sha256": "575675C37FD381794778E9BCA6D7ECC0C04B25806A4C3658907E65CBE6B1B453"
     },
     {
       "path": "Research/TOAM_RESEARCH_COMPENDIUM.md",
-      "bytes": 344013,
-      "sha256": "09A61C49B844FF938F62E9389CF3D87608A8D47D5E52003A800E600C754DA634"
+      "bytes": 349209,
+      "sha256": "41EB1C014CC6F321F46DBA18A6009DE086965C98437E2973188BABE2F5C75899"
     },
     {
       "path": "THIRD_PARTY_LICENSES/CommonLibSSE-NG.txt",
@@ -396,8 +435,8 @@
     },
     {
       "path": "src/Arcana/ArsenalFeatures.inl",
-      "bytes": 7387,
-      "sha256": "E4B2F09342D86CF69DDC219BDA4666624744C93480E152A98E6D2BA7EEA5397B"
+      "bytes": 7497,
+      "sha256": "5BA01030480067FEE1E2A18A7CBA3C2EAA470C0C76D107B4695F8015733A810B"
     },
     {
       "path": "src/Arcana/AudioPresentation.inl",
@@ -421,8 +460,8 @@
     },
     {
       "path": "src/Arcana/Casting.inl",
-      "bytes": 14105,
-      "sha256": "12DD17BE0948B77754D4EE7A698E603216D5A4F6E55420FE8DB99A1B0BFE870F"
+      "bytes": 14171,
+      "sha256": "69A2FD1C92CC1E87375EE98B926F747EAB7A891B99E80EAAF81D8B76F6A1B242"
     },
     {
       "path": "src/Arcana/CirclePresentation.inl",
@@ -466,8 +505,8 @@
     },
     {
       "path": "src/Arcana/HandUpdate.inl",
-      "bytes": 6469,
-      "sha256": "DAAAA17265104527D3AF6761B88E653761D83C9A377C2ABFA8D303676CF4E044"
+      "bytes": 6488,
+      "sha256": "C1649CD3B75294EFABBCB805D85890EEF3E1BE2FBEB7EC6B53142ECE3178ADE4"
     },
     {
       "path": "src/Arcana/IntegratedFormMap.h",
@@ -496,13 +535,13 @@
     },
     {
       "path": "src/Arcana/Plugin.cpp",
-      "bytes": 12890,
-      "sha256": "BCEF0696258590231AA97328D16DDFDE28861CE59CD817E4FDF31FF6E1AD4673"
+      "bytes": 13003,
+      "sha256": "B119C33BA0B0723C51B5BAD7F4878D3E7B15712B6FCF14A84366431ACA907A46"
     },
     {
       "path": "src/Arcana/Rain.inl",
-      "bytes": 5917,
-      "sha256": "B279046B59DCB2E637CC51951CB5B3F9DE21BA24A50D00E5C436BB81BCFE67CD"
+      "bytes": 5936,
+      "sha256": "80901340621BAC782B4FAEB5FE98E52D1E258A39DC3B99796776B06E7BFAF211"
     },
     {
       "path": "src/Arcana/RainImpact.inl",
@@ -521,8 +560,8 @@
     },
     {
       "path": "src/Arcana/Sentry.inl",
-      "bytes": 5616,
-      "sha256": "31FE2925A809880E645BF2D45B17A24A71035F1A106C9885E869A064674F270D"
+      "bytes": 5713,
+      "sha256": "B4A56601285B1C5D6C09CCA6AFED5255F1467E39B87300DC02D5C88BB17D51FD"
     },
     {
       "path": "src/Arcana/SentryPolicy.h",
@@ -531,8 +570,8 @@
     },
     {
       "path": "src/Arcana/SolarFlight.inl",
-      "bytes": 4748,
-      "sha256": "1785D84D2DDA028F9031BF71554D3A9DC2A4D3A21AC2C085B1B9B8DAA08C9C04"
+      "bytes": 4855,
+      "sha256": "5E0A8E6115B25B13C6EACA618F0A478B8C81CDE1EDE0F2AEDD9D18C685381AFB"
     },
     {
       "path": "src/Arcana/Tracking.inl",
@@ -546,8 +585,8 @@
     },
     {
       "path": "src/Arcana/WorldUpdate.inl",
-      "bytes": 2415,
-      "sha256": "B768F8CCBE3B185F6F197F7075F52EA9D327DB5BAAECA8D5E5A11733F4685094"
+      "bytes": 2434,
+      "sha256": "5576BDE3067984CF678BBFF15C7BBE0554E26B6288375020531E03567DCB6F12"
     },
     {
       "path": "src/Audio/AudioPolicy.h",
@@ -660,6 +699,21 @@
       "sha256": "F8E12038C7A872D47631B2AE8C27AF7CCAFA7C41AE3E6FBEC9E6BEF58B80AC90"
     },
     {
+      "path": "src/Core/DamagePolicy.h",
+      "bytes": 842,
+      "sha256": "B5EBC343F172525B0750B45368508023974423720FB9E8DC0BAC04EB60582C4F"
+    },
+    {
+      "path": "src/Core/DamageSettings.cpp",
+      "bytes": 5380,
+      "sha256": "8A4F0CAF0D8D3FA0A11AC45DCDFA8C2E68FEEF7FA4F8E41B4C1962027D8D8A13"
+    },
+    {
+      "path": "src/Core/DamageSettings.h",
+      "bytes": 302,
+      "sha256": "99E3A0EC0C519E07EF0E30614C4524EFB9AC6D7699B86A867309D894CE81D2E4"
+    },
+    {
       "path": "src/Core/DataCache.cpp",
       "bytes": 2460,
       "sha256": "1EDE8F8E0879E0FD5EFBEF8212D42938AE2435CDF0807DE67949F72F93F39AAA"
@@ -696,8 +750,8 @@
     },
     {
       "path": "src/Plugin.cpp",
-      "bytes": 3629,
-      "sha256": "1E275F6BCA0AA603E7FA5265FF5DF130FC17D460178F22F7F831A6D7D9AB0AD6"
+      "bytes": 3963,
+      "sha256": "08652627CB70184F74331CF4615619CD0707136F69C64B76C0E50479BAA65F36"
     },
     {
       "path": "src/Spells/ArcanaLimiterRuntime.cpp",
@@ -721,13 +775,13 @@
     },
     {
       "path": "src/Spells/JudgementRuntime.cpp",
-      "bytes": 65248,
-      "sha256": "911043ABB2C1D1A384FE180CEAE64215E44BFF2E6BB9C6061F491332A4139033"
+      "bytes": 65715,
+      "sha256": "E5A72C19AFD9468C933D57777E15CF965FD0BC18C69757BC5AF35F286B572165"
     },
     {
       "path": "src/Spells/JudgementRuntime.h",
-      "bytes": 6995,
-      "sha256": "832F3A42AE4AA719B85A243E5290E4CD2FA35B980212083F9EA607E3150DD061"
+      "bytes": 7094,
+      "sha256": "BEBBD6ED6F62C92ACB5FCEC146C9B072EC096CD01F57B4D25D2A2815B1F2B43A"
     },
     {
       "path": "src/Spells/MagicianChargeVisual.cpp",
@@ -751,8 +805,8 @@
     },
     {
       "path": "src/Spells/MagicianRuntime.cpp",
-      "bytes": 31106,
-      "sha256": "1217DE4663DBA8C05A08781F06B87E64DFCC20AF6751055A7E19BFE5D930D9DB"
+      "bytes": 31345,
+      "sha256": "3477DF33C345C45E00E20E21B359E92496F05EF28CDD9CFBF5A0D389531CC987"
     },
     {
       "path": "src/Spells/MagicianRuntime.h",
@@ -796,8 +850,8 @@
     },
     {
       "path": "src/Spells/WorldRuntime.cpp",
-      "bytes": 54149,
-      "sha256": "FDCA0F7223DB4CCE46490B0B9FB32D078A3B4C9CD3B5953F75B53EDEB3D0BD7F"
+      "bytes": 54222,
+      "sha256": "8B731FD8BB13C9DDBDE5BEAFD7A15514F731C5266E9A11C423ABAE34E8273864"
     },
     {
       "path": "src/Spells/WorldRuntime.h",
@@ -895,6 +949,11 @@
       "sha256": "32AF06F9FBE56F457ABED69762A68E120E42CE64ACE8A1ED80775D8EBA978174"
     },
     {
+      "path": "tests/damage_policy_tests.cpp",
+      "bytes": 678,
+      "sha256": "EEB6FF884240B2BDA657B10CEBBBA0267AE4A71F49ED43B06FF4A92FEAAF80AB"
+    },
+    {
       "path": "tools/circle_adapter.cpp",
       "bytes": 1725,
       "sha256": "4C35C560FF51BEFC6A795F073CC8075EEFB89238AA6084146E591DFA2EF2AD87"
@@ -910,6 +969,41 @@
       "sha256": "B3A8018FCE98ABFF9979301CCFF08717202E78DDDE2463628310CC8D1C5F207F"
     },
     {
+      "path": "tools/layout_editor/PROVENANCE.json",
+      "bytes": 1078,
+      "sha256": "560E9871571F5350422591AA2B8DCBD0350CB9517837FA01A4034E106B949453"
+    },
+    {
+      "path": "tools/layout_editor/README_KO.md",
+      "bytes": 1299,
+      "sha256": "48344978087625CB656D6FC58FA90E3B750C8F7CADFC3321DD24AA63CEF7D95C"
+    },
+    {
+      "path": "tools/layout_editor/README_TOAM.md",
+      "bytes": 2043,
+      "sha256": "3669C02056EB2B6A5D5F46D79565BCE57EA3A83A4DFCE38A9105CD903CE6A97F"
+    },
+    {
+      "path": "tools/layout_editor/baseline.json",
+      "bytes": 8808,
+      "sha256": "E7C5A400B3BEDBD59DC4E146A513B6BFA72BE97545A5512D1AF8EFC1F30D0E92"
+    },
+    {
+      "path": "tools/layout_editor/current-runtime-layout.json",
+      "bytes": 4282,
+      "sha256": "727A5B079F4C7BEF56D8A656ECD44270A71361CEC2F0C30391C9BE2AE5B60BD4"
+    },
+    {
+      "path": "tools/layout_editor/index.html",
+      "bytes": 152431,
+      "sha256": "52134E34468CFA9EBE2B14DA083664304D47F9729F23EEAC6212782F64A4B420"
+    },
+    {
+      "path": "tools/layout_editor/manual-layout-20261023-0145.json",
+      "bytes": 9239,
+      "sha256": "746AE822155172A757FCE4475669A922B6B1D878759B90D331A97BEF3940A742"
+    },
+    {
       "path": "tools/toam_package.py",
       "bytes": 7290,
       "sha256": "91FF6700625BA5B95109A4F3CE02AB3FA1018B194703D1426CD6F15645367BDE"
@@ -919,7 +1013,5 @@
       "bytes": 465,
       "sha256": "EF0EE52DBDAC1BF296AE75F802AB7039EDF7836C24E7AC66C97ABB0FFA31C26C"
     }
-  ],
-  "costReductionCap": 0.8,
-  "minimumResourceFactor": 0.2
+  ]
 }

@@ -1,3 +1,6 @@
+##0.8.12 /CP030
+Common damage INI+optional Framework page;cheap weighted merchant/dungeon book/staff distribution;rare stance pools;manual layout editor preserved in source/research. Protected gameplay contracts unchanged. Runtime NOT_RUN.
+
 # CP029 / v0.8.11 release preparation
 Parent:CP028 v0.8.10, user-reported core runtime PASS; SMP no motion.
 New:Arcana8 costs x3; Justice continuous110/.2s during3s; Sun3040; Tower150/beam,900finale,27900target cap. TOAM four spells, resource ownership, limiter, VFX geometry, Hermit defense and flight unchanged.

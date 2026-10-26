@@ -12,3 +12,8 @@ Output:build/msvc/TOAM.dll. The build does not install or enable plugins. Explic
 The circle adapter is optional and OFF by default. Enable TOAM_BUILD_ASSET_TOOLS only with TOAM_NIFLY_ROOT and TOAM_NIFLY_LIBRARY explicitly set. Historical ArtTools depend on their documented templates/font/nifly/Blender/Python environment and are not automatic build dependencies. Legacy Linux/test presets are inherited templates, not validated support promises; PLUGIN_TESTS_ONLY has no shipped example test source.
 DataSources/PluginRecords JSON is byte-preserving ordered subrecords. tools/esp_records.py reconstructs each ESP to a chosen output directory and verifies its stored SHA256. It preserves typed references and existing IDs; never replace arbitrary32bit patterns.
 Use release manifests to compare source/package hashes. Paths and module names must be validated in serialized NIF bytes as well as loader views. No game EXE or Address Library databases are supplied. AE stays rejected until exact ABI/hook proof and separate manual QA.
+
+## Optional settings and distribution
+No Menu Framework/ImGui SDK is required to compile;the optional page resolves a small audited runtime ABI. CID is a runtime distribution dependency only.
+Parser regression:compile tests/damage_policy_tests.cpp with MSVCx64 C++latest and src on the include path;the actual CP030 harness passed.
+The archived layout editor is an authoring tool,not a live source/INI loader. Review its README before applying an exported design to current code.

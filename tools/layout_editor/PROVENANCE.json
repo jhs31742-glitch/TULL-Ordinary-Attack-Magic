@@ -1,0 +1,30 @@
+[
+  {
+    "output": "tools/layout_editor/index.html",
+    "origin": "ArcanaStaffs/v0.7.4-FlightStateFix/editor/index.html",
+    "sha256": "52134E34468CFA9EBE2B14DA083664304D47F9729F23EEAC6212782F64A4B420",
+    "bytes": 152431,
+    "transform": "EXACT_BYTES"
+  },
+  {
+    "output": "tools/layout_editor/baseline.json",
+    "origin": "ArcanaStaffs/v0.7.4-FlightStateFix/editor/baseline.json",
+    "sha256": "E7C5A400B3BEDBD59DC4E146A513B6BFA72BE97545A5512D1AF8EFC1F30D0E92",
+    "bytes": 8808,
+    "transform": "EXACT_BYTES"
+  },
+  {
+    "output": "tools/layout_editor/README_KO.md",
+    "origin": "ArcanaStaffs/v0.7.4-FlightStateFix/editor/README_KO.md",
+    "sha256": "48344978087625CB656D6FC58FA90E3B750C8F7CADFC3321DD24AA63CEF7D95C",
+    "bytes": 1299,
+    "transform": "EXACT_BYTES"
+  },
+  {
+    "output": "tools/layout_editor/manual-layout-20261023-0145.json",
+    "origin": "ArcanaStaffs/.asset/manual exported JSON labelled1023 0145",
+    "sha256": "746AE822155172A757FCE4475669A922B6B1D878759B90D331A97BEF3940A742",
+    "bytes": 9239,
+    "transform": "EXACT_BYTES"
+  }
+]

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 
 project(
     ordinaryattackmagic
-    VERSION 0.8.11
+    VERSION 0.8.12
     DESCRIPTION "Ordinary Attack Magic SKSE plugin"
     LANGUAGES CXX)
 
@@ -83,6 +83,7 @@ else()
         src/Audio/SpellAudio.cpp
         src/Core/DataCache.cpp
         src/Core/Runtime.cpp
+        src/Core/DamageSettings.cpp
         src/Core/MagickaTransaction.cpp
         src/Charge/ChargeProfile.cpp
         src/Charge/ChargeSession.cpp

@@ -129,6 +129,7 @@ namespace TOAM::Spells::Judgement::Runtime
 
         // Frozen at charge start and copied into each delayed schedule.
         float damageMultiplier{ 1.0F };
+        float configuredDamageMultiplier{ 1.0F };
 
         bool active{};
 
@@ -248,7 +249,8 @@ namespace TOAM::Spells::Judgement::Runtime
         const RE::NiPoint3& shotAimPoint,
         float shotRadius,
         float damageMultiplier,
-        ScheduledShotDamageResult& result) noexcept;
+        ScheduledShotDamageResult& result,
+        float configuredDamageMultiplier = 1.0F) noexcept;
 
 
     [[nodiscard]]

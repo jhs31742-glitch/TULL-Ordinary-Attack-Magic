@@ -16,7 +16,7 @@ void UpdateWorld(RE::ActorMagicCaster* c,Hand& h,int side,RE::Actor* a,RE::NiAVO
   }
   h.worldScan-=dt;if(h.worldScan<=0){h.worldScan=.10f;auto center=feet+RE::NiPoint3{0,0,h.worldAir?78.f:70.f};auto targets=Enemies(a,center,worldDamageRadius,true);
    for(auto& handle:targets){auto target=handle.get();if(!target)continue;auto id=target->GetFormID();if(std::find(h.worldHitIDs.begin(),h.worldHitIDs.end(),id)!=h.worldHitIDs.end())continue;
-    h.worldHitIDs.push_back(id);if(auto* caster=a->GetMagicCaster(RE::MagicSystem::CastingSource::kInstant))caster->CastSpellImmediate(forms.payload[Hermit],true,target.get(),1,true,modes[Hermit].damage,a);
+    h.worldHitIDs.push_back(id);if(auto* caster=a->GetMagicCaster(RE::MagicSystem::CastingSource::kInstant))caster->CastSpellImmediate(forms.payload[Hermit],true,target.get(),1,true,modes[Hermit].damage*h.damageMultiplier,a);
    }
   }
   if(age>=worldReleaseSeconds){Complete(h,side,a);c->currentSpellCost=0;}

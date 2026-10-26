@@ -2,6 +2,7 @@
 #include "Audio/SpellAudio.h"
 
 #include "Spells/MagicianRuntime.h"
+#include "Core/DamageSettings.h"
 
 #include "Combat/ActorBounds.h"
 #include "Combat/BeamCollision.h"
@@ -1010,6 +1011,7 @@ namespace TOAM::Spells::Magician::Runtime
             costMultiplier >= 0.5F &&
             costMultiplier <= 1.0F ?
                 costMultiplier : 1.0F;
+        const float configuredDamageMultiplier = Core::DamageSettings::GetMultiplier();
 
         result.effectiveCharge =
             effectiveCharge;
@@ -1052,7 +1054,7 @@ namespace TOAM::Spells::Magician::Runtime
 
 
         result.beamDamage =
-            profile->beamDamage * damageMultiplier;
+            profile->beamDamage * damageMultiplier * configuredDamageMultiplier;
 
 
         RE::NiPoint3 origin{};
@@ -1213,7 +1215,7 @@ namespace TOAM::Spells::Magician::Runtime
 
                     if (Combat::ApplyFixedHealthDamage(
                         player, actor,
-                        firePlan.profile->explosionDamage * damageMultiplier,
+                        firePlan.profile->explosionDamage * damageMultiplier * configuredDamageMultiplier,
                         Combat::FirewallOrigin::kMagicianExplosion)) {
                         ++explosionDamaged;
                     }
@@ -1225,7 +1227,7 @@ namespace TOAM::Spells::Magician::Runtime
                     "[TOAM][S05C3] IMPACT_EXPLOSION | Tier={} | Radius={:.3f} | Damage={:.3f} | Hostiles={} | Applied={}",
                     result.tier,
                     firePlan.profile->explosionRadius,
-                    firePlan.profile->explosionDamage * damageMultiplier,
+                    firePlan.profile->explosionDamage * damageMultiplier * configuredDamageMultiplier,
                     explosionQualified,
                     explosionDamaged);
             }
@@ -1273,7 +1275,7 @@ namespace TOAM::Spells::Magician::Runtime
             firePlan.profile->beamDamage,
             result.beamDamage,
             firePlan.profile->explosionDamage,
-            firePlan.profile->explosionDamage * damageMultiplier,
+            firePlan.profile->explosionDamage * damageMultiplier * configuredDamageMultiplier,
             result.actorsDamaged);
 
         return result;

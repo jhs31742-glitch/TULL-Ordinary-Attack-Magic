@@ -76,7 +76,7 @@ void UpdateRain(RE::ActorMagicCaster* c,Hand& h,int side,RE::Actor* a,RE::NiAVOb
   RainFinaleArt(h,side,a,root,false);
   const auto priorRain=rainDamage;const int priorMode=currentDamageMode;
   rainDamage={true,side,generations[side],900.f};currentDamageMode=Rain;
-  for(auto& handle:Enemies(a,h.field,rainRadius,true)){auto enemy=handle.get();if(enemy)if(auto* instant=a->GetMagicCaster(RE::MagicSystem::CastingSource::kInstant))instant->CastSpellImmediate(forms.payload[Hermit],true,enemy.get(),1,true,900,a);}
+  for(auto& handle:Enemies(a,h.field,rainRadius,true)){auto enemy=handle.get();if(enemy)if(auto* instant=a->GetMagicCaster(RE::MagicSystem::CastingSource::kInstant))instant->CastSpellImmediate(forms.payload[Hermit],true,enemy.get(),1,true,900*h.damageMultiplier,a);}
   rainDamage=priorRain;currentDamageMode=priorMode;
   logger::info("RAIN_FINAL_DETONATION fired={} radius={} plumes=9 nominalDamage=900 shake=1 actualLastContact=true hit=({},{},{})",h.rainFired,rainRadius,lastContact.x,lastContact.y,lastContact.z);
  }

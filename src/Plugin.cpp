@@ -2,6 +2,7 @@
 #include "VFX/EngineCircle.h"
 #include "PCH.h"
 #include "Core/Runtime.h"
+#include "Core/DamageSettings.h"
 
 namespace logger = SKSE::log;
 
@@ -22,6 +23,9 @@ namespace
         }
         Arcana::Message(message);
         switch (message->type) {
+        case SKSE::MessagingInterface::kPostPostLoad:
+            TOAM::Core::DamageSettings::RegisterMenu();
+            break;
         case SKSE::MessagingInterface::kDataLoaded:
             logger::info("[TOAM][Plugin] Message=DataLoaded");
             TOAM::Core::Runtime::OnDataLoaded();
@@ -101,6 +105,7 @@ SKSEPluginLoad(const SKSE::LoadInterface* skse)
         return false;
     }
 
+    static_cast<void>(TOAM::Core::DamageSettings::Reload());
     if(!Arcana::InstallHooks()) {return false;}
 
     logger::info(

@@ -41,7 +41,7 @@ void Update(RE::ActorMagicCaster* c,float dt){
  if(h.mode==Hermit){UpdateWorld(c,h,side,actor,root,feet,flat,dt,t);return;}
  if(h.mode==Sentry){if(t>=.24f){
   if(!StartResource(c,h,modes[Sentry].cost)){DenyCast(c,h);return;}
-  PlaceSentry(side,actor,root,front,FlightActive()?rot:flat);Complete(h,side,actor);c->currentSpellCost=0;}return;}
+  PlaceSentry(side,actor,root,front,FlightActive()?rot:flat,h.damageMultiplier);Complete(h,side,actor);c->currentSpellCost=0;}return;}
  if(h.mode==Tracking){UpdateTracking(c,h,side,actor,root,front,rot,dt,t);return;}
  if(h.mode==Rain){UpdateRain(c,h,side,actor,root,feet,flat,dt,t);return;}
  if(h.mode==SolarCrown&&UltimateDone(t)){logger::warn("SUN_READINESS_TIMEOUT charge={} spawned={}",t,h.launched);Complete(h,side,actor);c->currentSpellCost=0;return;}

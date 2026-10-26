@@ -1,0 +1,1499 @@
+{
+  "version": "0.8.12",
+  "dependency": "Container Item Distributor2.1.3;powerofthree Tweaks",
+  "merchantContainers": [
+    "0x004039~HearthFires.esm",
+    "0x00F1A6~Dawnguard.esm",
+    "0x00F829~Dawnguard.esm",
+    "0x00F82C~Dawnguard.esm",
+    "0x010478~Dawnguard.esm",
+    "0x01047B~Dawnguard.esm",
+    "0x01047C~Dawnguard.esm",
+    "0x013940~Dawnguard.esm",
+    "0x0177C2~Dragonborn.esm",
+    "0x0177C3~Dragonborn.esm",
+    "0x0177C4~Dragonborn.esm",
+    "0x01EEC5~Dragonborn.esm",
+    "0x01F88E~Dragonborn.esm",
+    "0x01F898~Dragonborn.esm",
+    "0x01F9E5~Dragonborn.esm",
+    "0x025021~Dragonborn.esm",
+    "0x025022~Dragonborn.esm",
+    "0x025023~Dragonborn.esm",
+    "0x025024~Dragonborn.esm",
+    "0x025029~Dragonborn.esm",
+    "0x027109~Dragonborn.esm",
+    "0x027E0A~Dragonborn.esm",
+    "0x031DB3~Dragonborn.esm",
+    "0x035730~Dragonborn.esm",
+    "0x06479D~Skyrim.esm",
+    "0x0647A0~Skyrim.esm",
+    "0x065C3A~Skyrim.esm",
+    "0x06A878~Skyrim.esm",
+    "0x072787~Skyrim.esm",
+    "0x07434C~Skyrim.esm",
+    "0x074353~Skyrim.esm",
+    "0x074355~Skyrim.esm",
+    "0x078C0B~Skyrim.esm",
+    "0x078C0F~Skyrim.esm",
+    "0x078C10~Skyrim.esm",
+    "0x094377~Skyrim.esm",
+    "0x09437B~Skyrim.esm",
+    "0x09437D~Skyrim.esm",
+    "0x094381~Skyrim.esm",
+    "0x094385~Skyrim.esm",
+    "0x09438C~Skyrim.esm",
+    "0x09438F~Skyrim.esm",
+    "0x098B9F~Skyrim.esm",
+    "0x098BA5~Skyrim.esm",
+    "0x098BA6~Skyrim.esm",
+    "0x098BA7~Skyrim.esm",
+    "0x098BAC~Skyrim.esm",
+    "0x09CAF9~Skyrim.esm",
+    "0x09CAFB~Skyrim.esm",
+    "0x09CAFE~Skyrim.esm",
+    "0x09CD46~Skyrim.esm",
+    "0x09DA30~Skyrim.esm",
+    "0x09DA40~Skyrim.esm",
+    "0x09DA47~Skyrim.esm",
+    "0x09DA54~Skyrim.esm",
+    "0x09DA57~Skyrim.esm",
+    "0x09DA5A~Skyrim.esm",
+    "0x09DA60~Skyrim.esm",
+    "0x09DA64~Skyrim.esm",
+    "0x09E12A~Skyrim.esm",
+    "0x09E12D~Skyrim.esm",
+    "0x09E460~Skyrim.esm",
+    "0x09E46A~Skyrim.esm",
+    "0x09E46E~Skyrim.esm",
+    "0x09E48C~Skyrim.esm",
+    "0x09F251~Skyrim.esm",
+    "0x09F258~Skyrim.esm",
+    "0x0A0704~Skyrim.esm",
+    "0x0A0707~Skyrim.esm",
+    "0x0A31B8~Skyrim.esm",
+    "0x0A31B9~Skyrim.esm",
+    "0x0A31BA~Skyrim.esm",
+    "0x0A31BB~Skyrim.esm",
+    "0x0A31BC~Skyrim.esm",
+    "0x0A31BD~Skyrim.esm",
+    "0x0A31BE~Skyrim.esm",
+    "0x0A31BF~Skyrim.esm",
+    "0x0A31C0~Skyrim.esm",
+    "0x0A31C1~Skyrim.esm",
+    "0x0A3F00~Skyrim.esm",
+    "0x0A3F08~Skyrim.esm",
+    "0x0A3F0A~Skyrim.esm",
+    "0x0A3F0D~Skyrim.esm",
+    "0x0A3F11~Skyrim.esm",
+    "0x0A3F15~Skyrim.esm",
+    "0x0A3F18~Skyrim.esm",
+    "0x0A3F1D~Skyrim.esm",
+    "0x0A3F26~Skyrim.esm",
+    "0x0A6BF4~Skyrim.esm",
+    "0x0A6BF8~Skyrim.esm",
+    "0x0A6BFA~Skyrim.esm",
+    "0x0A6BFD~Skyrim.esm",
+    "0x0A6C09~Skyrim.esm",
+    "0x0A6C0A~Skyrim.esm",
+    "0x0A6C0B~Skyrim.esm",
+    "0x0A6C0C~Skyrim.esm",
+    "0x0A6C0D~Skyrim.esm",
+    "0x0A6C14~Skyrim.esm",
+    "0x0A6C15~Skyrim.esm",
+    "0x0A6C16~Skyrim.esm",
+    "0x0ABB3F~Skyrim.esm",
+    "0x0ABB41~Skyrim.esm",
+    "0x0ABB42~Skyrim.esm",
+    "0x0ABD9F~Skyrim.esm",
+    "0x0AC9BD~Skyrim.esm",
+    "0x0AC9CF~Skyrim.esm",
+    "0x0AC9DD~Skyrim.esm",
+    "0x0AC9E2~Skyrim.esm",
+    "0x0AC9E3~Skyrim.esm",
+    "0x0AC9E4~Skyrim.esm",
+    "0x0ACB6D~Skyrim.esm",
+    "0x0AF633~Skyrim.esm",
+    "0x0B2038~Skyrim.esm",
+    "0x0B2039~Skyrim.esm",
+    "0x0B298A~Skyrim.esm",
+    "0x0B31E9~Skyrim.esm",
+    "0x0B3FDE~Skyrim.esm",
+    "0x0B3FE2~Skyrim.esm",
+    "0x0BBCD1~Skyrim.esm",
+    "0x0C6450~Skyrim.esm",
+    "0x0C6451~Skyrim.esm",
+    "0x0C6452~Skyrim.esm",
+    "0x0C6453~Skyrim.esm",
+    "0x0C6454~Skyrim.esm",
+    "0x0D54C7~Skyrim.esm",
+    "0x0D8837~Skyrim.esm",
+    "0x0D8839~Skyrim.esm",
+    "0x0D883B~Skyrim.esm",
+    "0x0D883C~Skyrim.esm",
+    "0x0D883E~Skyrim.esm",
+    "0x0D8E4E~Skyrim.esm",
+    "0x0D8E4F~Skyrim.esm",
+    "0x0D8E50~Skyrim.esm",
+    "0x0E7BCE~Skyrim.esm",
+    "0x0EE9F8~Skyrim.esm",
+    "0x0FE484~Skyrim.esm",
+    "0x0FE486~Skyrim.esm",
+    "0x10C1D4~Skyrim.esm",
+    "0x10C431~Skyrim.esm",
+    "0x10FDE7~Skyrim.esm"
+  ],
+  "dungeonContainers": [
+    {
+      "id": "0x10DD41~Skyrim.esm",
+      "edid": "TGGuildChest"
+    },
+    {
+      "id": "0x10EE0C~Skyrim.esm",
+      "edid": "TreasCWImperialChestCWMission07"
+    },
+    {
+      "id": "0x10EE0B~Skyrim.esm",
+      "edid": "TreasCWSonsChestCWMission07"
+    },
+    {
+      "id": "0x10E88A~Skyrim.esm",
+      "edid": "MiscSack02SmallFlat_NoRespawn"
+    },
+    {
+      "id": "0x10E889~Skyrim.esm",
+      "edid": "MiscSack02Small_NoRespawn"
+    },
+    {
+      "id": "0x10E888~Skyrim.esm",
+      "edid": "MiscSack02LargeFlat_NoRespawn"
+    },
+    {
+      "id": "0x10E887~Skyrim.esm",
+      "edid": "MiscSackLargeFlat02_NoRespawn"
+    },
+    {
+      "id": "0x10E886~Skyrim.esm",
+      "edid": "MiscSackLarge_NoRespawn"
+    },
+    {
+      "id": "0x10E885~Skyrim.esm",
+      "edid": "BarrelIngredientUncommon01_NoRespawn"
+    },
+    {
+      "id": "0x10E884~Skyrim.esm",
+      "edid": "BarrelIngredientCommon01_NoRespawn"
+    },
+    {
+      "id": "0x10E883~Skyrim.esm",
+      "edid": "MiscSackLargeFlat01_NoRespawn"
+    },
+    {
+      "id": "0x10E882~Skyrim.esm",
+      "edid": "BarrelFood01_NoRespawn"
+    },
+    {
+      "id": "0x10E7E5~Skyrim.esm",
+      "edid": "RiftenConfiscatedGoodsChest"
+    },
+    {
+      "id": "0x10E05E~Skyrim.esm",
+      "edid": "dunTreasMapTreasChestSpecial"
+    },
+    {
+      "id": "0x10D9C1~Skyrim.esm",
+      "edid": "BarrelMeat01"
+    },
+    {
+      "id": "0x10CD5B~Skyrim.esm",
+      "edid": "BarrelFish01"
+    },
+    {
+      "id": "0x108B2F~Skyrim.esm",
+      "edid": "dunPurewaterRunSkillBookChest"
+    },
+    {
+      "id": "0x105024~Skyrim.esm",
+      "edid": "NobleChestDrawers02NoName"
+    },
+    {
+      "id": "0x1046B1~Skyrim.esm",
+      "edid": "MQ101Barrel"
+    },
+    {
+      "id": "0x103241~Skyrim.esm",
+      "edid": "SkyHavenArmoryChest"
+    },
+    {
+      "id": "0x101C95~Skyrim.esm",
+      "edid": "BlackBriarMeadBarrel01"
+    },
+    {
+      "id": "0x0FE485~Skyrim.esm",
+      "edid": "CWQuartermasterChestSons"
+    },
+    {
+      "id": "0x0FDBD0~Skyrim.esm",
+      "edid": "TGCacheBarrel"
+    },
+    {
+      "id": "0x0FD834~Skyrim.esm",
+      "edid": "CWFortSoldierWoundedTentChest"
+    },
+    {
+      "id": "0x0FCB25~Skyrim.esm",
+      "edid": "TreasExplorerLootChestSnow"
+    },
+    {
+      "id": "0x0FB9CC~Skyrim.esm",
+      "edid": "BarrelIngredientUncommon01_Snow"
+    },
+    {
+      "id": "0x0FB9CB~Skyrim.esm",
+      "edid": "BarrelIngredientCommon01_Snow"
+    },
+    {
+      "id": "0x0FB9CA~Skyrim.esm",
+      "edid": "BarrelEmpty01_Snow"
+    },
+    {
+      "id": "0x0FB9C9~Skyrim.esm",
+      "edid": "BarrelFood01_Snow"
+    },
+    {
+      "id": "0x0F93DD~Skyrim.esm",
+      "edid": "WinhelmBurialUrn"
+    },
+    {
+      "id": "0x0F8478~Skyrim.esm",
+      "edid": "TreasChestSmallEMPTYNoRespawn"
+    },
+    {
+      "id": "0x0F8477~Skyrim.esm",
+      "edid": "TreasRuinsUrnLargeEmptyNoRespawn"
+    },
+    {
+      "id": "0x0F8476~Skyrim.esm",
+      "edid": "LargeChestNoRespawn"
+    },
+    {
+      "id": "0x0F8120~Skyrim.esm",
+      "edid": "MarkarthBurialUrn"
+    },
+    {
+      "id": "0x0F68AE~Skyrim.esm",
+      "edid": "TGTributeChest"
+    },
+    {
+      "id": "0x0F684D~Skyrim.esm",
+      "edid": "MQ201ElenwenOfficeChest"
+    },
+    {
+      "id": "0x0F4A01~Skyrim.esm",
+      "edid": "dunTreasMapTreasChest"
+    },
+    {
+      "id": "0x0F3AF7~Skyrim.esm",
+      "edid": "TreasDwarvenChestLargeEMPTY"
+    },
+    {
+      "id": "0x0F1F66~Skyrim.esm",
+      "edid": "TreasBanditChestSnow"
+    },
+    {
+      "id": "0x0EF5F6~Skyrim.esm",
+      "edid": "POIYisraBurnt"
+    },
+    {
+      "id": "0x0EF578~Skyrim.esm",
+      "edid": "TG04GulumEiKillChest"
+    },
+    {
+      "id": "0x0EF052~Skyrim.esm",
+      "edid": "TreasExplorerLootChest"
+    },
+    {
+      "id": "0x0EA299~Skyrim.esm",
+      "edid": "UnownedChest"
+    },
+    {
+      "id": "0x0E3EA1~Skyrim.esm",
+      "edid": "FFMF01Chest"
+    },
+    {
+      "id": "0x0D762F~Skyrim.esm",
+      "edid": "MGHoldingChest"
+    },
+    {
+      "id": "0x0D6712~Skyrim.esm",
+      "edid": "CWMission04ChestContainer"
+    },
+    {
+      "id": "0x0D069C~Skyrim.esm",
+      "edid": "T02RiftenTempleChest"
+    },
+    {
+      "id": "0x0B8589~Skyrim.esm",
+      "edid": "DA07JorgenChest"
+    },
+    {
+      "id": "0x0B1176~Skyrim.esm",
+      "edid": "TreasFalmerChestBossDwarven"
+    },
+    {
+      "id": "0x0A0E42~Skyrim.esm",
+      "edid": "DelphineSecretRoomChest"
+    },
+    {
+      "id": "0x099D87~Skyrim.esm",
+      "edid": "HHChest01"
+    },
+    {
+      "id": "0x06EA48~Skyrim.esm",
+      "edid": "dunKatariahCaptainsChest"
+    },
+    {
+      "id": "0x06EA46~Skyrim.esm",
+      "edid": "dunKatariahEmperorsChest"
+    },
+    {
+      "id": "0x016ACA~Skyrim.esm",
+      "edid": "CWQuartermasterChestImperial"
+    },
+    {
+      "id": "0x087900~Skyrim.esm",
+      "edid": "FFRiften08BrandSheiChest"
+    },
+    {
+      "id": "0x08617F~Skyrim.esm",
+      "edid": "SBurialUrn01"
+    },
+    {
+      "id": "0x081DD9~Skyrim.esm",
+      "edid": "TGREvidenceChestUpper"
+    },
+    {
+      "id": "0x081DD8~Skyrim.esm",
+      "edid": "TGREvidenceChestNoble"
+    },
+    {
+      "id": "0x07AA90~Skyrim.esm",
+      "edid": "TreasBanditChestBossEMPTY"
+    },
+    {
+      "id": "0x066181~Skyrim.esm",
+      "edid": "MS11CalixtoChestREF"
+    },
+    {
+      "id": "0x03C59C~Skyrim.esm",
+      "edid": "FFRiften04IngunChest"
+    },
+    {
+      "id": "0x03C50F~Skyrim.esm",
+      "edid": "FFRiften02SibbiChest"
+    },
+    {
+      "id": "0x035A5F~Skyrim.esm",
+      "edid": "MQ101BarracksChest02"
+    },
+    {
+      "id": "0x035A5C~Skyrim.esm",
+      "edid": "MQ101BarracksChest01"
+    },
+    {
+      "id": "0x0305A1~Skyrim.esm",
+      "edid": "TreasFalmerChestEMPTY"
+    },
+    {
+      "id": "0x0E4258~Skyrim.esm",
+      "edid": "WRBurialUrn01"
+    },
+    {
+      "id": "0x0E3F97~Skyrim.esm",
+      "edid": "MQ201InterrogationChamberChest"
+    },
+    {
+      "id": "0x0DDCE2~Skyrim.esm",
+      "edid": "DB08PapersBarrel"
+    },
+    {
+      "id": "0x0DD061~Skyrim.esm",
+      "edid": "MQ104BurntCorpse03"
+    },
+    {
+      "id": "0x0DD060~Skyrim.esm",
+      "edid": "MQ104BurntCorpse04"
+    },
+    {
+      "id": "0x0DC173~Skyrim.esm",
+      "edid": "TGTQ02SabineChest"
+    },
+    {
+      "id": "0x0D89C6~Skyrim.esm",
+      "edid": "TreasHouseNobleChest"
+    },
+    {
+      "id": "0x0D30CC~Skyrim.esm",
+      "edid": "dunMiddenInvestigationChest"
+    },
+    {
+      "id": "0x0D1478~Skyrim.esm",
+      "edid": "DBPenitusOutpostChest"
+    },
+    {
+      "id": "0x0D1259~Skyrim.esm",
+      "edid": "TreasTreashunterChest"
+    },
+    {
+      "id": "0x0C4493~Skyrim.esm",
+      "edid": "RiftenTempleCharityChest"
+    },
+    {
+      "id": "0x0C2A05~Skyrim.esm",
+      "edid": "NobleChestDrawers01"
+    },
+    {
+      "id": "0x0C2A04~Skyrim.esm",
+      "edid": "NobleChestDrawers02"
+    },
+    {
+      "id": "0x094F10~Skyrim.esm",
+      "edid": "TreasDwarvenChestSmallEMPTY"
+    },
+    {
+      "id": "0x094F0E~Skyrim.esm",
+      "edid": "TreasDwarvenChestBossEMPTY"
+    },
+    {
+      "id": "0x0774C9~Skyrim.esm",
+      "edid": "TreasOrcChestBoss"
+    },
+    {
+      "id": "0x0774C8~Skyrim.esm",
+      "edid": "TreasOrcChest"
+    },
+    {
+      "id": "0x0774C6~Skyrim.esm",
+      "edid": "TreasGiantChest"
+    },
+    {
+      "id": "0x0774BF~Skyrim.esm",
+      "edid": "TreasGiantChestBoss"
+    },
+    {
+      "id": "0x06B30E~Skyrim.esm",
+      "edid": "NobleChest01"
+    },
+    {
+      "id": "0x092B13~Skyrim.esm",
+      "edid": "BarrelIngredientUncommon01"
+    },
+    {
+      "id": "0x092B10~Skyrim.esm",
+      "edid": "BarrelIngredientCommon01"
+    },
+    {
+      "id": "0x060752~Skyrim.esm",
+      "edid": "SovBarrel01"
+    },
+    {
+      "id": "0x05CB12~Skyrim.esm",
+      "edid": "HonningbrewMeadBarrelEmpty"
+    },
+    {
+      "id": "0x052B5A~Skyrim.esm",
+      "edid": "TGREvidenceChest"
+    },
+    {
+      "id": "0x04EC4F~Skyrim.esm",
+      "edid": "RoriksteadFreeformMralkisChest"
+    },
+    {
+      "id": "0x042749~Skyrim.esm",
+      "edid": "TreasBurntCorpse05"
+    },
+    {
+      "id": "0x042748~Skyrim.esm",
+      "edid": "TreasBurntCorpse04"
+    },
+    {
+      "id": "0x042747~Skyrim.esm",
+      "edid": "TreasBurntCorpse03"
+    },
+    {
+      "id": "0x042746~Skyrim.esm",
+      "edid": "TreasBurntCorpse02"
+    },
+    {
+      "id": "0x042745~Skyrim.esm",
+      "edid": "TreasBurntCorpse01"
+    },
+    {
+      "id": "0x02B034~Skyrim.esm",
+      "edid": "MS11ButcherChest"
+    },
+    {
+      "id": "0x0BF147~Skyrim.esm",
+      "edid": "TreasRuinsUrnSmall02EMPTY"
+    },
+    {
+      "id": "0x0BF146~Skyrim.esm",
+      "edid": "TreasRuinsUrnSmall01EMPTY"
+    },
+    {
+      "id": "0x0BF145~Skyrim.esm",
+      "edid": "TreasRuinsUrnLarge02EMPTY"
+    },
+    {
+      "id": "0x0BF144~Skyrim.esm",
+      "edid": "TreasRuinsUrnLarge01EMPTY"
+    },
+    {
+      "id": "0x0B7879~Skyrim.esm",
+      "edid": "TreasKnapsack"
+    },
+    {
+      "id": "0x0B622D~Skyrim.esm",
+      "edid": "MQ101WardenChest"
+    },
+    {
+      "id": "0x0AD6D4~Skyrim.esm",
+      "edid": "TreasDraugrChestEMPTYSmall"
+    },
+    {
+      "id": "0x09F810~Skyrim.esm",
+      "edid": "WE19BanditLootChest"
+    },
+    {
+      "id": "0x09AF19~Skyrim.esm",
+      "edid": "PersonalChestSmall"
+    },
+    {
+      "id": "0x097F78~Skyrim.esm",
+      "edid": "DB03Barrel"
+    },
+    {
+      "id": "0x097F70~Skyrim.esm",
+      "edid": "MiscSackLargeFlat03"
+    },
+    {
+      "id": "0x097F6E~Skyrim.esm",
+      "edid": "MiscSackLargeFlat02"
+    },
+    {
+      "id": "0x097F6C~Skyrim.esm",
+      "edid": "MiscSackLargeFlat01"
+    },
+    {
+      "id": "0x097F6A~Skyrim.esm",
+      "edid": "MiscSack02SmallFlat"
+    },
+    {
+      "id": "0x097F68~Skyrim.esm",
+      "edid": "MiscSack02LargeFlat"
+    },
+    {
+      "id": "0x097F66~Skyrim.esm",
+      "edid": "MiscSack02Small"
+    },
+    {
+      "id": "0x097F64~Skyrim.esm",
+      "edid": "MiscSack02Large"
+    },
+    {
+      "id": "0x097F54~Skyrim.esm",
+      "edid": "MiscSackLarge"
+    },
+    {
+      "id": "0x097F51~Skyrim.esm",
+      "edid": "MiscSackSmall"
+    },
+    {
+      "id": "0x08EA5E~Skyrim.esm",
+      "edid": "TreasAfflictedChest"
+    },
+    {
+      "id": "0x08EA5D~Skyrim.esm",
+      "edid": "TreasAfflictedChestBoss"
+    },
+    {
+      "id": "0x08B1F1~Skyrim.esm",
+      "edid": "TreasCWSonsChestBossLarge"
+    },
+    {
+      "id": "0x08B1F0~Skyrim.esm",
+      "edid": "TreasCWImperialChestBossLarge"
+    },
+    {
+      "id": "0x08B1E9~Skyrim.esm",
+      "edid": "TreasCWSonsChestBossSmall"
+    },
+    {
+      "id": "0x08B1E8~Skyrim.esm",
+      "edid": "TreasCWImperialChestBossSmall"
+    },
+    {
+      "id": "0x08A3B6~Skyrim.esm",
+      "edid": "TreasCWSonsChest"
+    },
+    {
+      "id": "0x08A3B4~Skyrim.esm",
+      "edid": "TreasCWImperialChest"
+    },
+    {
+      "id": "0x02069A~Skyrim.esm",
+      "edid": "TreasDwarvenChestLarge"
+    },
+    {
+      "id": "0x01D13C~Skyrim.esm",
+      "edid": "TreasUpperChestEMPTY"
+    },
+    {
+      "id": "0x08836C~Skyrim.esm",
+      "edid": "HonningbrewMeadBarrel01"
+    },
+    {
+      "id": "0x08836B~Skyrim.esm",
+      "edid": "MeadBarrel02"
+    },
+    {
+      "id": "0x08771D~Skyrim.esm",
+      "edid": "BarrelEmpty01"
+    },
+    {
+      "id": "0x0813B8~Skyrim.esm",
+      "edid": "TG03SabjornChest"
+    },
+    {
+      "id": "0x076F13~Skyrim.esm",
+      "edid": "TG00MadesiChest"
+    },
+    {
+      "id": "0x021363~Skyrim.esm",
+      "edid": "TreasUpperChest"
+    },
+    {
+      "id": "0x020673~Skyrim.esm",
+      "edid": "TreasBanditChestEMPTY"
+    },
+    {
+      "id": "0x020672~Skyrim.esm",
+      "edid": "TreasDraugrChestEMPTYLarge"
+    },
+    {
+      "id": "0x020671~Skyrim.esm",
+      "edid": "TreasDraugrChestBoss"
+    },
+    {
+      "id": "0x020670~Skyrim.esm",
+      "edid": "TreasDraugrChest"
+    },
+    {
+      "id": "0x020667~Skyrim.esm",
+      "edid": "TreasHagravenChestBoss"
+    },
+    {
+      "id": "0x020665~Skyrim.esm",
+      "edid": "TreasHagravenChest"
+    },
+    {
+      "id": "0x020664~Skyrim.esm",
+      "edid": "TreasVampireChestBoss"
+    },
+    {
+      "id": "0x020662~Skyrim.esm",
+      "edid": "TreasVampireChest"
+    },
+    {
+      "id": "0x020661~Skyrim.esm",
+      "edid": "TreasWerewolfChestBoss"
+    },
+    {
+      "id": "0x02065F~Skyrim.esm",
+      "edid": "TreasWerewolfChest"
+    },
+    {
+      "id": "0x02065D~Skyrim.esm",
+      "edid": "TreasWarlockChestBoss"
+    },
+    {
+      "id": "0x02065B~Skyrim.esm",
+      "edid": "TreasFalmerChestBoss"
+    },
+    {
+      "id": "0x020659~Skyrim.esm",
+      "edid": "TreasFalmerChest"
+    },
+    {
+      "id": "0x020658~Skyrim.esm",
+      "edid": "TreasForswornChestBoss"
+    },
+    {
+      "id": "0x020654~Skyrim.esm",
+      "edid": "TreasForswornChest"
+    },
+    {
+      "id": "0x020652~Skyrim.esm",
+      "edid": "TreasDwarvenChestBoss"
+    },
+    {
+      "id": "0x020650~Skyrim.esm",
+      "edid": "TreasDwarvenChestSmall"
+    },
+    {
+      "id": "0x02064F~Skyrim.esm",
+      "edid": "TreasBanditChestBoss"
+    },
+    {
+      "id": "0x062F5F~Skyrim.esm",
+      "edid": "FFWinterholdBChest02"
+    },
+    {
+      "id": "0x062F5D~Skyrim.esm",
+      "edid": "FFWinterholdBChest01"
+    },
+    {
+      "id": "0x05418E~Skyrim.esm",
+      "edid": "TreasWarlockChest"
+    },
+    {
+      "id": "0x04FDAE~Skyrim.esm",
+      "edid": "DB11LargeUrn"
+    },
+    {
+      "id": "0x03AC21~Skyrim.esm",
+      "edid": "TreasBanditChest"
+    },
+    {
+      "id": "0x0267E7~Skyrim.esm",
+      "edid": "EvidenceChestStolenGoods"
+    },
+    {
+      "id": "0x0252A6~Skyrim.esm",
+      "edid": "DA07SilusChest"
+    },
+    {
+      "id": "0x01CD65~Skyrim.esm",
+      "edid": "TreasRuinsUrnSmall02"
+    },
+    {
+      "id": "0x01CD63~Skyrim.esm",
+      "edid": "TreasRuinsUrnSmall01"
+    },
+    {
+      "id": "0x01C4AC~Skyrim.esm",
+      "edid": "TreasRuinsUrnLarge01"
+    },
+    {
+      "id": "0x01C4AA~Skyrim.esm",
+      "edid": "TreasRuinsUrnLarge02"
+    },
+    {
+      "id": "0x000845~Skyrim.esm",
+      "edid": "BarrelFood01"
+    },
+    {
+      "id": "0x011E39~Dawnguard.esm",
+      "edid": "DLC1VQ08CleanUpChest"
+    },
+    {
+      "id": "0x010F28~Dawnguard.esm",
+      "edid": "DLC1VampireCastleHoldingChest"
+    },
+    {
+      "id": "0x00EA8C~Dawnguard.esm",
+      "edid": "DLC01VQ05GemChest"
+    },
+    {
+      "id": "0x00689A~Dawnguard.esm",
+      "edid": "DLC01SoulcairnHuskSack"
+    },
+    {
+      "id": "0x0040A5~Dawnguard.esm",
+      "edid": "DLC01SC_ChestBoss"
+    },
+    {
+      "id": "0x019DD6~Dawnguard.esm",
+      "edid": "DLC01TreasSnowElfChestBoss"
+    },
+    {
+      "id": "0x01692A~Dawnguard.esm",
+      "edid": "DLC1TreasSoulCairnChest02"
+    },
+    {
+      "id": "0x0162CB~Dawnguard.esm",
+      "edid": "DLC1FalmerValleyTreasKnapsack"
+    },
+    {
+      "id": "0x01611F~Dawnguard.esm",
+      "edid": "DLC01SC_Chest02"
+    },
+    {
+      "id": "0x015FDF~Dawnguard.esm",
+      "edid": "DLC01SC_Chest"
+    },
+    {
+      "id": "0x015FDD~Dawnguard.esm",
+      "edid": "DLC01TreasSnowElfChest"
+    },
+    {
+      "id": "0x015461~Dawnguard.esm",
+      "edid": "DLC1TreasSoulCairnChest"
+    },
+    {
+      "id": "0x014F0C~Dawnguard.esm",
+      "edid": "DLC1LD_AetheriumForgeMaterialsChest"
+    },
+    {
+      "id": "0x00DCE7~Dawnguard.esm",
+      "edid": "DLC1TreasChestDarkFall01"
+    },
+    {
+      "id": "0x00739B~Dawnguard.esm",
+      "edid": "DLC1VQ07TempBowChest"
+    },
+    {
+      "id": "0x00D90D~HearthFires.esm",
+      "edid": "BYOHHouseBarrelFish01_NoRespawn"
+    },
+    {
+      "id": "0x00837E~HearthFires.esm",
+      "edid": "BYOHHouseNobleChestDrawers01"
+    },
+    {
+      "id": "0x008376~HearthFires.esm",
+      "edid": "BYOHHouseKnapsack"
+    },
+    {
+      "id": "0x008375~HearthFires.esm",
+      "edid": "BYOHHouseNobleChestDrawers02"
+    },
+    {
+      "id": "0x008372~HearthFires.esm",
+      "edid": "BYOHHouseNobleChest01"
+    },
+    {
+      "id": "0x008370~HearthFires.esm",
+      "edid": "BYOHHouseUpperChest"
+    },
+    {
+      "id": "0x004038~HearthFires.esm",
+      "edid": "BYOHUrchin_SofieChest"
+    },
+    {
+      "id": "0x003055~HearthFires.esm",
+      "edid": "BYOHHouseCraftingChest"
+    },
+    {
+      "id": "0x03D2A1~Dragonborn.esm",
+      "edid": "DLC2dunBloodskalTreasChestLure"
+    },
+    {
+      "id": "0x03C366~Dragonborn.esm",
+      "edid": "BarrelFish01_NoRespawn"
+    },
+    {
+      "id": "0x03C365~Dragonborn.esm",
+      "edid": "BarrelMeat01_NoRespawn"
+    },
+    {
+      "id": "0x03C364~Dragonborn.esm",
+      "edid": "DLC2DarkElfUrn01Food_NoRespawn"
+    },
+    {
+      "id": "0x03C363~Dragonborn.esm",
+      "edid": "DLC2DarkElfUrn01Ingredients_NoRespawn"
+    },
+    {
+      "id": "0x03C361~Dragonborn.esm",
+      "edid": "PersonalChestSmall_NoRespawn"
+    },
+    {
+      "id": "0x03B016~Dragonborn.esm",
+      "edid": "DLC2MQ06BookPuzzleChest"
+    },
+    {
+      "id": "0x03ABE4~Dragonborn.esm",
+      "edid": "DLC2TGCacheBarrel"
+    },
+    {
+      "id": "0x03ABE1~Dragonborn.esm",
+      "edid": "DLC2GloverLootChest"
+    },
+    {
+      "id": "0x03AB51~Dragonborn.esm",
+      "edid": "DLC2DarkElfUrn01Ingredients"
+    },
+    {
+      "id": "0x03AB50~Dragonborn.esm",
+      "edid": "DLC2DarkElfUrn01AshYams"
+    },
+    {
+      "id": "0x03A609~Dragonborn.esm",
+      "edid": "DLC2DarkElfUrn01Food"
+    },
+    {
+      "id": "0x03A4D6~Dragonborn.esm",
+      "edid": "DLC2WhiteRidgeKnapsack"
+    },
+    {
+      "id": "0x03A2B6~Dragonborn.esm",
+      "edid": "DLC2dunKolbjornTreasDraugrChestBoss"
+    },
+    {
+      "id": "0x039F87~Dragonborn.esm",
+      "edid": "TreasKnapsackEmpty"
+    },
+    {
+      "id": "0x035E25~Dragonborn.esm",
+      "edid": "DLC2dunFrostmoonTreasChest"
+    },
+    {
+      "id": "0x034B39~Dragonborn.esm",
+      "edid": "DLC2TreasRieklingChestSnow"
+    },
+    {
+      "id": "0x034022~Dragonborn.esm",
+      "edid": "DLC2WB01JournalChest"
+    },
+    {
+      "id": "0x02C463~Dragonborn.esm",
+      "edid": "DLC2TreasExplorerLootChestSnow"
+    },
+    {
+      "id": "0x02C462~Dragonborn.esm",
+      "edid": "DLC2TreasExplorerLootChest"
+    },
+    {
+      "id": "0x02C461~Dragonborn.esm",
+      "edid": "DLC2TreasApocryphaChestBoss"
+    },
+    {
+      "id": "0x02C460~Dragonborn.esm",
+      "edid": "DLC2TreasApocryphaChest"
+    },
+    {
+      "id": "0x02C45F~Dragonborn.esm",
+      "edid": "DLC2TreasWerebearChestBoss"
+    },
+    {
+      "id": "0x02C45E~Dragonborn.esm",
+      "edid": "DLC2TreasWerebearChest"
+    },
+    {
+      "id": "0x02C45A~Dragonborn.esm",
+      "edid": "DLC2TreasWerewolfChestBoss"
+    },
+    {
+      "id": "0x02C458~Dragonborn.esm",
+      "edid": "DLC2TreasWerewolfChest"
+    },
+    {
+      "id": "0x02C456~Dragonborn.esm",
+      "edid": "DLC2TreasWarlockChestBoss"
+    },
+    {
+      "id": "0x02C455~Dragonborn.esm",
+      "edid": "DLC2TreasWarlockChest"
+    },
+    {
+      "id": "0x02AAC2~Dragonborn.esm",
+      "edid": "DLC2TreasDraugrChestBoss"
+    },
+    {
+      "id": "0x02AAC1~Dragonborn.esm",
+      "edid": "DLC2TreasDraugrChest"
+    },
+    {
+      "id": "0x02AAC0~Dragonborn.esm",
+      "edid": "DLC2TreasBanditChestSnow"
+    },
+    {
+      "id": "0x02AABF~Dragonborn.esm",
+      "edid": "DLC2TreasBanditChestBoss"
+    },
+    {
+      "id": "0x02AABE~Dragonborn.esm",
+      "edid": "DLC2TreasBanditChest"
+    },
+    {
+      "id": "0x02AABC~Dragonborn.esm",
+      "edid": "DLC2TreasDwarvenChestSmall"
+    },
+    {
+      "id": "0x02AABB~Dragonborn.esm",
+      "edid": "DLC2TreasDwarvenChestLarge"
+    },
+    {
+      "id": "0x02AABA~Dragonborn.esm",
+      "edid": "DLC2TreasDwarvenChestBoss"
+    },
+    {
+      "id": "0x0292A6~Dragonborn.esm",
+      "edid": "DLC2RR02BossChest"
+    },
+    {
+      "id": "0x028211~Dragonborn.esm",
+      "edid": "TreasRieklingChestEMPTY"
+    },
+    {
+      "id": "0x027E09~Dragonborn.esm",
+      "edid": "DLC2SV02AncarionChest"
+    },
+    {
+      "id": "0x027108~Dragonborn.esm",
+      "edid": "DLC2ThirskBlacksmithChest"
+    },
+    {
+      "id": "0x025E48~Dragonborn.esm",
+      "edid": "DLC2TreasRieklingChest"
+    },
+    {
+      "id": "0x025E46~Dragonborn.esm",
+      "edid": "DLC2TreasRieklingChestBoss"
+    },
+    {
+      "id": "0x024DE2~Dragonborn.esm",
+      "edid": "DLC2RRF01Barrel"
+    },
+    {
+      "id": "0x024027~Dragonborn.esm",
+      "edid": "DLC2dunHaknirChest"
+    },
+    {
+      "id": "0x01F897~Dragonborn.esm",
+      "edid": "DLC2SkaalBlacksmithChest"
+    },
+    {
+      "id": "0x0173BD~Dragonborn.esm",
+      "edid": "DLC2dunNchardakCubeChest"
+    },
+    {
+      "id": "0x01705C~Dragonborn.esm",
+      "edid": "DLC2ExpSpiderCraftingChest"
+    }
+  ],
+  "locationKeyword": "0x0130DB~Skyrim.esm",
+  "rolls": {
+    "merchant": {
+      "bookPrimary": 0.85,
+      "bookExtra": 0.35,
+      "staff": 0.2,
+      "stanceBook": 0.05,
+      "stanceStaff": 0.01
+    },
+    "dungeon": {
+      "book": 0.1,
+      "staff": 0.03,
+      "stanceBook": 0.005,
+      "stanceStaff": 0.002
+    }
+  },
+  "books": [
+    {
+      "card": "Magician",
+      "localID": "000804",
+      "weight": 8,
+      "baseValue": 20,
+      "conditionalWeight": 0.06611570247933884
+    },
+    {
+      "card": "Judgement",
+      "localID": "000805",
+      "weight": 6,
+      "baseValue": 25,
+      "conditionalWeight": 0.049586776859504134
+    },
+    {
+      "card": "World",
+      "localID": "000806",
+      "weight": 8,
+      "baseValue": 20,
+      "conditionalWeight": 0.06611570247933884
+    },
+    {
+      "card": "Temperance",
+      "localID": "000807",
+      "weight": 10,
+      "baseValue": 10,
+      "conditionalWeight": 0.08264462809917356
+    },
+    {
+      "card": "Emperor",
+      "localID": "000A39",
+      "weight": 14,
+      "baseValue": 8,
+      "conditionalWeight": 0.11570247933884298
+    },
+    {
+      "card": "Hermit",
+      "localID": "000A3A",
+      "weight": 10,
+      "baseValue": 15,
+      "conditionalWeight": 0.08264462809917356
+    },
+    {
+      "card": "Chariot",
+      "localID": "000A3B",
+      "weight": 10,
+      "baseValue": 20,
+      "conditionalWeight": 0.08264462809917356
+    },
+    {
+      "card": "Sun",
+      "localID": "000A3C",
+      "weight": 4,
+      "baseValue": 40,
+      "conditionalWeight": 0.03305785123966942
+    },
+    {
+      "card": "Strength",
+      "localID": "000A3D",
+      "weight": 12,
+      "baseValue": 10,
+      "conditionalWeight": 0.09917355371900827
+    },
+    {
+      "card": "Justice",
+      "localID": "000A3E",
+      "weight": 8,
+      "baseValue": 20,
+      "conditionalWeight": 0.06611570247933884
+    },
+    {
+      "card": "Star",
+      "localID": "000A3F",
+      "weight": 10,
+      "baseValue": 15,
+      "conditionalWeight": 0.08264462809917356
+    },
+    {
+      "card": "Tower",
+      "localID": "000A40",
+      "weight": 3,
+      "baseValue": 50,
+      "conditionalWeight": 0.024793388429752067
+    },
+    {
+      "card": "Fool",
+      "localID": "000C96",
+      "weight": 18,
+      "baseValue": 5,
+      "conditionalWeight": 0.1487603305785124
+    }
+  ],
+  "staffs": [
+    {
+      "card": "Emperor",
+      "localID": "000A31",
+      "weight": 18,
+      "conditionalWeight": 0.1935483870967742
+    },
+    {
+      "card": "Hermit",
+      "localID": "000A32",
+      "weight": 12,
+      "conditionalWeight": 0.12903225806451613
+    },
+    {
+      "card": "Chariot",
+      "localID": "000A33",
+      "weight": 12,
+      "conditionalWeight": 0.12903225806451613
+    },
+    {
+      "card": "Sun",
+      "localID": "000A34",
+      "weight": 5,
+      "conditionalWeight": 0.053763440860215055
+    },
+    {
+      "card": "Strength",
+      "localID": "000A35",
+      "weight": 16,
+      "conditionalWeight": 0.17204301075268819
+    },
+    {
+      "card": "Justice",
+      "localID": "000A36",
+      "weight": 12,
+      "conditionalWeight": 0.12903225806451613
+    },
+    {
+      "card": "Star",
+      "localID": "000A37",
+      "weight": 14,
+      "conditionalWeight": 0.15053763440860216
+    },
+    {
+      "card": "Tower",
+      "localID": "000A38",
+      "weight": 4,
+      "conditionalWeight": 0.043010752688172046
+    }
+  ],
+  "stanceBooksBaseValue": 35,
+  "staffValue": "UNCHANGED",
+  "mainLeveledLists": [
+    [
+      3535,
+      "TOAM_LL_MerchantBooks",
+      [
+        2052,
+        2053,
+        2054,
+        2055,
+        2617,
+        2618,
+        2619,
+        2620,
+        2621,
+        2622,
+        2623,
+        2624,
+        3222
+      ],
+      [
+        8,
+        6,
+        8,
+        10,
+        14,
+        10,
+        10,
+        4,
+        12,
+        8,
+        10,
+        3,
+        18
+      ],
+      15
+    ],
+    [
+      3536,
+      "TOAM_LL_MerchantBooksExtra",
+      [
+        2052,
+        2053,
+        2054,
+        2055,
+        2617,
+        2618,
+        2619,
+        2620,
+        2621,
+        2622,
+        2623,
+        2624,
+        3222
+      ],
+      [
+        8,
+        6,
+        8,
+        10,
+        14,
+        10,
+        10,
+        4,
+        12,
+        8,
+        10,
+        3,
+        18
+      ],
+      65
+    ],
+    [
+      3537,
+      "TOAM_LL_MerchantStaffs",
+      [
+        2609,
+        2610,
+        2611,
+        2612,
+        2613,
+        2614,
+        2615,
+        2616
+      ],
+      [
+        18,
+        12,
+        12,
+        5,
+        16,
+        12,
+        14,
+        4
+      ],
+      80
+    ],
+    [
+      3538,
+      "TOAM_LL_DungeonBooks",
+      [
+        2052,
+        2053,
+        2054,
+        2055,
+        2617,
+        2618,
+        2619,
+        2620,
+        2621,
+        2622,
+        2623,
+        2624,
+        3222
+      ],
+      [
+        8,
+        6,
+        8,
+        10,
+        14,
+        10,
+        10,
+        4,
+        12,
+        8,
+        10,
+        3,
+        18
+      ],
+      90
+    ],
+    [
+      3539,
+      "TOAM_LL_DungeonStaffs",
+      [
+        2609,
+        2610,
+        2611,
+        2612,
+        2613,
+        2614,
+        2615,
+        2616
+      ],
+      [
+        18,
+        12,
+        12,
+        5,
+        16,
+        12,
+        14,
+        4
+      ],
+      97
+    ]
+  ],
+  "stanceLeveledLists": [
+    [
+      2304,
+      "TOAM_LL_StanceMerchantBooks",
+      [
+        2112,
+        2113
+      ],
+      [
+        1,
+        1
+      ],
+      95
+    ],
+    [
+      2305,
+      "TOAM_LL_StanceMerchantStaffs",
+      [
+        2096,
+        2097
+      ],
+      [
+        1,
+        1
+      ],
+      99
+    ],
+    [
+      2306,
+      "TOAM_LL_StanceDungeonBookLeaf",
+      [
+        2112,
+        2113
+      ],
+      [
+        1,
+        1
+      ],
+      50
+    ],
+    [
+      2307,
+      "TOAM_LL_StanceDungeonStaffLeaf",
+      [
+        2096,
+        2097
+      ],
+      [
+        1,
+        1
+      ],
+      80
+    ],
+    [
+      2308,
+      "TOAM_LL_StanceDungeonBooks",
+      [
+        2306
+      ],
+      [
+        1
+      ],
+      99
+    ],
+    [
+      2309,
+      "TOAM_LL_StanceDungeonStaffs",
+      [
+        2307
+      ],
+      [
+        1
+      ],
+      99
+    ]
+  ],
+  "probabilityMeaning": "Independent list evaluation per CID eligible container lifecycle. Conditional card weight within list; not a guarantee of immediate restock or repeat-cell rolls.",
+  "sources": [
+    {
+      "name": "Skyrim.esm",
+      "sha256": "9EC6B3818BBD002487BDC4104ADD07F814CC067E70C79EA2D164108A6C960F04",
+      "bytes": 249753573
+    },
+    {
+      "name": "Update.esm",
+      "sha256": "8502F3975A84FC4FD62C9781E867DF5BB661972887C93F017DB0857B20DC90F2",
+      "bytes": 18557306
+    },
+    {
+      "name": "Dawnguard.esm",
+      "sha256": "501BBCF0C61C8F28396A13A2CA877F904803EF9C0002B329EDDE7FB741119023",
+      "bytes": 25189548
+    },
+    {
+      "name": "HearthFires.esm",
+      "sha256": "30D319A8E439DBD1C5DEC03860A60AAEC9142642F2C9168419B424C897F592D1",
+      "bytes": 3978606
+    },
+    {
+      "name": "Dragonborn.esm",
+      "sha256": "4F2FE839956DB8807E07B1A0FEB805130487899CE337E60AD43F15ED9F8CB988",
+      "bytes": 64564304
+    }
+  ],
+  "runtime": "NOT_RUN"
+}

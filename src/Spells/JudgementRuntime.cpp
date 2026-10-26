@@ -2,6 +2,8 @@
 #include "Audio/SpellAudio.h"
 
 #include "Spells/JudgementRuntime.h"
+#include "Core/DamageSettings.h"
+#include "Core/DamagePolicy.h"
 
 #include "Charge/ChargeRuntime.h"
 #include "Combat/FixedDamage.h"
@@ -1694,7 +1696,8 @@ namespace TOAM::Spells::Judgement::Runtime
         const RE::NiPoint3& shotAimPoint,
         const float shotRadius,
         const float damageMultiplier,
-        ScheduledShotDamageResult& result) noexcept
+        ScheduledShotDamageResult& result,
+        const float configuredDamageMultiplier) noexcept
     {
         result =
             {};
@@ -1710,6 +1713,7 @@ namespace TOAM::Spells::Judgement::Runtime
             !std::isfinite(damageMultiplier) ||
             damageMultiplier < 0.5F ||
             damageMultiplier > 1.0F ||
+            !Core::DamagePolicy::Valid(configuredDamageMultiplier) ||
             !std::isfinite(
                 plan.profile->
                     beamDamage
@@ -1823,7 +1827,7 @@ namespace TOAM::Spells::Judgement::Runtime
                     sourceActor,
                     target.get(),
                     plan.profile->
-                        beamDamage * damageMultiplier,
+                        beamDamage * damageMultiplier * configuredDamageMultiplier,
                     Combat::FirewallOrigin::
                         kJudgement
                 )
@@ -1907,7 +1911,7 @@ namespace TOAM::Spells::Judgement::Runtime
                             sourceActor,
                             actor,
                             plan.profile->
-                                explosionDamage * damageMultiplier,
+                                explosionDamage * damageMultiplier * configuredDamageMultiplier,
                             Combat::FirewallOrigin::
                                 kJudgement
                         )
@@ -2153,6 +2157,7 @@ namespace TOAM::Spells::Judgement::Runtime
         // Preserve the original charge-start multiplier for delayed shots.
         scheduleSlot->damageMultiplier =
             damageMultiplier;
+        scheduleSlot->configuredDamageMultiplier = Core::DamageSettings::GetMultiplier();
 
         result.scheduleStarted =
             true;
@@ -2299,7 +2304,8 @@ namespace TOAM::Spells::Judgement::Runtime
                         shotAimPoint,
                         kArtilleryBeamRadiusWorldUnits,
                         schedule.damageMultiplier,
-                        damageResult
+                        damageResult,
+                        schedule.configuredDamageMultiplier
                     );
 
 
@@ -2362,8 +2368,8 @@ namespace TOAM::Spells::Judgement::Runtime
                     shotIndex,
                     executed,
                     schedule.damageMultiplier,
-                    schedule.plan.profile ? schedule.plan.profile->beamDamage * schedule.damageMultiplier : 0.0F,
-                    schedule.plan.profile ? schedule.plan.profile->explosionDamage * schedule.damageMultiplier : 0.0F,
+                    schedule.plan.profile ? schedule.plan.profile->beamDamage * schedule.damageMultiplier * schedule.configuredDamageMultiplier : 0.0F,
+                    schedule.plan.profile ? schedule.plan.profile->explosionDamage * schedule.damageMultiplier * schedule.configuredDamageMultiplier : 0.0F,
                     beamVisual,
                     impactVisual,
                     damageResult.beamIntersections,

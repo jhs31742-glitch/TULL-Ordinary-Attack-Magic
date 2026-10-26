@@ -19,6 +19,7 @@
 #include "FlightLegPoseData.h"
 #include <cstring>
 #include "Integration.h"
+#include "Core/DamageSettings.h"
 #include "IntegratedFormMap.h"
 using namespace std::literals;
 namespace logger=SKSE::log;
@@ -66,6 +67,7 @@ struct Hand {
  std::array<ArtSlot,12> circles{};std::array<TrackLane,5> lanes{};std::vector<RE::ActorHandle> targets{};
  RE::NiPoint3 field{},sky{};bool fieldSet=false;
  bool adaptive=false,done=false,releasePlayed=false,soundStarted=false,parryArmed=false,denied=false,rainStarted=false,rainDetonated=false;
+ float damageMultiplier=1; // Damage-only cast snapshot; never used by billing.
  float sessionCost=-1,nextShake=0,scanTimer=0,slowTimer=0,rainNext=rainFirstShotSeconds,rainDetonationAt=0;
  bool resourceStarted=false,engineUpdateSeen=false;float paidBase=0,paidResource=0;unsigned resourceAudits=0;
  RE::BSSoundHandle loop{};std::array<RE::BSSoundHandle,16> shots{};

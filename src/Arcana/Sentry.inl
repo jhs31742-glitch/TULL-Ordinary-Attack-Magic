@@ -1,5 +1,5 @@
 // Independent installed emitters: fixed world position, smooth aim, owned held beam.
-struct SentrySlot {ArtSlot circle{};SentryLife life{};RE::NiPoint3 position{};RE::NiMatrix3 facing{};RE::TESObjectCELL* cell=nullptr;RE::TESWorldSpace* world=nullptr;RE::ActorHandle target{};RE::BSSoundHandle loop{};int beam=-1;std::uint64_t beamSerial=0;unsigned audits=0,contacts=0;float next=0,scan=0,wait=0;int side=0;};
+struct SentrySlot {ArtSlot circle{};SentryLife life{};RE::NiPoint3 position{};RE::NiMatrix3 facing{};RE::TESObjectCELL* cell=nullptr;RE::TESWorldSpace* world=nullptr;RE::ActorHandle target{};RE::BSSoundHandle loop{};int beam=-1;std::uint64_t beamSerial=0;unsigned audits=0,contacts=0;float next=0,scan=0,wait=0,damageMultiplier=1;int side=0;};
 std::array<SentrySlot,sentryLimit> sentries{};std::array<unsigned,sentryLimit> sentryBanks{};std::uint64_t sentrySerial=0;
 void StopSentryBeam(SentrySlot& s,bool tail=true){
  if(s.beam>=0&&s.beam<static_cast<int>(beamSlots.size())){auto& b=beamSlots[s.beam];if(b.active&&b.mode==Sentry&&b.serial==s.beamSerial){
@@ -9,9 +9,9 @@ void StopSentryBeam(SentrySlot& s,bool tail=true){
 }
 void RemoveSentry(SentrySlot& s){StopSentryBeam(s);RetireCircle(s.circle,s.side,false,RE::PlayerCharacter::GetSingleton(),0,circleTailFade,0,circleTailHold,0,true);s=SentrySlot{};}
 void ClearSentries(){for(auto& s:sentries){StopSentryBeam(s,false);RemoveSentry(s);}}
-void PlaceSentry(int side,RE::Actor* actor,RE::NiAVObject* root,const RE::NiPoint3& position,const RE::NiMatrix3& facing){
+void PlaceSentry(int side,RE::Actor* actor,RE::NiAVObject* root,const RE::NiPoint3& position,const RE::NiMatrix3& facing,float damageMultiplier){
  std::array<SentryLife,3> life{};for(int i=0;i<3;i++)life[i]=sentries[i].life;int index=SentryReplacement(life);auto& s=sentries[index];bool replaced=s.life.active;RemoveSentry(s);
- s.life={true,++sentrySerial,0};s.position=position;s.facing=facing;s.side=side;s.cell=actor->GetParentCell();s.world=actor->GetWorldspace();s.next=.24f;
+ s.life={true,++sentrySerial,0};s.position=position;s.facing=facing;s.side=side;s.cell=actor->GetParentCell();s.world=actor->GetWorldspace();s.next=.24f;s.damageMultiplier=damageMultiplier;
  auto* art=forms.sentry[index*4+(++sentryBanks[index])%4];EnsureCircle(s.circle,art,actor,root);
  logger::info("SENTRY_PLACED slot={} serial={} replacedOldest={} seconds=3 heldBeam=true position=({},{},{})",index,s.life.serial,replaced,position.x,position.y,position.z);
 }
@@ -49,7 +49,7 @@ void UpdateSentries(int side,RE::MagicCaster*,RE::Actor* actor,float dt){
      s.next=s.life.age+sentryInterval;
      if(auto* caster=actor->GetMagicCaster(RE::MagicSystem::CastingSource::kInstant)){
       ++s.contacts;const int previous=currentDamageMode;currentDamageMode=Sentry;
-      caster->CastSpellImmediate(forms.sentryContact,true,target,1,true,modes[Sentry].damage,actor);currentDamageMode=previous;
+      caster->CastSpellImmediate(forms.sentryContact,true,target,1,true,modes[Sentry].damage*s.damageMultiplier,actor);currentDamageMode=previous;
       if(s.audits++<16)logger::info("SENTRY_CONTACT_REQUEST serial={} target={:08X} magnitude={} interval={}",s.life.serial,target->GetFormID(),modes[Sentry].damage,sentryInterval);
      }
     }

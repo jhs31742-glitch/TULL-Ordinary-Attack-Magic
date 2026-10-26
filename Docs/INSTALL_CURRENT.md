@@ -1,4 +1,4 @@
-# TULL Ordinary Attack Magic v0.8.11
+# TULL Ordinary Attack Magic v0.8.12
 
 Install the Main archive as the MO2 mod TULL Ordinary Attack Magic.
 Required runtime: Skyrim SE1.5.97, matching SKSE, Address Library and Open Animation Replacer. AE/VR runtime support is not enabled.
@@ -22,3 +22,6 @@ The GitHub repository stays private until the Nexus release. Do not publish the 
 
 ## CP029 R2 — Arcana maximum cost reduction80%
 User-approved2026-10-26:applies to all8 ordinary/adaptive Arcana spells and staff charge. Final resource factor=max(.20,engineCalculateMagickaCost/baseCost). TOAM cost/limiter/damage unchanged. Hermit stays engine-billed through currentSpellCost with the same floor, never a second Native debit. Staff player MP remains0. God Mode remains the explicit engine cheat exception. The unchanged vanilla MagicMenu estimate may differ from the actual capped Native payment; use actual payment/charge and this policy for QA.
+
+## CP030 additions
+See DAMAGE_SETTINGS.md for the damage-only INI/optional Framework page. See DISTRIBUTION.md and NEXUS_RELEASE_GUIDE.md for required CID/powerofthree Tweaks,BEES,prices,weights and optional Stances distribution. All Temperance/limiter/defense/resource/cadence contracts are preserved. New runtime NOT_RUN.

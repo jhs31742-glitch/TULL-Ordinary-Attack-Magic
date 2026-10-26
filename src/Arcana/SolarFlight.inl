@@ -1,11 +1,11 @@
 // One detached heavy bolt sweeps a finite volume. Each hostile actor is affected once.
 // Damage uses a dedicated targeted native Value Modifier spell, never raw Health subtraction.
-struct SolarFlight {bool active=false,impactPlayed=false;int beam=-1,side=0;RE::NiPoint3 impactPoint{};RE::NiMatrix3 impactFacing{};std::uint64_t serial=0;float previous=0;std::array<std::uint32_t,64> hit{};unsigned hitCount=0;};
+struct SolarFlight {bool active=false,impactPlayed=false;int beam=-1,side=0;RE::NiPoint3 impactPoint{};RE::NiMatrix3 impactFacing{};std::uint64_t serial=0;float previous=0,damageMultiplier=1;std::array<std::uint32_t,64> hit{};unsigned hitCount=0;};
 std::array<SolarFlight,4> solarFlights{};
 void ClearSolarFlights(){solarFlights={};}
-bool StartSolarFlight(int slot,RE::Actor* actor,RE::NiAVObject* root){
+bool StartSolarFlight(int slot,RE::Actor* actor,RE::NiAVObject* root,float damageMultiplier){
  for(int i=0;i<solarImpactSlots;i++)if(!solarFlights[i].active){
-  auto& flight=solarFlights[i];flight=SolarFlight{};flight.active=true;flight.beam=slot;flight.side=slot/beamsPerHand;auto& beam=beamSlots[slot];flight.serial=beam.serial;
+  auto& flight=solarFlights[i];flight=SolarFlight{};flight.active=true;flight.beam=slot;flight.side=slot/beamsPerHand;auto& beam=beamSlots[slot];flight.serial=beam.serial;flight.damageMultiplier=damageMultiplier;
   if(beam.geometryHit){auto normal=beam.impactNormal,axis=beam.rotation*RE::NiPoint3{0,1,0};if(!Finite(normal)||Length(normal)<.001f)normal=axis*-1.f;normal=Unit(normal);
    flight.impactPoint=beam.origin+axis*beam.length+normal*8;flight.impactFacing=DirectionRotation(normal);ShowSolarImpact(i,flight.side,actor,root,flight.impactPoint,flight.impactFacing,true);
   }
@@ -43,7 +43,7 @@ void UpdateSolarFlights(RE::Actor* source){
    if(!flight.active||source->IsDead())break;auto target=contacts[i].get();if(!target||target->IsDead())continue;
    if(auto* caster=source->GetMagicCaster(RE::MagicSystem::CastingSource::kInstant)){
     flight.hit[flight.hitCount++]=target->GetFormID();int previousMode=currentDamageMode;currentDamageMode=SolarCrown;
-    caster->CastSpellImmediate(forms.solarContact,true,target.get(),1,true,modes[SolarCrown].damage,source);currentDamageMode=previousMode;
+    caster->CastSpellImmediate(forms.solarContact,true,target.get(),1,true,modes[SolarCrown].damage*flight.damageMultiplier,source);currentDamageMode=previousMode;
     logger::info("SOLAR_CONTACT_REQUEST target={:08X} along={} head={} nominalDamage={} oncePerBolt=true",target->GetFormID(),contactAlong[i],segment.head,modes[SolarCrown].damage);
    }
   }
