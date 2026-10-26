@@ -4443,3 +4443,51 @@ Initial parent deployment identity rejected user-applied shipped KR root ESP,omi
 Editor UX supplement:mouse and position/rotation/scale sliders are primary;precise numeric/normal/dimension fields are folded. Named-set hierarchy and independent hand/count variants are preserved in one versioned JSON library.
 
 AI/developer coordinate references: tools/formation_editor/examples/ai-coordinate-examples.json (direct import) and ai-reference-guide.json (machine-readable documentation); actual TOAM source-backed values remain presets/toam-reviewed.json with source hashes.
+
+
+---
+## CP032 /v1.0.0 — static staff cloth orientation correction
+# CP032 /TOAM1.0.0 — 프리렌 지팡이 정적 천 장식 교정
+작성:2026-10-27T04:52:18.253150+09:00
+PARENT=CP0311.0.0. 사용자 실게임 핵심23/23PASS;설정/저장복원/회전가속퇴장/절제/비행/판매·던전/연속시전,관찰된 CTD·프리징 없음. 원158문항 전체 완료로 확대하지 않는다. 이번 천 교정의 RUNTIME=NOT_RUN.
+
+## 증상과 확인 근거
+제공된04-06-23영상22~36초 근접 관찰에서 리본이 각도에 따라 사라지고 단면만 보이거나 장식이 분리되어 보이는 현상을 확인했다. 영상만으로 원인을 확정하지 않고 현재 활성 설치본과 기하를 대조했다.04-09-12는전투참고이며 본 교정의 피해/연출 변경 근거가 아니다. 실제 OrdinaryAttackMagic.log1297행/error0/warning16과 일치한다. 이 로그는 물리 성공/형상 정상의 증거가 아니다.
+실제 MO2 선택 프로필의 활성 본체는`TULL Ordinary Attack Magic - v1.0.0`,애드온은같은v1.0.0별도폴더다. 이전`TULL Ordinary Attack Magic`폴더와 SMP옵션은 비활성이다. 활성 본체는 CP031 MainZIP932파일과 완전히 일치했다. 구폴더를 실제Production으로 잘못 수정하지 않는다. 프로필/플러그인/세이브는 읽기 전용이다.
+
+## 확인된 원인
+Gold/MillennialStaff의`10_Hanging_Red_Ribbon`,BSTriShape block40.300정점/596삼각형의 닫힌 메시지만 앞·뒷면 인덱스 방향을 같게 작성했다. 용접하지 않은 원본 그래프에서도 비다양체/열린모서리는0이나 공유모서리152개가 같은 방향으로 중복 진행한다. 앞/뒤투영면적52.0870/0.0으로,기본single-sided재질이 뒷면을 제거한다. 법선-면 평균 방향 충돌42개도 검출됐다. 누락텍스처나알파문제가 아니다:Gold cloth DDS1024²/11밉,Silver2048²/12밉,디퓨즈알파255,경로와정규맵정상이다.
+원본 Arcana0.7.4 FlightStateFix `source/frieren/FrierenStaff.spec`의 리본 위치와 삼각형이 현재CP031와 일치한다. 결함은 SMP시험 이전의 정적 원본에 존재한다. 기본4NIF는SkinInstance없음/추가뼈없음이고,활성프로필의SMP는비활성이다. 이번 결함을 과거SMP solver활성 실패와 혼동하지 않는다.
+
+## 최소 교정
+인접삼각형 그래프의방향 제약을 전파하고 닫힌요소의양의부호체적으로 바깥을선택했다.296개삼각형방향을뒤집고300개정점의면적가중법선과UV기반접선/종법선을재계산했다. 공유모서리방향충돌152→0,법선충돌42→0,투영면적26.0435/26.0435. 접선프레임최대내적0.00799653,양자화후길이0.995206..1.004496. 독립nifly Load/IsValid재읽기와재적용동일바이트를확인했다.
+삼각형수·정점수·모든위치·UV·스케일·트랜스폼은보존했다. 리본인덱스와법선/접선필드외모든바이트가동일하다. 각NIF2582바이트만달라진다. 셰이더double-sided를켜서가리지않았으며재질·텍스처·경로·BSX·INV/Prn·충돌·헤더·노드·다른13파트·보석/태슬은보존한다. NIF전체재직렬화/경로정규화를하지않는다.
+
+## 페른/Silver 비교
+`07_Hanging_Purple_Ribbon`:1153정점/1816삼각형,UV이음새용접후방향충돌0/열린모서리0/비다양체0/법선충돌0,양면투영58.364/58.364. 하단/상단보라감개도방향충돌0이다. 상단감개의고곡률4소면에서정점평균법선과면방향차이가검출되지만동일한인덱스뒤집힘결함은없다. 관찰된페른리본결함근거가없으므로Silver두NIF는전바이트보존했다. 일반적인면평균법선차이를모두토폴로지손상으로단정하지않는다.
+
+## 파일 및 SHA256
+|파일|Bytes|변경전|변경후|
+|---|---:|---|---|
+|meshes/TOAM/Staffs/Arcana_Staff_Gold.nif|487385|09E6C74319F4C7132EA3E962FFDEA85B8BBB7009D801D7CB722AF8BC03BC0196|D376232AAB2952D0133D71B5CB2CEB7B32F4A669E1C10955AD3198F677923F2C|
+|meshes/TOAM/Staffs/Arcana_Staff_Gold_FirstPerson.nif|487385|09E6C74319F4C7132EA3E962FFDEA85B8BBB7009D801D7CB722AF8BC03BC0196|D376232AAB2952D0133D71B5CB2CEB7B32F4A669E1C10955AD3198F677923F2C|
+각파일은assets/TOAM/Data와실제활성MO2본체에적용한다. 텍스처수정0,Native소스수정0,ESP수정0,XML/Helper/Papyrus추가0. 배포/008최종해시는외부CURRENT_RESULT에서확인한다.
+
+## 참조 영향 범위
+Gold일반모델은3인칭·인벤토리·드롭월드공용,1인칭은기존STAT01000A74의Gold_FirstPerson별도참조다. 두NIF는부모단계부터동일바이트였으나두물리경로모두교정한다. 공용모델을쓰는힘/정의/별/탑/달(해방)5지팡이에같이적용된다. 모든WEAP/ENCH/WNAM/MASTER/FormID/가격·충전20000/40000·CID확률은변경하지않는다.
+- Arcana - Strength Staff:WEAP0x1000a35,WNAM0x1000a74,ENCH0x1000a25.
+- Arcana - Justice Staff:WEAP0x1000a36,WNAM0x1000a74,ENCH0x1000a26.
+- Arcana - Star Staff:WEAP0x1000a37,WNAM0x1000a74,ENCH0x1000a27.
+- Arcana - Tower Staff:WEAP0x1000a38,WNAM0x1000a74,ENCH0x1000a28.
+- Arcana - Moon Staff (Unbound):WEAP0x3000831,WNAM0x1000a74,ENCH0x3000811.
+
+## 최소 사용자 QA
+1. 프리렌형 일반/해방 중 사용하던 지팡이를3인칭으로 장착하고정면·뒷면·양측을회전관찰하여리본연속성/본체관통/장식분리를확인한다. 페른은원본유지비교대상이다.
+2.1인칭전환·장착해제·재장착·기존시전에서리본/본체표시를확인한다. 전투23항목을다시전부요구하지않는다.
+3. 인벤토리회전과월드드롭/재습득에서양면표시·원래충돌을확인한다. 실제게임을자동실행하거나세이브를수정하지않는다.
+
+## 판정과 재사용 교훈
+STATIC=PASS;BUILD=NOT_REQUIRED_ASSET_ONLY(parentCP031DLL유지);DEPLOY는트랜잭션결과로판정;CP031USER_RUNTIME=CORE23/23PASS;CP032CLOTH_RUNTIME=NOT_RUN;LOCK=NO. 정적면방향교정은중력/바람물리재도입이아니다.
+정상로드/정점수/닫힌모서리만으로렌더가능한양면을검증할수없다. 인접모서리방향·부호체적·앞/뒤투영면적·노멀프레임을별도로검사한다. 정상인Silver를Gold와같이무차별뒤집지않는다. 실제활성MO2폴더를다시찾고바이트를대조한다. 원래모델의확인된결함과SMP활성실패는별개다.
+후보도구실패:독립C++리더의external/half.hpp include누락을실제헤더위치로교정했고,새PowerShell호출에서경로변수를재정의하지않은호출과Python가변커서증가식(p+=4*val(...))의평가순서오류,NumPy가bytes를숫자배열로해석하지못한검사오류를수정했다. 모두후보/검사단계의실패이며Production변경0이었다. 부정확한검사결과를모델손상으로해석하지않는다. 실패증거와성공후보는같은Stage에보존한다.
+오프라인4방향투영그림은구조진단이며게임셰이더·가시성PASS가아니다. 수정후새런타임결과는사용자실측으로만갱신한다.

@@ -1,5 +1,6 @@
 {
   "version": "1.0.0",
+  "assetCorrection": "CP032",
   "runtimeAssetsNotIncluded": true,
   "authoringDocsExcludedFromRuntime": true,
   "files": [
@@ -161,12 +162,12 @@
     {
       "path": "meshes/TOAM/Staffs/Arcana_Staff_Gold.nif",
       "bytes": 487385,
-      "sha256": "09E6C74319F4C7132EA3E962FFDEA85B8BBB7009D801D7CB722AF8BC03BC0196"
+      "sha256": "D376232AAB2952D0133D71B5CB2CEB7B32F4A669E1C10955AD3198F677923F2C"
     },
     {
       "path": "meshes/TOAM/Staffs/Arcana_Staff_Gold_FirstPerson.nif",
       "bytes": 487385,
-      "sha256": "09E6C74319F4C7132EA3E962FFDEA85B8BBB7009D801D7CB722AF8BC03BC0196"
+      "sha256": "D376232AAB2952D0133D71B5CB2CEB7B32F4A669E1C10955AD3198F677923F2C"
     },
     {
       "path": "meshes/TOAM/Staffs/Arcana_Staff_Silver.nif",

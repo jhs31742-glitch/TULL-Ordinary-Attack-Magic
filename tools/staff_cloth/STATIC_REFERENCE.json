@@ -1,0 +1,262 @@
+{
+  "RESULT": "STATIC_PASS",
+  "repair": {
+    "status": "REPAIRED",
+    "block": 40,
+    "shape": "10_Hanging_Red_Ribbon",
+    "vertices": 300,
+    "triangles": 596,
+    "components": 1,
+    "originalConflictingEdges": 152,
+    "flippedTriangles": 296,
+    "changedBytes": 2582,
+    "preserved": "every byte except ribbon triangle indices and normal/tangent/bitangent fields",
+    "beforeSHA256": "09E6C74319F4C7132EA3E962FFDEA85B8BBB7009D801D7CB722AF8BC03BC0196",
+    "afterSHA256": "D376232AAB2952D0133D71B5CB2CEB7B32F4A669E1C10955AD3198F677923F2C"
+  },
+  "comparisons": [
+    {
+      "model": "Gold",
+      "shape": "09_Red_Cloth_Binding",
+      "before": {
+        "vertices": 1889,
+        "triangles": 3552,
+        "conflictingEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 0,
+        "projectedFrontArea": 47.00287055443423,
+        "projectedBackArea": 47.00287055443423
+      },
+      "skinned": false,
+      "doubleSided": false
+    },
+    {
+      "model": "Gold",
+      "shape": "10_Hanging_Red_Ribbon",
+      "before": {
+        "vertices": 300,
+        "triangles": 596,
+        "conflictingEdges": 152,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 42,
+        "projectedFrontArea": 52.08701658834565,
+        "projectedBackArea": 0.0
+      },
+      "skinned": false,
+      "doubleSided": false,
+      "after": {
+        "vertices": 300,
+        "triangles": 596,
+        "conflictingEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 0,
+        "projectedFrontArea": 26.043508294172824,
+        "projectedBackArea": 26.043508294172824
+      }
+    },
+    {
+      "model": "Gold_FirstPerson",
+      "shape": "09_Red_Cloth_Binding",
+      "before": {
+        "vertices": 1889,
+        "triangles": 3552,
+        "conflictingEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 0,
+        "projectedFrontArea": 47.00287055443423,
+        "projectedBackArea": 47.00287055443423
+      },
+      "skinned": false,
+      "doubleSided": false
+    },
+    {
+      "model": "Gold_FirstPerson",
+      "shape": "10_Hanging_Red_Ribbon",
+      "before": {
+        "vertices": 300,
+        "triangles": 596,
+        "conflictingEdges": 152,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 42,
+        "projectedFrontArea": 52.08701658834565,
+        "projectedBackArea": 0.0
+      },
+      "skinned": false,
+      "doubleSided": false,
+      "after": {
+        "vertices": 300,
+        "triangles": 596,
+        "conflictingEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 0,
+        "projectedFrontArea": 26.043508294172824,
+        "projectedBackArea": 26.043508294172824
+      }
+    },
+    {
+      "model": "Silver",
+      "shape": "02_Lower_Purple_Spiral_Wrap",
+      "before": {
+        "vertices": 6963,
+        "triangles": 13376,
+        "conflictingEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 0,
+        "projectedFrontArea": 237.23695667432466,
+        "projectedBackArea": 237.23695667432463
+      },
+      "skinned": false,
+      "doubleSided": false
+    },
+    {
+      "model": "Silver",
+      "shape": "03_Upper_Purple_Wrap",
+      "before": {
+        "vertices": 2659,
+        "triangles": 4928,
+        "conflictingEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 4,
+        "projectedFrontArea": 72.09798810539127,
+        "projectedBackArea": 72.09798810539125
+      },
+      "skinned": false,
+      "doubleSided": false
+    },
+    {
+      "model": "Silver",
+      "shape": "07_Hanging_Purple_Ribbon",
+      "before": {
+        "vertices": 1153,
+        "triangles": 1816,
+        "conflictingEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 0,
+        "projectedFrontArea": 58.363727249878835,
+        "projectedBackArea": 58.363727249878835
+      },
+      "skinned": false,
+      "doubleSided": false
+    },
+    {
+      "model": "Silver_FirstPerson",
+      "shape": "02_Lower_Purple_Spiral_Wrap",
+      "before": {
+        "vertices": 6963,
+        "triangles": 13376,
+        "conflictingEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 0,
+        "projectedFrontArea": 237.23695667432466,
+        "projectedBackArea": 237.23695667432463
+      },
+      "skinned": false,
+      "doubleSided": false
+    },
+    {
+      "model": "Silver_FirstPerson",
+      "shape": "03_Upper_Purple_Wrap",
+      "before": {
+        "vertices": 2659,
+        "triangles": 4928,
+        "conflictingEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 4,
+        "projectedFrontArea": 72.09798810539127,
+        "projectedBackArea": 72.09798810539125
+      },
+      "skinned": false,
+      "doubleSided": false
+    },
+    {
+      "model": "Silver_FirstPerson",
+      "shape": "07_Hanging_Purple_Ribbon",
+      "before": {
+        "vertices": 1153,
+        "triangles": 1816,
+        "conflictingEdges": 0,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "degenerateFaces": 0,
+        "normalConflictFaces": 0,
+        "projectedFrontArea": 58.363727249878835,
+        "projectedBackArea": 58.363727249878835
+      },
+      "skinned": false,
+      "doubleSided": false
+    }
+  ],
+  "textures": [
+    {
+      "path": "textures/TOAM/Staffs/Gold/cloth_d.dds",
+      "sha256": "A391E40446E55D552658D4C0B276607CE23D411F820BBA2495552666FE47F898",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11
+    },
+    {
+      "path": "textures/TOAM/Staffs/Gold/cloth_n.dds",
+      "sha256": "0835828EE50C6F24B36F4930DD7502C34318CE0BA6E5DD2894F2D420257A0F7C",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11
+    },
+    {
+      "path": "textures/TOAM/Staffs/Silver/cloth_d.dds",
+      "sha256": "424E54005C3CACC77A2739766EDB9E2B71394AF531F625FB0FB3262024545A31",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mips": 12
+    },
+    {
+      "path": "textures/TOAM/Staffs/Silver/cloth_n.dds",
+      "sha256": "F35FA0AF282215221D1C9EF7E35CBF315AF11A3E86A15D58D7E3F8C2652AF10E",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mips": 12
+    }
+  ],
+  "reference": {
+    "path": "Arcana0.7.4/source/frieren/FrierenStaff.spec",
+    "sha256": "80F3F22F96138D23BFEF3BE67E06CE83E82A838D9B97E3EE7EA06977247A5104",
+    "geometry": "SAME_POSITIONS_AND_TRIANGLES_AS_CP031_GOLD_RIBBON"
+  },
+  "scope": "Only Gold two NIFs,one BSTriShape each. Silver audited;no same winding defect;unchanged.",
+  "preserved": "all other bytes,vertex positions,UVs,shader blocks,paths,root/BSX/collision/extra data,all other shapes;Native/ESP untouched",
+  "tangentFrame": {
+    "maxDot": 0.007996529015794479,
+    "minLength": 0.9952057316400059,
+    "maxLength": 1.0044958528997954
+  },
+  "runtime": "NOT_RUN_CORRECTED_CLOTH;CP031_CORE_23_OF_23_USER_PASS"
+}

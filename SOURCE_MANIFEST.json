@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "runtime": "V1_NOT_RUN;CP030_USER_DAMAGE_MENU_MERCHANT_PASS",
+  "runtime": "CP031_CORE_23_OF_23_USER_PASS;CP032_CLOTH_NOT_RUN",
   "nativeSourceExact": true,
   "dependencies": "gitlinks pinned inDEPENDENCIES.lock.json",
   "DLLSHA256": "52A053CAC87DB74E611EF3B25F5A3BBF488D17CC352174996559487261107FBA",
@@ -280,8 +280,8 @@
     },
     {
       "path": "DataSources/RUNTIME_ASSETS_MANIFEST.json",
-      "bytes": 220447,
-      "sha256": "255A6AED00C0CC7CCA7DF58CABC16305F42B7A05CC38EE3EB1BCFEDC7DAE4494"
+      "bytes": 220477,
+      "sha256": "543639731BD16F68387CFFE3B86BC33CFF998487E6D193F5FC42C59A49E45100"
     },
     {
       "path": "DataSources/TOAM.ini",
@@ -292,6 +292,11 @@
       "path": "Docs/CP031_IMPLEMENTATION_REPORT.md",
       "bytes": 11216,
       "sha256": "970340B6B3DBE3E47C67B817A937BD22172C36A3FDB984CECB3D02FF26935C41"
+    },
+    {
+      "path": "Docs/CP032_STAFF_CLOTH_REPORT.md",
+      "bytes": 7001,
+      "sha256": "7B2D96F5A0F41B1144EACFC2CE8547E35E4B784DCAB4E7672511C8EA3B690668"
     },
     {
       "path": "Docs/CREDITS.txt",
@@ -385,13 +390,13 @@
     },
     {
       "path": "Docs/NEXUS_DESCRIPTION_EN.md",
-      "bytes": 10595,
-      "sha256": "8084FDEDF052BD74072AA723AF56276302CE91C6DD4EC08D8CCE2966093E5CF8"
+      "bytes": 11066,
+      "sha256": "2C3A09697EFA170CEBC272345DC1DD0D3A0ACBD230AF250B11728D02AE318F90"
     },
     {
       "path": "Docs/NEXUS_DESCRIPTION_KR.md",
-      "bytes": 8278,
-      "sha256": "D6CF79D697325B665EBBA825AC2B8A5DF816806581959F09D1F1B6D39F630947"
+      "bytes": 8749,
+      "sha256": "C399D0EFD6141D2A2934B1234CC85EFA818FF8E94A5E6A71216405F64FD2A203"
     },
     {
       "path": "Docs/README.md",
@@ -430,18 +435,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 2139,
-      "sha256": "254AE425144B086A0DA15A8510AAA71D8D54EC8D00BBF5C2C82185602284702D"
+      "bytes": 2483,
+      "sha256": "EEB19F5517842CC5A7735455285D2D02CA8AC17362CF69A2340B1E80EB150A64"
     },
     {
       "path": "Research/RESEARCH_SOURCE_INDEX.csv",
-      "bytes": 54414,
-      "sha256": "525FDD153022E873428608A923B15F0BC2FE29C072DF6F14AEDE70F27D6E5065"
+      "bytes": 55548,
+      "sha256": "24B868EE3E575AF613DDEC1EFFC1CF0DABE86D496DD2916967F595CA79CB3665"
     },
     {
       "path": "Research/TOAM_RESEARCH_COMPENDIUM.md",
-      "bytes": 354720,
-      "sha256": "DE645EFB87D55D57CDC9503B76EB3AB0A2B7729DB0ED767F315CD58A4192E582"
+      "bytes": 361790,
+      "sha256": "CBF5C91A8945771E8113445118777A6CBED68FE812D5125CF91E1028175015A4"
     },
     {
       "path": "THIRD_PARTY_LICENSES/CommonLibSSE-NG.txt",
@@ -1149,6 +1154,26 @@
       "sha256": "746AE822155172A757FCE4475669A922B6B1D878759B90D331A97BEF3940A742"
     },
     {
+      "path": "tools/staff_cloth/README.md",
+      "bytes": 2242,
+      "sha256": "D933145B7B9859952BCB62D7C609E94D064ACA6F8C6A68A7730A7BA74EBC9E04"
+    },
+    {
+      "path": "tools/staff_cloth/STATIC_REFERENCE.json",
+      "bytes": 7492,
+      "sha256": "8DF3C8EA6961CB3E6E653C03FA60859769C19F6B23AA2AAFCD84FA0F185EAABB"
+    },
+    {
+      "path": "tools/staff_cloth/nifly_mesh_audit.cpp",
+      "bytes": 1656,
+      "sha256": "6B2EFB33663C1BC4C2CF10665B33BE54F94AB01A69A9207A0D218DC0F749E917"
+    },
+    {
+      "path": "tools/staff_cloth/repair_sse_ribbon.py",
+      "bytes": 7446,
+      "sha256": "0B34D68AA1F9AF3A7C8E2368F6635330D1F420B04FD98F474C185281E9987DE1"
+    },
+    {
       "path": "tools/toam_package.py",
       "bytes": 7290,
       "sha256": "91FF6700625BA5B95109A4F3CE02AB3FA1018B194703D1426CD6F15645367BDE"
@@ -1159,5 +1184,6 @@
       "sha256": "EF0EE52DBDAC1BF296AE75F802AB7039EDF7836C24E7AC66C97ABB0FFA31C26C"
     }
   ],
-  "provenanceIndexPolicy": "RESEARCH_SOURCE_INDEX excludes itself and SOURCE_MANIFEST to avoid cyclic hashes;SOURCE_MANIFEST externally describes all other230files;ZIP checksum is external."
+  "provenanceIndexPolicy": "RESEARCH_SOURCE_INDEX excludes itself and SOURCE_MANIFEST to avoid cyclic hashes;SOURCE_MANIFEST externally describes all other230files;ZIP checksum is external.",
+  "assetCorrection": "CP032"
 }

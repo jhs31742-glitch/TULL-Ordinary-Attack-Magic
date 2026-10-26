@@ -16,3 +16,6 @@ Open tools/formation_editor/index.html locally. Mouse/sliders are primary;precis
 Parent v0.8.12 user-confirmed damage-menu and merchant-sales QA remains recorded. New1.0 render/flight-menu/distribution changes pass static/build/deploy gates but require user runtime QA. SE1.5.97 only;AE/VR are disabled. Existing damage/resources/cadence/defense policies are unchanged.
 
 GitHub stays PRIVATE until Nexus launch. No Nexus upload or public switch is performed here. MO2 profile/checkboxes/saves are user-controlled. SMP is excluded;its failed experiments remain research history. Native source is exact build input;runtime art/animation/audio binaries are excluded pending publication rights review. See LICENSE_NOTICE.md and Docs/THIRD_PARTY_NOTICES.md. Historical documents under Docs/History_CP030 are superseded by the current Nexus drafts.
+
+## CP032 static staff cloth correction
+CP031core23/23 user-confirmed with no observed CTD/freeze;CP032 corrected-cloth runtime NOT_RUN. Gold ribbon winding/normal/tangent fix only;Fern/Silver inspected and unchanged. No Native/ESP/gameplay/DLL change. [Report](Docs/CP032_STAFF_CLOTH_REPORT.md) | [Repair source](tools/staff_cloth/README.md).

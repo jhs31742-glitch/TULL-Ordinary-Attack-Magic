@@ -54,7 +54,11 @@ Native 지원은 SkyrimSE1.5.97입니다. SKSE64 2.0.20,SE Address Library,BEES(
 ## AI 사용 고지·출처
 TULL이 설계·아트디렉션·수동 배치·게임 검증을 수행했고,OpenAI Codex가 C++구현/통합/디버깅·절차적 에셋 제작·편집기·테스트·문서를 보조했습니다. 히브리어 책표지는 이미지 생성 AI를 사용했습니다. 마법진·지팡이는 제공된 참고이미지를 바탕으로 코드 기반 메시 생성·최적화와 수동 교정을 수행했습니다. AI 지원 표시는 외부 자산의 원저작자를 대체하지 않습니다.
 Arcana0.7.4/shared2.7.1,HydroBirous/Derwan/Redfall6/gp160/Khenta/RavenKZP/QTRModding의 비행 모션,Call to Arms 및 a skrub의 총기 모션,Ershin OAR,CID/powerofthree,SKSE/CommonLib/Address Library/Menu Framework와 Bethesda를 크레딧에 포함합니다. Flight Framework는 기술 참고이며 DLL/ESP/코드를 동봉하지 않습니다. 파일별 출처의 미확정 사항은 연구록에 남기며 저자를 추정하지 않습니다.
-GitHub:https://github.com/[LOCAL_USER]742-glitch/TULL-Ordinary-Attack-Magic — 현재 비공개,넥서스 출시 시 함께 공개할 방침입니다. 외부 모션/게임 추출 자산 재배포 조건과 코드·편집기 공개 라이선스는 실제 업로드 전에 확정해야 합니다. 이 초안은 업로드·권리 부여를 실행하지 않습니다.
+GitHub:https://github.com/jhs31742-glitch/TULL-Ordinary-Attack-Magic — 현재 비공개,넥서스 출시 시 함께 공개할 방침입니다. 외부 모션/게임 추출 자산 재배포 조건과 코드·편집기 공개 라이선스는 실제 업로드 전에 확정해야 합니다. 이 초안은 업로드·권리 부여를 실행하지 않습니다.
 
 ## 별도 개발 도구
 TULL Formation Editor는 본체 없이 실행하는 EN/KR 공용 편집기입니다. 명명한 세트별 마법,독립 단독/양손 변형,손 소속,에셋 수 추가/삭제,드래그 다중선택/그룹이동,XYZ각도·배율,캐릭터/적/월드 중심,공중 아래 반구와 실제 좌표 프리셋,JSON 저장/불러오기를 제공합니다. 두 언어 설명서와 AI연동 구조를 별도 소스 ZIP으로 공개 준비합니다. 등 뒤 소환검 예제는 미래 다른 모드를 위한 설계 예시이며 TOAM의 새 공격 기능이 아닙니다.
+
+
+## CP032 current evidence update
+CP031 v1.0.0 core23/23 USER_CONFIRMED:settings/save-restore,spin/acceleration/retirement,Temperance,flight,merchant/dungeon supplies,consecutive casting;no CTD/freeze observed. Not all158 original QA cases. CP032 changes only two Gold static ribbon NIFs,correcting a proven one-sided triangle-winding defect. Fern/Silver audited without that defect and preserved. Native,ESP,balance,VFX,distribution unchanged;corrected cloth runtime NOT_RUN.
