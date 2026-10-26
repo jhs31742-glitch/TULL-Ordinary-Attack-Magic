@@ -1,4 +1,5 @@
 #include "Arcana/Integration.h"
+#include "VFX/CircleMotion.h"
 #include "Spells/MagicianChargeVisual.h"
 
 #include <array>
@@ -282,23 +283,7 @@ namespace TOAM::Spells::Magician
             return 0.0F;
         }
 
-        const float baseSpeed =
-            kBaseRotationRadiansPerSecond +
-            kPerCircleRotationIncrement *
-            static_cast<float>(
-                circleIndex
-            );
-
-        const float tierMultiplier =
-            1.0F +
-            kTierRotationAcceleration *
-            static_cast<float>(
-                tier - 1
-            );
-
-        return
-            baseSpeed *
-            tierMultiplier;
+        return VFX::CircleMotion::LayerSpeed(circleIndex,static_cast<float>(tier));
     }
 
 
@@ -724,6 +709,13 @@ namespace TOAM::Spells::Magician
         }
 
         return true;
+    }
+
+
+    void ChargeVisual::RetireAll(float seconds) noexcept
+    {
+        _renderer.RetireAll(seconds);
+        ReleaseAll(); // Handles already transferred to bounded EngineCircle retirement.
     }
 
 

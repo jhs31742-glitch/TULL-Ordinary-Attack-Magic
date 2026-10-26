@@ -9,3 +9,5 @@ Workflow:preserve original export+hash -> validate schema/known IDs/finite XYZ -
 Current source effects:rapid/parry/fivefold/sustain/ultimate/hermit,independent secondary positions and Hermit normals. TOAM World ground/air presentation and explosion endpoints add runtime transforms;Judgement fixed artillery and Temperance target Proc are separate authorities. Manual editing history must not be conflated with a runtime feature or an automated layout importer.
 
 The original author scripts contained machine-specific reference-image paths. They are not blindly copied into public source;the self-contained generated editor and exact exported design JSON are retained with hashes. The technical provenance manifest contains relative origin labels only.
+
+Improved standalone EN/KR general editor:../formation_editor/index.html . Original editor/manual bytes remain historical. New schema supports named sets,multiple spells,independent hand variants,counts,group movement,angles,scale and actor/target/world frames.

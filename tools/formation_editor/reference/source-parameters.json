@@ -1,0 +1,85 @@
+{
+  "sourceHashes": {
+    "src/Arcana/LayoutData.h": "719C0875F7E19AFAEBFFFE68BE501BF96650DCFDD580BADA5300DA35FDF0B11A",
+    "src/Arcana/Design.h": "62E98D959642C51929A3C9BF6C7DCBCFE4CC96496D9305D2A6A096E69D7EFE27",
+    "src/Arcana/PlacementPolicy.h": "BFA6A18883B619390C666DB287610A2F1510AA9F41FA06680B700A72440DFA3E",
+    "src/Spells/WorldFormation.cpp": "370839372A13EEB192FD41EDF54F0DBE7ABE260B2164E8B93281E7DF87437053",
+    "src/Combat/TargetFormation.cpp": "AAEE89C25ADD04D506C4889C18CBCE70E991F281AE26A3BF74B602677F8648E2"
+  },
+  "groundDomeScale": 0.81,
+  "circleScale": 0.3564,
+  "airRadius": 112,
+  "airCenterHeight": 78,
+  "sunAnchor": [
+    0,
+    74,
+    108
+  ],
+  "sunGaps": [
+    22,
+    7
+  ],
+  "sunFullChargeScales": [
+    0.26441036488630354,
+    0.3569539925965098,
+    0.1850872554204125,
+    0.4098360655737705,
+    0.27763088313061873,
+    0.1718667371760973,
+    0.370174510840825,
+    0.2379693283976732
+  ],
+  "secondaryStack": "matching and side1/right",
+  "secondaryScale": 0.72,
+  "targetNormalizedNine": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0.55,
+      0.83516465
+    ],
+    [
+      0,
+      -0.55,
+      0.83516465
+    ],
+    [
+      -0.55,
+      0,
+      0.83516465
+    ],
+    [
+      0.55,
+      0,
+      0.83516465
+    ],
+    [
+      0,
+      0.82,
+      0.57236352
+    ],
+    [
+      0,
+      -0.82,
+      0.57236352
+    ],
+    [
+      -0.82,
+      0,
+      0.57236352
+    ],
+    [
+      0.82,
+      0,
+      0.57236352
+    ]
+  ],
+  "temperanceRadius": 128,
+  "judgementRadius": "initialBounds.radius*profile.radiusScale",
+  "circleNormalAxis": "+Y",
+  "rotationOrder": "BaseNormalFrame * Rz * Ry * Rx;all authored positions are local to explicit anchor"
+}

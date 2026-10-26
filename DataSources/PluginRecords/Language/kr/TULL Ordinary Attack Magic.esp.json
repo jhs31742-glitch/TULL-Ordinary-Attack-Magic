@@ -1,12 +1,12 @@
 {
   "format": "TOAM_ORDERED_ESP_V1",
   "path": "Language/kr/TULL Ordinary Attack Magic.esp",
-  "bytes": 216851,
-  "sha256": "83DA5C89C12214F101838A8D10FC506067F730B61FB1B24A025931548087A70C",
+  "bytes": 216838,
+  "sha256": "4411620390A5B0EC67D91772BA8CC6E02401652E8826E72E3BCE883AEAB1AFF1",
   "header": "544553345d0000000002000000000000000000002c000000484544520c0048e1da3f8c050000d40d0000434e414d050054554c4c00534e414d1b0054554c4c204f7264696e6172792041747461636b204d61676963004d4153540b00536b7972696d2e65736d004441544108000000000000000000",
   "groups": [
     {
-      "header": "475255509a2a00004d474546000000000000000000000000",
+      "header": "47525550852a00004d474546000000000000000000000000",
       "records": [
         {
           "header": "4d474546de0000000000000008080001000000002c000000",
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "header": "4d4745463a010000000000000f080001000000002c000000",
+          "header": "4d47454625010000000000000f080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -34,7 +34,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61204c696d69746572204d61726b657200"
+              "hex": "ec88a0ec8b9decb69ceba0a5eca09ced959c00"
             },
             {
               "signature": "MDOB",
@@ -58,7 +58,7 @@
             },
             {
               "signature": "DNAM",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb295ec9d9820ec88a0ec8b9d20ecb69ceba0a5ec9d8420eca09ced959ced95a9eb8b88eb8ba42e00"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb29520ec88a0ec8b9decb69ceba0a5eca09ced959c00"
             }
           ]
         },
@@ -849,10 +849,10 @@
       ]
     },
     {
-      "header": "47525550b3080000454e4348000000000000000000000000",
+      "header": "47525550bb080000454e4348000000000000000000000000",
       "records": [
         {
-          "header": "454e4348900000000000000011080001000000002c000000",
+          "header": "454e4348940000000000000011080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -864,7 +864,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61204c696d6974657200"
+              "hex": "ec88a0ec8b9decb69ceba0a5eca09ced959c00"
             },
             {
               "signature": "ENIT",
@@ -881,7 +881,7 @@
           ]
         },
         {
-          "header": "454e4348a20100000000000012080001000000002c000000",
+          "header": "454e4348a60100000000000012080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -893,7 +893,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61204c696d6974657200"
+              "hex": "ec88a0ec8b9decb69ceba0a5eca09ced959c00"
             },
             {
               "signature": "ENIT",
@@ -31186,7 +31186,7 @@
             },
             {
               "signature": "DATA",
-              "hex": "b0040000000000410000"
+              "hex": "0a000000000000410000"
             },
             {
               "signature": "DNAM",
@@ -31271,7 +31271,7 @@
             },
             {
               "signature": "DATA",
-              "hex": "60090000000000410000"
+              "hex": "0a000000000000410000"
             },
             {
               "signature": "DNAM",
@@ -31356,7 +31356,7 @@
             },
             {
               "signature": "DATA",
-              "hex": "100e0000000000410000"
+              "hex": "0a000000000000410000"
             },
             {
               "signature": "DNAM",
@@ -31441,7 +31441,7 @@
             },
             {
               "signature": "DATA",
-              "hex": "c0120000000000410000"
+              "hex": "0a000000000000410000"
             },
             {
               "signature": "DNAM",
@@ -31526,7 +31526,7 @@
             },
             {
               "signature": "DATA",
-              "hex": "b0040000000000410000"
+              "hex": "0a000000000000410000"
             },
             {
               "signature": "DNAM",
@@ -31611,7 +31611,7 @@
             },
             {
               "signature": "DATA",
-              "hex": "60090000000000410000"
+              "hex": "0a000000000000410000"
             },
             {
               "signature": "DNAM",
@@ -31696,7 +31696,7 @@
             },
             {
               "signature": "DATA",
-              "hex": "100e0000000000410000"
+              "hex": "0a000000000000410000"
             },
             {
               "signature": "DNAM",
@@ -31781,7 +31781,7 @@
             },
             {
               "signature": "DATA",
-              "hex": "c0120000000000410000"
+              "hex": "0a000000000000410000"
             },
             {
               "signature": "DNAM",
@@ -31819,7 +31819,7 @@
             },
             {
               "signature": "LVLD",
-              "hex": "0f"
+              "hex": "2d"
             },
             {
               "signature": "LVLF",
@@ -32324,7 +32324,7 @@
             },
             {
               "signature": "LVLD",
-              "hex": "41"
+              "hex": "55"
             },
             {
               "signature": "LVLF",
@@ -32829,7 +32829,7 @@
             },
             {
               "signature": "LVLD",
-              "hex": "50"
+              "hex": "5a"
             },
             {
               "signature": "LVLF",

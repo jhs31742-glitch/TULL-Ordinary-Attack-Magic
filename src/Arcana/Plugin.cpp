@@ -20,6 +20,7 @@
 #include <cstring>
 #include "Integration.h"
 #include "Core/DamageSettings.h"
+#include "VFX/CircleMotion.h"
 #include "IntegratedFormMap.h"
 using namespace std::literals;
 namespace logger=SKSE::log;
@@ -56,6 +57,7 @@ struct Forms {
 struct ArtSlot {
  RE::NiPointer<RE::ModelReferenceEffect> effect{};RE::BGSArtObject* form{};
  RE::NiPoint3 pos{};RE::NiMatrix3 rot{};float scale=.001f,alpha=0;bool requested=false;
+ float motionAge=0,spinPhase=0;
  float presentationAge=0;bool firstPose=false; // Sun-only growth clock starts at actual 3D pose.
 };
 struct TrackLane {

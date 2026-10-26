@@ -57,7 +57,6 @@ void Update(RE::ActorMagicCaster* c,float dt){
   auto p=front;float s=off.scale*CircleGrowth(0,t);
   if(h.mode==SolarCrown){auto axis=UltimateAxisOffset(i,t);p+=rot*RE::NiPoint3{axis.x,axis.y,axis.z};p.z+=lift;s=UltimateScale(i,t)*fit*(secondary?.72f:1.f);}
   else if(h.mode==Fivefold){auto f=FivefoldOffset(i,t,secondary);p=FlightCastOffset(feet,flat,rot,RE::NiPoint3{f.x,f.y,f.z});s=f.scale*CircleGrowth(i,t);}
-  RE::NiMatrix3 spin;spin.MakeYRotation(i*.47f+t*(i%2?-.21f:.25f));
   auto& art=h.circles[i];EnsureCircle(art,CircleForm(side,h.bank,i,h.mode==SolarCrown?1:0),actor,root);
   float alpha=1.f;
   if(h.mode==SolarCrown){
@@ -65,7 +64,8 @@ void Update(RE::ActorMagicCaster* c,float dt){
    if(CircleReady(art)){if(art.firstPose)art.presentationAge+=dt;else {art.firstPose=true;art.presentationAge=0;}}
    const float growth=Smooth(art.presentationAge/.35f);s*=.04f+.96f*growth;alpha=Smooth(art.presentationAge/.12f);
   }
-  PoseCircle(art,p,rot*spin,std::max(.001f,s),alpha);
+  const float rate=h.mode==SolarCrown?TOAM::VFX::CircleMotion::LayerSpeed(i,float(count)):(i%2?-.72f:.85f);
+  PoseCircle(art,p,AnimatedCircleRotation(art,rot,dt,rate,h.mode!=SolarCrown),std::max(.001f,s),alpha);
  }
  if(auditSun){
   auto anchor=front+RE::NiPoint3{0,0,lift},axis=rot*RE::NiPoint3{0,1,0};

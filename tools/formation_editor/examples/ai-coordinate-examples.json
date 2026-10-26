@@ -1,0 +1,699 @@
+{
+  "schema": "TULL_FORMATION_LIBRARY_1",
+  "name": "AI coordinate reference examples / AI 좌표 참고 예제",
+  "activeSpell": "actor-front",
+  "spells": [
+    {
+      "id": "actor-front",
+      "name": {
+        "en": "Actor front / size and angles",
+        "kr": "캐릭터 정면·크기·각도"
+      },
+      "project": {
+        "schema": "TULL_FORMATION_PROJECT_1",
+        "coordinates": "Skyrim X right,Y forward,Z up;game units;Euler XYZ degrees",
+        "anchors": {
+          "actor": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 128,
+            "pivot": "feet"
+          },
+          "target": {
+            "position": [
+              260,
+              180,
+              0
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 128,
+            "pivot": "center"
+          },
+          "world": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 128,
+            "pivot": "feet"
+          }
+        },
+        "activeFormation": "single",
+        "formations": {
+          "single": {
+            "name": {
+              "en": "Single cast",
+              "kr": "단독 시전"
+            },
+            "assets": [
+              {
+                "id": "front-circle",
+                "name": {
+                  "en": "Front reference circle",
+                  "kr": "정면 기준 마법진"
+                },
+                "kind": "circle",
+                "hand": "right",
+                "anchor": "actor",
+                "position": [
+                  0,
+                  80,
+                  100
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  15
+                ],
+                "scale": 0.5,
+                "radius": 100,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "front",
+                "attachment": "follow",
+                "modelPath": ""
+              }
+            ]
+          }
+        },
+        "metadata": {
+          "status": "ILLUSTRATIVE_NOT_TOAM_RUNTIME",
+          "notes": {
+            "en": "Actor feet pivot. At actor yaw 0 the asset center is [0,80,100], visible radius 50. Z rotation is local normal-frame Euler, not world yaw.",
+            "kr": "캐릭터 발 원점. yaw 0에서 중심은 [0,80,100], 표시 반경 50. Z 회전은 법선 기준 로컬 오일러 회전이며 월드 yaw가 아님."
+          }
+        }
+      }
+    },
+    {
+      "id": "actor-yaw",
+      "name": {
+        "en": "Actor yaw 90 / expected world coordinates",
+        "kr": "캐릭터 yaw 90·월드 좌표 검산"
+      },
+      "project": {
+        "schema": "TULL_FORMATION_PROJECT_1",
+        "coordinates": "Skyrim X right,Y forward,Z up;game units;Euler XYZ degrees",
+        "anchors": {
+          "actor": {
+            "position": [
+              1000,
+              2000,
+              300
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 90,
+            "height": 128,
+            "pivot": "feet"
+          },
+          "target": {
+            "position": [
+              260,
+              180,
+              0
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 128,
+            "pivot": "center"
+          },
+          "world": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 128,
+            "pivot": "feet"
+          }
+        },
+        "activeFormation": "single",
+        "formations": {
+          "single": {
+            "name": {
+              "en": "Single cast",
+              "kr": "단독 시전"
+            },
+            "assets": [
+              {
+                "id": "yaw-circle",
+                "name": {
+                  "en": "Front reference circle",
+                  "kr": "정면 기준 마법진"
+                },
+                "kind": "circle",
+                "hand": "right",
+                "anchor": "actor",
+                "position": [
+                  10,
+                  80,
+                  100
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": 0.5,
+                "radius": 100,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "front",
+                "attachment": "follow",
+                "modelPath": ""
+              }
+            ]
+          }
+        },
+        "metadata": {
+          "status": "ILLUSTRATIVE",
+          "expectedWorldCenter": [
+            1080,
+            1990,
+            400
+          ],
+          "formula": "world=position+offset+pivotHeight+SkyrimYaw(local); x=c*x+s*y; y=-s*x+c*y"
+        }
+      }
+    },
+    {
+      "id": "target-snapshot",
+      "name": {
+        "en": "Target center / fixed firing pose",
+        "kr": "대상 중심·고정 발사 포즈"
+      },
+      "project": {
+        "schema": "TULL_FORMATION_PROJECT_1",
+        "coordinates": "Skyrim X right,Y forward,Z up;game units;Euler XYZ degrees",
+        "anchors": {
+          "actor": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 128,
+            "pivot": "feet"
+          },
+          "target": {
+            "position": [
+              500,
+              600,
+              100
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 160,
+            "pivot": "center"
+          },
+          "world": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 128,
+            "pivot": "feet"
+          }
+        },
+        "activeFormation": "single",
+        "formations": {
+          "single": {
+            "name": {
+              "en": "Single cast",
+              "kr": "단독 시전"
+            },
+            "assets": [
+              {
+                "id": "target-circle",
+                "name": {
+                  "en": "Front reference circle",
+                  "kr": "정면 기준 마법진"
+                },
+                "kind": "circle",
+                "hand": "right",
+                "anchor": "target",
+                "position": [
+                  0,
+                  -120,
+                  20
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  15
+                ],
+                "scale": 0.5,
+                "radius": 100,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "front",
+                "attachment": "snapshot",
+                "modelPath": ""
+              }
+            ]
+          }
+        },
+        "metadata": {
+          "status": "ILLUSTRATIVE",
+          "expectedWorldCenter": [
+            500,
+            480,
+            200
+          ],
+          "notes": {
+            "en": "Target pivot height/2 is preview-only. Snapshot is an adapter contract; editor is static and does not spawn gameplay effects.",
+            "kr": "대상 높이/2 원점은 미리보기 근사값. snapshot은 어댑터 계약이며 편집기가 게임 이펙트를 생성하는 것은 아님."
+          }
+        }
+      }
+    },
+    {
+      "id": "back-swords",
+      "name": {
+        "en": "Back swords / separate hand contexts",
+        "kr": "등 뒤 검·독립 손 문맥"
+      },
+      "project": {
+        "schema": "TULL_FORMATION_PROJECT_1",
+        "coordinates": "Skyrim X right,Y forward,Z up;game units;Euler XYZ degrees",
+        "anchors": {
+          "actor": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 128,
+            "pivot": "feet"
+          },
+          "target": {
+            "position": [
+              260,
+              180,
+              0
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 128,
+            "pivot": "center"
+          },
+          "world": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "yaw": 0,
+            "height": 128,
+            "pivot": "feet"
+          }
+        },
+        "activeFormation": "single",
+        "formations": {
+          "single": {
+            "name": {
+              "en": "Single cast",
+              "kr": "단독 시전"
+            },
+            "assets": [
+              {
+                "id": "asset0",
+                "name": "sword 1",
+                "kind": "sword",
+                "hand": "right",
+                "anchor": "actor",
+                "position": [
+                  18,
+                  -30,
+                  90
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": 0.8,
+                "radius": 50,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "back-swords",
+                "attachment": "follow",
+                "modelPath": ""
+              },
+              {
+                "id": "asset1",
+                "name": "sword 2",
+                "kind": "sword",
+                "hand": "right",
+                "anchor": "actor",
+                "position": [
+                  -24,
+                  -30,
+                  102
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": 0.8,
+                "radius": 50,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "back-swords",
+                "attachment": "follow",
+                "modelPath": ""
+              },
+              {
+                "id": "asset2",
+                "name": "sword 3",
+                "kind": "sword",
+                "hand": "right",
+                "anchor": "actor",
+                "position": [
+                  30,
+                  -30,
+                  114
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": 0.8,
+                "radius": 50,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "back-swords",
+                "attachment": "follow",
+                "modelPath": ""
+              },
+              {
+                "id": "asset3",
+                "name": "sword 4",
+                "kind": "sword",
+                "hand": "right",
+                "anchor": "actor",
+                "position": [
+                  -36,
+                  -30,
+                  126
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": 0.8,
+                "radius": 50,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "back-swords",
+                "attachment": "follow",
+                "modelPath": ""
+              }
+            ]
+          },
+          "dual": {
+            "name": {
+              "en": "Dual example",
+              "kr": "양손 예제"
+            },
+            "assets": [
+              {
+                "id": "asset0",
+                "name": "sword 1",
+                "kind": "sword",
+                "hand": "left",
+                "anchor": "actor",
+                "position": [
+                  18,
+                  -30,
+                  90
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": 0.8,
+                "radius": 50,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "back-swords",
+                "attachment": "follow",
+                "modelPath": ""
+              },
+              {
+                "id": "asset1",
+                "name": "sword 2",
+                "kind": "sword",
+                "hand": "right",
+                "anchor": "actor",
+                "position": [
+                  -24,
+                  -30,
+                  102
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": 0.8,
+                "radius": 50,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "back-swords",
+                "attachment": "follow",
+                "modelPath": ""
+              },
+              {
+                "id": "asset2",
+                "name": "sword 3",
+                "kind": "sword",
+                "hand": "left",
+                "anchor": "actor",
+                "position": [
+                  30,
+                  -30,
+                  114
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": 0.8,
+                "radius": 50,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "back-swords",
+                "attachment": "follow",
+                "modelPath": ""
+              },
+              {
+                "id": "asset3",
+                "name": "sword 4",
+                "kind": "sword",
+                "hand": "right",
+                "anchor": "actor",
+                "position": [
+                  -36,
+                  -30,
+                  126
+                ],
+                "normal": [
+                  0,
+                  1,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": 0.8,
+                "radius": 50,
+                "size": [
+                  12,
+                  8,
+                  64
+                ],
+                "group": "back-swords",
+                "attachment": "follow",
+                "modelPath": ""
+              }
+            ]
+          }
+        },
+        "metadata": {
+          "sourceHashes": {
+            "src/Arcana/LayoutData.h": "719C0875F7E19AFAEBFFFE68BE501BF96650DCFDD580BADA5300DA35FDF0B11A",
+            "src/Arcana/Design.h": "62E98D959642C51929A3C9BF6C7DCBCFE4CC96496D9305D2A6A096E69D7EFE27",
+            "src/Arcana/PlacementPolicy.h": "BFA6A18883B619390C666DB287610A2F1510AA9F41FA06680B700A72440DFA3E",
+            "src/Spells/WorldFormation.cpp": "370839372A13EEB192FD41EDF54F0DBE7ABE260B2164E8B93281E7DF87437053",
+            "src/Combat/TargetFormation.cpp": "AAEE89C25ADD04D506C4889C18CBCE70E991F281AE26A3BF74B602677F8648E2"
+          },
+          "notes": [
+            "AUTHORING EXAMPLE ONLY;not a TOAM runtime feature. Future light-hit spawn/heavy-hit snapshot launch needs a separate event/projectile/cleanup adapter."
+          ],
+          "status": "ILLUSTRATIVE_FUTURE_MOD_NOT_IMPLEMENTED"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "purpose": "Machine-readable examples for AI/developers. Import directly in the editor. These illustrative examples do not override the source-backed TOAM set.",
+    "purposeKr": "AI·개발자용 실제 불러오기 가능 예제. 설명용 좌표이며 TOAM 실사용 좌표의 권위가 아님.",
+    "sourceBackedSet": "../presets/toam-reviewed.json",
+    "actualParameters": "../reference/source-parameters.json"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "TULL_FORMATION_AI_GUIDE_1",
+  "role": "DOCUMENTATION_ONLY_NOT_EDITOR_PROJECT",
+  "startHere": [
+    "README_EN.md",
+    "README_KR.md",
+    "SCHEMA.md",
+    "examples/ai-coordinate-examples.json",
+    "presets/toam-reviewed.json",
+    "reference/source-parameters.json"
+  ],
+  "units": {
+    "position": "Skyrim game units",
+    "angle": "degrees",
+    "scale": "uniform dimensionless multiplier",
+    "circleVisibleRadius": "asset.radius * asset.scale"
+  },
+  "axes": {
+    "x": "right",
+    "y": "forward",
+    "z": "up",
+    "sourceCircleNormal": "+Y",
+    "sourceCirclePlane": "XZ"
+  },
+  "hierarchy": "named library -> spell -> project -> casting variant -> assets",
+  "matrixOrder": "AnchorYaw * BaseNormalFrame * Rz * Ry * Rx",
+  "positionOrder": "anchor.position + anchor.offset + [0,0,pivot==center?height/2:0] + SkyrimYaw(asset.position)",
+  "anchorPolicy": {
+    "actor": "caster feet or approximate center",
+    "target": "target feet or approximate center; actual engine bound differs",
+    "world": "identity frame for fixed world poses"
+  },
+  "fileRoles": {
+    "presets/toam-reviewed.json": "source-backed TOAM coordinates with explicit preview assumptions",
+    "reference/manual-layout-20261023-0145.json": "unaltered historical manual export; old schema, not direct import",
+    "reference/current-runtime-layout.json": "unaltered extracted source snapshot; not new schema",
+    "examples/ai-coordinate-examples.json": "generic teaching examples; direct import",
+    "examples/ai-reference-guide.json": "this documentation; NOT an editor import"
+  },
+  "limits": {
+    "maxSpells": 64,
+    "maxVariantsPerSpell": 16,
+    "maxAssetsPerVariant": 512,
+    "maxAssetsPerProject": 4096,
+    "maxImportBytes": 8388608
+  },
+  "adapterChecklist": [
+    "Read current original source and ownership before changing gameplay.",
+    "Resolve runtime cast context and hand; variants and hand labels do not automatically mirror geometry.",
+    "Resolve actual actor/target anchors and source-asset bounds.",
+    "Evaluate and snapshot world pose at the correct event.",
+    "Wait for actual 3D readiness then inverse-transform into renderer parent local space.",
+    "Assign pending request/generation/slot/lifetime ownership and cancel late arrivals.",
+    "Use retired render tails independently from damage clocks.",
+    "Static editor validation is not Skyrim visibility/runtime proof."
+  ],
+  "runtimeBoundary": "Editor is offline authoring. No FormID lookup, native hooks, damage, animation or spawn logic is implemented."
+}

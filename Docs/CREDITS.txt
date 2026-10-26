@@ -1,0 +1,103 @@
+TULL Ordinary Attack Magic — Credits
+
+Design,art direction,manual formation coordinates and game QA:TULL.
+OpenAI Codex assisted C++implementation,integration,debugging,procedural asset tooling,editor/tests and documentation. The custom Hebrew spell-tome cover used AI image generation. Circles/staffs were built and refined with image-reference-based authoring,code-assisted mesh generation and manual fitting;this is not a claim of ownership over imported assets.
+Arcana Staffs v0.7.4 FlightStateFix / Arcana Shared Assets2.7.1:embedded flight/combat,VFX and staff integration baseline.
+Imported flight motions:HydroBirous/Hydro Birous,Derwan,Redfall6,gp160,Khenta,RavenKZP,QTRModding. Firearm motion sources include Call to Arms and a skrub's Skrub's Guns3rdPerson;the full research retains unresolved per-file attribution rather than inventing authors.
+Ershin:Open Animation Replacer. ThirdEyeSqueegee/ThirdEye3301:Container Item Distributor. powerofthree:Tweaks. SKSE/CommonLibSSE-NG/Address Library contributors;QTR-Modding:Menu Framework.
+Flight Framework by SkyrimThiago,RavenKZP/QTR-Modding was a technical reference;its DLL,ESP and source files are not bundled. Arcana owns the integrated controller implementation.
+Technical authoring tools:ret2end/hkxconv,figment/hkxcmd,PyNifly/nifly,Grimrukh/soulstruct-havok. Tool executables are not runtime requirements or bundled game plugins.
+Bethesda:Skyrim mesh/material/audio foundations. Frieren on the tome is an in-universe byline,not real asset authorship.
+
+Source/research:https://github.com/jhs31742-glitch/TULL-Ordinary-Attack-Magic
+Motion resource:https://www.nexusmods.com/skyrimspecialedition/mods/192243
+Related motion sources:https://www.nexusmods.com/skyrimspecialedition/mods/49160 ; https://www.nexusmods.com/skyrim/mods/88796 ; https://www.nexusmods.com/skyrim/mods/107487 ; https://www.nexusmods.com/skyrim/mods/71391 ; https://www.nexusmods.com/skyrim/mods/54151
+Flight reference:https://www.nexusmods.com/skyrimspecialedition/mods/178943
+Flight reference source:https://github.com/QTR-Modding/Flight-Framework/tree/9af69514c89db81ec277e2e00be8dfd9d7455c07
+CID:https://www.nexusmods.com/skyrimspecialedition/mods/99486
+
+설계·수동 좌표·실게임 검증:TULL. 구현·연구·에셋 제작 보조에 OpenAI Codex와 이미지 생성 AI를 사용했습니다. 원작 모션·참고 구현·게임 자산의 저작권은 각 원저작자에게 있습니다. 크레딧은 미확인 재배포/수익화 권한을 대신하지 않습니다. 상세 기술·파일 출처는 별도 소스 연구록에 보존합니다.
+
+Included linked-library notices
+
+--- CommonLibSSE-NG.txt ---
+MIT License
+
+Copyright (c) 2018 Ryan-rsm-McKenzie
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+--- fmt.txt ---
+Copyright (c) 2012 - present, Victor Zverovich and {fmt} contributors
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--- Optional exception to the license ---
+
+As an exception, if, as a result of your compiling your source code, portions
+of this Software are embedded into a machine-executable object form of such
+source code, you may redistribute such embedded portions in such object form
+without including the above copyright and permission notices.
+
+
+--- spdlog.txt ---
+The MIT License (MIT)
+
+Copyright (c) 2016 - present, Gabi Melman and spdlog contributors.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-- NOTE: Third party dependency used by this software --
+This software depends on the fmt lib (MIT License),
+and users must comply to its license: https://raw.githubusercontent.com/fmtlib/fmt/master/LICENSE
+

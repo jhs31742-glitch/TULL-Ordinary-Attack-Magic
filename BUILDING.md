@@ -17,3 +17,7 @@ Use release manifests to compare source/package hashes. Paths and module names m
 No Menu Framework/ImGui SDK is required to compile;the optional page resolves a small audited runtime ABI. CID is a runtime distribution dependency only.
 Parser regression:compile tests/damage_policy_tests.cpp with MSVCx64 C++latest and src on the include path;the actual CP030 harness passed.
 The archived layout editor is an authoring tool,not a live source/INI loader. Review its README before applying an exported design to current code.
+
+##1.0 formation/flight presentation additions
+Native build remains the existing MSVCx64/Ninja project. New headers CircleMotion.h and FlightMenuPolicy.h have no external SDK dependency. The optional Framework3.x integration dynamically resolves its audited ABI.
+Tests:cl /std:c++latest /EHsc /Isrc tests/circle_flight_policy_tests.cpp;node tools/formation_editor/tests/engine.test.cjs. Editor runs offline without npm installation. Do not interpret authoring/browser tests as Skyrim runtime proof. Runtime art must be obtained from the separately released authorized Main package.

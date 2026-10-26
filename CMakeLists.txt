@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 
 project(
     ordinaryattackmagic
-    VERSION 0.8.12
+    VERSION 1.0.0
     DESCRIPTION "Ordinary Attack Magic SKSE plugin"
     LANGUAGES CXX)
 

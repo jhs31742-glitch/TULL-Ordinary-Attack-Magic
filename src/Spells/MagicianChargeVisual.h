@@ -50,6 +50,7 @@ namespace TOAM::Spells::Magician
             float deltaSeconds) noexcept;
 
         void ReleaseAll() noexcept;
+        void RetireAll(float seconds) noexcept;
 
         [[nodiscard]]
         bool IsActive() const noexcept;

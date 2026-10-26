@@ -1,147 +1,156 @@
 {
-  "version": "0.8.12",
+  "version": "1.0.0",
   "dependency": "Container Item Distributor2.1.3;powerofthree Tweaks",
   "merchantContainers": [
+    "0x10FDE6~Skyrim.esm",
+    "0x10C430~Skyrim.esm",
+    "0x10C1D5~Skyrim.esm",
+    "0x0EE9F7~Skyrim.esm",
+    "0x0D8E4D~Skyrim.esm",
+    "0x0D8E4C~Skyrim.esm",
+    "0x0D8E4B~Skyrim.esm",
+    "0x0D8831~Skyrim.esm",
+    "0x0D8830~Skyrim.esm",
+    "0x0D882F~Skyrim.esm",
+    "0x0D882E~Skyrim.esm",
+    "0x0D882D~Skyrim.esm",
+    "0x0D6AA4~Skyrim.esm",
+    "0x0BBCD0~Skyrim.esm",
+    "0x072786~Skyrim.esm",
+    "0x06A876~Skyrim.esm",
+    "0x065C36~Skyrim.esm",
+    "0x06479F~Skyrim.esm",
+    "0x06479C~Skyrim.esm",
+    "0x0E7BCD~Skyrim.esm",
+    "0x0D54C5~Skyrim.esm",
+    "0x0C644F~Skyrim.esm",
+    "0x0C644E~Skyrim.esm",
+    "0x0C644D~Skyrim.esm",
+    "0x0C644C~Skyrim.esm",
+    "0x0C644B~Skyrim.esm",
+    "0x07434E~Skyrim.esm",
+    "0x07434D~Skyrim.esm",
+    "0x07434B~Skyrim.esm",
+    "0x0B3FE1~Skyrim.esm",
+    "0x0B3FE0~Skyrim.esm",
+    "0x0B31E8~Skyrim.esm",
+    "0x0B2989~Skyrim.esm",
+    "0x0B2035~Skyrim.esm",
+    "0x0AF632~Skyrim.esm",
+    "0x0ACB6F~Skyrim.esm",
+    "0x0ACB6C~Skyrim.esm",
+    "0x0AC9DC~Skyrim.esm",
+    "0x0AC9DB~Skyrim.esm",
+    "0x0AC9DA~Skyrim.esm",
+    "0x0AC9D9~Skyrim.esm",
+    "0x0AC9CE~Skyrim.esm",
+    "0x0ABD9E~Skyrim.esm",
+    "0x0ABB40~Skyrim.esm",
+    "0x0ABB3E~Skyrim.esm",
+    "0x0A6C10~Skyrim.esm",
+    "0x0A6C0F~Skyrim.esm",
+    "0x0A6C0E~Skyrim.esm",
+    "0x0A6C08~Skyrim.esm",
+    "0x0A6C07~Skyrim.esm",
+    "0x0A6C06~Skyrim.esm",
+    "0x0A6C05~Skyrim.esm",
+    "0x0A6C04~Skyrim.esm",
+    "0x0A6BFC~Skyrim.esm",
+    "0x0A6BF3~Skyrim.esm",
+    "0x0A6BF1~Skyrim.esm",
+    "0x0A6BF0~Skyrim.esm",
+    "0x0A3F25~Skyrim.esm",
+    "0x0A3F1B~Skyrim.esm",
+    "0x0A3F17~Skyrim.esm",
+    "0x0A3F14~Skyrim.esm",
+    "0x0A3F10~Skyrim.esm",
+    "0x0A3F0C~Skyrim.esm",
+    "0x0A3F09~Skyrim.esm",
+    "0x0A3F05~Skyrim.esm",
+    "0x0A3F02~Skyrim.esm",
+    "0x0A3EFF~Skyrim.esm",
+    "0x0A31B7~Skyrim.esm",
+    "0x0A31B6~Skyrim.esm",
+    "0x0A31B5~Skyrim.esm",
+    "0x0A31B4~Skyrim.esm",
+    "0x0A31AF~Skyrim.esm",
+    "0x0A31AE~Skyrim.esm",
+    "0x0A29AE~Skyrim.esm",
+    "0x0A29AD~Skyrim.esm",
+    "0x0A29AC~Skyrim.esm",
+    "0x0A298A~Skyrim.esm",
+    "0x0A2989~Skyrim.esm",
+    "0x0A2988~Skyrim.esm",
+    "0x0A2987~Skyrim.esm",
+    "0x0A0706~Skyrim.esm",
+    "0x0A0703~Skyrim.esm",
+    "0x09F257~Skyrim.esm",
+    "0x09F250~Skyrim.esm",
+    "0x09E491~Skyrim.esm",
+    "0x09E48E~Skyrim.esm",
+    "0x09E48B~Skyrim.esm",
+    "0x09E46D~Skyrim.esm",
+    "0x09E469~Skyrim.esm",
+    "0x09E45F~Skyrim.esm",
+    "0x09E129~Skyrim.esm",
+    "0x09E128~Skyrim.esm",
+    "0x09E0DA~Skyrim.esm",
+    "0x09E0D9~Skyrim.esm",
+    "0x09E0D8~Skyrim.esm",
+    "0x09E0D7~Skyrim.esm",
+    "0x09DA63~Skyrim.esm",
+    "0x09DA5F~Skyrim.esm",
+    "0x09DA5C~Skyrim.esm",
+    "0x09DA59~Skyrim.esm",
+    "0x09DA56~Skyrim.esm",
+    "0x09DA53~Skyrim.esm",
+    "0x09DA46~Skyrim.esm",
+    "0x09DA3F~Skyrim.esm",
+    "0x09CD45~Skyrim.esm",
+    "0x09CAFD~Skyrim.esm",
+    "0x09CAFA~Skyrim.esm",
+    "0x09CAF8~Skyrim.esm",
+    "0x09AF14~Skyrim.esm",
+    "0x098BA4~Skyrim.esm",
+    "0x098BA3~Skyrim.esm",
+    "0x098BA2~Skyrim.esm",
+    "0x098BA1~Skyrim.esm",
+    "0x098B9E~Skyrim.esm",
+    "0x09438A~Skyrim.esm",
+    "0x094384~Skyrim.esm",
+    "0x09437C~Skyrim.esm",
+    "0x09437A~Skyrim.esm",
+    "0x078C0E~Skyrim.esm",
+    "0x078C0D~Skyrim.esm",
+    "0x078C0C~Skyrim.esm",
+    "0x013941~Dawnguard.esm",
+    "0x01047A~Dawnguard.esm",
+    "0x010479~Dawnguard.esm",
+    "0x010477~Dawnguard.esm",
+    "0x00F82B~Dawnguard.esm",
+    "0x00F828~Dawnguard.esm",
+    "0x00F1A5~Dawnguard.esm",
+    "0x000C44~HearthFires.esm",
+    "0x00080E~HearthFires.esm",
+    "0x03572E~Dragonborn.esm",
+    "0x031DB4~Dragonborn.esm",
+    "0x025020~Dragonborn.esm",
+    "0x02501F~Dragonborn.esm",
+    "0x02501E~Dragonborn.esm",
+    "0x02501D~Dragonborn.esm",
+    "0x02501C~Dragonborn.esm",
+    "0x01F88D~Dragonborn.esm",
+    "0x01EEC0~Dragonborn.esm",
+    "0x01DC65~Dragonborn.esm",
+    "0x0177C1~Dragonborn.esm",
+    "0x0177C0~Dragonborn.esm",
+    "0x0177BE~Dragonborn.esm",
     "0x004039~HearthFires.esm",
-    "0x00F1A6~Dawnguard.esm",
-    "0x00F829~Dawnguard.esm",
-    "0x00F82C~Dawnguard.esm",
-    "0x010478~Dawnguard.esm",
-    "0x01047B~Dawnguard.esm",
-    "0x01047C~Dawnguard.esm",
-    "0x013940~Dawnguard.esm",
-    "0x0177C2~Dragonborn.esm",
-    "0x0177C3~Dragonborn.esm",
-    "0x0177C4~Dragonborn.esm",
-    "0x01EEC5~Dragonborn.esm",
-    "0x01F88E~Dragonborn.esm",
     "0x01F898~Dragonborn.esm",
-    "0x01F9E5~Dragonborn.esm",
-    "0x025021~Dragonborn.esm",
-    "0x025022~Dragonborn.esm",
-    "0x025023~Dragonborn.esm",
-    "0x025024~Dragonborn.esm",
-    "0x025029~Dragonborn.esm",
     "0x027109~Dragonborn.esm",
     "0x027E0A~Dragonborn.esm",
-    "0x031DB3~Dragonborn.esm",
-    "0x035730~Dragonborn.esm",
-    "0x06479D~Skyrim.esm",
-    "0x0647A0~Skyrim.esm",
-    "0x065C3A~Skyrim.esm",
-    "0x06A878~Skyrim.esm",
-    "0x072787~Skyrim.esm",
-    "0x07434C~Skyrim.esm",
-    "0x074353~Skyrim.esm",
-    "0x074355~Skyrim.esm",
-    "0x078C0B~Skyrim.esm",
-    "0x078C0F~Skyrim.esm",
-    "0x078C10~Skyrim.esm",
-    "0x094377~Skyrim.esm",
-    "0x09437B~Skyrim.esm",
-    "0x09437D~Skyrim.esm",
-    "0x094381~Skyrim.esm",
-    "0x094385~Skyrim.esm",
-    "0x09438C~Skyrim.esm",
-    "0x09438F~Skyrim.esm",
-    "0x098B9F~Skyrim.esm",
-    "0x098BA5~Skyrim.esm",
-    "0x098BA6~Skyrim.esm",
-    "0x098BA7~Skyrim.esm",
-    "0x098BAC~Skyrim.esm",
-    "0x09CAF9~Skyrim.esm",
-    "0x09CAFB~Skyrim.esm",
-    "0x09CAFE~Skyrim.esm",
-    "0x09CD46~Skyrim.esm",
-    "0x09DA30~Skyrim.esm",
-    "0x09DA40~Skyrim.esm",
-    "0x09DA47~Skyrim.esm",
-    "0x09DA54~Skyrim.esm",
-    "0x09DA57~Skyrim.esm",
-    "0x09DA5A~Skyrim.esm",
-    "0x09DA60~Skyrim.esm",
-    "0x09DA64~Skyrim.esm",
-    "0x09E12A~Skyrim.esm",
-    "0x09E12D~Skyrim.esm",
-    "0x09E460~Skyrim.esm",
-    "0x09E46A~Skyrim.esm",
-    "0x09E46E~Skyrim.esm",
-    "0x09E48C~Skyrim.esm",
-    "0x09F251~Skyrim.esm",
-    "0x09F258~Skyrim.esm",
-    "0x0A0704~Skyrim.esm",
-    "0x0A0707~Skyrim.esm",
-    "0x0A31B8~Skyrim.esm",
-    "0x0A31B9~Skyrim.esm",
-    "0x0A31BA~Skyrim.esm",
-    "0x0A31BB~Skyrim.esm",
-    "0x0A31BC~Skyrim.esm",
-    "0x0A31BD~Skyrim.esm",
-    "0x0A31BE~Skyrim.esm",
-    "0x0A31BF~Skyrim.esm",
-    "0x0A31C0~Skyrim.esm",
-    "0x0A31C1~Skyrim.esm",
-    "0x0A3F00~Skyrim.esm",
-    "0x0A3F08~Skyrim.esm",
-    "0x0A3F0A~Skyrim.esm",
-    "0x0A3F0D~Skyrim.esm",
-    "0x0A3F11~Skyrim.esm",
-    "0x0A3F15~Skyrim.esm",
-    "0x0A3F18~Skyrim.esm",
-    "0x0A3F1D~Skyrim.esm",
-    "0x0A3F26~Skyrim.esm",
-    "0x0A6BF4~Skyrim.esm",
-    "0x0A6BF8~Skyrim.esm",
-    "0x0A6BFA~Skyrim.esm",
-    "0x0A6BFD~Skyrim.esm",
-    "0x0A6C09~Skyrim.esm",
-    "0x0A6C0A~Skyrim.esm",
-    "0x0A6C0B~Skyrim.esm",
-    "0x0A6C0C~Skyrim.esm",
-    "0x0A6C0D~Skyrim.esm",
-    "0x0A6C14~Skyrim.esm",
-    "0x0A6C15~Skyrim.esm",
-    "0x0A6C16~Skyrim.esm",
-    "0x0ABB3F~Skyrim.esm",
-    "0x0ABB41~Skyrim.esm",
-    "0x0ABB42~Skyrim.esm",
-    "0x0ABD9F~Skyrim.esm",
-    "0x0AC9BD~Skyrim.esm",
-    "0x0AC9CF~Skyrim.esm",
-    "0x0AC9DD~Skyrim.esm",
-    "0x0AC9E2~Skyrim.esm",
-    "0x0AC9E3~Skyrim.esm",
-    "0x0AC9E4~Skyrim.esm",
-    "0x0ACB6D~Skyrim.esm",
-    "0x0AF633~Skyrim.esm",
-    "0x0B2038~Skyrim.esm",
-    "0x0B2039~Skyrim.esm",
-    "0x0B298A~Skyrim.esm",
-    "0x0B31E9~Skyrim.esm",
-    "0x0B3FDE~Skyrim.esm",
-    "0x0B3FE2~Skyrim.esm",
-    "0x0BBCD1~Skyrim.esm",
-    "0x0C6450~Skyrim.esm",
-    "0x0C6451~Skyrim.esm",
-    "0x0C6452~Skyrim.esm",
-    "0x0C6453~Skyrim.esm",
-    "0x0C6454~Skyrim.esm",
-    "0x0D54C7~Skyrim.esm",
-    "0x0D8837~Skyrim.esm",
-    "0x0D8839~Skyrim.esm",
-    "0x0D883B~Skyrim.esm",
-    "0x0D883C~Skyrim.esm",
-    "0x0D883E~Skyrim.esm",
-    "0x0D8E4E~Skyrim.esm",
-    "0x0D8E4F~Skyrim.esm",
-    "0x0D8E50~Skyrim.esm",
-    "0x0E7BCE~Skyrim.esm",
-    "0x0EE9F8~Skyrim.esm",
     "0x0FE484~Skyrim.esm",
-    "0x0FE486~Skyrim.esm",
-    "0x10C1D4~Skyrim.esm",
-    "0x10C431~Skyrim.esm",
-    "0x10FDE7~Skyrim.esm"
+    "0x0FE486~Skyrim.esm"
   ],
   "dungeonContainers": [
     {
@@ -1076,17 +1085,17 @@
   "locationKeyword": "0x0130DB~Skyrim.esm",
   "rolls": {
     "merchant": {
-      "bookPrimary": 0.85,
-      "bookExtra": 0.35,
-      "staff": 0.2,
-      "stanceBook": 0.05,
-      "stanceStaff": 0.01
+      "bookPrimary": 0.55,
+      "bookExtra": 0.15,
+      "staff": 0.1,
+      "stanceBook": 0.01,
+      "stanceStaff": 0.002
     },
     "dungeon": {
       "book": 0.1,
       "staff": 0.03,
-      "stanceBook": 0.005,
-      "stanceStaff": 0.002
+      "stanceBook": 0.001,
+      "stanceStaff": 0.0002
     }
   },
   "books": [
@@ -1233,7 +1242,10 @@
     }
   ],
   "stanceBooksBaseValue": 35,
-  "staffValue": "UNCHANGED",
+  "staffValue": {
+    "regular": 10,
+    "unbound": 15
+  },
   "mainLeveledLists": [
     [
       3535,
@@ -1268,7 +1280,7 @@
         3,
         18
       ],
-      15
+      45
     ],
     [
       3536,
@@ -1303,7 +1315,7 @@
         3,
         18
       ],
-      65
+      85
     ],
     [
       3537,
@@ -1328,7 +1340,7 @@
         14,
         4
       ],
-      80
+      90
     ],
     [
       3538,
@@ -1403,17 +1415,15 @@
         1,
         1
       ],
-      95
+      99
     ],
     [
       2305,
       "TOAM_LL_StanceMerchantStaffs",
       [
-        2096,
-        2097
+        2307
       ],
       [
-        1,
         1
       ],
       99
@@ -1429,7 +1439,7 @@
         1,
         1
       ],
-      50
+      90
     ],
     [
       2307,
@@ -1459,12 +1469,12 @@
       2309,
       "TOAM_LL_StanceDungeonStaffs",
       [
-        2307
+        2305
       ],
       [
         1
       ],
-      99
+      90
     ]
   ],
   "probabilityMeaning": "Independent list evaluation per CID eligible container lifecycle. Conditional card weight within list; not a guarantee of immediate restock or repeat-cell rolls.",
@@ -1495,5 +1505,1125 @@
       "bytes": 64564304
     }
   ],
-  "runtime": "NOT_RUN"
+  "runtime": "V0.8.12 merchant sales USER_CONFIRMED;new V1 target expansion/rates NOT_RUN",
+  "merchantBaseContainers": [
+    {
+      "id": "0x10FDE6~Skyrim.esm",
+      "edid": "MerchantWhiterunEorlundChest"
+    },
+    {
+      "id": "0x10C430~Skyrim.esm",
+      "edid": "MerchantWCollegeUragChest"
+    },
+    {
+      "id": "0x10C1D5~Skyrim.esm",
+      "edid": "MerchantWhiterunFraliaChest"
+    },
+    {
+      "id": "0x0EE9F7~Skyrim.esm",
+      "edid": "MerchantWCollegeEnthirChest"
+    },
+    {
+      "id": "0x0D8E4D~Skyrim.esm",
+      "edid": "TGFenceMerchantChestCaravanZaynabi"
+    },
+    {
+      "id": "0x0D8E4C~Skyrim.esm",
+      "edid": "TGFenceMerchantChestCaravanMajhad"
+    },
+    {
+      "id": "0x0D8E4B~Skyrim.esm",
+      "edid": "TGFenceMerchantChestCaravanAtahba"
+    },
+    {
+      "id": "0x0D8831~Skyrim.esm",
+      "edid": "TGFenceMerchantChestMallus"
+    },
+    {
+      "id": "0x0D8830~Skyrim.esm",
+      "edid": "TGFenceMerchantChestEnthir"
+    },
+    {
+      "id": "0x0D882F~Skyrim.esm",
+      "edid": "TGFenceMerchantChestEndon"
+    },
+    {
+      "id": "0x0D882E~Skyrim.esm",
+      "edid": "TGFenceMerchantChestNiranye"
+    },
+    {
+      "id": "0x0D882D~Skyrim.esm",
+      "edid": "TGFenceMerchantChestGulumEi"
+    },
+    {
+      "id": "0x0D6AA4~Skyrim.esm",
+      "edid": "MerchantSolitudeEastEmpireCompany"
+    },
+    {
+      "id": "0x0BBCD0~Skyrim.esm",
+      "edid": "WEMerchantChest"
+    },
+    {
+      "id": "0x072786~Skyrim.esm",
+      "edid": "MerchantFalkreathBlacksmithChest"
+    },
+    {
+      "id": "0x06A876~Skyrim.esm",
+      "edid": "MerchantFalkreathGraveConcoctionsChest"
+    },
+    {
+      "id": "0x065C36~Skyrim.esm",
+      "edid": "MerchantRiftenBeeandBarbTalenChest"
+    },
+    {
+      "id": "0x06479F~Skyrim.esm",
+      "edid": "MerchantMarkarthCastleBlacksmithChest"
+    },
+    {
+      "id": "0x06479C~Skyrim.esm",
+      "edid": "MerchantMarkarthAntonsChest"
+    },
+    {
+      "id": "0x0E7BCD~Skyrim.esm",
+      "edid": "MerchantWinterholdNelacarChest"
+    },
+    {
+      "id": "0x0D54C5~Skyrim.esm",
+      "edid": "TGFenceMerchantChestTonilia"
+    },
+    {
+      "id": "0x0C644F~Skyrim.esm",
+      "edid": "MerchantSpouseMiscVendorChest"
+    },
+    {
+      "id": "0x0C644E~Skyrim.esm",
+      "edid": "MerchantSpouseSpellsChest"
+    },
+    {
+      "id": "0x0C644D~Skyrim.esm",
+      "edid": "MerchantSpouseInnkeeperChest"
+    },
+    {
+      "id": "0x0C644C~Skyrim.esm",
+      "edid": "MerchantSpouseApothecaryChest"
+    },
+    {
+      "id": "0x0C644B~Skyrim.esm",
+      "edid": "MerchantSpouseBlacksmithChest"
+    },
+    {
+      "id": "0x07434E~Skyrim.esm",
+      "edid": "MerchantCaravanCChest"
+    },
+    {
+      "id": "0x07434D~Skyrim.esm",
+      "edid": "MerchantCaravanBChest"
+    },
+    {
+      "id": "0x07434B~Skyrim.esm",
+      "edid": "MerchantCaravanAChest"
+    },
+    {
+      "id": "0x0B3FE1~Skyrim.esm",
+      "edid": "MerchantNarzulburBlacksmithChest"
+    },
+    {
+      "id": "0x0B3FE0~Skyrim.esm",
+      "edid": "MerchantNarzulburWiseWomanChest"
+    },
+    {
+      "id": "0x0B31E8~Skyrim.esm",
+      "edid": "MerchantHonningbrewPostChest"
+    },
+    {
+      "id": "0x0B2989~Skyrim.esm",
+      "edid": "MerchantHonningbrewChest"
+    },
+    {
+      "id": "0x0B2035~Skyrim.esm",
+      "edid": "MerchantSolitudeFletcher"
+    },
+    {
+      "id": "0x0AF632~Skyrim.esm",
+      "edid": "MerchantWindhelmWhitePhialChest"
+    },
+    {
+      "id": "0x0ACB6F~Skyrim.esm",
+      "edid": "MerchantLargashburBlacksmithChest"
+    },
+    {
+      "id": "0x0ACB6C~Skyrim.esm",
+      "edid": "MerchantLargashburAtubChest"
+    },
+    {
+      "id": "0x0AC9DC~Skyrim.esm",
+      "edid": "MerchantTGVanrythChest"
+    },
+    {
+      "id": "0x0AC9DB~Skyrim.esm",
+      "edid": "MerchantTGHerluinChest"
+    },
+    {
+      "id": "0x0AC9DA~Skyrim.esm",
+      "edid": "MerchantTGArnskarChest"
+    },
+    {
+      "id": "0x0AC9D9~Skyrim.esm",
+      "edid": "MerchantTGSyndusChest"
+    },
+    {
+      "id": "0x0AC9CE~Skyrim.esm",
+      "edid": "MerchantFilnjarBlacksmithChest"
+    },
+    {
+      "id": "0x0ABD9E~Skyrim.esm",
+      "edid": "MerchantDBSanctuaryMerchantChest"
+    },
+    {
+      "id": "0x0ABB40~Skyrim.esm",
+      "edid": "MerchantWhiterunCarlottaChest"
+    },
+    {
+      "id": "0x0ABB3E~Skyrim.esm",
+      "edid": "MerchantWhiterunAnoriathChest"
+    },
+    {
+      "id": "0x0A6C10~Skyrim.esm",
+      "edid": "MerchantSolitudeFruitEvette"
+    },
+    {
+      "id": "0x0A6C0F~Skyrim.esm",
+      "edid": "MerchantSolitudeFruitJala"
+    },
+    {
+      "id": "0x0A6C0E~Skyrim.esm",
+      "edid": "MerchantSolitudeFishAddvar"
+    },
+    {
+      "id": "0x0A6C08~Skyrim.esm",
+      "edid": "MerchantSolitudeStables"
+    },
+    {
+      "id": "0x0A6C07~Skyrim.esm",
+      "edid": "MerchantSolitudeBlacksmith"
+    },
+    {
+      "id": "0x0A6C06~Skyrim.esm",
+      "edid": "MerchantSolitudeBitsAndPieces"
+    },
+    {
+      "id": "0x0A6C05~Skyrim.esm",
+      "edid": "MerchantSolitudeAngelinesAromatics"
+    },
+    {
+      "id": "0x0A6C04~Skyrim.esm",
+      "edid": "MerchantSolitudeRadiantRaiments"
+    },
+    {
+      "id": "0x0A6BFC~Skyrim.esm",
+      "edid": "MerchantFalkreathGrayPineGoodsChest"
+    },
+    {
+      "id": "0x0A6BF3~Skyrim.esm",
+      "edid": "MerchantFalkreathDeadMansDrinkChest"
+    },
+    {
+      "id": "0x0A6BF1~Skyrim.esm",
+      "edid": "MerchantDragonBridgeFourShieldsTavernChest"
+    },
+    {
+      "id": "0x0A6BF0~Skyrim.esm",
+      "edid": "MerchantSolitudeWinkingSkeeverChest"
+    },
+    {
+      "id": "0x0A3F25~Skyrim.esm",
+      "edid": "MerchantKynesgroveBraidwoodInnChest"
+    },
+    {
+      "id": "0x0A3F1B~Skyrim.esm",
+      "edid": "MerchantWindhelmWuunferthsChest"
+    },
+    {
+      "id": "0x0A3F17~Skyrim.esm",
+      "edid": "MerchantWindhelmBlacksmithChest"
+    },
+    {
+      "id": "0x0A3F14~Skyrim.esm",
+      "edid": "MerchantWindhelmCornerclubChest"
+    },
+    {
+      "id": "0x0A3F10~Skyrim.esm",
+      "edid": "MerchantWindhelmRevynSadriChest"
+    },
+    {
+      "id": "0x0A3F0C~Skyrim.esm",
+      "edid": "MerchantWindhelmHilleviChest"
+    },
+    {
+      "id": "0x0A3F09~Skyrim.esm",
+      "edid": "MerchantWindhelmAvalAtheronChest"
+    },
+    {
+      "id": "0x0A3F05~Skyrim.esm",
+      "edid": "MerchantWindhelmNiranyeChest"
+    },
+    {
+      "id": "0x0A3F02~Skyrim.esm",
+      "edid": "MerchantKynesgroveDravyneaChest"
+    },
+    {
+      "id": "0x0A3EFF~Skyrim.esm",
+      "edid": "MerchantWindhelmCandlehearthHallChest"
+    },
+    {
+      "id": "0x0A31B7~Skyrim.esm",
+      "edid": "MerchantRiftenGrandPlazaMadesiChest"
+    },
+    {
+      "id": "0x0A31B6~Skyrim.esm",
+      "edid": "MerchantRiftenGrandPlazaMariseChest"
+    },
+    {
+      "id": "0x0A31B5~Skyrim.esm",
+      "edid": "MerchantRiftenGrandPlazaBrandishChest"
+    },
+    {
+      "id": "0x0A31B4~Skyrim.esm",
+      "edid": "MerchantRiftenGrandPlazaGrelkaChest"
+    },
+    {
+      "id": "0x0A31AF~Skyrim.esm",
+      "edid": "MerchantRiftenScorchedHammerBlacksmithChest"
+    },
+    {
+      "id": "0x0A31AE~Skyrim.esm",
+      "edid": "MerchantRiftenElgrimsElixirsChest"
+    },
+    {
+      "id": "0x0A29AE~Skyrim.esm",
+      "edid": "MerchantRiftenRaggedFlagonChest"
+    },
+    {
+      "id": "0x0A29AD~Skyrim.esm",
+      "edid": "MerchantRiftenPawnedPrawnChest"
+    },
+    {
+      "id": "0x0A29AC~Skyrim.esm",
+      "edid": "MerchantRiftenBlackBriarMeadery"
+    },
+    {
+      "id": "0x0A298A~Skyrim.esm",
+      "edid": "MerchantWhiterunFarengarsChest"
+    },
+    {
+      "id": "0x0A2989~Skyrim.esm",
+      "edid": "MerchantSolitudeSybilleStentorChest"
+    },
+    {
+      "id": "0x0A2988~Skyrim.esm",
+      "edid": "MerchantRiftenWylandriahsChest"
+    },
+    {
+      "id": "0x0A2987~Skyrim.esm",
+      "edid": "MerchantDawnstarMadenasChest"
+    },
+    {
+      "id": "0x0A0706~Skyrim.esm",
+      "edid": "MerchantIvarsteadVilemyrInnChest"
+    },
+    {
+      "id": "0x0A0703~Skyrim.esm",
+      "edid": "MerchantRiftenBeeandBarbChest"
+    },
+    {
+      "id": "0x09F257~Skyrim.esm",
+      "edid": "MerchantWhiterunDrunkenHuntsmanChest"
+    },
+    {
+      "id": "0x09F250~Skyrim.esm",
+      "edid": "MerchantRoriksteadFrostFruitInnChest"
+    },
+    {
+      "id": "0x09E491~Skyrim.esm",
+      "edid": "MerchantHeljarchenApothecaryChest"
+    },
+    {
+      "id": "0x09E48E~Skyrim.esm",
+      "edid": "MerchantHeljarchenBlacksmithChest"
+    },
+    {
+      "id": "0x09E48B~Skyrim.esm",
+      "edid": "MerchantNightgateInnChest"
+    },
+    {
+      "id": "0x09E46D~Skyrim.esm",
+      "edid": "MerchantMorKhazgurBlacksmithChest"
+    },
+    {
+      "id": "0x09E469~Skyrim.esm",
+      "edid": "MerchantMorKhazgurWiseWomanChest"
+    },
+    {
+      "id": "0x09E45F~Skyrim.esm",
+      "edid": "MerchantOldHroldanHangedManInnChest"
+    },
+    {
+      "id": "0x09E129~Skyrim.esm",
+      "edid": "MerchantDushnikhYalWiseWomanChest"
+    },
+    {
+      "id": "0x09E128~Skyrim.esm",
+      "edid": "MerchantDushnikhYalBlacksmithChest"
+    },
+    {
+      "id": "0x09E0DA~Skyrim.esm",
+      "edid": "MerchantDawnstarMortarPestleChest"
+    },
+    {
+      "id": "0x09E0D9~Skyrim.esm",
+      "edid": "MerchantMarkarthArnleifandSonsChest"
+    },
+    {
+      "id": "0x09E0D8~Skyrim.esm",
+      "edid": "MerchantMarkarthBlacksmithChest"
+    },
+    {
+      "id": "0x09E0D7~Skyrim.esm",
+      "edid": "MerchantMarkarthHagsCureChest"
+    },
+    {
+      "id": "0x09DA63~Skyrim.esm",
+      "edid": "MerchantWinterholdBirnaChest"
+    },
+    {
+      "id": "0x09DA5F~Skyrim.esm",
+      "edid": "MerchantWinterholdFrozenHearthChest"
+    },
+    {
+      "id": "0x09DA5C~Skyrim.esm",
+      "edid": "MerchantStonehillsAleucChest"
+    },
+    {
+      "id": "0x09DA59~Skyrim.esm",
+      "edid": "MerchantMorthalLamisChest"
+    },
+    {
+      "id": "0x09DA56~Skyrim.esm",
+      "edid": "MerchantMorthalFalionsChest"
+    },
+    {
+      "id": "0x09DA53~Skyrim.esm",
+      "edid": "MerchantMorthalMoorsideInnChest"
+    },
+    {
+      "id": "0x09DA46~Skyrim.esm",
+      "edid": "MerchantDawnstarWindpeakInnChest"
+    },
+    {
+      "id": "0x09DA3F~Skyrim.esm",
+      "edid": "MerchantDawnstarRustleifsBlacksmithChest"
+    },
+    {
+      "id": "0x09CD45~Skyrim.esm",
+      "edid": "MerchantWhiterunArcadiasCauldronChest"
+    },
+    {
+      "id": "0x09CAFD~Skyrim.esm",
+      "edid": "MerchantWhiterunWarmaidensBlacksmithChest"
+    },
+    {
+      "id": "0x09CAFA~Skyrim.esm",
+      "edid": "MerchantWhiterunBannerdMareChest"
+    },
+    {
+      "id": "0x09CAF8~Skyrim.esm",
+      "edid": "MerchantWhiterunBelethorsGoodsChest"
+    },
+    {
+      "id": "0x09AF14~Skyrim.esm",
+      "edid": "VendorMiscChestSmall"
+    },
+    {
+      "id": "0x098BA4~Skyrim.esm",
+      "edid": "MerchantWCollegeTolfdirChest"
+    },
+    {
+      "id": "0x098BA3~Skyrim.esm",
+      "edid": "MerchantWCollegeColetteChest"
+    },
+    {
+      "id": "0x098BA2~Skyrim.esm",
+      "edid": "MerchantWCollegePhinisChest"
+    },
+    {
+      "id": "0x098BA1~Skyrim.esm",
+      "edid": "MerchantWCollegeFaraldaChest"
+    },
+    {
+      "id": "0x098B9E~Skyrim.esm",
+      "edid": "MerchantWCollegeDrevisChest"
+    },
+    {
+      "id": "0x09438A~Skyrim.esm",
+      "edid": "MerchantMarkarthWizardsChest"
+    },
+    {
+      "id": "0x094384~Skyrim.esm",
+      "edid": "MerchantMarkarthSilverFishInnChest"
+    },
+    {
+      "id": "0x09437C~Skyrim.esm",
+      "edid": "MerchantMarkarthBolisChest"
+    },
+    {
+      "id": "0x09437A~Skyrim.esm",
+      "edid": "MerchantMarkarthKerahsChest"
+    },
+    {
+      "id": "0x078C0E~Skyrim.esm",
+      "edid": "MerchantRiverwoodSleepingGiantChest"
+    },
+    {
+      "id": "0x078C0D~Skyrim.esm",
+      "edid": "MerchantRiverwoodAlvorBlacksmithChest"
+    },
+    {
+      "id": "0x078C0C~Skyrim.esm",
+      "edid": "MerchantRiverwoodTraderChest"
+    },
+    {
+      "id": "0x013941~Dawnguard.esm",
+      "edid": "DLC1dunRedwaterDenMerchantChest"
+    },
+    {
+      "id": "0x01047A~Dawnguard.esm",
+      "edid": "DLC1VendorChestRonthil"
+    },
+    {
+      "id": "0x010479~Dawnguard.esm",
+      "edid": "DLC1VendorChestFeran"
+    },
+    {
+      "id": "0x010477~Dawnguard.esm",
+      "edid": "DLC1VendorChestHestla"
+    },
+    {
+      "id": "0x00F82B~Dawnguard.esm",
+      "edid": "DLC1VendorChestFlorentius"
+    },
+    {
+      "id": "0x00F828~Dawnguard.esm",
+      "edid": "DLC1VendorChestGunmar"
+    },
+    {
+      "id": "0x00F1A5~Dawnguard.esm",
+      "edid": "DLC1VendorChestSorineJurard"
+    },
+    {
+      "id": "0x000C44~HearthFires.esm",
+      "edid": "BYOHHouseVendorChestSmall"
+    },
+    {
+      "id": "0x00080E~HearthFires.esm",
+      "edid": "BYOHHouseVendorChest"
+    },
+    {
+      "id": "0x03572E~Dragonborn.esm",
+      "edid": "DLC2ElmusVendorChest"
+    },
+    {
+      "id": "0x031DB4~Dragonborn.esm",
+      "edid": "dlc2MerchMerchantsChest"
+    },
+    {
+      "id": "0x025020~Dragonborn.esm",
+      "edid": "DLC2RRFethisVendorChest"
+    },
+    {
+      "id": "0x02501F~Dragonborn.esm",
+      "edid": "DLC2RRGarynVendorChest"
+    },
+    {
+      "id": "0x02501E~Dragonborn.esm",
+      "edid": "DLC2RRGeldisVendorChest"
+    },
+    {
+      "id": "0x02501D~Dragonborn.esm",
+      "edid": "DLC2RRGloverVendorChest"
+    },
+    {
+      "id": "0x02501C~Dragonborn.esm",
+      "edid": "DLC2RRMiloreVendorChest"
+    },
+    {
+      "id": "0x01F88D~Dragonborn.esm",
+      "edid": "DLC2SkaalMerchantChest"
+    },
+    {
+      "id": "0x01EEC0~Dragonborn.esm",
+      "edid": "DLC2MerchantDremoraChest"
+    },
+    {
+      "id": "0x01DC65~Dragonborn.esm",
+      "edid": "DLC2dunFrostmoonVendorChest"
+    },
+    {
+      "id": "0x0177C1~Dragonborn.esm",
+      "edid": "DLC2MerchantTelMithrynNelothChest"
+    },
+    {
+      "id": "0x0177C0~Dragonborn.esm",
+      "edid": "DLC2MerchantTelMithrynTalvasChest"
+    },
+    {
+      "id": "0x0177BE~Dragonborn.esm",
+      "edid": "DLC2MerchantTelMithrynElyneasChest"
+    }
+  ],
+  "merchantExplicitReferences": [
+    "0x004039~HearthFires.esm",
+    "0x01F898~Dragonborn.esm",
+    "0x027109~Dragonborn.esm",
+    "0x027E0A~Dragonborn.esm",
+    "0x0FE484~Skyrim.esm",
+    "0x0FE486~Skyrim.esm"
+  ],
+  "priorReferencesMappedToBases": [
+    {
+      "reference": "0x00F1A6~Dawnguard.esm",
+      "base": "0x00F1A5~Dawnguard.esm"
+    },
+    {
+      "reference": "0x00F829~Dawnguard.esm",
+      "base": "0x00F828~Dawnguard.esm"
+    },
+    {
+      "reference": "0x00F82C~Dawnguard.esm",
+      "base": "0x00F82B~Dawnguard.esm"
+    },
+    {
+      "reference": "0x010478~Dawnguard.esm",
+      "base": "0x010477~Dawnguard.esm"
+    },
+    {
+      "reference": "0x01047B~Dawnguard.esm",
+      "base": "0x01047A~Dawnguard.esm"
+    },
+    {
+      "reference": "0x01047C~Dawnguard.esm",
+      "base": "0x010479~Dawnguard.esm"
+    },
+    {
+      "reference": "0x013940~Dawnguard.esm",
+      "base": "0x013941~Dawnguard.esm"
+    },
+    {
+      "reference": "0x0177C2~Dragonborn.esm",
+      "base": "0x0177BE~Dragonborn.esm"
+    },
+    {
+      "reference": "0x0177C3~Dragonborn.esm",
+      "base": "0x0177C1~Dragonborn.esm"
+    },
+    {
+      "reference": "0x0177C4~Dragonborn.esm",
+      "base": "0x0177C0~Dragonborn.esm"
+    },
+    {
+      "reference": "0x01EEC5~Dragonborn.esm",
+      "base": "0x01EEC0~Dragonborn.esm"
+    },
+    {
+      "reference": "0x01F88E~Dragonborn.esm",
+      "base": "0x01F88D~Dragonborn.esm"
+    },
+    {
+      "reference": "0x01F9E5~Dragonborn.esm",
+      "base": "0x01DC65~Dragonborn.esm"
+    },
+    {
+      "reference": "0x025021~Dragonborn.esm",
+      "base": "0x02501F~Dragonborn.esm"
+    },
+    {
+      "reference": "0x025022~Dragonborn.esm",
+      "base": "0x02501D~Dragonborn.esm"
+    },
+    {
+      "reference": "0x025023~Dragonborn.esm",
+      "base": "0x025020~Dragonborn.esm"
+    },
+    {
+      "reference": "0x025024~Dragonborn.esm",
+      "base": "0x02501C~Dragonborn.esm"
+    },
+    {
+      "reference": "0x025029~Dragonborn.esm",
+      "base": "0x02501E~Dragonborn.esm"
+    },
+    {
+      "reference": "0x031DB3~Dragonborn.esm",
+      "base": "0x031DB4~Dragonborn.esm"
+    },
+    {
+      "reference": "0x035730~Dragonborn.esm",
+      "base": "0x03572E~Dragonborn.esm"
+    },
+    {
+      "reference": "0x06479D~Skyrim.esm",
+      "base": "0x06479C~Skyrim.esm"
+    },
+    {
+      "reference": "0x0647A0~Skyrim.esm",
+      "base": "0x06479F~Skyrim.esm"
+    },
+    {
+      "reference": "0x065C3A~Skyrim.esm",
+      "base": "0x065C36~Skyrim.esm"
+    },
+    {
+      "reference": "0x06A878~Skyrim.esm",
+      "base": "0x06A876~Skyrim.esm"
+    },
+    {
+      "reference": "0x072787~Skyrim.esm",
+      "base": "0x072786~Skyrim.esm"
+    },
+    {
+      "reference": "0x07434C~Skyrim.esm",
+      "base": "0x07434B~Skyrim.esm"
+    },
+    {
+      "reference": "0x074353~Skyrim.esm",
+      "base": "0x07434D~Skyrim.esm"
+    },
+    {
+      "reference": "0x074355~Skyrim.esm",
+      "base": "0x07434E~Skyrim.esm"
+    },
+    {
+      "reference": "0x078C0B~Skyrim.esm",
+      "base": "0x078C0C~Skyrim.esm"
+    },
+    {
+      "reference": "0x078C0F~Skyrim.esm",
+      "base": "0x078C0E~Skyrim.esm"
+    },
+    {
+      "reference": "0x078C10~Skyrim.esm",
+      "base": "0x078C0D~Skyrim.esm"
+    },
+    {
+      "reference": "0x094377~Skyrim.esm",
+      "base": "0x09E0D9~Skyrim.esm"
+    },
+    {
+      "reference": "0x09437B~Skyrim.esm",
+      "base": "0x09437A~Skyrim.esm"
+    },
+    {
+      "reference": "0x09437D~Skyrim.esm",
+      "base": "0x09437C~Skyrim.esm"
+    },
+    {
+      "reference": "0x094381~Skyrim.esm",
+      "base": "0x09E0D7~Skyrim.esm"
+    },
+    {
+      "reference": "0x094385~Skyrim.esm",
+      "base": "0x094384~Skyrim.esm"
+    },
+    {
+      "reference": "0x09438C~Skyrim.esm",
+      "base": "0x09438A~Skyrim.esm"
+    },
+    {
+      "reference": "0x09438F~Skyrim.esm",
+      "base": "0x09E0D8~Skyrim.esm"
+    },
+    {
+      "reference": "0x098B9F~Skyrim.esm",
+      "base": "0x098B9E~Skyrim.esm"
+    },
+    {
+      "reference": "0x098BA5~Skyrim.esm",
+      "base": "0x098BA3~Skyrim.esm"
+    },
+    {
+      "reference": "0x098BA6~Skyrim.esm",
+      "base": "0x098BA1~Skyrim.esm"
+    },
+    {
+      "reference": "0x098BA7~Skyrim.esm",
+      "base": "0x098BA2~Skyrim.esm"
+    },
+    {
+      "reference": "0x098BAC~Skyrim.esm",
+      "base": "0x098BA4~Skyrim.esm"
+    },
+    {
+      "reference": "0x09CAF9~Skyrim.esm",
+      "base": "0x09CAF8~Skyrim.esm"
+    },
+    {
+      "reference": "0x09CAFB~Skyrim.esm",
+      "base": "0x09CAFA~Skyrim.esm"
+    },
+    {
+      "reference": "0x09CAFE~Skyrim.esm",
+      "base": "0x09CAFD~Skyrim.esm"
+    },
+    {
+      "reference": "0x09CD46~Skyrim.esm",
+      "base": "0x09CD45~Skyrim.esm"
+    },
+    {
+      "reference": "0x09DA30~Skyrim.esm",
+      "base": "0x09E0DA~Skyrim.esm"
+    },
+    {
+      "reference": "0x09DA40~Skyrim.esm",
+      "base": "0x09DA3F~Skyrim.esm"
+    },
+    {
+      "reference": "0x09DA47~Skyrim.esm",
+      "base": "0x09DA46~Skyrim.esm"
+    },
+    {
+      "reference": "0x09DA54~Skyrim.esm",
+      "base": "0x09DA53~Skyrim.esm"
+    },
+    {
+      "reference": "0x09DA57~Skyrim.esm",
+      "base": "0x09DA56~Skyrim.esm"
+    },
+    {
+      "reference": "0x09DA5A~Skyrim.esm",
+      "base": "0x09DA59~Skyrim.esm"
+    },
+    {
+      "reference": "0x09DA60~Skyrim.esm",
+      "base": "0x09DA5F~Skyrim.esm"
+    },
+    {
+      "reference": "0x09DA64~Skyrim.esm",
+      "base": "0x09DA63~Skyrim.esm"
+    },
+    {
+      "reference": "0x09E12A~Skyrim.esm",
+      "base": "0x09E129~Skyrim.esm"
+    },
+    {
+      "reference": "0x09E12D~Skyrim.esm",
+      "base": "0x09E128~Skyrim.esm"
+    },
+    {
+      "reference": "0x09E460~Skyrim.esm",
+      "base": "0x09E45F~Skyrim.esm"
+    },
+    {
+      "reference": "0x09E46A~Skyrim.esm",
+      "base": "0x09E469~Skyrim.esm"
+    },
+    {
+      "reference": "0x09E46E~Skyrim.esm",
+      "base": "0x09E46D~Skyrim.esm"
+    },
+    {
+      "reference": "0x09E48C~Skyrim.esm",
+      "base": "0x09E48B~Skyrim.esm"
+    },
+    {
+      "reference": "0x09F251~Skyrim.esm",
+      "base": "0x09F250~Skyrim.esm"
+    },
+    {
+      "reference": "0x09F258~Skyrim.esm",
+      "base": "0x09F257~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A0704~Skyrim.esm",
+      "base": "0x0A0703~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A0707~Skyrim.esm",
+      "base": "0x0A0706~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A31B8~Skyrim.esm",
+      "base": "0x0A31B5~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A31B9~Skyrim.esm",
+      "base": "0x0A31B4~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A31BA~Skyrim.esm",
+      "base": "0x0A31B6~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A31BB~Skyrim.esm",
+      "base": "0x0A31B7~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A31BC~Skyrim.esm",
+      "base": "0x0A29AC~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A31BD~Skyrim.esm",
+      "base": "0x0A31AF~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A31BE~Skyrim.esm",
+      "base": "0x0A31AE~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A31BF~Skyrim.esm",
+      "base": "0x0A29AD~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A31C0~Skyrim.esm",
+      "base": "0x0A29AE~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A31C1~Skyrim.esm",
+      "base": "0x0A2988~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A3F00~Skyrim.esm",
+      "base": "0x0A3EFF~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A3F08~Skyrim.esm",
+      "base": "0x0A3F05~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A3F0A~Skyrim.esm",
+      "base": "0x0A3F09~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A3F0D~Skyrim.esm",
+      "base": "0x0A3F0C~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A3F11~Skyrim.esm",
+      "base": "0x0A3F10~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A3F15~Skyrim.esm",
+      "base": "0x0A3F14~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A3F18~Skyrim.esm",
+      "base": "0x0A3F17~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A3F1D~Skyrim.esm",
+      "base": "0x0A3F1B~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A3F26~Skyrim.esm",
+      "base": "0x0A3F25~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6BF4~Skyrim.esm",
+      "base": "0x0A6BF1~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6BF8~Skyrim.esm",
+      "base": "0x0A6BF0~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6BFA~Skyrim.esm",
+      "base": "0x0A6BF3~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6BFD~Skyrim.esm",
+      "base": "0x0A6BFC~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6C09~Skyrim.esm",
+      "base": "0x0A6C05~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6C0A~Skyrim.esm",
+      "base": "0x0A6C06~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6C0B~Skyrim.esm",
+      "base": "0x0A6C07~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6C0C~Skyrim.esm",
+      "base": "0x0A6C04~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6C0D~Skyrim.esm",
+      "base": "0x0A6C08~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6C14~Skyrim.esm",
+      "base": "0x0A6C0E~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6C15~Skyrim.esm",
+      "base": "0x0A6C10~Skyrim.esm"
+    },
+    {
+      "reference": "0x0A6C16~Skyrim.esm",
+      "base": "0x0A6C0F~Skyrim.esm"
+    },
+    {
+      "reference": "0x0ABB3F~Skyrim.esm",
+      "base": "0x0ABB3E~Skyrim.esm"
+    },
+    {
+      "reference": "0x0ABB41~Skyrim.esm",
+      "base": "0x0ABB40~Skyrim.esm"
+    },
+    {
+      "reference": "0x0ABB42~Skyrim.esm",
+      "base": "0x0A298A~Skyrim.esm"
+    },
+    {
+      "reference": "0x0ABD9F~Skyrim.esm",
+      "base": "0x0ABD9E~Skyrim.esm"
+    },
+    {
+      "reference": "0x0AC9BD~Skyrim.esm",
+      "base": "0x0A2987~Skyrim.esm"
+    },
+    {
+      "reference": "0x0AC9CF~Skyrim.esm",
+      "base": "0x0AC9CE~Skyrim.esm"
+    },
+    {
+      "reference": "0x0AC9DD~Skyrim.esm",
+      "base": "0x0AC9D9~Skyrim.esm"
+    },
+    {
+      "reference": "0x0AC9E2~Skyrim.esm",
+      "base": "0x0AC9DB~Skyrim.esm"
+    },
+    {
+      "reference": "0x0AC9E3~Skyrim.esm",
+      "base": "0x0AC9DA~Skyrim.esm"
+    },
+    {
+      "reference": "0x0AC9E4~Skyrim.esm",
+      "base": "0x0AC9DC~Skyrim.esm"
+    },
+    {
+      "reference": "0x0ACB6D~Skyrim.esm",
+      "base": "0x0ACB6C~Skyrim.esm"
+    },
+    {
+      "reference": "0x0AF633~Skyrim.esm",
+      "base": "0x0AF632~Skyrim.esm"
+    },
+    {
+      "reference": "0x0B2038~Skyrim.esm",
+      "base": "0x0A2989~Skyrim.esm"
+    },
+    {
+      "reference": "0x0B2039~Skyrim.esm",
+      "base": "0x0B2035~Skyrim.esm"
+    },
+    {
+      "reference": "0x0B298A~Skyrim.esm",
+      "base": "0x0B2989~Skyrim.esm"
+    },
+    {
+      "reference": "0x0B31E9~Skyrim.esm",
+      "base": "0x0B31E8~Skyrim.esm"
+    },
+    {
+      "reference": "0x0B3FDE~Skyrim.esm",
+      "base": "0x0B3FE0~Skyrim.esm"
+    },
+    {
+      "reference": "0x0B3FE2~Skyrim.esm",
+      "base": "0x0B3FE1~Skyrim.esm"
+    },
+    {
+      "reference": "0x0BBCD1~Skyrim.esm",
+      "base": "0x0BBCD0~Skyrim.esm"
+    },
+    {
+      "reference": "0x0C6450~Skyrim.esm",
+      "base": "0x0C644C~Skyrim.esm"
+    },
+    {
+      "reference": "0x0C6451~Skyrim.esm",
+      "base": "0x0C644B~Skyrim.esm"
+    },
+    {
+      "reference": "0x0C6452~Skyrim.esm",
+      "base": "0x0C644D~Skyrim.esm"
+    },
+    {
+      "reference": "0x0C6453~Skyrim.esm",
+      "base": "0x0C644F~Skyrim.esm"
+    },
+    {
+      "reference": "0x0C6454~Skyrim.esm",
+      "base": "0x0C644E~Skyrim.esm"
+    },
+    {
+      "reference": "0x0D54C7~Skyrim.esm",
+      "base": "0x0D54C5~Skyrim.esm"
+    },
+    {
+      "reference": "0x0D8837~Skyrim.esm",
+      "base": "0x0D882F~Skyrim.esm"
+    },
+    {
+      "reference": "0x0D8839~Skyrim.esm",
+      "base": "0x0D8831~Skyrim.esm"
+    },
+    {
+      "reference": "0x0D883B~Skyrim.esm",
+      "base": "0x0D8830~Skyrim.esm"
+    },
+    {
+      "reference": "0x0D883C~Skyrim.esm",
+      "base": "0x0D882D~Skyrim.esm"
+    },
+    {
+      "reference": "0x0D883E~Skyrim.esm",
+      "base": "0x0D882E~Skyrim.esm"
+    },
+    {
+      "reference": "0x0D8E4E~Skyrim.esm",
+      "base": "0x0D8E4B~Skyrim.esm"
+    },
+    {
+      "reference": "0x0D8E4F~Skyrim.esm",
+      "base": "0x0D8E4C~Skyrim.esm"
+    },
+    {
+      "reference": "0x0D8E50~Skyrim.esm",
+      "base": "0x0D8E4D~Skyrim.esm"
+    },
+    {
+      "reference": "0x0E7BCE~Skyrim.esm",
+      "base": "0x0E7BCD~Skyrim.esm"
+    },
+    {
+      "reference": "0x0EE9F8~Skyrim.esm",
+      "base": "0x0EE9F7~Skyrim.esm"
+    },
+    {
+      "reference": "0x10C1D4~Skyrim.esm",
+      "base": "0x10C1D5~Skyrim.esm"
+    },
+    {
+      "reference": "0x10C431~Skyrim.esm",
+      "base": "0x10C430~Skyrim.esm"
+    },
+    {
+      "reference": "0x10FDE7~Skyrim.esm",
+      "base": "0x10FDE6~Skyrim.esm"
+    }
+  ]
 }

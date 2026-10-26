@@ -1,29 +1,18 @@
-# TULL Ordinary Attack Magic
+# TULL Ordinary Attack Magic 1.0.0
+Reviewed source for the single TOAM SKSE host,owned plugin record sources,unified technical/art research and reusable offline formation editor.
 
-Private source/research staging repository for TOAM v0.8.12 (Skyrim SE1.5.97).
-TOOM and Arcana Staffs0.7.4 FlightStateFix share one native host and a merged main plugin. Optional High Priestess/Moon stance content uses the TOAM Stances Addon.
+- [Build](BUILDING.md) / [Dependency pins](DEPENDENCIES.lock.json)
+- [Nexus draft EN](Docs/NEXUS_DESCRIPTION_EN.md) / [한국어](Docs/NEXUS_DESCRIPTION_KR.md)
+- [Unified research](Research/TOAM_RESEARCH_COMPENDIUM.md)
+- [Current implementation](Docs/CP031_IMPLEMENTATION_REPORT.md)
+- [Generic formation editor EN](tools/formation_editor/README_EN.md) / [한국어](tools/formation_editor/README_KR.md)
+- [AI example JSON](tools/formation_editor/examples/ai-coordinate-examples.json) / [Machine-readable guide](tools/formation_editor/examples/ai-reference-guide.json)
+- [Actual TOAM coordinates](tools/formation_editor/presets/toam-reviewed.json)
+- [Original manual editor](tools/layout_editor/README_TOAM.md)
+- [Distribution](Docs/DISTRIBUTION.md) / [Damage settings](Docs/DAMAGE_SETTINGS.md)
 
-## Current scope
-Native source, locked build dependencies, plugin record sources, OAR conditions, current install/balance/credits, manual QA and one unified engineering/art research compendium. All Native source bytes match the verified local build inputs.
-All Arcana costs x3;cost reduction capped at80% for ordinary/adaptive spells AND staff charge,minimum20% paid. Justice110/.2s during3s; Sun3040; Tower150/beam+900finale/cap27900. TOAM four spell numeric contracts unchanged. Staff charge20000/Unbound40000,zero player MP. Staff SMP is withdrawn.
-CP028 core gameplay was user-tested. CP029 changes are NOT_RUN in game; static/build/deployment acceptance is separate. AE/VR are not enabled.
+Open tools/formation_editor/index.html locally. Mouse/sliders are primary;precise numeric fields are folded. Named sets contain multiple spells and independent casting variants;edit counts,hands,groups,actor/target/world anchors,position,XYZ angles and scale. JSON files distinguish actual source-backed values from illustrative examples. No game assets or native execution are loaded by this editor.
 
-## Start here
-- [Build instructions](BUILDING.md)
-- [Unified technical and art research](Research/TOAM_RESEARCH_COMPENDIUM.md)
-- [Current installation](Docs/INSTALL_CURRENT.md)
-- [Balance](Docs/BALANCE.md)
-- [Credits](Docs/CREDITS_AIR_COMBAT.md)
-- [Publication plan](PUBLICATION_PLAN.md)
-- [Licensing boundaries](LICENSING.md)
+Parent v0.8.12 user-confirmed damage-menu and merchant-sales QA remains recorded. New1.0 render/flight-menu/distribution changes pass static/build/deploy gates but require user runtime QA. SE1.5.97 only;AE/VR are disabled. Existing damage/resources/cadence/defense policies are unchanged.
 
-No NIF/DDS/HKX/WAV/DLL or game executables are included. The native plugin can be built from this tree; reproducing a full asset package requires the separately reviewed runtime assets and their permissions. DataSources contains roundtrippable plugin records and conditions, not third-party art.
-
-Development: TULL (design, requirements, runtime QA); OpenAI Codex/ChatGPT (AI-assisted C++ integration, procedural art/tooling and technical documentation). Imported authors retain their own rights.
-
-##0.8.12 additions
-One common damage-only INI setting and optional SKSE Menu Framework3.xpage. ALL Temperance,Limiter,marking,Hermit defense,resource,cadence/count and coordinates stay fixed.
-Weighted CID merchant/dungeon book/staff distribution;cheap books;rare stance pools.
-[Settings](Docs/DAMAGE_SETTINGS.md) | [Distribution and weights](Docs/DISTRIBUTION.md) | [Nexus/handoff specifications](Docs/NEXUS_RELEASE_GUIDE.md) | [Manual placement editor](tools/layout_editor/README_TOAM.md).
-Actual manually edited JSON and original offline editor/reference diagram are retained alongside a current source-coordinate snapshot.
-CP030 static/build/deploy passed;new game runtime NOT_RUN. AE/VR disabled;GitHub stays PRIVATE until Nexus launch.
+GitHub stays PRIVATE until Nexus launch. No Nexus upload or public switch is performed here. MO2 profile/checkboxes/saves are user-controlled. SMP is excluded;its failed experiments remain research history. Native source is exact build input;runtime art/animation/audio binaries are excluded pending publication rights review. See LICENSE_NOTICE.md and Docs/THIRD_PARTY_NOTICES.md. Historical documents under Docs/History_CP030 are superseded by the current Nexus drafts.

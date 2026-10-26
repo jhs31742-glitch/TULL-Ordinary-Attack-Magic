@@ -18,6 +18,8 @@ bool CheckFromHost(HostCheckFn next,RE::ActorMagicCaster*,RE::MagicItem*,bool,fl
 void BeforePlayerFrame(RE::PlayerCharacter* player);
 void AfterPlayerFrame(RE::PlayerCharacter* player,float dt);
 bool FlightActive();
+// Menu thread only queues; existing game frame owns reload and flight state.
+void QueueFlightSettingsReload() noexcept;
 RE::NiPoint3 HostActorCenter(RE::Actor* actor);
 float HostSunScale(std::size_t layer);
 float HostDomeGrowth(std::size_t bankSlot,float fraction);

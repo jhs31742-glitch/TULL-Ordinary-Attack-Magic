@@ -1235,6 +1235,7 @@ namespace TOAM::Spells::Magician::Runtime
 
         result.executed =
             true;
+        GetVisualState().chargeVisual.RetireAll(0.60F);
         TOAM::Audio::MagicianFinal(result.tier,origin);
 
 

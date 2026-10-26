@@ -1,4 +1,5 @@
 #include "VFX/EngineCircle.h"
+#include "VFX/CircleMotion.h"
 #include <cmath>
 #include <cstdio>
 #include <string>
@@ -12,7 +13,8 @@ struct Slot {
  RE::BGSArtObject* form{};
  RE::NiTransform world{};
  std::uint16_t generation{};
- float requestAge{},readyAge{},growthSeconds{},retireAge{},retireSeconds{};
+ float requestAge{},readyAge{},growthSeconds{},retireAge{},retireSeconds{},spinPhase{};
+ Style style{Style::Original};
  bool occupied{},cancelled{},posed{},visible{true},retiring{};unsigned phase{};
 };
 std::array<Slot,capacity> slots{};
@@ -77,7 +79,8 @@ bool Pose(Slot& s,float alpha,float growth){
  if(!std::isfinite(parent.scale)||std::fabs(parent.scale)<0.001F)return false;
  const auto inverse=parent.rotate.Transpose();
  node->local.translate=inverse*(s.world.translate-parent.translate)/parent.scale;
- node->local.rotate=inverse*s.world.rotate;
+ RE::NiMatrix3 spin;spin.MakeYRotation(s.spinPhase);
+ node->local.rotate=inverse*s.world.rotate*spin;
  node->local.scale=s.world.scale*growth/parent.scale;
  root->Update(update);Alpha(root,s.visible?alpha:0);
  return true;
@@ -96,7 +99,7 @@ VFXHandle Spawn(RE::NiNode* parent,const RE::NiTransform& local,bool visible,Sty
  for(std::size_t i=begin;i<end;++i){
   auto& s=slots[i];if(s.occupied||!resources[i])continue;
   auto generation=static_cast<std::uint16_t>(s.generation+1);if(!generation)generation=1;
-  s=Slot{};s.generation=generation;s.occupied=true;s.form=forms[i];s.world=world;s.visible=visible;
+  s=Slot{};s.generation=generation;s.occupied=true;s.form=forms[i];s.world=world;s.visible=visible;s.style=style;
   // Arcana SE97 adapter: ApplyArtObject ID22289 returns BOOL, not an effect pointer.
   using Apply=bool(*)(RE::TESObjectREFR*,RE::BGSArtObject*,float,RE::TESObjectREFR*,bool,bool,RE::NiAVObject*,bool);
   static REL::Relocation<Apply> apply{REL::RelocationID(22289,22769)};
@@ -153,6 +156,11 @@ void Update(float dt) noexcept {
   // Telegraph time begins only after first valid pose; gameplay timers never wait for this.
   const float hold=s.retireSeconds*0.30F;
   float alpha=s.retiring&&s.retireAge>hold?1-Smooth((s.retireAge-hold)/(s.retireSeconds-hold)):1;
+  // Original/Dome owners gain reveal spin. Sun and halo retain their own phase owners.
+  if(s.style==Style::Original||s.style==Style::Dome){
+   const float rate=(i%2?-.70F:.85F)+float(i%5)*.04F*(i%2?-1.F:1.F);
+   s.spinPhase=CircleMotion::Advance(s.spinPhase,CircleMotion::RevealSpeed(s.readyAge,rate),dt);
+  }
   if(!Pose(s,alpha,growth)){
    if(s.requestAge>=acquireLimit){logger::warn("[TOAM][CP021C] POSE_INVALID_TIMEOUT | Slot={} | Gen={} | HasNode={} | Pixels=UNVERIFIED",i,s.generation,s.effect->Get3D()->GetObjectByName(RE::BSFixedString{"AS_CirclePose"})!=nullptr);Cancel(s);}continue;
   }

@@ -2,7 +2,8 @@
 // Pinned SDK: bhkCharacterController vfunc07, context.currentState, fallTime/fallStartHeight.
 FlightSettings flightSettings{};FlightCombatSettings flightCombatSettings{};FlightPhase flightPhase=FlightPhase::Off;
 RE::NiPoint3 flightVelocity{},flightLastPosition{};RE::TESObjectCELL* flightCell=nullptr;RE::TESWorldSpace* flightWorld=nullptr;
-std::atomic_bool flightToggleRequested{false};float flightAge=0;
+std::atomic_bool flightToggleRequested{false},flightSettingsReloadRequested{false};float flightAge=0;
+void QueueFlightSettingsReload() noexcept {flightSettingsReloadRequested.store(true,std::memory_order_release);}
 struct FlightSigil {ArtSlot art{};RE::NiPoint3 position{};float age=0,wait=0;bool active=false,cancelled=false;};
 std::array<FlightSigil,4> flightSigils{};unsigned flightSigilCursor=0;bool flightUp=false,flightDown=false,flightBoost=false,flightRecoverPending=false,flightReadyPending=false;
 bool FlightActive(){return flightPhase==FlightPhase::Flying;}
@@ -134,6 +135,10 @@ RE::NiPoint3 FlightFieldPoint(RE::Actor* actor,const RE::NiPoint3& feet,const RE
 void FlightScheduleReady(){flightReadyPending=true;flightRecoverPending=true;}
 void FlightFrame(RE::PlayerCharacter* p,float dt){
  if(!p||!gameReady||!forms.ready)return;
+ if(flightSettingsReloadRequested.exchange(false,std::memory_order_acq_rel)){
+  FlightLoadSettings();if(!flightHumEnabled||flightHumVolume<=0)FlightStopHum();
+  if(!flightGunAnimations)FlightGunClear(p);
+ }
  if(flightReadyPending&&p->Is3DLoaded()){
   flightReadyPending=false; // Learned from its tome; retain load recovery.
   if(flightRecoverPending){flightRecoverPending=false;bool saved=forms.flightMarker&&p->HasSpell(forms.flightMarker);FlightReset();

@@ -1125,7 +1125,7 @@ namespace TOAM::Spells::Temperance::Runtime
         // CP026: display-only migration to the already-integrated engine ARTO owner.
         // Proc .15/.27, .095 scale, head offsets, toggle and paid damage stay unchanged.
         constexpr float kHaloScale{0.095F},kHaloBehindHead{26.0F},kHaloAboveHead{5.0F};
-        constexpr float kHaloSpinRadiansPerSecond{0.12F};
+        constexpr float kHaloSpinRadiansPerSecond{0.65F};
         struct HaloState final {
             TOAM::VFX::CircleRenderer renderer{};
             RE::NiAVObject* lastRoot{};

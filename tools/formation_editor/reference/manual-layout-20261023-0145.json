@@ -1,0 +1,511 @@
+{
+  "schema": "arcana.circle-layout.v1",
+  "baselineVersion": "0.6.2",
+  "coordinates": "actor-local feet origin; X right, Y forward, Z up",
+  "groups": [
+    {
+      "id": "rapid",
+      "circles": [
+        {
+          "id": "rapid",
+          "xyz": [
+            0,
+            57,
+            100
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": "parry",
+      "circles": [
+        {
+          "id": "parry",
+          "xyz": [
+            0,
+            46,
+            106
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 76
+        }
+      ]
+    },
+    {
+      "id": "fivefold",
+      "circles": [
+        {
+          "id": "fivefold-0",
+          "xyz": [
+            0,
+            57,
+            100
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 46
+        },
+        {
+          "id": "fivefold-1",
+          "xyz": [
+            80,
+            -17,
+            125
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 46
+        },
+        {
+          "id": "fivefold-2",
+          "xyz": [
+            -80,
+            -17,
+            125
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 46
+        },
+        {
+          "id": "fivefold-3",
+          "xyz": [
+            74,
+            -32,
+            68
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 46
+        },
+        {
+          "id": "fivefold-4",
+          "xyz": [
+            -74,
+            -32,
+            68
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 46
+        }
+      ]
+    },
+    {
+      "id": "sustain",
+      "circles": [
+        {
+          "id": "sustain-0",
+          "xyz": [
+            -48,
+            -42,
+            126
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 50
+        },
+        {
+          "id": "sustain-1",
+          "xyz": [
+            48,
+            -42,
+            128
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 50
+        }
+      ]
+    },
+    {
+      "id": "ultimate",
+      "circles": [
+        {
+          "id": "ultimate-0",
+          "xyz": [
+            0,
+            74,
+            108
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 50
+        },
+        {
+          "id": "ultimate-1",
+          "xyz": [
+            0,
+            81,
+            108
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 67.647049
+        },
+        {
+          "id": "ultimate-2",
+          "xyz": [
+            0,
+            88,
+            108
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 41.176468
+        },
+        {
+          "id": "ultimate-3",
+          "xyz": [
+            0,
+            95,
+            108
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 77.94117
+        },
+        {
+          "id": "ultimate-4",
+          "xyz": [
+            0,
+            102,
+            108
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 55.882347
+        },
+        {
+          "id": "ultimate-5",
+          "xyz": [
+            0,
+            109,
+            108
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 88.235291
+        },
+        {
+          "id": "ultimate-6",
+          "xyz": [
+            0,
+            116,
+            108
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 63.235291
+        },
+        {
+          "id": "ultimate-7",
+          "xyz": [
+            0,
+            123,
+            108
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "radius": 100
+        }
+      ]
+    },
+    {
+      "id": "hermit",
+      "circles": [
+        {
+          "id": "hermit-0",
+          "xyz": [
+            0,
+            0,
+            196.5
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-1",
+          "xyz": [
+            0,
+            72.557419,
+            173.62274
+          ],
+          "normal": [
+            0,
+            0.57357645,
+            0.81915206
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-2",
+          "xyz": [
+            72.557419,
+            0,
+            173.62274
+          ],
+          "normal": [
+            0.57357645,
+            0,
+            0.81915206
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-3",
+          "xyz": [
+            0,
+            -72.557419,
+            173.62274
+          ],
+          "normal": [
+            0,
+            -0.57357645,
+            0.81915206
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-4",
+          "xyz": [
+            -72.557419,
+            0,
+            173.62274
+          ],
+          "normal": [
+            -0.57357645,
+            0,
+            0.81915206
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-5",
+          "xyz": [
+            0,
+            118.87112,
+            113.26555
+          ],
+          "normal": [
+            0,
+            0.93969262,
+            0.34202015
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-6",
+          "xyz": [
+            92.93718,
+            74.114929,
+            113.26555
+          ],
+          "normal": [
+            0.73468125,
+            0.58588874,
+            0.34202015
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-7",
+          "xyz": [
+            115.89077,
+            -26.451311,
+            113.26555
+          ],
+          "normal": [
+            0.91613257,
+            -0.20910127,
+            0.34202015
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-8",
+          "xyz": [
+            51.576244,
+            -107.09917,
+            113.26555
+          ],
+          "normal": [
+            0.40771735,
+            -0.84663379,
+            0.34202015
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-9",
+          "xyz": [
+            -51.576244,
+            -107.09917,
+            113.26555
+          ],
+          "normal": [
+            -0.40771735,
+            -0.84663379,
+            0.34202015
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-10",
+          "xyz": [
+            -115.89077,
+            -26.451311,
+            113.26555
+          ],
+          "normal": [
+            -0.91613257,
+            -0.20910127,
+            0.34202015
+          ],
+          "radius": 88
+        },
+        {
+          "id": "hermit-11",
+          "xyz": [
+            -92.93718,
+            74.114929,
+            113.26555
+          ],
+          "normal": [
+            -0.73468125,
+            0.58588874,
+            0.34202015
+          ],
+          "radius": 88
+        }
+      ]
+    }
+  ],
+  "fivefoldSpread": 1.15,
+  "dual": {
+    "forward": 24,
+    "scale": 0.72
+  },
+  "ultimateGap": {
+    "initial": 22,
+    "charged": 7
+  },
+  "characterHeight": 128,
+  "sourceHashes": {
+    "src/Design.h": "f025e0d87245320c03290089b553722e13b10b72a1cd1cf963071e2229b867d8",
+    "src/PlacementPolicy.h": "7ddcf2d843698482b6c577f91985564a24c5c76642031d02ec323889e212ce1f",
+    "tools/layout_dump.cpp": "23cd21c2370f4c16654e2130542e91fad415ef928c2f93f91c7117b7d2450f2a"
+  },
+  "dualOverrides": {
+    "fivefold-0@secondary": [
+      0,
+      69,
+      100
+    ],
+    "fivefold-1@secondary": [
+      131,
+      6,
+      150
+    ],
+    "fivefold-2@secondary": [
+      -131,
+      6,
+      150
+    ],
+    "fivefold-3@secondary": [
+      126,
+      -8,
+      86
+    ],
+    "fivefold-4@secondary": [
+      -126,
+      -8,
+      86
+    ],
+    "rapid@secondary": [
+      0,
+      63,
+      100
+    ]
+  },
+  "editor": {
+    "version": "0.6.2",
+    "savedAt": "2026-10-22T16:45:15.693Z",
+    "visibleGroups": [
+      "rapid",
+      "parry",
+      "fivefold",
+      "sustain",
+      "ultimate",
+      "hermit"
+    ],
+    "dualPreview": true,
+    "characterHeight": 128,
+    "note": ""
+  },
+  "notes": [
+    "Coordinates are actor-local at feet. +X right, +Y forward, +Z up.",
+    "Fivefold coordinates are fully deployed at spread 1.15.",
+    "Ultimate coordinates are fully charged; initial gap remains 22 unless separately requested.",
+    "Preview only: importing or exporting does not modify the game."
+  ]
+}

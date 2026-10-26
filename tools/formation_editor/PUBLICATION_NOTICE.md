@@ -1,0 +1,4 @@
+# Standalone publication preparation / 독립 공개 준비
+This self-contained source tool is prepared for separate distribution on GitHub,Nexus and other modding communities. TULL requested reuse by other mod developers and AIs. The executable HTML and unminified source are the same package; there is no hidden binary. English/Korean manuals and source-backed numeric references are included.
+No standardized software license has yet been selected. Resolve that publisher choice before public upload; do not attach unrelated Skyrim/mod art or third-party binaries. The complete TOAM source retains historical engineering/art research; this small standalone package contains only the improved tool and numeric references.
+이 도구는 다른 모드·다른 AI의 재사용을 위해 별도 파일로 준비했습니다. 정식 공개 라이선스는 아직 선택되지 않았으며 공개 전 발행자가 확정해야 합니다. 실제 게임 아트·바이너리는 포함하지 않습니다.

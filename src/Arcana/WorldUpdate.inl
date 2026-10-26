@@ -4,6 +4,7 @@ void UpdateWorld(RE::ActorMagicCaster* c,Hand& h,int side,RE::Actor* a,RE::NiAVO
   int i=worldOrder[j];const auto& point=LayoutData::hermit[i];const auto& normal=LayoutData::hermitNormals[i];auto n=h.worldAir?AirWorldNormal(j):FlightVector{normal.x,normal.y,normal.z};auto direction=flat*RE::NiPoint3{n.x,n.y,n.z};
   auto p=feet+flat*RE::NiPoint3{point.x*worldDomeScale,point.y*worldDomeScale,70+(point.z-70)*worldDomeScale};if(h.worldAir)p=feet+RE::NiPoint3{0,0,78}+direction*112.f;auto r=DirectionRotation(direction);
   EnsureCircle(h.circles[j],CircleForm(side,h.bank,j),a,root);float growth=WorldCircleGrowth(j,t);float alpha=Smooth((t-WorldDeployTime(j))/.20f);
+  r=AnimatedCircleRotation(h.circles[j],r,dt,j%2?-.80f:.95f);
   PoseCircle(h.circles[j],p,r,worldCircleScale*growth,alpha);bool ready=CircleReady(h.circles[j]);all&=ready;if(ready)coverage+=growth/12;
  }
  RefreshDomeWard(side,coverage);

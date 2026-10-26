@@ -40,6 +40,10 @@ void AuditSunAxis(const ArtSlot& a,int side,int layer,const RE::NiPoint3& anchor
  float along=delta.x*axis.x+delta.y*axis.y+delta.z*axis.z;auto off=delta-axis*along,err=node->world.translate-a.pos;
  logger::info("SUN_AXIS hand={} layer={} lateralError={} positionError={} scale={} [transform sample only]",side,layer,std::sqrt(off.x*off.x+off.y*off.y+off.z*off.z),std::sqrt(err.x*err.x+err.y*err.y+err.z*err.z),node->world.scale);
 }
+RE::NiMatrix3 AnimatedCircleRotation(ArtSlot& a,const RE::NiMatrix3& base,float dt,float rate,bool reveal=true){
+ if(CircleReady(a)){a.spinPhase=TOAM::VFX::CircleMotion::Advance(a.spinPhase,reveal?TOAM::VFX::CircleMotion::RevealSpeed(a.motionAge,rate):rate,dt);a.motionAge+=dt;}
+ RE::NiMatrix3 spin;spin.MakeYRotation(a.spinPhase);return base*spin;
+}
 void PoseCircle(ArtSlot& a,const RE::NiPoint3& p,const RE::NiMatrix3& r,float s,float alpha){
  a.pos=p;a.rot=r;a.scale=s;a.alpha=alpha;MoveArt(a.effect.get(),p,r,s);
  if(CircleReady(a))CircleAlpha(a.effect->Get3D(),alpha);
