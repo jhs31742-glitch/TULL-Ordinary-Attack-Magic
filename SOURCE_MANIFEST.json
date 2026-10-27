@@ -1,12 +1,11 @@
 {
-  "version": "1.0.1",
-  "runtime": "CP031_CORE_23_OF_23_USER_PASS;V101_USER_RUNTIME_NOT_RUN",
+  "version": "1.0.3",
+  "checkpoint": "CP038-B_GITHUB_PUBLIC",
+  "runtime": "V103_STRESS_USER_PASS;HISTORICAL_SINGLE_CTD_UNRESOLVED",
   "nativeSourceExact": true,
-  "dependencies": "gitlinks pinned inDEPENDENCIES.lock.json",
-  "DLLSHA256": "16DF9E9C1BDBDF89A3B71C2A80A7B5772F76D22C6CDCB45092FF9F304AF97C61",
-  "publication": "PRIVATE_UNTIL_NEXUS_LAUNCH",
-  "damageMultiplierDefault": 1.0,
-  "costReductionCap": 0.8,
+  "dependencies": "DEPENDENCIES.lock.json unchanged",
+  "DLLSHA256": "8329BEF83B08C9990A22B830EF4FC5F38BC7D8BD2CDD771FC5FEB4C5B4257B96",
+  "publication": "GITHUB_PUBLIC_AUTHORIZED_2026_10_27;NEXUS_NOT_RUN;LOCK_NO",
   "files": [
     {
       "path": ".gitattributes",
@@ -25,8 +24,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 1681,
-      "sha256": "A4946242C382BC94DD47F8CF1089384140C8BFC5B20C2D636A06EEC0130D005E"
+      "bytes": 2101,
+      "sha256": "EF803B40CDF3F34BF1C7467217788623FF735501870D4D5E368747682CC4FA18"
     },
     {
       "path": "ArtTools/Books/ART_DIRECTION_AND_TEXT.txt",
@@ -221,7 +220,7 @@
     {
       "path": "CMakeLists.txt",
       "bytes": 8969,
-      "sha256": "4C5F87455EEE9BD4A8FABFED31619CD5DC3E9E416C5318C621F9D0D0688F1EB4"
+      "sha256": "91BF2BB3DB7A9E64E4FD950536CC86781C29B75E97D39746A702DC68CBEE4461"
     },
     {
       "path": "CMakePresets.json",
@@ -250,43 +249,48 @@
     },
     {
       "path": "DataSources/PluginRecords/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp.json",
-      "bytes": 28065,
-      "sha256": "682C2F160713FC448EBE15D03384D043BF8AE2BD95A0AD29467FFE0F5F499374"
+      "bytes": 28442,
+      "sha256": "9A10C4E0E5DAADB5C70A512008F34D6DD880B6BA9DA3C85D769B6758378DD970"
     },
     {
       "path": "DataSources/PluginRecords/Language/en/TULL Ordinary Attack Magic.esp.json",
-      "bytes": 1059036,
-      "sha256": "82AD9E51512030292AD82E5E7628C8EF50C2C7B49DA52D9531E0B9A37294071F"
+      "bytes": 1059781,
+      "sha256": "265D93885B77599E1989A4C5719C2105347FF435EC329970C492365767FEF8F7"
     },
     {
       "path": "DataSources/PluginRecords/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp.json",
-      "bytes": 29087,
-      "sha256": "B19B2FA6BCCB7BA9B908778212015B15E111078F06EE85A61291704CF31FD7AA"
+      "bytes": 29502,
+      "sha256": "06E5F8BD95858E4A80961DEEC44A1F6B2039CC6877088A3A172B2998BBCDC1BF"
     },
     {
       "path": "DataSources/PluginRecords/Language/kr/TULL Ordinary Attack Magic.esp.json",
-      "bytes": 1063172,
-      "sha256": "7ABAAA448EE1B39104AB978489440FA49ABE0F2CE3A9142580E7B9B68472AB3E"
+      "bytes": 1063909,
+      "sha256": "5DC1671DE078378244763F248E64DA1AFC1FF7A97942DB2406F8B3935ED8ABFA"
     },
     {
       "path": "DataSources/PluginRecords/TULL Ordinary Attack Magic - Stances Addon.esp.json",
-      "bytes": 28053,
-      "sha256": "43929AF11DBC10BC91E732FCD3C6A5D9F29029F1432BCD1E10B8CECB77F77E2A"
+      "bytes": 28430,
+      "sha256": "00183DD74266E8AE908EDF95C712ABEF293C11C31FB01A7C1F55B7C69FB0DF72"
     },
     {
       "path": "DataSources/PluginRecords/TULL Ordinary Attack Magic.esp.json",
-      "bytes": 1059024,
-      "sha256": "D25CEBC87447E93417E2D54A7AF4910F5463FC631C4C034D73D225AE16580724"
+      "bytes": 1059769,
+      "sha256": "D060F4BBF1C3D41138275204BD2D2973178FC0F9EFAA867A43A36A765C1009E1"
     },
     {
       "path": "DataSources/RUNTIME_ASSETS_MANIFEST.json",
-      "bytes": 220477,
-      "sha256": "543639731BD16F68387CFFE3B86BC33CFF998487E6D193F5FC42C59A49E45100"
+      "bytes": 229962,
+      "sha256": "71370B60A978E5C39392955E77E0C699971F788404029FE4A39B8AF190688C6E"
     },
     {
       "path": "DataSources/TOAM.ini",
       "bytes": 1634,
       "sha256": "840907E924B259CC63F8F6847F5DD020BBE362F028ACAE9D49D2DBA570BD95B7"
+    },
+    {
+      "path": "Docs/ASSET_ATTRIBUTION_AND_RIGHTS.md",
+      "bytes": 4206,
+      "sha256": "2F3D0E9D35134D6D73858130C15E4D926772812F9ECF220514CD77C11B69B45D"
     },
     {
       "path": "Docs/AUDIO_CATALOG.json",
@@ -334,6 +338,26 @@
       "sha256": "C2A13A187BF3FAA474CE576CA3A50E9ED79229EA2FAF8FEAC77B1997420DC116"
     },
     {
+      "path": "Docs/CP034_D3_RECAST_UI_TAROT_REPORT.md",
+      "bytes": 9381,
+      "sha256": "3569863FCD6481EB75C740402F758CF317B92B2158E4EDDBA79116E8BC3C9017"
+    },
+    {
+      "path": "Docs/CP035_PUBLICATION_PLAN_FROM_SOURCE.md",
+      "bytes": 2887,
+      "sha256": "0E6CDF29DAB61C12C78BD58C79D2376BAC9674CDDDF4B6EEA757B5D66D020BAC"
+    },
+    {
+      "path": "Docs/CP035_RELEASE_UPLOAD_MATRIX.md",
+      "bytes": 1429,
+      "sha256": "7033239B6C60B61BBBD0667B515CC6BF0332C9F5AD5668878DEC8014B4AAC93B"
+    },
+    {
+      "path": "Docs/CP035_V103_STRESS_RELEASE_READINESS.md",
+      "bytes": 1978,
+      "sha256": "9B82B4BC87AA93DAEC3058AB674BA842444514A1A72A1419D6A1B1F9FC5B6D16"
+    },
+    {
       "path": "Docs/CREDITS.txt",
       "bytes": 6522,
       "sha256": "41D20136E272CD5711F30D7DEDC7A7A891533C1C722719ECEB0E83B41CF74456"
@@ -352,6 +376,11 @@
       "path": "Docs/DISTRIBUTION.md",
       "bytes": 1834,
       "sha256": "874E34D7661F63EF156A9C940CABEAB50182FA6214675169057A62052E23EE79"
+    },
+    {
+      "path": "Docs/GITHUB_PUBLICATION.md",
+      "bytes": 1383,
+      "sha256": "1D9A480D3EF906D7236E0B71999F6B4D3CF1FD32434F4CD7540C0F66AF657171"
     },
     {
       "path": "Docs/History_CP030/ARCANA_BALANCE.json",
@@ -434,6 +463,11 @@
       "sha256": "7A43227188C7A9FE96F8A78D398B731A069FA07D7FBB8221D4B6C75702326E6B"
     },
     {
+      "path": "Docs/PLUGIN_DESCRIPTION_AUDIT.json",
+      "bytes": 2464,
+      "sha256": "BBEB16D78692DFBC5473C6A651D028BC79476DBA3C4D492F690709D1C688F120"
+    },
+    {
       "path": "Docs/PRESENTATION_SETTINGS_EN_KR.md",
       "bytes": 4028,
       "sha256": "FC2D36EAC4C3E3CF9483165E115215F707C862D90A9E5B33FD320B8491448CD1"
@@ -454,19 +488,54 @@
       "sha256": "416CB528C6FEA37AED4DC564C52D6A6B22BD283D935F54D651FC4C4B09B41631"
     },
     {
+      "path": "Docs/RELEASE_POLICY_CP038.md",
+      "bytes": 1943,
+      "sha256": "EE21C26086F205EB0C2817BFEDF439F93BDB6C1E32308D1E4676FA3D630024AD"
+    },
+    {
+      "path": "Docs/SHIPPED_HKX_SHA256.csv",
+      "bytes": 180091,
+      "sha256": "51A69F2DB669400BF66148ACD9CBC24DDD3B5FF4A3F15A002E3229CF1897FAC8"
+    },
+    {
+      "path": "Docs/TAROT_NAME_MAPPING.json",
+      "bytes": 58082,
+      "sha256": "389DDB51038038BE23E444CB69B72ED27683E0B2CC3BEA971AED39D98B0FD340"
+    },
+    {
       "path": "Docs/THIRD_PARTY_NOTICES.md",
-      "bytes": 2225,
-      "sha256": "42298E9EC338A79ADB5470797EF33AB2B5DB429EC8C797D8BBFE982D0B2387B4"
+      "bytes": 2568,
+      "sha256": "18E7AE382B6052ABD5340AE6C2D420B8D0876B7B4D235C7E4F947F6A5CCD993A"
+    },
+    {
+      "path": "Docs/TOAM_v1.0.3_Nexus_Description_EN_KR_BBCode.txt",
+      "bytes": 21572,
+      "sha256": "80BA6032DA3F3742893F6E7C30EE9A385D1096F99169639E4F363EB9F7A56677"
+    },
+    {
+      "path": "Docs/TOAM_v1.0.3_Nexus_Description_EN_KR_Plain.txt",
+      "bytes": 20186,
+      "sha256": "3A3EC94C17EDEADC0412A43FEC82BDD968ED0BD3E866E5C8D211B8B506331EB8"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1061,
+      "sha256": "81AB9E4445ABF0E342A59A3E6E68FC5A866D31DF1342FA03C4CCB29B639B87B6"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 1659,
+      "sha256": "961404426ACAB6C1B7BBC5B9395222FAF0144F3486A128AF11072CF22EED7B6F"
     },
     {
       "path": "LICENSING.md",
-      "bytes": 1404,
-      "sha256": "4F2219B20FC07895549EC3FFD5B4C1B032DD8AFFADA924AC5AE8249B80DCB0CE"
+      "bytes": 1239,
+      "sha256": "A76EFC9DB27D249BA6B97A4B90601734EFBFE2702EF7B3DDD6C6CCA165C7D798"
     },
     {
       "path": "PUBLICATION_PLAN.md",
-      "bytes": 1296,
-      "sha256": "5720579559C3BF26C16632361A60F6D040857A09D039EB6D30E063FB5A3C86B1"
+      "bytes": 1716,
+      "sha256": "D109FF2D052C607613971DE7C4D0A4D760F6A6ECB7FCC56C02D2C361CA883896"
     },
     {
       "path": "QA/007_ONE_BOOT_QA_CHECKLIST.md",
@@ -475,18 +544,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 3340,
-      "sha256": "CDF173DCF917C5E55E1C611C31A689BB54735A9EF939BBB2EF61E0386A20DDE4"
+      "bytes": 2623,
+      "sha256": "A98320E85E6FAB63D3A34C8E439CB68A183AEF6F472AA06CE0D03404EEBAAAED"
+    },
+    {
+      "path": "Research/LICENSE-RESEARCH.md",
+      "bytes": 752,
+      "sha256": "4760ADDCFB247BA65F5A6FB95AB215EE495BC05E8F93146C58775FC86BBC93EE"
     },
     {
       "path": "Research/RESEARCH_SOURCE_INDEX.csv",
-      "bytes": 59539,
-      "sha256": "A4674EE93386DFC9FC68BF33F27252069CB9FC2CC9CEE3E3A77D0F453BE24583"
+      "bytes": 80609,
+      "sha256": "DFC0C1FFF54553A44B8872FAA26FD6A1FF539FAF988604F7F4983CA489B1CF8E"
     },
     {
       "path": "Research/TOAM_RESEARCH_COMPENDIUM.md",
-      "bytes": 366558,
-      "sha256": "483751ED6C544DACA222ABF54556DB55E05061F6181A2453CC1F5F96DA37F917"
+      "bytes": 381294,
+      "sha256": "08621C6F3506EA5EC20FC5DFBA0693A2A8285F074F294DCDEB0C3E014928631A"
     },
     {
       "path": "THIRD_PARTY_LICENSES/CommonLibSSE-NG.txt",
@@ -502,6 +576,16 @@
       "path": "THIRD_PARTY_LICENSES/spdlog.txt",
       "bytes": 1323,
       "sha256": "D678C20826E1392578508E1C78649A1E3C31BDA05EF4388D967DBD654461B140"
+    },
+    {
+      "path": "Tests/CircleTint_lifetime_host.cpp",
+      "bytes": 9702,
+      "sha256": "3C067E49311321E39EAF3D8F2369437698F255513A5B610D624245B68EDD0BB4"
+    },
+    {
+      "path": "Tests/Presentation_menu_host.cpp",
+      "bytes": 7281,
+      "sha256": "F702DCE217C1EF90A1F7673158210FD6C409A7645E09A9C3B5DDF600742C29F0"
     },
     {
       "path": "cmake/ports/directxtk/portfile.cmake",
@@ -555,13 +639,13 @@
     },
     {
       "path": "src/Arcana/Casting.inl",
-      "bytes": 14345,
-      "sha256": "4CA3EBD8E07C591C83F8EE176DD4CEC7C682401DBC972963CB6826B122892E24"
+      "bytes": 15437,
+      "sha256": "CE622D3B4F4CE8B7E7B95EB3615E608E071C7BA13038DBB37A953860793FE922"
     },
     {
       "path": "src/Arcana/CirclePresentation.inl",
-      "bytes": 5871,
-      "sha256": "10E9D6497477965FCDDA24853BB23A100C2403514FE62864F25C9C1C55E64B4A"
+      "bytes": 5868,
+      "sha256": "13932ED63692C577368BC887A40822CDB706BEA46A5F1E05BB628C83F95CFB40"
     },
     {
       "path": "src/Arcana/Design.h",
@@ -600,8 +684,8 @@
     },
     {
       "path": "src/Arcana/HandUpdate.inl",
-      "bytes": 6803,
-      "sha256": "8551B11958D489AA423CAE241B4EA8B401CB740579373F768363086EF9805BFA"
+      "bytes": 7096,
+      "sha256": "72CE88F13FA7A040B0A4F1BFC58D798EAA2135860A177B30F3E599BEE98AAB8E"
     },
     {
       "path": "src/Arcana/IntegratedFormMap.h",
@@ -630,8 +714,8 @@
     },
     {
       "path": "src/Arcana/Plugin.cpp",
-      "bytes": 13878,
-      "sha256": "E1580F78CF7B616724A0414CD5258A52E1A7B4E4B4B2E80664745C203FC4B466"
+      "bytes": 13911,
+      "sha256": "8877F08CCD778C4598DE3BD68C08275B94B9858CD8EEB07069E52D9D363EDC10"
     },
     {
       "path": "src/Arcana/Rain.inl",
@@ -652,6 +736,11 @@
       "path": "src/Arcana/RainTimeline.h",
       "bytes": 2162,
       "sha256": "90F268BE37873188E23C8AC11E90DFF5B6D0DD7A32F0617B1FA07FF00FFA6E21"
+    },
+    {
+      "path": "src/Arcana/SOURCE_PROVENANCE.md",
+      "bytes": 3443,
+      "sha256": "339EABA12710315BF172E8E26F9110891D1B64A6DC71960735BEB5D799D21632"
     },
     {
       "path": "src/Arcana/Sentry.inl",
@@ -800,8 +889,8 @@
     },
     {
       "path": "src/Core/DamageSettings.cpp",
-      "bytes": 12113,
-      "sha256": "1F4BD4FCFBE22BCE87A16AC3E15FFD6E75E6B3BF74AF94F0AE3B8D56F51D84AA"
+      "bytes": 13336,
+      "sha256": "F9FE2C9BBBE18C54E43BD0D644F94FA42C39C9C002ED82A0F227048B6D8E509E"
     },
     {
       "path": "src/Core/DamageSettings.h",
@@ -817,6 +906,11 @@
       "path": "src/Core/DataCache.h",
       "bytes": 646,
       "sha256": "2E5DC708870B1065C7DF9737E2FC9C3DE27F5346A3F63B1D13422B1D66F01752"
+    },
+    {
+      "path": "src/Core/ExclusiveCast.h",
+      "bytes": 942,
+      "sha256": "211CEA8FFF372FCC3040BBA9C89ACEF6B37B553CC0EA46C64EA0584BEAEAB679"
     },
     {
       "path": "src/Core/FlightMenuPolicy.h",
@@ -835,13 +929,13 @@
     },
     {
       "path": "src/Core/PresentationMenu.inl",
-      "bytes": 5341,
-      "sha256": "0259F23939BA75B64EDA62AB4E2789C02AF608D8D401F44BF43D1A00AB68028F"
+      "bytes": 11805,
+      "sha256": "4587BE3715752CE8A3DC5716BB2CCF8CCAEE21C57888DCA950D986FB5B09D7A2"
     },
     {
       "path": "src/Core/PresentationPolicy.h",
-      "bytes": 6617,
-      "sha256": "44D0C8319F4CF916390AD3E768760739694BEB48AD06C069A15DA265B6B8CD1C"
+      "bytes": 7779,
+      "sha256": "01901E9AEAE2B9C6E9A20BBDB6AE2446D6E0250D27AAAD80CDD2DD5FA64B23B0"
     },
     {
       "path": "src/Core/PresentationSettings.cpp",
@@ -970,8 +1064,8 @@
     },
     {
       "path": "src/Spells/WorldRuntime.cpp",
-      "bytes": 54460,
-      "sha256": "AA6CD7BDFA3752D06DC7C6E361C0DE26882FFBAEEFD0E67EB8B9E8892618D283"
+      "bytes": 55285,
+      "sha256": "8903B38CE3FA6C655E17C96226D314894E404F715AF7C8B43389B5A2D63B3D10"
     },
     {
       "path": "src/Spells/WorldRuntime.h",
@@ -1014,6 +1108,11 @@
       "sha256": "7D9C87E51794736C6EB187ACF9A909ACE9E26A5B25FE12A940EA1B6CEE9712D0"
     },
     {
+      "path": "src/VFX/CircleOwnershipPolicy.h",
+      "bytes": 483,
+      "sha256": "7CAF695109A8E34E30F599C4DA9907359A31ACAE385264C48789FD19705063B2"
+    },
+    {
       "path": "src/VFX/CircleRenderer.cpp",
       "bytes": 3052,
       "sha256": "1B620030C6178B635EC22A93D943C294A7B1A61ADA54EA256696C3F70D9C53E8"
@@ -1025,18 +1124,18 @@
     },
     {
       "path": "src/VFX/CircleTint.cpp",
-      "bytes": 7453,
-      "sha256": "E6AE6F05A20A50B06DBA5AD66D0A42367847DA1FDE7C5951ECAA79F2F8680725"
+      "bytes": 14024,
+      "sha256": "3B200491C015CD6391820CAEC7EFEAD6A9EFE3B81002A0ECCCE7101A47F43424"
     },
     {
       "path": "src/VFX/CircleTint.h",
-      "bytes": 388,
-      "sha256": "69799062D93EF587D64398D72B7DF8BB9E749061BB0657A06D67F3AEDCF6CC31"
+      "bytes": 523,
+      "sha256": "60AD3EFE6C4563F75B6BFC66E0ED93FB907218D6BEA7360B972F5636CEB6AFA4"
     },
     {
       "path": "src/VFX/EngineCircle.cpp",
-      "bytes": 11872,
-      "sha256": "05B1F64265E251969A65CD76C8EC7A0AB6C4DA71A51C7FE2FBAF6F8B1E7A5375"
+      "bytes": 11882,
+      "sha256": "F30F024F7D1DBC83AEFD69BF11E5C8E8EC474E8F116A058F31544E1A35B9226C"
     },
     {
       "path": "src/VFX/EngineCircle.h",
@@ -1119,9 +1218,14 @@
       "sha256": "B3A8018FCE98ABFF9979301CCFF08717202E78DDDE2463628310CC8D1C5F207F"
     },
     {
+      "path": "tools/formation_editor/LICENSE",
+      "bytes": 1061,
+      "sha256": "81AB9E4445ABF0E342A59A3E6E68FC5A866D31DF1342FA03C4CCB29B639B87B6"
+    },
+    {
       "path": "tools/formation_editor/PUBLICATION_NOTICE.md",
-      "bytes": 999,
-      "sha256": "C2F95106E1FD86A483571D1602DEB77AA349693764E869B0FF74A077DAB40794"
+      "bytes": 802,
+      "sha256": "0A214C08EEB36F773E1F7AE952E7DF303285F0423C2FED27D425147AA0AF1058"
     },
     {
       "path": "tools/formation_editor/README_EN.md",
@@ -1255,8 +1359,8 @@
     },
     {
       "path": "tools/toam_package.py",
-      "bytes": 7290,
-      "sha256": "91FF6700625BA5B95109A4F3CE02AB3FA1018B194703D1426CD6F15645367BDE"
+      "bytes": 7250,
+      "sha256": "F65067D248AF39AFF36501B39A02C14473C53FA0547E43079CA7BA4400913E42"
     },
     {
       "path": "vcpkg.json",
@@ -1264,23 +1368,5 @@
       "sha256": "EF0EE52DBDAC1BF296AE75F802AB7039EDF7836C24E7AC66C97ABB0FFA31C26C"
     }
   ],
-  "provenanceIndexPolicy": "RESEARCH_SOURCE_INDEX excludes itself and SOURCE_MANIFEST to avoid cyclic hashes;SOURCE_MANIFEST externally describes all other230files;ZIP checksum is external.",
-  "assetCorrection": "CP032",
-  "parent": "QA1-CP032-STAFF-CLOTH",
-  "presentation": {
-    "audioSources": 18,
-    "audioEvents": 17,
-    "spellColors": 13,
-    "volumeRange": [
-      0,
-      1
-    ],
-    "shakeRange": [
-      0,
-      3
-    ],
-    "preview": false
-  },
-  "win32SettingsAssertions": 31,
-  "rootAndAncestorOwnershipGuard": true
+  "publicationBaseSHA256": "53649DD0348E16CF8C455DBFA4583B16B36B9F8380E818EADDA1199C95A29EB4"
 }

@@ -1,5 +1,7 @@
 void Update(RE::ActorMagicCaster* c,float dt){
  auto* hp=GetHand(c);int side=hp==&hands[0]?0:1;
+ if(hp&&hp->mode==Hermit&&!hp->done&&hp->spell==c->currentSpell&&!TOAM::Core::ExclusiveCast::Allows(TOAM::Core::ExclusiveCast::HandOwner(side))){DenyCast(c,*hp);return;}
+ if(hp&&hp->denied&&hp->spell==c->currentSpell&&c->state==RE::MagicCaster::State::kCasting){c->currentSpellCost=0;return;}
  if(gameReady&&forms.ready&&c->currentSpell&&(c->currentSpell==forms.hostAimCarrier[0]||c->currentSpell==forms.hostAimCarrier[1])){
   // Same engine aimed-concentration presentation as Sun, without a second projectile/payment owner.
   c->projectileTimer=100000.f;c->currentSpellCost=0;

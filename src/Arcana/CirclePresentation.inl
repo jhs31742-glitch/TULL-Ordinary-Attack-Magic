@@ -46,7 +46,7 @@ RE::NiMatrix3 AnimatedCircleRotation(ArtSlot& a,const RE::NiMatrix3& base,float 
 }
 void PoseCircle(ArtSlot& a,const RE::NiPoint3& p,const RE::NiMatrix3& r,float s,float alpha){
  a.pos=p;a.rot=r;a.scale=s;a.alpha=alpha;MoveArt(a.effect.get(),p,r,s);
- if(CircleReady(a)){TOAM::VFX::CircleTint::Apply(a.tint,a.effect->Get3D());CircleAlpha(a.effect->Get3D(),alpha);}
+ if(CircleReady(a)){TOAM::VFX::CircleTint::Apply(a.tint,a.effect.get());CircleAlpha(a.effect->Get3D(),alpha);}
 }
 void RetireCircle(ArtSlot& a,int side,bool tail,RE::Actor* actor,float growth=0,float fade=circleTailFade,float growthRate=0,float hold=circleTailHold,float spinRate=0,bool sentryOwned=false){
  if(!a.requested&&!a.effect)return;if(!a.effect&&actor)a.effect=FindCircle(actor,a.form);

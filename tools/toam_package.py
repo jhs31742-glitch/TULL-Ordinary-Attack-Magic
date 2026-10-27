@@ -17,7 +17,7 @@ def verify_data(root,manifest):
 def assemble(data,dll):
  b=bytes(dll);off=struct.unpack_from("<I",b,0x3c)[0]
  if b[off:off+4]!=b"PE\0\0" or struct.unpack_from("<H",b,off+4)[0]!=0x8664:raise ValueError("AMD64 TOAM.dll required")
- out=dict(data);out["SKSE/Plugins/TOAM.dll"]=b
+ out={rel:value for rel,value in data.items() if not rel.replace("\\","/").lower().startswith("docs/")};out["SKSE/Plugins/TOAM.dll"]=b
  forbidden=(".pdb",".bak",".ps1",".py",".cpp",".obj",".lib",".exp")
  for rel in out:
   p=Path(rel)

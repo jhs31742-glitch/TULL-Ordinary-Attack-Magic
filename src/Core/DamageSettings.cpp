@@ -39,6 +39,19 @@ using SliderFn=bool(*)(const char*,float*,float,float,const char*,int);
 using ButtonFn=bool(*)(const char*);
 using SameLineFn=void(*)(float,float);
 using CheckboxFn=bool(*)(const char*,bool*);
+struct MenuVec2 {float x,y;};
+struct MenuVec4 {float x,y,z,w;};
+static_assert(sizeof(MenuVec2)==8&&sizeof(MenuVec4)==16);
+using ColorButtonFn=bool(*)(const char*,const MenuVec4,int,const MenuVec2);
+ColorButtonFn colorButton=nullptr;
+using ComboFn=bool(*)(const char*,int*,const char* const*,int,int);
+using SeparatorFn=void(*)();
+using BeginTabBarFn=bool(*)(const char*,int);
+using BeginTabItemFn=bool(*)(const char*,bool*,int);
+using EndTabFn=void(*)();
+BeginTabBarFn beginTabBar=nullptr;BeginTabItemFn beginTabItem=nullptr;
+EndTabFn endTabBar=nullptr,endTabItem=nullptr;
+ComboFn combo=nullptr;SeparatorFn separator=nullptr;
 CheckboxFn checkbox=nullptr;
 TextFn text=nullptr;InputFn input=nullptr;SliderFn slider=nullptr;ButtonFn button=nullptr;SameLineFn sameLine=nullptr;
 bool korean=true,languageLoaded=false;
@@ -152,6 +165,13 @@ void RegisterMenu() noexcept {
     button=reinterpret_cast<ButtonFn>(GetProcAddress(module,"igSmallButton"));
     sameLine=reinterpret_cast<SameLineFn>(GetProcAddress(module,"igSameLine"));
     checkbox=reinterpret_cast<CheckboxFn>(GetProcAddress(module,"igCheckbox"));
+    colorButton=reinterpret_cast<ColorButtonFn>(GetProcAddress(module,"igColorButton"));
+    combo=reinterpret_cast<ComboFn>(GetProcAddress(module,"igCombo_Str_arr"));
+    separator=reinterpret_cast<SeparatorFn>(GetProcAddress(module,"igSeparator"));
+    beginTabBar=reinterpret_cast<BeginTabBarFn>(GetProcAddress(module,"igBeginTabBar"));
+    endTabBar=reinterpret_cast<EndTabFn>(GetProcAddress(module,"igEndTabBar"));
+    beginTabItem=reinterpret_cast<BeginTabItemFn>(GetProcAddress(module,"igBeginTabItem"));
+    endTabItem=reinterpret_cast<EndTabFn>(GetProcAddress(module,"igEndTabItem"));
     auto version=reinterpret_cast<float(*)()>(GetProcAddress(module,"GetMenuFrameworkVersion"));
     if(!add||!text||!input||!slider||!button||!sameLine||!checkbox||!version){SKSE::log::warn("[TOAM][DamageMenu] Missing required exports; optional page disabled");return;}
     const float v=version();if(!std::isfinite(v)||v<3.0F||v>=4.0F){SKSE::log::warn("[TOAM][DamageMenu] Unverified framework ABI {}; INI remains available",v);return;}

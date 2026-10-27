@@ -1,0 +1,318 @@
+﻿AI-Generated Code and Third-Party Asset Disclosure / AI 생성 코드 및 외부 자산 고지
+
+The gameplay concepts and design are my own. The custom native SKSE DLL, C++ code, and supporting scripts were generated and developed with ChatGPT/Codex from my specifications and test feedback. I do not independently write or review C++ code. My role was to define the intended behavior, make design decisions, conduct in-game tests, and validate the observed results. AI tools also assisted with parts of the documentation, editor development, and some visual assets.
+
+Some animation and other third-party resources were used or consulted in developing this mod. I do not claim authorship of those original works. Their creators and sources are credited below and in the included CREDITS.txt.
+
+게임플레이 아이디어와 설계는 제가 직접 했습니다. 커스텀 Native SKSE DLL, C++ 코드 및 관련 스크립트는 제가 제시한 사양과 테스트 피드백을 바탕으로 ChatGPT/Codex와 함께 제작했습니다. 저는 C++ 코드를 직접 작성하거나 독립적으로 리뷰하지 않으며, 요구 동작 정의, 설계 결정, 인게임 테스트 및 관찰 결과 검증을 담당했습니다. 개발 문서, 편집기 제작 및 일부 시각 자산에도 AI 도구의 도움을 받았습니다.
+
+개발 과정에서 일부 외부 모션 및 기술 자료를 활용하거나 참고했습니다. 해당 원본 자산의 저작권을 제 것으로 주장하지 않으며, 원작자와 출처는 아래 크레딧 및 동봉된 CREDITS.txt에 명시했습니다.
+
+
+==================== ENGLISH ====================
+
+01. Mod Overview
+TULL Ordinary Attack Magic (TOAM)
+
+Adds Ordinary Attack Magic and Ordinary General Magic to Skyrim—spells that anyone can learn and commonly find for sale.
+
+Ordinary Attack Magic uses Magicka to attack enemies through magic circles, while Ordinary General Magic provides a little convenience in everyday life.
+
+Each spell has its own visual effects, and magic circle colors can be customized to your preference.
+
+02. Spells
+Ordinary Attack Magic (12 spells)
+
+- I Magician — Charges Magicka and releases a powerful beam, growing stronger at higher charge stages.
+- IV Emperor — Fires beams rapidly in succession through magic circles.
+- VII Chariot — Attacks through five separate magic circles.
+- VIII Strength — Fires a sustained beam.
+- IX Hermit — Blocks incoming attacks and retaliates with an explosion.
+- XI Justice — Deploys magic circles that attack enemies entering their detection area.
+- XIV Temperance — Triggers additional magic attacks when melee strikes hit.
+- XVI Tower — Rains beams over a wide area and causes explosions.
+- XVII Star — Deploys magic circles around enemies for automatic attacks.
+- XIX Sun — Fires a powerful beam after a long charge.
+- XX Judgement — Concentrates fire on a target using multiple magic circles.
+- XXI World — Deploys circles and attacks surrounding enemies with explosions.
+
+Ordinary General Magic (1 spell)
+
+- 0 Fool — Allows levitation and flight.
+
+Stances Addon (2 optional spells)
+
+Requires the TOAM main mod and Stances - Dynamic Animation Sets — https://www.nexusmods.com/skyrimspecialedition/mods/40484, including Stances' own requirements.
+
+- II High Priestess — Uses Emperor, Hermit, Chariot, or Sun depending on the current stance.
+- XVIII Moon — Uses Strength, Justice, Star, or Tower depending on the current stance.
+
+Magicka Cost & Damage / 매지카 소모량 및 피해량
+
+IMAGE INSERTION POINT — Upload TOAM_v1.0.3_Magic_Cost_Damage_KR_EN.png to Nexus and insert it here using the image tool. One bilingual chart is shared by both language sections.
+
+03. How to Obtain Spells
+Spell tomes are commonly sold by merchants throughout Skyrim and can also be found while exploring dungeons. Read a spell tome to learn its spell.
+
+For direct access, optional item-search mods can be used:
+- AddItemMenu - Ultimate Mod Explorer — https://www.nexusmods.com/skyrimspecialedition/mods/17563
+- Modex - A Mod Explorer Menu — https://www.nexusmods.com/skyrimspecialedition/mods/137877
+
+Neither item-search mod is required to run TOAM.
+
+04. Requirements & Installation
+Supported version
+- Skyrim Special Edition 1.5.97, with SKSE64 2.0.20.
+- Not supported: Anniversary Edition (AE) 1.6.x runtimes or Skyrim VR.
+
+Requirements
+- SKSE64 — https://skse.silverlock.org/ (2.0.20)
+- Address Library for SKSE Plugins — https://www.nexusmods.com/skyrimspecialedition/mods/32444
+- Backported Extended ESL Support (BEES) — https://www.nexusmods.com/skyrimspecialedition/mods/106441
+- Open Animation Replacer (OAR) — https://www.nexusmods.com/skyrimspecialedition/mods/92109
+- Container Item Distributor (CID) — https://www.nexusmods.com/skyrimspecialedition/mods/99486 (2.1.3 or later)
+- powerofthree's Tweaks — https://www.nexusmods.com/skyrimspecialedition/mods/51073
+- Microsoft Visual C++ Redistributable (x64) — https://aka.ms/vc14/vc_redist.x64.exe (only install if not already available)
+
+Optional
+- SKSE Menu Framework — https://www.nexusmods.com/skyrimspecialedition/mods/120352 — In-game settings menu.
+- Stances - Dynamic Animation Sets — https://www.nexusmods.com/skyrimspecialedition/mods/40484 — Required only for the optional TOAM Stances Addon; also install the requirements of Stances.
+
+Install and enable the TOAM main archive using MO2. Install the Stances Addon separately only if needed.
+
+05. Controls & Settings
+Dedicated casting systems
+- Magician: Hold to charge, release to fire. Eight charge stages increase the number of magic circles and damage.
+- Judgement: Hold and release; three charge stages fire from 3, 6, or 9 circles.
+- World: Hold the power button to charge; three stages deploy 4, 8, or 12 circles.
+- Temperance: Toggle on or off to add magic attacks to melee hits.
+
+Casting restrictions
+Some dedicated TOAM spells cannot be cast simultaneously with vanilla spells. Hermit and World also cannot be cast at the same time.
+
+Arcana Limiter / 술식 출력 제한
+An enchantment that reduces Magicka cost and charge time in exchange for reduced damage.
+- Rank I (Destruction 20): 10% reduction.
+- Rank II (Destruction 40): 20% reduction.
+- Rank III (Destruction 60): 30% reduction.
+- Temperance active: an additional 20%, up to 50% total.
+
+At the 50% limit, at maximum charge:
+- Magician: 10 s → 5 s; beam 5,000 → 2,500; explosion 2,000 → 1,000.
+- Judgement: 3.6 s → 1.8 s; theoretical maximum combined damage 1,800 → 900.
+- World: 2.1 s → 1.05 s; damage per explosion 100 → 50.
+
+These figures are baseline/theoretical values; game settings and enemy resistance can affect actual damage.
+
+Crafting the Arcana Limiter Ring
+At a forge: 1 Gold Ingot + 1 empty Petty Soul Gem, with Destruction 20+.
+
+Fool — Flight controls
+Use the Fool power to toggle flight. Movement keys move horizontally; Jump rises, Sneak descends, and Sprint accelerates.
+
+Mod settings
+Use SKSE Menu Framework — https://www.nexusmods.com/skyrimspecialedition/mods/120352 to configure damage scaling, flight, sounds, screen shake, and magic-circle colors (globally or per spell). Settings can also be edited through SKSE/Plugins/TOAM.ini.
+
+06. Source, Formation Editor & Credits
+Source Code & Development Research
+
+The source code and a separate engineering/art research compendium are provided, including implementation notes, failed approaches, debugging lessons, and solutions. They may be useful to other modders—especially those developing with AI assistance.
+
+Source/research: TULL Ordinary Attack Magic GitHub repository (public) — https://github.com/jhs31742-glitch/TULL-Ordinary-Attack-Magic.
+
+TULL Formation Editor
+
+I made this separate editor because adjusting magic-circle coordinates blindly during TOAM development was frustrating. It lets you inspect placements visually and export JSON coordinates for an AI assistant to use during mod implementation.
+
+Features include preset save/load and export, adding or removing spells and circles, separate dual-cast arrangements, choosing character/enemy/airborne reference points, adjusting position/scale/rotation, and English/Korean UI.
+
+Workflow: Provide the editor and its documentation to your AI assistant → ask for a rough JSON layout → import and adjust it visually → export the revised JSON → have the AI implement those coordinates in your mod.
+
+The editor is a standalone layout-planning tool, not a direct Skyrim NIF editor.
+
+Credits & Special Thanks
+
+I am sincerely grateful to every original creator who shared animations, tools, technical knowledge, and reference materials. Your hard work and generosity made an enormous difference to this project. Thank you for making your work available to other creators. I deeply appreciate and respect what you have created.
+
+Animation creators: HydroBirous (Hydro Birous), Derwan, Redfall6, gp160, Khenta, RavenKZP, QTRModding, and a skrub.
+
+Animation resources and technical references:
+- Flying Animations - Resource — https://www.nexusmods.com/skyrimspecialedition/mods/192243
+- Skrub's Guns 3rd Person — a skrub
+- Flight Framework - SKSE — https://www.nexusmods.com/skyrimspecialedition/mods/178943 — SkyrimThiago, RavenKZP, QTRModding (technical reference; its DLL/ESP/source are not included)
+
+Frameworks and tools:
+- Ershin — Open Animation Replacer
+- ThirdEyeSqueegee / ThirdEye3301 — Container Item Distributor
+- powerofthree — powerofthree's Tweaks
+- QTRModding — SKSE Menu Framework
+- SKSE, CommonLibSSE-NG, Address Library, fmt and spdlog contributors
+- ret2end, figment, PyNifly and Grimrukh — development/analysis tools
+- Bethesda Game Studios — original Skyrim game resources
+
+Development:
+- ME — concept, design, art direction, and in-game testing
+- ChatGPT / OpenAI Codex — AI-assisted C++ implementation, debugging, editor development, and documentation
+- AI image-generation tools — assistance with certain visual assets
+
+Detailed credits and applicable third-party notices are also included in CREDITS.txt and the source materials. The mod's original owned code and Formation Editor use MIT; original owned research prose uses CC BY 4.0. Third-party materials retain their respective rights.
+
+Donation Points: Disabled.
+
+==================== 한국어 / KOREAN ====================
+
+01. 모드 소개
+TULL Ordinary Attack Magic (TOAM)
+
+스카이림에 누구나 쉽게 배우고, 어디서나 흔하게 구할 수 있는 일반공격마법과 일반교양마법을 추가합니다.
+
+일반공격마법은 매지카를 소모해 마법진으로 적을 공격하며, 일반교양마법은 일상에 소소한 편의를 더합니다.
+
+각 마법은 고유한 시각 효과를 갖추고 있으며, 마법진의 색상도 취향에 따라 자유롭게 변경할 수 있습니다.
+
+02. 마법 소개
+일반공격마법 (12종)
+
+- I 마법사 (Magician) — 매지카를 충전해 강력한 광선을 발사하며, 단계에 따라 위력이 증가합니다.
+- IV 황제 (Emperor) — 마법진으로 광선을 연속 발사합니다.
+- VII 전차 (Chariot) — 다섯 개의 마법진으로 공격합니다.
+- VIII 힘 (Strength) — 광선을 지속적으로 발사합니다.
+- IX 은둔자 (Hermit) — 공격을 방어하고 폭발로 반격합니다.
+- XI 정의 (Justice) — 설치한 마법진으로 적을 공격합니다.
+- XIV 절제 (Temperance) — 근접 공격에 마법 공격을 연계합니다.
+- XVI 탑 (Tower) — 광선을 쏟아붓고 폭발을 일으킵니다.
+- XVII 별 (Star) — 적 주변에 자동 공격하는 마법진을 전개합니다.
+- XIX 태양 (Sun) — 긴 충전 후 강력한 광선을 발사합니다.
+- XX 심판 (Judgement) — 여러 마법진으로 적을 집중 포격합니다.
+- XXI 세계 (World) — 주변에 마법진을 전개하고 폭발을 일으킵니다.
+
+일반교양마법 (1종)
+
+- 0 광대 (Fool) — 공중부양과 비행이 가능합니다.
+
+Stances Addon (선택형 마법 2종)
+
+TOAM 본체와 Stances - Dynamic Animation Sets — https://www.nexusmods.com/skyrimspecialedition/mods/40484, 그리고 해당 Stances 모드의 선행 모드가 필요합니다.
+
+- II 여사제 (High Priestess) — 현재 스탠스에 따라 황제·은둔자·전차·태양을 사용합니다.
+- XVIII 달 (Moon) — 현재 스탠스에 따라 힘·정의·별·탑을 사용합니다.
+
+마법 소모량 및 피해량
+
+영어 소개의 02번 아래에 배치된 한영 병기 수치표 PNG 한 장을 공통으로 사용합니다.
+
+03. 마법 획득 방법
+마법책은 스카이림 전역의 상점에서 흔하게 구매할 수 있으며, 던전 탐험을 통해서도 획득할 수 있습니다. 마법책을 읽으면 해당 마법을 습득합니다.
+
+원하는 마법을 바로 꺼내고 싶다면 다음 아이템 검색 모드를 이용할 수도 있습니다. 두 모드는 TOAM의 필수 선행 모드가 아닙니다.
+- AddItemMenu - Ultimate Mod Explorer — https://www.nexusmods.com/skyrimspecialedition/mods/17563
+- Modex - A Mod Explorer Menu — https://www.nexusmods.com/skyrimspecialedition/mods/137877
+
+04. 설치 및 선행 모드
+지원 버전
+- 지원: Skyrim Special Edition 1.5.97 / SKSE64 2.0.20
+- 미지원: Skyrim AE 런타임 1.6.x 전체, Skyrim VR
+
+필수 선행 모드 및 구성 요소
+- SKSE64 — https://skse.silverlock.org/ (2.0.20)
+- Address Library for SKSE Plugins — https://www.nexusmods.com/skyrimspecialedition/mods/32444
+- Backported Extended ESL Support (BEES) — https://www.nexusmods.com/skyrimspecialedition/mods/106441
+- Open Animation Replacer (OAR) — https://www.nexusmods.com/skyrimspecialedition/mods/92109
+- Container Item Distributor (CID) — https://www.nexusmods.com/skyrimspecialedition/mods/99486 (2.1.3 이상)
+- powerofthree's Tweaks — https://www.nexusmods.com/skyrimspecialedition/mods/51073
+- Microsoft Visual C++ Redistributable (x64) — https://aka.ms/vc14/vc_redist.x64.exe (이미 설치된 경우 재설치 불필요)
+
+선택 사항
+- SKSE Menu Framework — https://www.nexusmods.com/skyrimspecialedition/mods/120352 — 게임 내 설정 메뉴
+- Stances - Dynamic Animation Sets — https://www.nexusmods.com/skyrimspecialedition/mods/40484 — TOAM Stances Addon 사용 시에만 필요하며, Stances 자체의 선행 모드도 설치해야 합니다.
+
+MO2에서 TOAM 메인 파일을 설치하고 활성화합니다. Stances Addon은 필요한 경우 별도로 설치합니다.
+
+05. 조작 및 모드 설정
+전용 시전 시스템
+- 마법사: 충전 후 발사합니다. 총 8단계이며, 단계에 따라 마법진 수와 피해량이 증가합니다.
+- 심판: 충전 후 버튼을 놓으면 포격합니다. 총 3단계이며, 3·6·9개의 마법진으로 공격합니다.
+- 세계: 파워 버튼으로 3단계까지 충전하며, 4·8·12개의 마법진을 전개합니다.
+- 절제: ON/OFF 방식으로 근접 공격에 추가 마법 공격을 적용합니다.
+
+동시 사용 제한
+일부 전용 시전 마법은 바닐라 마법과 동시에 사용할 수 없으며, 은둔자와 세계의 동시 시전도 제한됩니다.
+
+술식 출력 제한 (Arcana Limiter)
+매지카 소모량과 충전 시간을 줄이는 대신 공격 피해량도 감소시키는 인챈트입니다.
+- Ⅰ단계 (파괴마법 20): 10% 감소
+- Ⅱ단계 (파괴마법 40): 20% 감소
+- Ⅲ단계 (파괴마법 60): 30% 감소
+- 절제 활성화 시 추가 20%, 최대 50% 감소
+
+50% 적용 시, 최대 충전 기준
+- 마법사: 충전 10초 → 5초 / 광선 5,000 → 2,500 / 폭발 2,000 → 1,000
+- 심판: 충전 3.6초 → 1.8초 / 이론상 최대 합계 피해 1,800 → 900
+- 세계: 충전 2.1초 → 1.05초 / 폭발당 피해 100 → 50
+
+이 수치는 기본·이론값이며 실제 피해량은 모드 설정과 대상 저항 등에 영향을 받습니다.
+
+술식 출력 제한 반지 제작법
+대장간에서 금 주괴 1개 + 빈 최하급 영혼석 1개로 제작합니다. 파괴마법 20 이상이 필요합니다.
+
+공중부양 — 광대 (Fool)
+광대 파워로 공중부양을 켜거나 끌 수 있습니다. 이동키로 수평 이동, 점프로 상승, 은신으로 하강, 질주로 가속합니다.
+
+모드 설정
+SKSE Menu Framework — https://www.nexusmods.com/skyrimspecialedition/mods/120352에서 피해 배율, 비행, 효과음, 화면 흔들림, 마법진 색상 등을 변경할 수 있습니다. 마법진 색상은 전체 또는 마법별로 변경할 수 있으며 SKSE/Plugins/TOAM.ini에서도 설정할 수 있습니다.
+
+06. 추가 자료 및 크레딧
+소스코드 및 개발 연구록
+
+TOAM의 소스코드와 개발 과정에서 얻은 기술적 연구, 시행착오, 해결 방법 등을 함께 공개합니다. 다른 모드 제작자와 AI를 활용하는 개발자들에게 유용한 참고 자료가 되기를 바랍니다.
+
+소스·연구 자료: TULL Ordinary Attack Magic GitHub 공개 저장소 — https://github.com/jhs31742-glitch/TULL-Ordinary-Attack-Magic
+
+TULL Formation Editor — 마법진 배치 편집기
+
+TOAM을 개발하면서 마법진의 위치와 각도를 수치만으로 조정하기 어려워, 배치를 눈으로 확인하고 수정할 수 있는 별도의 편집기를 제작했습니다.
+
+마법 프리셋 저장·불러오기와 JSON 좌표 내보내기, 마법·마법진 추가/삭제, 양손 시전용 별도 배치, 캐릭터·적·공중 캐릭터 등 기준점 선택, 위치·크기·회전 조절, 한국어·영어 UI를 지원합니다.
+
+AI와 함께 사용하는 방법
+1. AI에게 편집기와 동봉된 설명서를 제공합니다.
+2. 원하는 배치를 설명하고 초기 JSON 설정을 생성합니다.
+3. 편집기에서 JSON을 불러와 위치를 직접 확인·수정합니다.
+4. 수정한 JSON을 내보내 AI에게 전달해 실제 모드 구현에 반영합니다.
+
+편집기는 게임 파일을 직접 수정하는 도구가 아니라 시각적 배치 설계와 좌표 전달을 위한 보조 도구입니다.
+
+크레딧 및 감사의 말씀
+
+이 모드를 제작하는 데 도움을 주신 모든 원작자분들께 진심으로 감사드립니다. 여러분이 시간과 노력을 들여 제작하고 공유해 주신 모션, 기술, 자료들은 TOAM 개발에 큰 도움이 되었습니다. 다른 제작자들도 여러분의 작업을 바탕으로 새로운 것을 만들어 볼 수 있도록 나누어 주신 배려에 깊이 감사드립니다.
+
+여러분의 창작물과 지식을 나누어 주셔서 정말 감사합니다. 진심으로 존경하고 감사드립니다.
+
+모션 및 애니메이션 원작자
+HydroBirous (Hydro Birous), Derwan, Redfall6, gp160, Khenta, RavenKZP, QTRModding, a skrub
+
+모션 및 참고 자료
+- Flying Animations - Resource — https://www.nexusmods.com/skyrimspecialedition/mods/192243
+- Skrub's Guns 3rd Person — a skrub
+- Flight Framework - SKSE — https://www.nexusmods.com/skyrimspecialedition/mods/178943 — SkyrimThiago, RavenKZP, QTRModding (기술 참고; 해당 DLL·ESP·소스는 동봉하지 않음)
+
+프레임워크 및 기술 기여
+- Ershin — Open Animation Replacer
+- ThirdEyeSqueegee / ThirdEye3301 — Container Item Distributor
+- powerofthree — powerofthree's Tweaks
+- QTRModding — SKSE Menu Framework
+- SKSE, CommonLibSSE-NG, Address Library, fmt, spdlog 개발진
+- ret2end, figment, PyNifly, Grimrukh — 개발·분석 도구
+- Bethesda Game Studios — Skyrim 원본 게임 자산
+
+제작 및 개발 보조
+- ME — 기획, 설계, 아트 디렉션, 인게임 테스트
+- ChatGPT / OpenAI Codex — C++ 구현·디버깅·편집기·문서 작성 보조
+- AI 이미지 생성 도구 — 일부 시각 자산 제작 보조
+
+자세한 출처와 제3자 라이선스 정보는 CREDITS.txt와 공개 소스 자료에 기재되어 있습니다. 권리를 보유한 자체 코드·Formation Editor에는 MIT, 자체 연구 문서에는 CC BY 4.0이 적용되며 외부 자산은 각 원저작자의 권리를 따릅니다.
+
+Donation Points: Disabled.
+
+Combat Demonstration / 전투 시연
+Add optional combat GIFs here, after both languages. / 전투 시연 GIF는 영문·한국어 본문 끝에 선택적으로 삽입합니다.

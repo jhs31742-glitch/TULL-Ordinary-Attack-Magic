@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
-  "assetCorrection": "CP032",
-  "runtimeAssetsNotIncluded": true,
-  "authoringDocsExcludedFromRuntime": true,
+  "version": "1.0.3",
+  "checkpoint": "CP034-D3",
+  "parent": "CP034-D2R",
+  "runtime": "EXCLUSIVE_USER_PASS;NEW_COLOR_UI_NAMES_NOT_RUN",
   "files": [
     {
       "path": "CREDITS.txt",
@@ -10,29 +10,164 @@
       "sha256": "41D20136E272CD5711F30D7DEDC7A7A891533C1C722719ECEB0E83B41CF74456"
     },
     {
+      "path": "Docs/TOAM/ARCANA_BALANCE_089.json",
+      "bytes": 3608,
+      "sha256": "37A4FA9352CD0D166B75CACA52FD6FB1DBD2FF8E5D5DD830152C7DCC6E49DB1D"
+    },
+    {
+      "path": "Docs/TOAM/ASSET_PROVENANCE.json",
+      "bytes": 502234,
+      "sha256": "981C47C410D78B0CE23955673A91C5D2F77F2A9E3566F0FABD77D302E4398BCE"
+    },
+    {
+      "path": "Docs/TOAM/BALANCE.md",
+      "bytes": 2179,
+      "sha256": "E8602D78284188557B91B4EB90A210599C410904BFB7B33AEA01E6127D925920"
+    },
+    {
+      "path": "Docs/TOAM/CREDITS_AIR_COMBAT.md",
+      "bytes": 8178,
+      "sha256": "D0EEA1AC3B51D2CB2621B10EC10F0167851B52C427403BA306DA185D6803A802"
+    },
+    {
+      "path": "Docs/TOAM/DAMAGE_SETTINGS.md",
+      "bytes": 1168,
+      "sha256": "984C23CDFB0E8A3B848BB7F3B75ED9271761548CD528756B6CC5E756734AF953"
+    },
+    {
+      "path": "Docs/TOAM/DISTRIBUTION.json",
+      "bytes": 58148,
+      "sha256": "195A663B7C1617C6D43A3327664D5EDEFA95404093D812998F64DEAD78931FCD"
+    },
+    {
+      "path": "Docs/TOAM/DISTRIBUTION.md",
+      "bytes": 1834,
+      "sha256": "874E34D7661F63EF156A9C940CABEAB50182FA6214675169057A62052E23EE79"
+    },
+    {
+      "path": "Docs/TOAM/FORM_MAP.json",
+      "bytes": 291389,
+      "sha256": "94737447D3E09CD776118AF2B8AC02682332D3E79056A2249EA9D76D39136BCA"
+    },
+    {
+      "path": "Docs/TOAM/INSTALL_CURRENT.md",
+      "bytes": 3590,
+      "sha256": "8918D44A75C6A6A10338FBC95877BCA0AB7889DADB8E3BB50289A734B8707959"
+    },
+    {
+      "path": "Docs/TOAM/NEXUS_RELEASE_GUIDE.md",
+      "bytes": 9815,
+      "sha256": "E29018110924D529BF194297EA6B74B11D76114FED32F47C0A4813DBC3F4D1CF"
+    },
+    {
+      "path": "Docs/TOAM/PATH_MIGRATION.json",
+      "bytes": 398939,
+      "sha256": "1645AC82B050FD38B65C381B5C116453C3722D819C87E10673AC2F93BA3F302C"
+    },
+    {
+      "path": "Docs/TOAM/Provenance/BOOK_ASSETS.json",
+      "bytes": 8920,
+      "sha256": "567F53B108B7D0BB1C4978794004052C107F0D244FF109549D12400E6172A553"
+    },
+    {
+      "path": "Docs/TOAM/Provenance/CREDITS_FLIGHT.md",
+      "bytes": 2781,
+      "sha256": "0917A1D94F63F6442FD184BBB3DF14A92C219DB580A2E7F19A39E0D8770D9878"
+    },
+    {
+      "path": "Docs/TOAM/Provenance/CREDITS_GUN_FLIGHT.md",
+      "bytes": 1172,
+      "sha256": "99F7C1CD4252646953ABC181DA8BBA961D46279454201079EB42C946E26D8088"
+    },
+    {
+      "path": "Docs/TOAM/Provenance/SOURCE_REQUIREMENTS.txt",
+      "bytes": 351,
+      "sha256": "27A64FB3A4657818E73AA52695623F4184654E4210CDF17DA46D7612D4EA96C5"
+    },
+    {
+      "path": "Docs/TOAM/Provenance/animation_provenance070.json",
+      "bytes": 133052,
+      "sha256": "1847D150D781EF415B8AA30B6DA5CBE6102A3AED31B2DB1CC6FF8FEDA3BFD8E8"
+    },
+    {
+      "path": "Docs/TOAM/Provenance/gun_animation_provenance073.json",
+      "bytes": 431347,
+      "sha256": "177BE7EE1091855DBDBCF8BB20F5CA3687F10DCD0F39423385FC8283A9A301CF"
+    },
+    {
+      "path": "Docs/TOAM/Provenance/licenses/CommonLibSSE-NG.txt",
+      "bytes": 1074,
+      "sha256": "F8F983D0D1E2BB361F117487465F21F5F4047ACCA3610F7ABA3482D524C83CE4"
+    },
+    {
+      "path": "Docs/TOAM/Provenance/licenses/fmt.txt",
+      "bytes": 1431,
+      "sha256": "07580F2A3B35709CE703D523F447B242F6DFEC7582A8C0DF102C7FA2849375F8"
+    },
+    {
+      "path": "Docs/TOAM/Provenance/licenses/spdlog.txt",
+      "bytes": 1323,
+      "sha256": "D678C20826E1392578508E1C78649A1E3C31BDA05EF4388D967DBD654461B140"
+    },
+    {
+      "path": "Docs/TOAM/Provenance/shared_manifest.json",
+      "bytes": 8019,
+      "sha256": "4C6D2E09A70B4578E8F46AE1DD45E6E9B293AA2D0B69757BE790A26C9259C279"
+    },
+    {
+      "path": "Docs/TOAM/README_EN.md",
+      "bytes": 3265,
+      "sha256": "147CB3DF7F3C76EC8DC2228C6DC73D38C678A476D79A91F3698BF08C164A4949"
+    },
+    {
+      "path": "Docs/TOAM/README_KR.md",
+      "bytes": 3338,
+      "sha256": "0A4A79F3D288CD8D27D059331055BD3833D397ADC28751C46889420297534624"
+    },
+    {
+      "path": "Docs/TOAM/RELEASE_NOTES.md",
+      "bytes": 2121,
+      "sha256": "FBA18ED210F728C246EF686FE69DF2D9705644CE54F5943F2B2051C0469D32F9"
+    },
+    {
+      "path": "Docs/TOAM/RUNTIME_COMPATIBILITY.md",
+      "bytes": 1891,
+      "sha256": "CC552036564B65E117E95F8227961D610B0EE46CC9A37CDAD4D66A9802B6B3EB"
+    },
+    {
+      "path": "Docs/TOAM/TECHNICAL_REPORT.md",
+      "bytes": 3493,
+      "sha256": "EFABAD52C09DA302BEEE21875117E70F7B2ACA5067F771EB623315E228FE4D51"
+    },
+    {
+      "path": "Docs/TOAM/THIRD_PARTY_NOTICES.md",
+      "bytes": 2225,
+      "sha256": "42298E9EC338A79ADB5470797EF33AB2B5DB429EC8C797D8BBFE982D0B2387B4"
+    },
+    {
       "path": "Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
-      "bytes": 6312,
-      "sha256": "C703C58532A8ACB8359204F8EAAAF139E95AF9C0450058595080674A6632DCF1"
+      "bytes": 6500,
+      "sha256": "4A97DAC1A91331429ACCD926823F92B7CEA7121CBD8E7CF58F3B4697F3B18E2D"
     },
     {
       "path": "Language/en/TULL Ordinary Attack Magic.esp",
-      "bytes": 214770,
-      "sha256": "F9CBD02477A3B17AA1E31F860B119BB062A2EACCBF9B7F0FD259990BED81AE1C"
+      "bytes": 215142,
+      "sha256": "A59D8D4786A05E0F7DE6D26C750012BE9511EA0A8825693839BC7EDF2E933622"
     },
     {
       "path": "Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
-      "bytes": 6823,
-      "sha256": "393941B7BA5F8383958F3E1E63C60EEAA5469BB8590992EA570B991EB7A0D1BC"
+      "bytes": 7030,
+      "sha256": "5B7E571024E0AE3ECBFAC71AC721AD4AC47E397DE06E131904647C7B9E285FA0"
     },
     {
       "path": "Language/kr/TULL Ordinary Attack Magic.esp",
-      "bytes": 216838,
-      "sha256": "4411620390A5B0EC67D91772BA8CC6E02401652E8826E72E3BCE883AEAB1AFF1"
+      "bytes": 217206,
+      "sha256": "4379DFB1B941D94AE731D97B31F66C734B5EC3245A7A3393544FE589F01C0514"
     },
     {
       "path": "README.txt",
-      "bytes": 1994,
-      "sha256": "C2DE6BD6F0EFB37AE032C3C7B1DF7DA651BE25D31E99D0CB270D29D435AC39BC"
+      "bytes": 2072,
+      "sha256": "A7BDE795CEDD45293D7F5ED97FB5FA0C5DEF50349AACC181AC16FF07A4515442"
     },
     {
       "path": "README_Stances.txt",
@@ -41,8 +176,8 @@
     },
     {
       "path": "SKSE/Plugins/TOAM.ini",
-      "bytes": 514,
-      "sha256": "1ECCA3435372602E48832EC12CA7F0DFCCBF53A092CD1207F321143847282003"
+      "bytes": 1634,
+      "sha256": "840907E924B259CC63F8F6847F5DD020BBE362F028ACAE9D49D2DBA570BD95B7"
     },
     {
       "path": "TOAM_Stances_CID.ini",
@@ -56,13 +191,13 @@
     },
     {
       "path": "TULL Ordinary Attack Magic - Stances Addon.esp",
-      "bytes": 6312,
-      "sha256": "C703C58532A8ACB8359204F8EAAAF139E95AF9C0450058595080674A6632DCF1"
+      "bytes": 6500,
+      "sha256": "4A97DAC1A91331429ACCD926823F92B7CEA7121CBD8E7CF58F3B4697F3B18E2D"
     },
     {
       "path": "TULL Ordinary Attack Magic.esp",
-      "bytes": 214770,
-      "sha256": "F9CBD02477A3B17AA1E31F860B119BB062A2EACCBF9B7F0FD259990BED81AE1C"
+      "bytes": 215142,
+      "sha256": "A59D8D4786A05E0F7DE6D26C750012BE9511EA0A8825693839BC7EDF2E933622"
     },
     {
       "path": "meshes/TOAM/Arcana/Circles/Arcana_Chariot.nif",
@@ -4684,5 +4819,6 @@
       "bytes": 349652,
       "sha256": "DADAB46B5BA9D0B80A9D7DCD222A2A9329A32543BDB954A2B7582933FEBBF28A"
     }
-  ]
+  ],
+  "assetCorrection": "CP032 static Gold ribbon orientation only;Native version1.0.0 unchanged"
 }

@@ -1,3 +1,6 @@
+## Current authorization - 2026-10-27 / CP038-B
+The user explicitly requested public GitHub visibility and updated Nexus descriptions. This supersedes the historical private-only condition for this reviewed source repository. No Nexus upload or automatic final LOCK is authorized. Runtime binaries, personal logs and internal handoffs remain excluded. Existing external rights and license exceptions remain applicable.
+
 # TOAM development instructions
 Read README, BUILDING, PUBLICATION_PLAN and the COMPLETE Research/TOAM_RESEARCH_COMPENDIUM.md before modifying code. Search the historical lessons for the same failure and preserve facts versus hypotheses. If working in TULL's original project, read its actual full current000/001/006 and inventory008; public research is not a replacement for local authority.
 Keep TOAM four-spell costs/damage, charge ownership, limiter and VFX contracts unchanged unless directly instructed. Arcana costs and actual payload/native damage owners must remain coherent. Preserve one hook owner, finite VFX lookup, per-hand/per-instance billing and precharge snapshots. SE1.5.97 is the only enabled runtime; AE/VR are not tested or enabled.

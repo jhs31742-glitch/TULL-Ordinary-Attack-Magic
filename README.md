@@ -1,25 +1,28 @@
-# TULL Ordinary Attack Magic 1.0.1
-Reviewed source for the single TOAM SKSE host,owned plugin record sources,unified technical/art research and reusable offline formation editor.
+# TULL Ordinary Attack Magic v1.0.3
 
-- [Build](BUILDING.md) / [Dependency pins](DEPENDENCIES.lock.json)
-- [Nexus draft EN](Docs/NEXUS_DESCRIPTION_EN.md) / [한국어](Docs/NEXUS_DESCRIPTION_KR.md)
-- [Unified research](Research/TOAM_RESEARCH_COMPENDIUM.md)
-- [Current implementation](Docs/CP031_IMPLEMENTATION_REPORT.md)
-- [Generic formation editor EN](tools/formation_editor/README_EN.md) / [한국어](tools/formation_editor/README_KR.md)
-- [AI example JSON](tools/formation_editor/examples/ai-coordinate-examples.json) / [Machine-readable guide](tools/formation_editor/examples/ai-reference-guide.json)
-- [Actual TOAM coordinates](tools/formation_editor/presets/toam-reviewed.json)
-- [Original manual editor](tools/layout_editor/README_TOAM.md)
-- [Distribution](Docs/DISTRIBUTION.md) / [Damage settings](Docs/DAMAGE_SETTINGS.md)
+Public source, engineering/art research and the offline TULL Formation Editor.
+Repository: https://github.com/jhs31742-glitch/TULL-Ordinary-Attack-Magic
 
-Open tools/formation_editor/index.html locally. Mouse/sliders are primary;precise numeric fields are folded. Named sets contain multiple spells and independent casting variants;edit counts,hands,groups,actor/target/world anchors,position,XYZ angles and scale. JSON files distinguish actual source-backed values from illustrative examples. No game assets or native execution are loaded by this editor.
+- [Build instructions](BUILDING.md) and [pinned dependencies](DEPENDENCIES.lock.json)
+- [Nexus description EN/KR - plain text](Docs/TOAM_v1.0.3_Nexus_Description_EN_KR_Plain.txt)
+- [Nexus description EN/KR - BBCode](Docs/TOAM_v1.0.3_Nexus_Description_EN_KR_BBCode.txt)
+- [Current v1.0.3 implementation](Docs/CP034_D3_RECAST_UI_TAROT_REPORT.md)
+- [User stress-test evidence and limits](Docs/CP035_V103_STRESS_RELEASE_READINESS.md)
+- [Presentation settings](Docs/PRESENTATION_SETTINGS_EN_KR.md), [audio catalog](Docs/AUDIO_CATALOG.md), [circle materials](Docs/CIRCLE_MATERIAL_AUDIT.md)
+- [Unified engineering and art research](Research/TOAM_RESEARCH_COMPENDIUM.md)
+- [Formation Editor EN](tools/formation_editor/README_EN.md) / [한국어](tools/formation_editor/README_KR.md)
+- [Publication scope and provenance](Docs/GITHUB_PUBLICATION.md)
 
-Parent v0.8.12 user-confirmed damage-menu and merchant-sales QA remains recorded. New1.0 render/flight-menu/distribution changes pass static/build/deploy gates but require user runtime QA. SE1.5.97 only;AE/VR are disabled. Existing damage/resources/cadence/defense policies are unchanged.
+## Runtime and verification
+Skyrim SE 1.5.97 is the supported runtime. AE/VR are not enabled.
+CP031 core user QA passed 23/23. The v1.0.3 multi-enemy, multi-color stress session was user-reported PASS with 553 recorded color applications. Blue and Default were not rechecked in that latest session; a historical isolated CTD remains unexplained. These observations do not certify unconditional stability or a final release LOCK.
 
-GitHub stays PRIVATE until Nexus launch. No Nexus upload or public switch is performed here. MO2 profile/checkboxes/saves are user-controlled. SMP is excluded;its failed experiments remain research history. Native source is exact build input;runtime art/animation/audio binaries are excluded pending publication rights review. See LICENSING.md and Docs/THIRD_PARTY_NOTICES.md. Historical documents under Docs/History_CP030 are superseded by the current Nexus drafts.
+The source contains 112 byte-exact Native C++/header/include files from the verified v1.0.3 build and six ordered plugin-record sources. Runtime DLLs, game assets, imported animations/audio and private logs/handoffs are excluded. Source publication does not authorize redistribution of excluded assets.
 
-## CP032 static staff cloth correction
-CP031core23/23 user-confirmed with no observed CTD/freeze;CP032 corrected-cloth runtime NOT_RUN. Gold ribbon winding/normal/tangent fix only;Fern/Silver inspected and unchanged. No Native/ESP/gameplay/DLL change. [Report](Docs/CP032_STAFF_CLOTH_REPORT.md) | [Repair source](tools/staff_cloth/README.md).
+## Formation Editor
+Open `tools/formation_editor/index.html` locally. It edits visual layouts and exports JSON; it does not edit saves or write production NIF files. Actual source-backed presets and illustrative AI examples are identified separately.
 
-## 1.0.1 /CP033 current
-Immutable parent is1.0.0/CP032. New audio volume/source IDs,camera intensity and13 independent circle-color presets are documented in [settings](Docs/PRESENTATION_SETTINGS_EN_KR.md),[audio catalog](Docs/AUDIO_CATALOG.md),[material audit](Docs/CIRCLE_MATERIAL_AUDIT.md),[mapping](Docs/COLOR_PRESET_MAPPING.md) and [implementation](Docs/CP033_V101_IMPLEMENTATION_REPORT.md). CP031 core23/23 user QA is preserved;all new1.0.1 runtime behavior and final LOCK are pending. [Minimum user QA](Docs/CP033_ONE_BOOT_QA.md).
-Existing art,plugin records,formation editor/AI samples and gameplay values remain the CP032 bytes. The new runtime clones only verified private material instances;Default preserves original appearance. Rejection retains original art and must be recorded as a failed/unverified color application. Repository stays private.
+## Licenses and credits
+Original code and editor material owned by TULL or authorized for licensing: MIT. Original owned research prose/diagrams: CC BY 4.0. Third-party material retains its original terms. See [license scope](LICENSING.md), [credits](Docs/CREDITS.txt) and [third-party notices](Docs/THIRD_PARTY_NOTICES.md).
+
+GitHub public publication was explicitly authorized by the user on 2026-10-27. Nexus upload and final runtime LOCK remain separate; this operation does not perform either. MO2 profiles, activation, saves and the immutable v1.0.0/CP032 anchor are preserved. SMP remains excluded.

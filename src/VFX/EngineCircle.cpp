@@ -73,7 +73,7 @@ void Alpha(RE::NiAVObject* object,float a){
 bool Pose(Slot& s,float alpha,float growth){
  if(!s.effect||s.effect->finished)return false;
  auto* root=s.effect->Get3D();if(!root)return false;
- CircleTint::Apply(s.tint,root);
+ CircleTint::Apply(s.tint,s.effect.get());
  RE::NiUpdateData update{};root->Update(update);
  static const RE::BSFixedString poseName{"AS_CirclePose"};
  auto* node=root->GetObjectByName(poseName);if(!node||!node->parent)return false;

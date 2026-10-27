@@ -9,6 +9,7 @@ void Stop(Hand& h,bool tail=true){
  auto* player=RE::PlayerCharacter::GetSingleton();for(int i=0;i<12;i++)RetireHandCircle(h,h.circles[i],i,side,tail,player);
  if(h.loop.IsValid()){if(tail&&h.mode==Sustain)FadeSustain(h.loop);else static_cast<void>(h.loop.Stop());}
  for(auto& s:h.shots)if(s.IsValid())static_cast<void>(s.Stop());
+ if(h.mode==Hermit)TOAM::Core::ExclusiveCast::Release(TOAM::Core::ExclusiveCast::HandOwner(side));
  logger::info("END mode={} projectiles={} launchFailures={} resourceBase={} resourcePaid={}",h.mode,h.launched,h.failed,h.paidBase,h.paidResource);h=Hand{};if(ending)PlayEnd();
 }
 void Reset(bool resetFlight=true){
@@ -47,14 +48,25 @@ int Identify(RE::MagicItem* spell){
 }
 int ReadStance(RE::Actor* a){return forms.stancesReady?StanceMode(a->HasPerk(forms.stance[0]),a->HasPerk(forms.stance[1]),a->HasPerk(forms.stance[2])):0;}
 bool Begin(RE::ActorMagicCaster* c,Hand& h,int id){
- Stop(h);int side=&h==&hands[0]?0:1;h.spell=c->currentSpell;h.adaptive=id>=8;h.family=h.adaptive?id-8:id/4;
- h.mode=h.adaptive?SelectMode(h.family,ReadStance(c->actor)):id;
+ const int side=&h==&hands[0]?0:1;
+ const bool adaptive=id>=8;const int family=adaptive?id-8:id/4;
+ const int nextMode=adaptive?SelectMode(family,ReadStance(c->actor)):id;
+ const auto owner=TOAM::Core::ExclusiveCast::HandOwner(side);
+ if(nextMode==Hermit&&!TOAM::Core::ExclusiveCast::Allows(owner)){
+  logger::info("[TOAM][CP034] EXCLUSIVE_DENY owner={} requested={} phase=HERM_REQUEST",int(TOAM::Core::ExclusiveCast::Current()),int(owner));return false;
+ }
+ Stop(h);
+ if(nextMode==Hermit&&!TOAM::Core::ExclusiveCast::Acquire(owner)){
+  logger::info("[TOAM][CP034] EXCLUSIVE_DENY owner={} requested={} phase=HERM_BEGIN",int(TOAM::Core::ExclusiveCast::Current()),int(owner));return false;
+ }
+ h.spell=c->currentSpell;h.adaptive=adaptive;h.family=family;h.mode=nextMode;
  h.damageMultiplier=TOAM::Core::DamageSettings::GetMultiplier();
  h.circleColor=TOAM::Presentation::Snapshot(TOAM::Presentation::modeSpell[h.mode]);for(auto& art:h.circles)art.tint.color=h.circleColor;
  const auto& other=hands[1-side];
  auto* otherCaster=c->actor->GetMagicCaster(side==0?RE::MagicSystem::CastingSource::kRightHand:RE::MagicSystem::CastingSource::kLeftHand);
  const bool otherActive=otherCaster&&OwnsHandMagic(otherCaster->currentSpell)&&other.spell==otherCaster->currentSpell&&!other.done;
  if(!CanBeginMode(h.mode,other.mode,otherActive)){
+  if(h.mode==Hermit)TOAM::Core::ExclusiveCast::Release(owner);
   h.done=true;h.denied=true;logger::info("ULTIMATE_DENIED mode={} hand={} owner={}",h.mode,side,1-side);return false;
  }
  h.worldAir=FlightActive();h.bank=++generations[side]%4;h.rng=0x932a5f1u+generations[side]*7237u+side*91823u;
@@ -85,6 +97,9 @@ bool CheckFromHost(HostCheckFn next,RE::ActorMagicCaster* c,RE::MagicItem* spell
  const auto* live=GetHand(c);
  const int mode=live&&live->spell==spell&&!live->done&&c->state==RE::MagicCaster::State::kCasting?
   live->mode:(id>=8?SelectMode(id-8,ReadStance(c->actor)):id);
+ if(mode==Hermit&&live&&!TOAM::Core::ExclusiveCast::Allows(TOAM::Core::ExclusiveCast::HandOwner(GetHand(c)==&hands[0]?0:1))){
+  if(reason)*reason=RE::MagicSystem::CannotCastReason::kCustomReasonNoStart;return false;
+ }
  // Preserve vanilla Hermit denial, then add capped-cost admission even when
  // vanilla CalculateMagickaCost returns0 from100% equipment reduction.
  if(mode==Hermit&&!IsStaff(spell)&&!originalOK){if(reason)*reason=observed;return false;}
@@ -125,6 +140,7 @@ void Start(RE::ActorMagicCaster* c){
 void Complete(Hand& h,int side,RE::Actor* actor){
  for(int i=0;i<12;i++)RetireHandCircle(h,h.circles[i],i,side,true,actor);if(h.loop.IsValid())static_cast<void>(h.loop.Stop());
  ClearPreparedBursts(side);StopBeams(side,true);StopRainShots(side,true,actor);ClearGuard(side);ClearSlows(side);h.done=true;
+ if(h.mode==Hermit)TOAM::Core::ExclusiveCast::Release(TOAM::Core::ExclusiveCast::HandOwner(side));
 }
 #include "HandUpdate.inl"
 template<class T>T* Get(std::uint32_t id){

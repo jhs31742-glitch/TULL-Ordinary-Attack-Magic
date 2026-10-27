@@ -19,6 +19,7 @@
 #include "FlightLegPoseData.h"
 #include <cstring>
 #include "Integration.h"
+#include "Core/ExclusiveCast.h"
 #include "Core/DamageSettings.h"
 #include "Core/PresentationSettings.h"
 #include "VFX/CircleTint.h"

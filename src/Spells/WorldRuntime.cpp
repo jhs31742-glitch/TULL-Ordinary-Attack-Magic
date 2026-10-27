@@ -1,4 +1,5 @@
 #include "Arcana/Integration.h"
+#include "Core/ExclusiveCast.h"
 #include "Audio/SpellAudio.h"
 
 #include "Spells/WorldRuntime.h"
@@ -1761,6 +1762,7 @@ namespace TOAM::Spells::World::Runtime
     bool BeginCharge(
         RE::PlayerCharacter* player) noexcept
     {
+        if (!player || player->IsDead() || !player->Is3DLoaded()) return false;
         if (
             !IsWorldSelected(
                 player
@@ -1801,6 +1803,11 @@ namespace TOAM::Spells::World::Runtime
             return false;
         }
 
+        if (!TOAM::Core::ExclusiveCast::Acquire(TOAM::Core::ExclusiveCast::Owner::World)) {
+            logger::info("[TOAM][CP034] EXCLUSIVE_DENY owner={} requested=WORLD phase=WORLD_BEGIN",int(TOAM::Core::ExclusiveCast::Current()));
+            return false;
+        }
+
         // Clear any expired/stale post-release handles before a new charge.
         ReleaseAllWorldVisuals();
 
@@ -1821,6 +1828,7 @@ namespace TOAM::Spells::World::Runtime
                 admissionMultiplier
             )
         ) {
+            TOAM::Core::ExclusiveCast::Release(TOAM::Core::ExclusiveCast::Owner::World);
             return false;
         }
 
@@ -1862,11 +1870,8 @@ namespace TOAM::Spells::World::Runtime
         }
 
 
-        if (
-            !IsWorldSelected(
-                player
-            )
-        ) {
+        if (player->IsDead() || !player->Is3DLoaded() ||
+            !IsWorldSelected(player)) {
             CancelCharge();
             return;
         }
@@ -2027,6 +2032,7 @@ namespace TOAM::Spells::World::Runtime
             !state.session.IsActive()
         ) {
             ReleaseCircleVisuals();
+            TOAM::Core::ExclusiveCast::Release(TOAM::Core::ExclusiveCast::Owner::World);
             return output;
         }
 
@@ -2052,7 +2058,7 @@ namespace TOAM::Spells::World::Runtime
                 0.0;
 
             ReleaseCircleVisuals();
-
+            TOAM::Core::ExclusiveCast::Release(TOAM::Core::ExclusiveCast::Owner::World);
             return output;
         }
 
@@ -2160,6 +2166,7 @@ namespace TOAM::Spells::World::Runtime
             0.0;
 
 
+        TOAM::Core::ExclusiveCast::Release(TOAM::Core::ExclusiveCast::Owner::World);
         return output;
     }
 
@@ -2192,6 +2199,7 @@ namespace TOAM::Spells::World::Runtime
 
 
         ReleaseAllWorldVisuals();
+        TOAM::Core::ExclusiveCast::Release(TOAM::Core::ExclusiveCast::Owner::World);
 
 
         if (hadState) {

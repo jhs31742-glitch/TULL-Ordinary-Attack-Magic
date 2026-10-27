@@ -1,0 +1,1715 @@
+{
+  "mapping": [
+    [
+      "Fool",
+      "광대",
+      "0"
+    ],
+    [
+      "Magician",
+      "마법사",
+      "I"
+    ],
+    [
+      "High Priestess",
+      "여사제",
+      "II"
+    ],
+    [
+      "Emperor",
+      "황제",
+      "IV"
+    ],
+    [
+      "Chariot",
+      "전차",
+      "VII"
+    ],
+    [
+      "Strength",
+      "힘",
+      "VIII"
+    ],
+    [
+      "Hermit",
+      "은둔자",
+      "IX"
+    ],
+    [
+      "Justice",
+      "정의",
+      "XI"
+    ],
+    [
+      "Temperance",
+      "절제",
+      "XIV"
+    ],
+    [
+      "Tower",
+      "탑",
+      "XVI"
+    ],
+    [
+      "Star",
+      "별",
+      "XVII"
+    ],
+    [
+      "Moon",
+      "달",
+      "XVIII"
+    ],
+    [
+      "Sun",
+      "태양",
+      "XIX"
+    ],
+    [
+      "Judgement",
+      "심판",
+      "XX"
+    ],
+    [
+      "World",
+      "세계",
+      "XXI"
+    ]
+  ],
+  "changes": [
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "MGEF",
+      "form": "03000870",
+      "before": "Arcana - High Priestess",
+      "after": "Arcana - II High Priestess"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "MGEF",
+      "form": "03000871",
+      "before": "Arcana - Moon",
+      "after": "Arcana - XVIII Moon"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "SPEL",
+      "form": "03000800",
+      "before": "Arcana - High Priestess",
+      "after": "Arcana - II High Priestess"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "SPEL",
+      "form": "03000801",
+      "before": "Arcana - Moon",
+      "after": "Arcana - XVIII Moon"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "ENCH",
+      "form": "03000810",
+      "before": "Arcana - High Priestess Staff Enchantment",
+      "after": "Arcana - II High Priestess Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "ENCH",
+      "form": "03000811",
+      "before": "Arcana - Moon Staff Enchantment",
+      "after": "Arcana - XVIII Moon Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "WEAP",
+      "form": "03000830",
+      "before": "Arcana - High Priestess Staff (Unbound)",
+      "after": "Arcana - II High Priestess Staff (Unbound)"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "WEAP",
+      "form": "03000831",
+      "before": "Arcana - Moon Staff (Unbound)",
+      "after": "Arcana - XVIII Moon Staff (Unbound)"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "BOOK",
+      "form": "03000840",
+      "before": "Ordinary Attack Magic: Arcana - High Priestess",
+      "after": "Ordinary Attack Magic: Arcana - II High Priestess"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "BOOK",
+      "form": "03000841",
+      "before": "Ordinary Attack Magic: Arcana - Moon",
+      "after": "Ordinary Attack Magic: Arcana - XVIII Moon"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5A",
+      "before": "Arcana - Emperor",
+      "after": "Arcana - IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A62",
+      "before": "AS_Damage_FirstClass_Emperor",
+      "after": "AS_Damage_FirstClass_IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5B",
+      "before": "Arcana - Hermit",
+      "after": "Arcana - IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A63",
+      "before": "AS_Damage_FirstClass_Hermit",
+      "after": "AS_Damage_FirstClass_IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5C",
+      "before": "Arcana - Chariot",
+      "after": "Arcana - VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A64",
+      "before": "AS_Damage_FirstClass_Chariot",
+      "after": "AS_Damage_FirstClass_VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5D",
+      "before": "Arcana - Sun",
+      "after": "Arcana - XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A65",
+      "before": "AS_Damage_FirstClass_Sun",
+      "after": "AS_Damage_FirstClass_XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5E",
+      "before": "Arcana - Strength",
+      "after": "Arcana - VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A66",
+      "before": "AS_Damage_Millennial_Strength",
+      "after": "AS_Damage_Millennial_VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5F",
+      "before": "Arcana - Justice",
+      "after": "Arcana - XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A67",
+      "before": "AS_Damage_Millennial_Justice",
+      "after": "AS_Damage_Millennial_XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A60",
+      "before": "Arcana - Star",
+      "after": "Arcana - XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A68",
+      "before": "AS_Damage_Millennial_Star",
+      "after": "AS_Damage_Millennial_XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A61",
+      "before": "Arcana - Tower",
+      "after": "Arcana - XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A69",
+      "before": "AS_Damage_Millennial_Tower",
+      "after": "AS_Damage_Millennial_XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000C86",
+      "before": "Arcana - Sun Contact (Internal)",
+      "after": "Arcana - XIX Sun Contact (Internal)"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000C8D",
+      "before": "Arcana - Justice Contact (Internal)",
+      "after": "Arcana - XI Justice Contact (Internal)"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000C8F",
+      "before": "Arcana - Fool (Levitation)",
+      "after": "Arcana - 0 Fool (Levitation)"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A21",
+      "before": "Arcana - Emperor Staff Enchantment",
+      "after": "Arcana - IV Emperor Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A22",
+      "before": "Arcana - Hermit Staff Enchantment",
+      "after": "Arcana - IX Hermit Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A23",
+      "before": "Arcana - Chariot Staff Enchantment",
+      "after": "Arcana - VII Chariot Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A24",
+      "before": "Arcana - Sun Staff Enchantment",
+      "after": "Arcana - XIX Sun Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A25",
+      "before": "Arcana - Strength Staff Enchantment",
+      "after": "Arcana - VIII Strength Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A26",
+      "before": "Arcana - Justice Staff Enchantment",
+      "after": "Arcana - XI Justice Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A27",
+      "before": "Arcana - Star Staff Enchantment",
+      "after": "Arcana - XVII Star Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A28",
+      "before": "Arcana - Tower Staff Enchantment",
+      "after": "Arcana - XVI Tower Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000800",
+      "before": "Arcana - Magician",
+      "after": "Arcana - I Magician"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000801",
+      "before": "Arcana - Judgement",
+      "after": "Arcana - XX Judgement"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000802",
+      "before": "Arcana - World",
+      "after": "Arcana - XXI World"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000803",
+      "before": "Arcana - Temperance",
+      "after": "Arcana - XIV Temperance"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000809",
+      "before": "Arcana - Emperor",
+      "after": "Arcana - IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A29",
+      "before": "Arcana - Payload_FirstClass_Emperor",
+      "after": "Arcana - Payload_FirstClass_IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080A",
+      "before": "Arcana - Hermit",
+      "after": "Arcana - IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2A",
+      "before": "Arcana - Payload_FirstClass_Hermit",
+      "after": "Arcana - Payload_FirstClass_IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080B",
+      "before": "Arcana - Chariot",
+      "after": "Arcana - VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2B",
+      "before": "Arcana - Payload_FirstClass_Chariot",
+      "after": "Arcana - Payload_FirstClass_VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080C",
+      "before": "Arcana - Sun",
+      "after": "Arcana - XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2C",
+      "before": "Arcana - Payload_FirstClass_Sun",
+      "after": "Arcana - Payload_FirstClass_XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080D",
+      "before": "Arcana - Strength",
+      "after": "Arcana - VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2D",
+      "before": "Arcana - Payload_Millennial_Strength",
+      "after": "Arcana - Payload_Millennial_VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080E",
+      "before": "Arcana - Justice",
+      "after": "Arcana - XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2E",
+      "before": "Arcana - Payload_Millennial_Justice",
+      "after": "Arcana - Payload_Millennial_XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A1F",
+      "before": "Arcana - Star",
+      "after": "Arcana - XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2F",
+      "before": "Arcana - Payload_Millennial_Star",
+      "after": "Arcana - Payload_Millennial_XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A20",
+      "before": "Arcana - Tower",
+      "after": "Arcana - XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A30",
+      "before": "Arcana - Payload_Millennial_Tower",
+      "after": "Arcana - Payload_Millennial_XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000C87",
+      "before": "Arcana - Sun Contact (Internal)",
+      "after": "Arcana - XIX Sun Contact (Internal)"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000C8E",
+      "before": "Arcana - Justice Contact (Internal)",
+      "after": "Arcana - XI Justice Contact (Internal)"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000C90",
+      "before": "Arcana - Fool (Levitation)",
+      "after": "Arcana - 0 Fool (Levitation)"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000804",
+      "before": "Ordinary Attack Magic: Arcana - Magician",
+      "after": "Ordinary Attack Magic: Arcana - I Magician"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000805",
+      "before": "Ordinary Attack Magic: Arcana - Judgement",
+      "after": "Ordinary Attack Magic: Arcana - XX Judgement"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000806",
+      "before": "Ordinary Attack Magic: Arcana - World",
+      "after": "Ordinary Attack Magic: Arcana - XXI World"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000807",
+      "before": "Ordinary Attack Magic: Arcana - Temperance",
+      "after": "Ordinary Attack Magic: Arcana - XIV Temperance"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A39",
+      "before": "Ordinary Attack Magic: Arcana - Emperor",
+      "after": "Ordinary Attack Magic: Arcana - IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3A",
+      "before": "Ordinary Attack Magic: Arcana - Hermit",
+      "after": "Ordinary Attack Magic: Arcana - IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3B",
+      "before": "Ordinary Attack Magic: Arcana - Chariot",
+      "after": "Ordinary Attack Magic: Arcana - VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3C",
+      "before": "Ordinary Attack Magic: Arcana - Sun",
+      "after": "Ordinary Attack Magic: Arcana - XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3D",
+      "before": "Ordinary Attack Magic: Arcana - Strength",
+      "after": "Ordinary Attack Magic: Arcana - VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3E",
+      "before": "Ordinary Attack Magic: Arcana - Justice",
+      "after": "Ordinary Attack Magic: Arcana - XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3F",
+      "before": "Ordinary Attack Magic: Arcana - Star",
+      "after": "Ordinary Attack Magic: Arcana - XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A40",
+      "before": "Ordinary Attack Magic: Arcana - Tower",
+      "after": "Ordinary Attack Magic: Arcana - XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000C96",
+      "before": "Ordinary General Magic: Arcana - Fool (Levitation)",
+      "after": "Ordinary General Magic: Arcana - 0 Fool (Levitation)"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A31",
+      "before": "Arcana - Emperor Staff",
+      "after": "Arcana - IV Emperor Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A32",
+      "before": "Arcana - Hermit Staff",
+      "after": "Arcana - IX Hermit Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A33",
+      "before": "Arcana - Chariot Staff",
+      "after": "Arcana - VII Chariot Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A34",
+      "before": "Arcana - Sun Staff",
+      "after": "Arcana - XIX Sun Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A35",
+      "before": "Arcana - Strength Staff",
+      "after": "Arcana - VIII Strength Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A36",
+      "before": "Arcana - Justice Staff",
+      "after": "Arcana - XI Justice Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A37",
+      "before": "Arcana - Star Staff",
+      "after": "Arcana - XVII Star Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A38",
+      "before": "Arcana - Tower Staff",
+      "after": "Arcana - XVI Tower Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "MGEF",
+      "form": "03000870",
+      "before": "Arcana - High Priestess",
+      "after": "Arcana - II High Priestess"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "MGEF",
+      "form": "03000871",
+      "before": "Arcana - Moon",
+      "after": "Arcana - XVIII Moon"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "SPEL",
+      "form": "03000800",
+      "before": "Arcana - High Priestess",
+      "after": "Arcana - II High Priestess"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "SPEL",
+      "form": "03000801",
+      "before": "Arcana - Moon",
+      "after": "Arcana - XVIII Moon"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "ENCH",
+      "form": "03000810",
+      "before": "Arcana - High Priestess Staff Enchantment",
+      "after": "Arcana - II High Priestess Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "ENCH",
+      "form": "03000811",
+      "before": "Arcana - Moon Staff Enchantment",
+      "after": "Arcana - XVIII Moon Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "WEAP",
+      "form": "03000830",
+      "before": "Arcana - High Priestess Staff (Unbound)",
+      "after": "Arcana - II High Priestess Staff (Unbound)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "WEAP",
+      "form": "03000831",
+      "before": "Arcana - Moon Staff (Unbound)",
+      "after": "Arcana - XVIII Moon Staff (Unbound)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "BOOK",
+      "form": "03000840",
+      "before": "Ordinary Attack Magic: Arcana - High Priestess",
+      "after": "Ordinary Attack Magic: Arcana - II High Priestess"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "BOOK",
+      "form": "03000841",
+      "before": "Ordinary Attack Magic: Arcana - Moon",
+      "after": "Ordinary Attack Magic: Arcana - XVIII Moon"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5A",
+      "before": "Arcana - Emperor",
+      "after": "Arcana - IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A62",
+      "before": "AS_Damage_FirstClass_Emperor",
+      "after": "AS_Damage_FirstClass_IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5B",
+      "before": "Arcana - Hermit",
+      "after": "Arcana - IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A63",
+      "before": "AS_Damage_FirstClass_Hermit",
+      "after": "AS_Damage_FirstClass_IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5C",
+      "before": "Arcana - Chariot",
+      "after": "Arcana - VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A64",
+      "before": "AS_Damage_FirstClass_Chariot",
+      "after": "AS_Damage_FirstClass_VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5D",
+      "before": "Arcana - Sun",
+      "after": "Arcana - XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A65",
+      "before": "AS_Damage_FirstClass_Sun",
+      "after": "AS_Damage_FirstClass_XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5E",
+      "before": "Arcana - Strength",
+      "after": "Arcana - VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A66",
+      "before": "AS_Damage_Millennial_Strength",
+      "after": "AS_Damage_Millennial_VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5F",
+      "before": "Arcana - Justice",
+      "after": "Arcana - XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A67",
+      "before": "AS_Damage_Millennial_Justice",
+      "after": "AS_Damage_Millennial_XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A60",
+      "before": "Arcana - Star",
+      "after": "Arcana - XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A68",
+      "before": "AS_Damage_Millennial_Star",
+      "after": "AS_Damage_Millennial_XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A61",
+      "before": "Arcana - Tower",
+      "after": "Arcana - XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A69",
+      "before": "AS_Damage_Millennial_Tower",
+      "after": "AS_Damage_Millennial_XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000C86",
+      "before": "Arcana - Sun Contact (Internal)",
+      "after": "Arcana - XIX Sun Contact (Internal)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000C8D",
+      "before": "Arcana - Justice Contact (Internal)",
+      "after": "Arcana - XI Justice Contact (Internal)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000C8F",
+      "before": "Arcana - Fool (Levitation)",
+      "after": "Arcana - 0 Fool (Levitation)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A21",
+      "before": "Arcana - Emperor Staff Enchantment",
+      "after": "Arcana - IV Emperor Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A22",
+      "before": "Arcana - Hermit Staff Enchantment",
+      "after": "Arcana - IX Hermit Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A23",
+      "before": "Arcana - Chariot Staff Enchantment",
+      "after": "Arcana - VII Chariot Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A24",
+      "before": "Arcana - Sun Staff Enchantment",
+      "after": "Arcana - XIX Sun Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A25",
+      "before": "Arcana - Strength Staff Enchantment",
+      "after": "Arcana - VIII Strength Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A26",
+      "before": "Arcana - Justice Staff Enchantment",
+      "after": "Arcana - XI Justice Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A27",
+      "before": "Arcana - Star Staff Enchantment",
+      "after": "Arcana - XVII Star Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A28",
+      "before": "Arcana - Tower Staff Enchantment",
+      "after": "Arcana - XVI Tower Staff Enchantment"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000800",
+      "before": "Arcana - Magician",
+      "after": "Arcana - I Magician"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000801",
+      "before": "Arcana - Judgement",
+      "after": "Arcana - XX Judgement"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000802",
+      "before": "Arcana - World",
+      "after": "Arcana - XXI World"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000803",
+      "before": "Arcana - Temperance",
+      "after": "Arcana - XIV Temperance"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000809",
+      "before": "Arcana - Emperor",
+      "after": "Arcana - IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A29",
+      "before": "Arcana - Payload_FirstClass_Emperor",
+      "after": "Arcana - Payload_FirstClass_IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080A",
+      "before": "Arcana - Hermit",
+      "after": "Arcana - IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2A",
+      "before": "Arcana - Payload_FirstClass_Hermit",
+      "after": "Arcana - Payload_FirstClass_IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080B",
+      "before": "Arcana - Chariot",
+      "after": "Arcana - VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2B",
+      "before": "Arcana - Payload_FirstClass_Chariot",
+      "after": "Arcana - Payload_FirstClass_VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080C",
+      "before": "Arcana - Sun",
+      "after": "Arcana - XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2C",
+      "before": "Arcana - Payload_FirstClass_Sun",
+      "after": "Arcana - Payload_FirstClass_XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080D",
+      "before": "Arcana - Strength",
+      "after": "Arcana - VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2D",
+      "before": "Arcana - Payload_Millennial_Strength",
+      "after": "Arcana - Payload_Millennial_VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080E",
+      "before": "Arcana - Justice",
+      "after": "Arcana - XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2E",
+      "before": "Arcana - Payload_Millennial_Justice",
+      "after": "Arcana - Payload_Millennial_XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A1F",
+      "before": "Arcana - Star",
+      "after": "Arcana - XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2F",
+      "before": "Arcana - Payload_Millennial_Star",
+      "after": "Arcana - Payload_Millennial_XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A20",
+      "before": "Arcana - Tower",
+      "after": "Arcana - XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A30",
+      "before": "Arcana - Payload_Millennial_Tower",
+      "after": "Arcana - Payload_Millennial_XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000C87",
+      "before": "Arcana - Sun Contact (Internal)",
+      "after": "Arcana - XIX Sun Contact (Internal)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000C8E",
+      "before": "Arcana - Justice Contact (Internal)",
+      "after": "Arcana - XI Justice Contact (Internal)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000C90",
+      "before": "Arcana - Fool (Levitation)",
+      "after": "Arcana - 0 Fool (Levitation)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000804",
+      "before": "Ordinary Attack Magic: Arcana - Magician",
+      "after": "Ordinary Attack Magic: Arcana - I Magician"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000805",
+      "before": "Ordinary Attack Magic: Arcana - Judgement",
+      "after": "Ordinary Attack Magic: Arcana - XX Judgement"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000806",
+      "before": "Ordinary Attack Magic: Arcana - World",
+      "after": "Ordinary Attack Magic: Arcana - XXI World"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000807",
+      "before": "Ordinary Attack Magic: Arcana - Temperance",
+      "after": "Ordinary Attack Magic: Arcana - XIV Temperance"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A39",
+      "before": "Ordinary Attack Magic: Arcana - Emperor",
+      "after": "Ordinary Attack Magic: Arcana - IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3A",
+      "before": "Ordinary Attack Magic: Arcana - Hermit",
+      "after": "Ordinary Attack Magic: Arcana - IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3B",
+      "before": "Ordinary Attack Magic: Arcana - Chariot",
+      "after": "Ordinary Attack Magic: Arcana - VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3C",
+      "before": "Ordinary Attack Magic: Arcana - Sun",
+      "after": "Ordinary Attack Magic: Arcana - XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3D",
+      "before": "Ordinary Attack Magic: Arcana - Strength",
+      "after": "Ordinary Attack Magic: Arcana - VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3E",
+      "before": "Ordinary Attack Magic: Arcana - Justice",
+      "after": "Ordinary Attack Magic: Arcana - XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3F",
+      "before": "Ordinary Attack Magic: Arcana - Star",
+      "after": "Ordinary Attack Magic: Arcana - XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A40",
+      "before": "Ordinary Attack Magic: Arcana - Tower",
+      "after": "Ordinary Attack Magic: Arcana - XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000C96",
+      "before": "Ordinary General Magic: Arcana - Fool (Levitation)",
+      "after": "Ordinary General Magic: Arcana - 0 Fool (Levitation)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A31",
+      "before": "Arcana - Emperor Staff",
+      "after": "Arcana - IV Emperor Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A32",
+      "before": "Arcana - Hermit Staff",
+      "after": "Arcana - IX Hermit Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A33",
+      "before": "Arcana - Chariot Staff",
+      "after": "Arcana - VII Chariot Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A34",
+      "before": "Arcana - Sun Staff",
+      "after": "Arcana - XIX Sun Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A35",
+      "before": "Arcana - Strength Staff",
+      "after": "Arcana - VIII Strength Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A36",
+      "before": "Arcana - Justice Staff",
+      "after": "Arcana - XI Justice Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A37",
+      "before": "Arcana - Star Staff",
+      "after": "Arcana - XVII Star Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+      "record": "WEAP",
+      "form": "01000A38",
+      "before": "Arcana - Tower Staff",
+      "after": "Arcana - XVI Tower Staff"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "MGEF",
+      "form": "03000870",
+      "before": "아르카나 - 여사제",
+      "after": "아르카나 - II 여사제"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "MGEF",
+      "form": "03000871",
+      "before": "아르카나 - 달",
+      "after": "아르카나 - XVIII 달"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "SPEL",
+      "form": "03000800",
+      "before": "아르카나 - 여사제",
+      "after": "아르카나 - II 여사제"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "SPEL",
+      "form": "03000801",
+      "before": "아르카나 - 달",
+      "after": "아르카나 - XVIII 달"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "ENCH",
+      "form": "03000810",
+      "before": "아르카나 - 여사제 지팡이 고유 인챈트",
+      "after": "아르카나 - II 여사제 지팡이 고유 인챈트"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "ENCH",
+      "form": "03000811",
+      "before": "아르카나 - 달 지팡이 고유 인챈트",
+      "after": "아르카나 - XVIII 달 지팡이 고유 인챈트"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "BOOK",
+      "form": "03000840",
+      "before": "일반공격마법: 아르카나 - 여사제",
+      "after": "일반공격마법: 아르카나 - II 여사제"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
+      "record": "BOOK",
+      "form": "03000841",
+      "before": "일반공격마법: 아르카나 - 달",
+      "after": "일반공격마법: 아르카나 - XVIII 달"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5A",
+      "before": "아르카나 - 황제",
+      "after": "아르카나 - IV 황제"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A62",
+      "before": "AS_Damage_FirstClass_Emperor",
+      "after": "AS_Damage_FirstClass_IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5B",
+      "before": "아르카나 - 은둔자",
+      "after": "아르카나 - IX 은둔자"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A63",
+      "before": "AS_Damage_FirstClass_Hermit",
+      "after": "AS_Damage_FirstClass_IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5C",
+      "before": "아르카나 - 전차",
+      "after": "아르카나 - VII 전차"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A64",
+      "before": "AS_Damage_FirstClass_Chariot",
+      "after": "AS_Damage_FirstClass_VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5D",
+      "before": "아르카나 - 태양",
+      "after": "아르카나 - XIX 태양"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A65",
+      "before": "AS_Damage_FirstClass_Sun",
+      "after": "AS_Damage_FirstClass_XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5E",
+      "before": "아르카나 - 힘",
+      "after": "아르카나 - VIII 힘"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A66",
+      "before": "AS_Damage_Millennial_Strength",
+      "after": "AS_Damage_Millennial_VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A5F",
+      "before": "아르카나 - 정의",
+      "after": "아르카나 - XI 정의"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A67",
+      "before": "AS_Damage_Millennial_Justice",
+      "after": "AS_Damage_Millennial_XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A60",
+      "before": "아르카나 - 별",
+      "after": "아르카나 - XVII 별"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A68",
+      "before": "AS_Damage_Millennial_Star",
+      "after": "AS_Damage_Millennial_XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A61",
+      "before": "아르카나 - 탑",
+      "after": "아르카나 - XVI 탑"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000A69",
+      "before": "AS_Damage_Millennial_Tower",
+      "after": "AS_Damage_Millennial_XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000C86",
+      "before": "아르카나 - 태양 접촉 판정 (내부)",
+      "after": "아르카나 - XIX 태양 접촉 판정 (내부)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000C8D",
+      "before": "아르카나 - 정의 접촉 판정 (내부)",
+      "after": "아르카나 - XI 정의 접촉 판정 (내부)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "MGEF",
+      "form": "01000C8F",
+      "before": "아르카나 - 광대 (공중부양)",
+      "after": "아르카나 - 0 광대 (공중부양)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A21",
+      "before": "아르카나 - 황제 지팡이 고유 인챈트",
+      "after": "아르카나 - IV 황제 지팡이 고유 인챈트"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A22",
+      "before": "아르카나 - 은둔자 지팡이 고유 인챈트",
+      "after": "아르카나 - IX 은둔자 지팡이 고유 인챈트"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A23",
+      "before": "아르카나 - 전차 지팡이 고유 인챈트",
+      "after": "아르카나 - VII 전차 지팡이 고유 인챈트"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A24",
+      "before": "아르카나 - 태양 지팡이 고유 인챈트",
+      "after": "아르카나 - XIX 태양 지팡이 고유 인챈트"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A25",
+      "before": "아르카나 - 힘 지팡이 고유 인챈트",
+      "after": "아르카나 - VIII 힘 지팡이 고유 인챈트"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A26",
+      "before": "아르카나 - 정의 지팡이 고유 인챈트",
+      "after": "아르카나 - XI 정의 지팡이 고유 인챈트"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A27",
+      "before": "아르카나 - 별 지팡이 고유 인챈트",
+      "after": "아르카나 - XVII 별 지팡이 고유 인챈트"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "ENCH",
+      "form": "01000A28",
+      "before": "아르카나 - 탑 지팡이 고유 인챈트",
+      "after": "아르카나 - XVI 탑 지팡이 고유 인챈트"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000800",
+      "before": "아르카나 - 마법사",
+      "after": "아르카나 - I 마법사"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000801",
+      "before": "아르카나 - 심판",
+      "after": "아르카나 - XX 심판"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000802",
+      "before": "아르카나 - 세계",
+      "after": "아르카나 - XXI 세계"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000803",
+      "before": "아르카나 - 절제",
+      "after": "아르카나 - XIV 절제"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000809",
+      "before": "아르카나 - 황제",
+      "after": "아르카나 - IV 황제"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A29",
+      "before": "Arcana - Payload_FirstClass_Emperor",
+      "after": "Arcana - Payload_FirstClass_IV Emperor"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080A",
+      "before": "아르카나 - 은둔자",
+      "after": "아르카나 - IX 은둔자"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2A",
+      "before": "Arcana - Payload_FirstClass_Hermit",
+      "after": "Arcana - Payload_FirstClass_IX Hermit"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080B",
+      "before": "아르카나 - 전차",
+      "after": "아르카나 - VII 전차"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2B",
+      "before": "Arcana - Payload_FirstClass_Chariot",
+      "after": "Arcana - Payload_FirstClass_VII Chariot"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080C",
+      "before": "아르카나 - 태양",
+      "after": "아르카나 - XIX 태양"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2C",
+      "before": "Arcana - Payload_FirstClass_Sun",
+      "after": "Arcana - Payload_FirstClass_XIX Sun"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080D",
+      "before": "아르카나 - 힘",
+      "after": "아르카나 - VIII 힘"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2D",
+      "before": "Arcana - Payload_Millennial_Strength",
+      "after": "Arcana - Payload_Millennial_VIII Strength"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "0100080E",
+      "before": "아르카나 - 정의",
+      "after": "아르카나 - XI 정의"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2E",
+      "before": "Arcana - Payload_Millennial_Justice",
+      "after": "Arcana - Payload_Millennial_XI Justice"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A1F",
+      "before": "아르카나 - 별",
+      "after": "아르카나 - XVII 별"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A2F",
+      "before": "Arcana - Payload_Millennial_Star",
+      "after": "Arcana - Payload_Millennial_XVII Star"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A20",
+      "before": "아르카나 - 탑",
+      "after": "아르카나 - XVI 탑"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000A30",
+      "before": "Arcana - Payload_Millennial_Tower",
+      "after": "Arcana - Payload_Millennial_XVI Tower"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000C87",
+      "before": "아르카나 - 태양 접촉 판정 (내부)",
+      "after": "아르카나 - XIX 태양 접촉 판정 (내부)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000C8E",
+      "before": "아르카나 - 정의 접촉 판정 (내부)",
+      "after": "아르카나 - XI 정의 접촉 판정 (내부)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "SPEL",
+      "form": "01000C90",
+      "before": "아르카나 - 광대 (공중부양)",
+      "after": "아르카나 - 0 광대 (공중부양)"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000804",
+      "before": "일반공격마법: 아르카나 - 마법사",
+      "after": "일반공격마법: 아르카나 - I 마법사"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000805",
+      "before": "일반공격마법: 아르카나 - 심판",
+      "after": "일반공격마법: 아르카나 - XX 심판"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000806",
+      "before": "일반공격마법: 아르카나 - 세계",
+      "after": "일반공격마법: 아르카나 - XXI 세계"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000807",
+      "before": "일반공격마법: 아르카나 - 절제",
+      "after": "일반공격마법: 아르카나 - XIV 절제"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A39",
+      "before": "일반공격마법: 아르카나 - 황제",
+      "after": "일반공격마법: 아르카나 - IV 황제"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3A",
+      "before": "일반공격마법: 아르카나 - 은둔자",
+      "after": "일반공격마법: 아르카나 - IX 은둔자"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3B",
+      "before": "일반공격마법: 아르카나 - 전차",
+      "after": "일반공격마법: 아르카나 - VII 전차"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3C",
+      "before": "일반공격마법: 아르카나 - 태양",
+      "after": "일반공격마법: 아르카나 - XIX 태양"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3D",
+      "before": "일반공격마법: 아르카나 - 힘",
+      "after": "일반공격마법: 아르카나 - VIII 힘"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3E",
+      "before": "일반공격마법: 아르카나 - 정의",
+      "after": "일반공격마법: 아르카나 - XI 정의"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A3F",
+      "before": "일반공격마법: 아르카나 - 별",
+      "after": "일반공격마법: 아르카나 - XVII 별"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000A40",
+      "before": "일반공격마법: 아르카나 - 탑",
+      "after": "일반공격마법: 아르카나 - XVI 탑"
+    },
+    {
+      "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+      "record": "BOOK",
+      "form": "01000C96",
+      "before": "일반교양마법: 아르카나 - 광대 (공중부양)",
+      "after": "일반교양마법: 아르카나 - 0 광대 (공중부양)"
+    }
+  ],
+  "nonFULL": "ALL_SIX_EXACT",
+  "language": "ROOT_EQUALS_EN_NONFULL_KR_EXACT",
+  "Fool": "0; no Roman numeral zero exists"
+}

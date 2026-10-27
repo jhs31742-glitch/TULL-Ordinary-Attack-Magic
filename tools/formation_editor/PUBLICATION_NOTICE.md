@@ -1,4 +1,19 @@
-# Standalone publication preparation / 독립 공개 준비
-This self-contained source tool is prepared for separate distribution on GitHub,Nexus and other modding communities. TULL requested reuse by other mod developers and AIs. The executable HTML and unminified source are the same package; there is no hidden binary. English/Korean manuals and source-backed numeric references are included.
-No standardized software license has yet been selected. Resolve that publisher choice before public upload; do not attach unrelated Skyrim/mod art or third-party binaries. The complete TOAM source retains historical engineering/art research; this small standalone package contains only the improved tool and numeric references.
-이 도구는 다른 모드·다른 AI의 재사용을 위해 별도 파일로 준비했습니다. 정식 공개 라이선스는 아직 선택되지 않았으며 공개 전 발행자가 확정해야 합니다. 실제 게임 아트·바이너리는 포함하지 않습니다.
+# Formation Editor 1.0 — licensing and public-release review
+
+Original editor HTML, JavaScript, schema, tests and manuals authored for TULL:
+MIT License, copyright 2026 TULL. See LICENSE.
+
+Coordinate presets, game references and third-party materials are NOT
+automatically licensed. Review attribution/permission before publication.
+
+The offline editor is a planning/layout JSON tool, not a Skyrim NIF writer
+or in-game editor.
+
+STATUS: LICENSE_SELECTED / ASSET_RIGHTS_REVIEW_PENDING /
+GITHUB_PUBLICATION_AUTHORIZED_2026_10_27; NEXUS_UPLOAD_NOT_RUN.
+
+# 편집기 공개 안내
+
+TULL이 권리를 가진 편집기 코드·설명서는 MIT 라이선스입니다.
+제3자 게임 자산·참고 데이터까지 재라이선스한 것은 아닙니다.
+공개 전 출처·권리 검토가 필요합니다.

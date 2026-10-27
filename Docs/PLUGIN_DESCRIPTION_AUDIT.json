@@ -1,0 +1,50 @@
+[
+  {
+    "path": "assets/TOAM/Data/TULL Ordinary Attack Magic - Stances Addon.esp",
+    "field": "TES4/SNAM",
+    "author": "TULL",
+    "before": "TULL Ordinary Attack Magic - Stances Addon",
+    "after": "TOAM v1.0.3 - Optional Stances Addon. II High Priestess / XVIII Moon adaptive spells and Unbound staffs. Requires TOAM Main and Stances - Dynamic Weapon Movesets SE.esp. SE 1.5.97 only.",
+    "gameplay": "UNCHANGED"
+  },
+  {
+    "path": "assets/TOAM/Data/TULL Ordinary Attack Magic.esp",
+    "field": "TES4/SNAM",
+    "author": "TULL",
+    "before": "TULL Ordinary Attack Magic",
+    "after": "TOAM v1.0.3 - Main. Tarot spells, staffs and levitation. Includes audio, camera shake and circle color settings. Skyrim SE 1.5.97 only.",
+    "gameplay": "UNCHANGED"
+  },
+  {
+    "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp",
+    "field": "TES4/SNAM",
+    "author": "TULL",
+    "before": "TULL Ordinary Attack Magic - Stances Addon",
+    "after": "TOAM v1.0.3 - Optional Stances Addon. II High Priestess / XVIII Moon adaptive spells and Unbound staffs. Requires TOAM Main and Stances - Dynamic Weapon Movesets SE.esp. SE 1.5.97 only.",
+    "gameplay": "UNCHANGED"
+  },
+  {
+    "path": "assets/TOAM/Data/Language/en/TULL Ordinary Attack Magic.esp",
+    "field": "TES4/SNAM",
+    "author": "TULL",
+    "before": "TULL Ordinary Attack Magic",
+    "after": "TOAM v1.0.3 - Main. Tarot spells, staffs and levitation. Includes audio, camera shake and circle color settings. Skyrim SE 1.5.97 only.",
+    "gameplay": "UNCHANGED"
+  },
+  {
+    "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
+    "field": "TES4/SNAM",
+    "author": "TULL",
+    "before": "TULL Ordinary Attack Magic - Stances Addon",
+    "after": "TOAM v1.0.3 - 선택 Stances 애드온. II 여사제·XVIII 달의 스탠스 연동 주문과 해방 지팡이를 추가합니다. TOAM 본체 및 Stances - Dynamic Weapon Movesets SE.esp 필요. SE 1.5.97 전용.",
+    "gameplay": "UNCHANGED"
+  },
+  {
+    "path": "assets/TOAM/Data/Language/kr/TULL Ordinary Attack Magic.esp",
+    "field": "TES4/SNAM",
+    "author": "TULL",
+    "before": "TULL Ordinary Attack Magic",
+    "after": "TOAM v1.0.3 - 본체. 타로 마법·지팡이·공중부양 및 효과음·화면 흔들림·마법진 색상 설정을 제공합니다. Skyrim SE 1.5.97 전용.",
+    "gameplay": "UNCHANGED"
+  }
+]

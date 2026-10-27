@@ -1,6 +1,29 @@
-# Copyright, provenance and license status
-Owned-source/research public license:NOT YET SELECTED by TULL. This private staging repository does not invent MIT/GPL or grant a blanket public sublicense. Select a scoped license before public launch.
-TOAM/TOOM and Arcana Staffs development lineage, AI-assisted code/art tooling and TULL design/runtime QA are credited in README and the unified research. Referenced libraries and imported works retain their original licenses. THIRD_PARTY_LICENSES contains preserved notices; locked submodules carry their own complete licenses.
-ArtTools are historical authoring examples. Nifly/PyNifly license claims must be verified against the actual chosen version; conflicting old README labels are historical. No external library source or binary is embedded in these wrappers.
-No extracted Bethesda mesh/texture/audio, third-party HKX, reference-photo pixels or reference-mod/SMP assets are uploaded in this tree. Their runtime-package redistribution is a separate review. Flying animation credited-use permission does not automatically resolve modifications, Donation Points or all original authors. Derived firearm animations remain a public release blocker until permission or a dependency-only packaging solution is established.
-Frieren on the fictional book cover is an in-universe author label. It does not identify the real asset author or license a franchise.
+# TOAM v1.0.3 — scoped licensing / CP037-S1
+
+Original source code owned by TULL or explicitly authorized for licensing:
+MIT License. See LICENSE.
+
+Original engineering/art research prose and diagrams owned by TULL:
+Creative Commons Attribution 4.0 International.
+See Research/LICENSE-RESEARCH.md.
+
+Original TULL Formation Editor software:
+MIT License. See tools/formation_editor/LICENSE.
+
+EXCLUDED FROM THESE GRANTS:
+- Third-party or derived animation HKX resources
+- Arcana Staffs imported elements not independently owned or sublicensable
+- Bethesda meshes, textures, audio, game content and related derivatives
+- Third-party code, tools, libraries and referenced assets
+- Names, trademarks and artwork not independently owned by TULL
+
+All external licenses and original author rights remain applicable.
+Do not interpret the top-level MIT license as overriding exclusions.
+See Docs/CREDITS.txt, Docs/THIRD_PARTY_NOTICES.md,
+Docs/ASSET_ATTRIBUTION_AND_RIGHTS.md,
+and THIRD_PARTY_LICENSES/.
+
+The user authorized public GitHub publication on 2026-10-27.
+This reviewed source repository excludes runtime asset binaries.
+Nexus distribution and final runtime LOCK remain separate.
+External rights and the exclusions above remain applicable.

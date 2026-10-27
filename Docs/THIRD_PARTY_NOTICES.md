@@ -12,3 +12,10 @@ This local release-format package has not been uploaded, monetized or certified 
 The custom spell-tome skin uses vanilla Skyrim meshes, UV layouts and material structure extracted from the installed game, with AI-generated Hebrew cover art requested by the user. Frieren is an in-universe author credit, not an assertion of real-world asset authorship. Original Skyrim material and mesh rights remain applicable.
 
 CP029 publication policy:GitHub source/research stays PRIVATE until the Nexus launch. No blanket license has been selected for owned source, and no third-party relicensing is implied. Keep Bethesda extracted meshes/textures/audio and imported/derived animations out of the GitHub source tree. Resolve public binary redistribution permissions before Nexus upload. SMP withdrawn.
+
+## CP037-S1 source packaging update
+Additional asset attribution, source links, permissions caveats
+and shipped HKX path/SHA256 metadata are in
+Docs/ASSET_ATTRIBUTION_AND_RIGHTS.md and Docs/SHIPPED_HKX_SHA256.csv.
+Existing Credits and source-provenance history remain preserved.
+This is a provenance audit, not proof of redistribution rights.

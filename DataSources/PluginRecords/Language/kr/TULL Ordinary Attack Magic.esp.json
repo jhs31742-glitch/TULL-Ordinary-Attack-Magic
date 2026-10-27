@@ -1,12 +1,12 @@
 {
   "format": "TOAM_ORDERED_ESP_V1",
   "path": "Language/kr/TULL Ordinary Attack Magic.esp",
-  "bytes": 216838,
-  "sha256": "4411620390A5B0EC67D91772BA8CC6E02401652E8826E72E3BCE883AEAB1AFF1",
-  "header": "544553345d0000000002000000000000000000002c000000484544520c0048e1da3f8c050000d40d0000434e414d050054554c4c00534e414d1b0054554c4c204f7264696e6172792041747461636b204d61676963004d4153540b00536b7972696d2e65736d004441544108000000000000000000",
+  "bytes": 217206,
+  "sha256": "4379DFB1B941D94AE731D97B31F66C734B5EC3245A7A3393544FE589F01C0514",
+  "header": "54455334e50000000002000000000000000000002c000000484544520c0048e1da3f8c050000d40d0000434e414d050054554c4c00534e414da300544f414d2076312e302e33202d20ebb3b8ecb2b42e20ed8380eba19c20eba788ebb295c2b7eca780ed8ca1ec9db4c2b7eab3b5eca491ebb680ec969120ebb08f20ed9aa8eab3bcec9d8cc2b7ed9994eba9b420ed9d94eb93a4eba6bcc2b7eba788ebb295eca78420ec8389ec838120ec84a4eca095ec9d8420eca09ceab3b5ed95a9eb8b88eb8ba42e20536b7972696d20534520312e352e393720eca084ec9aa92e004d4153540b00536b7972696d2e65736d004441544108000000000000000000",
   "groups": [
     {
-      "header": "47525550852a00004d474546000000000000000000000000",
+      "header": "47525550cc2a00004d474546000000000000000000000000",
       "records": [
         {
           "header": "4d474546de0000000000000008080001000000002c000000",
@@ -114,7 +114,7 @@
           ]
         },
         {
-          "header": "4d474546e4010000000000005a0a0001000000002c000000",
+          "header": "4d474546e7010000000000005a0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -122,7 +122,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed99a9eca09c00"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20495620ed99a9eca09c00"
             },
             {
               "signature": "MDOB",
@@ -151,7 +151,7 @@
           ]
         },
         {
-          "header": "4d4745462801000000000000620a0001000000002c000000",
+          "header": "4d4745462b01000000000000620a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -159,7 +159,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "41535f44616d6167655f4669727374436c6173735f456d7065726f7200"
+              "hex": "41535f44616d6167655f4669727374436c6173735f495620456d7065726f7200"
             },
             {
               "signature": "MDOB",
@@ -188,7 +188,7 @@
           ]
         },
         {
-          "header": "4d4745461c020000000000005b0a0001000000002c000000",
+          "header": "4d4745461f020000000000005b0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -196,7 +196,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec9d80eb9194ec9e9000"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20495820ec9d80eb9194ec9e9000"
             },
             {
               "signature": "MDOB",
@@ -225,11 +225,11 @@
           ]
         },
         {
-          "header": "4d4745462601000000000000630a0001000000002c000000",
+          "header": "4d4745462901000000000000630a0001000000002c000000",
           "subrecords": [
             {
               "signature": "FULL",
-              "hex": "41535f44616d6167655f4669727374436c6173735f4865726d697400"
+              "hex": "41535f44616d6167655f4669727374436c6173735f4958204865726d697400"
             },
             {
               "signature": "MDOB",
@@ -262,7 +262,7 @@
           ]
         },
         {
-          "header": "4d47454613020000000000005c0a0001000000002c000000",
+          "header": "4d47454617020000000000005c0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -270,7 +270,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eca084ecb0a800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2056494920eca084ecb0a800"
             },
             {
               "signature": "MDOB",
@@ -299,7 +299,7 @@
           ]
         },
         {
-          "header": "4d474546c101000000000000640a0001000000002c000000",
+          "header": "4d474546c501000000000000640a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -307,7 +307,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "41535f44616d6167655f4669727374436c6173735f43686172696f7400"
+              "hex": "41535f44616d6167655f4669727374436c6173735f5649492043686172696f7400"
             },
             {
               "signature": "MDOB",
@@ -336,7 +336,7 @@
           ]
         },
         {
-          "header": "4d4745461c020000000000005d0a0001000000002c000000",
+          "header": "4d47454620020000000000005d0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -344,7 +344,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed839cec969100"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2058495820ed839cec969100"
             },
             {
               "signature": "MDOB",
@@ -373,7 +373,7 @@
           ]
         },
         {
-          "header": "4d4745462001000000000000650a0001000000002c000000",
+          "header": "4d4745462401000000000000650a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -381,7 +381,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "41535f44616d6167655f4669727374436c6173735f53756e00"
+              "hex": "41535f44616d6167655f4669727374436c6173735f5849582053756e00"
             },
             {
               "signature": "MDOB",
@@ -410,7 +410,7 @@
           ]
         },
         {
-          "header": "4d474546ec010000000000005e0a0001000000002c000000",
+          "header": "4d474546f1010000000000005e0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -418,7 +418,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed9e9800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d205649494920ed9e9800"
             },
             {
               "signature": "MDOB",
@@ -447,7 +447,7 @@
           ]
         },
         {
-          "header": "4d4745469901000000000000660a0001000000002c000000",
+          "header": "4d4745469e01000000000000660a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -455,7 +455,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "41535f44616d6167655f4d696c6c656e6e69616c5f537472656e67746800"
+              "hex": "41535f44616d6167655f4d696c6c656e6e69616c5f5649494920537472656e67746800"
             },
             {
               "signature": "MDOB",
@@ -484,7 +484,7 @@
           ]
         },
         {
-          "header": "4d4745464a020000000000005f0a0001000000002c000000",
+          "header": "4d4745464d020000000000005f0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -492,7 +492,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eca095ec9d9800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20584920eca095ec9d9800"
             },
             {
               "signature": "MDOB",
@@ -521,7 +521,7 @@
           ]
         },
         {
-          "header": "4d4745462801000000000000670a0001000000002c000000",
+          "header": "4d4745462b01000000000000670a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -529,7 +529,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "41535f44616d6167655f4d696c6c656e6e69616c5f4a75737469636500"
+              "hex": "41535f44616d6167655f4d696c6c656e6e69616c5f5849204a75737469636500"
             },
             {
               "signature": "MDOB",
@@ -558,7 +558,7 @@
           ]
         },
         {
-          "header": "4d4745464002000000000000600a0001000000002c000000",
+          "header": "4d4745464502000000000000600a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -566,7 +566,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ebb38400"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d205856494920ebb38400"
             },
             {
               "signature": "MDOB",
@@ -595,7 +595,7 @@
           ]
         },
         {
-          "header": "4d474546c901000000000000680a0001000000002c000000",
+          "header": "4d474546ce01000000000000680a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -603,7 +603,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "41535f44616d6167655f4d696c6c656e6e69616c5f5374617200"
+              "hex": "41535f44616d6167655f4d696c6c656e6e69616c5f58564949205374617200"
             },
             {
               "signature": "MDOB",
@@ -632,7 +632,7 @@
           ]
         },
         {
-          "header": "4d4745463c02000000000000610a0001000000002c000000",
+          "header": "4d4745464002000000000000610a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -640,7 +640,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed839100"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2058564920ed839100"
             },
             {
               "signature": "MDOB",
@@ -669,7 +669,7 @@
           ]
         },
         {
-          "header": "4d474546d201000000000000690a0001000000002c000000",
+          "header": "4d474546d601000000000000690a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -677,7 +677,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "41535f44616d6167655f4d696c6c656e6e69616c5f546f77657200"
+              "hex": "41535f44616d6167655f4d696c6c656e6e69616c5f58564920546f77657200"
             },
             {
               "signature": "MDOB",
@@ -735,11 +735,11 @@
           ]
         },
         {
-          "header": "4d4745466301000000000000860c0001000000002c000000",
+          "header": "4d4745466701000000000000860c0001000000002c000000",
           "subrecords": [
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed839cec969120eca091ecb48920ed8c90eca0952028eb82b4ebb6802900"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2058495820ed839cec969120eca091ecb48920ed8c90eca0952028eb82b4ebb6802900"
             },
             {
               "signature": "MDOB",
@@ -772,11 +772,11 @@
           ]
         },
         {
-          "header": "4d47454667010000000000008d0c0001000000002c000000",
+          "header": "4d4745466a010000000000008d0c0001000000002c000000",
           "subrecords": [
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eca095ec9d9820eca091ecb48920ed8c90eca0952028eb82b4ebb6802900"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20584920eca095ec9d9820eca091ecb48920ed8c90eca0952028eb82b4ebb6802900"
             },
             {
               "signature": "MDOB",
@@ -809,7 +809,7 @@
           ]
         },
         {
-          "header": "4d47454672010000000000008f0c0001000000002c000000",
+          "header": "4d47454674010000000000008f0c0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -817,7 +817,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eab491eb8c802028eab3b5eca491ebb680ec96912900"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d203020eab491eb8c802028eab3b5eca491ebb680ec96912900"
             },
             {
               "signature": "DATA",
@@ -849,7 +849,7 @@
       ]
     },
     {
-      "header": "47525550bb080000454e4348000000000000000000000000",
+      "header": "47525550da080000454e4348000000000000000000000000",
       "records": [
         {
           "header": "454e4348940000000000000011080001000000002c000000",
@@ -954,7 +954,7 @@
           ]
         },
         {
-          "header": "454e4348b100000000000000210a0001000000002c000000",
+          "header": "454e4348b400000000000000210a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -966,7 +966,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed99a9eca09c20eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20495620ed99a9eca09c20eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
             },
             {
               "signature": "ENIT",
@@ -983,7 +983,7 @@
           ]
         },
         {
-          "header": "454e4348b300000000000000220a0001000000002c000000",
+          "header": "454e4348b600000000000000220a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -995,7 +995,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec9d80eb9194ec9e9020eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20495820ec9d80eb9194ec9e9020eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
             },
             {
               "signature": "ENIT",
@@ -1012,7 +1012,7 @@
           ]
         },
         {
-          "header": "454e4348b100000000000000230a0001000000002c000000",
+          "header": "454e4348b500000000000000230a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1024,7 +1024,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eca084ecb0a820eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2056494920eca084ecb0a820eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
             },
             {
               "signature": "ENIT",
@@ -1041,7 +1041,7 @@
           ]
         },
         {
-          "header": "454e4348ad00000000000000240a0001000000002c000000",
+          "header": "454e4348b100000000000000240a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1053,7 +1053,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed839cec969120eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2058495820ed839cec969120eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
             },
             {
               "signature": "ENIT",
@@ -1070,7 +1070,7 @@
           ]
         },
         {
-          "header": "454e4348af00000000000000250a0001000000002c000000",
+          "header": "454e4348b400000000000000250a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1082,7 +1082,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed9e9820eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d205649494920ed9e9820eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
             },
             {
               "signature": "ENIT",
@@ -1099,7 +1099,7 @@
           ]
         },
         {
-          "header": "454e4348b100000000000000260a0001000000002c000000",
+          "header": "454e4348b400000000000000260a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1111,7 +1111,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eca095ec9d9820eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20584920eca095ec9d9820eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
             },
             {
               "signature": "ENIT",
@@ -1128,7 +1128,7 @@
           ]
         },
         {
-          "header": "454e4348ab00000000000000270a0001000000002c000000",
+          "header": "454e4348b000000000000000270a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1140,7 +1140,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ebb38420eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d205856494920ebb38420eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
             },
             {
               "signature": "ENIT",
@@ -1157,7 +1157,7 @@
           ]
         },
         {
-          "header": "454e4348ac00000000000000280a0001000000002c000000",
+          "header": "454e4348b000000000000000280a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1169,7 +1169,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed839120eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2058564920ed839120eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
             },
             {
               "signature": "ENIT",
@@ -1188,10 +1188,10 @@
       ]
     },
     {
-      "header": "47525550f32200005350454c000000000000000000000000",
+      "header": "47525550472300005350454c000000000000000000000000",
       "records": [
         {
-          "header": "5350454c9c0000000000000000080001000000002c000000",
+          "header": "5350454c9e0000000000000000080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1203,7 +1203,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eba788ebb295ec82ac00"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d204920eba788ebb295ec82ac00"
             },
             {
               "signature": "ETYP",
@@ -1228,7 +1228,7 @@
           ]
         },
         {
-          "header": "5350454c9a0000000000000001080001000000002c000000",
+          "header": "5350454c9d0000000000000001080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1240,7 +1240,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec8baced8c9000"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20585820ec8baced8c9000"
             },
             {
               "signature": "ETYP",
@@ -1265,7 +1265,7 @@
           ]
         },
         {
-          "header": "5350454c990000000000000002080001000000002c000000",
+          "header": "5350454c9d0000000000000002080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1277,7 +1277,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec84b8eab38400"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2058584920ec84b8eab38400"
             },
             {
               "signature": "ETYP",
@@ -1302,7 +1302,7 @@
           ]
         },
         {
-          "header": "5350454c9b0000000000000003080001000000002c000000",
+          "header": "5350454c9f0000000000000003080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1314,7 +1314,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eca088eca09c00"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2058495620eca088eca09c00"
             },
             {
               "signature": "ETYP",
@@ -1339,7 +1339,7 @@
           ]
         },
         {
-          "header": "5350454c290100000000000009080001000000002c000000",
+          "header": "5350454c2c0100000000000009080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1351,7 +1351,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed99a9eca09c00"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20495620ed99a9eca09c00"
             },
             {
               "signature": "MDOB",
@@ -1380,7 +1380,7 @@
           ]
         },
         {
-          "header": "5350454cc200000000000000290a0001000000002c000000",
+          "header": "5350454cc500000000000000290a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1392,7 +1392,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61202d205061796c6f61645f4669727374436c6173735f456d7065726f7200"
+              "hex": "417263616e61202d205061796c6f61645f4669727374436c6173735f495620456d7065726f7200"
             },
             {
               "signature": "MDOB",
@@ -1421,7 +1421,7 @@
           ]
         },
         {
-          "header": "5350454c61010000000000000a080001000000002c000000",
+          "header": "5350454c64010000000000000a080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1433,7 +1433,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec9d80eb9194ec9e9000"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20495820ec9d80eb9194ec9e9000"
             },
             {
               "signature": "MDOB",
@@ -1462,7 +1462,7 @@
           ]
         },
         {
-          "header": "5350454cc0000000000000002a0a0001000000002c000000",
+          "header": "5350454cc3000000000000002a0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "OBND",
@@ -1470,7 +1470,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61202d205061796c6f61645f4669727374436c6173735f4865726d697400"
+              "hex": "417263616e61202d205061796c6f61645f4669727374436c6173735f4958204865726d697400"
             },
             {
               "signature": "MDOB",
@@ -1503,7 +1503,7 @@
           ]
         },
         {
-          "header": "5350454c58010000000000000b080001000000002c000000",
+          "header": "5350454c5c010000000000000b080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1515,7 +1515,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eca084ecb0a800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2056494920eca084ecb0a800"
             },
             {
               "signature": "MDOB",
@@ -1544,7 +1544,7 @@
           ]
         },
         {
-          "header": "5350454cc2000000000000002b0a0001000000002c000000",
+          "header": "5350454cc6000000000000002b0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1556,7 +1556,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61202d205061796c6f61645f4669727374436c6173735f43686172696f7400"
+              "hex": "417263616e61202d205061796c6f61645f4669727374436c6173735f5649492043686172696f7400"
             },
             {
               "signature": "MDOB",
@@ -1585,7 +1585,7 @@
           ]
         },
         {
-          "header": "5350454c61010000000000000c080001000000002c000000",
+          "header": "5350454c65010000000000000c080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1597,7 +1597,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed839cec969100"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2058495820ed839cec969100"
             },
             {
               "signature": "MDOB",
@@ -1626,7 +1626,7 @@
           ]
         },
         {
-          "header": "5350454cba000000000000002c0a0001000000002c000000",
+          "header": "5350454cbe000000000000002c0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1638,7 +1638,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61202d205061796c6f61645f4669727374436c6173735f53756e00"
+              "hex": "417263616e61202d205061796c6f61645f4669727374436c6173735f5849582053756e00"
             },
             {
               "signature": "MDOB",
@@ -1667,7 +1667,7 @@
           ]
         },
         {
-          "header": "5350454c31010000000000000d080001000000002c000000",
+          "header": "5350454c36010000000000000d080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1679,7 +1679,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed9e9800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d205649494920ed9e9800"
             },
             {
               "signature": "MDOB",
@@ -1708,7 +1708,7 @@
           ]
         },
         {
-          "header": "5350454cc4000000000000002d0a0001000000002c000000",
+          "header": "5350454cc9000000000000002d0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1720,7 +1720,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61202d205061796c6f61645f4d696c6c656e6e69616c5f537472656e67746800"
+              "hex": "417263616e61202d205061796c6f61645f4d696c6c656e6e69616c5f5649494920537472656e67746800"
             },
             {
               "signature": "MDOB",
@@ -1749,7 +1749,7 @@
           ]
         },
         {
-          "header": "5350454c8f010000000000000e080001000000002c000000",
+          "header": "5350454c92010000000000000e080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1761,7 +1761,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eca095ec9d9800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20584920eca095ec9d9800"
             },
             {
               "signature": "MDOB",
@@ -1790,7 +1790,7 @@
           ]
         },
         {
-          "header": "5350454cc2000000000000002e0a0001000000002c000000",
+          "header": "5350454cc5000000000000002e0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1802,7 +1802,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61202d205061796c6f61645f4d696c6c656e6e69616c5f4a75737469636500"
+              "hex": "417263616e61202d205061796c6f61645f4d696c6c656e6e69616c5f5849204a75737469636500"
             },
             {
               "signature": "MDOB",
@@ -1831,7 +1831,7 @@
           ]
         },
         {
-          "header": "5350454c85010000000000001f0a0001000000002c000000",
+          "header": "5350454c8a010000000000001f0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1843,7 +1843,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ebb38400"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d205856494920ebb38400"
             },
             {
               "signature": "MDOB",
@@ -1872,7 +1872,7 @@
           ]
         },
         {
-          "header": "5350454cbc000000000000002f0a0001000000002c000000",
+          "header": "5350454cc1000000000000002f0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1884,7 +1884,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61202d205061796c6f61645f4d696c6c656e6e69616c5f5374617200"
+              "hex": "417263616e61202d205061796c6f61645f4d696c6c656e6e69616c5f58564949205374617200"
             },
             {
               "signature": "MDOB",
@@ -1913,7 +1913,7 @@
           ]
         },
         {
-          "header": "5350454c8101000000000000200a0001000000002c000000",
+          "header": "5350454c8501000000000000200a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1925,7 +1925,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed839100"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2058564920ed839100"
             },
             {
               "signature": "MDOB",
@@ -1954,7 +1954,7 @@
           ]
         },
         {
-          "header": "5350454cbe00000000000000300a0001000000002c000000",
+          "header": "5350454cc200000000000000300a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -1966,7 +1966,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "417263616e61202d205061796c6f61645f4d696c6c656e6e69616c5f546f77657200"
+              "hex": "417263616e61202d205061796c6f61645f4d696c6c656e6e69616c5f58564920546f77657200"
             },
             {
               "signature": "MDOB",
@@ -2036,7 +2036,7 @@
           ]
         },
         {
-          "header": "5350454c8701000000000000870c0001000000002c000000",
+          "header": "5350454c8b01000000000000870c0001000000002c000000",
           "subrecords": [
             {
               "signature": "OBND",
@@ -2044,7 +2044,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ed839cec969120eca091ecb48920ed8c90eca0952028eb82b4ebb6802900"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d2058495820ed839cec969120eca091ecb48920ed8c90eca0952028eb82b4ebb6802900"
             },
             {
               "signature": "MDOB",
@@ -2077,7 +2077,7 @@
           ]
         },
         {
-          "header": "5350454cb5010000000000008e0c0001000000002c000000",
+          "header": "5350454cb8010000000000008e0c0001000000002c000000",
           "subrecords": [
             {
               "signature": "OBND",
@@ -2085,7 +2085,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eca095ec9d9820eca091ecb48920ed8c90eca0952028eb82b4ebb6802900"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20584920eca095ec9d9820eca091ecb48920ed8c90eca0952028eb82b4ebb6802900"
             },
             {
               "signature": "MDOB",
@@ -2118,7 +2118,7 @@
           ]
         },
         {
-          "header": "5350454caa00000000000000900c0001000000002c000000",
+          "header": "5350454cac00000000000000900c0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -2130,7 +2130,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eab491eb8c802028eab3b5eca491ebb680ec96912900"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d203020eab491eb8c802028eab3b5eca491ebb680ec96912900"
             },
             {
               "signature": "ETYP",
@@ -2733,10 +2733,10 @@
       ]
     },
     {
-      "header": "475255509a160000424f4f4b000000000000000000000000",
+      "header": "47525550c8160000424f4f4b000000000000000000000000",
       "records": [
         {
-          "header": "424f4f4b310100000000000004080001000000002c000000",
+          "header": "424f4f4b330100000000000004080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -2748,7 +2748,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20eba788ebb295ec82ac00"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d204920eba788ebb295ec82ac00"
             },
             {
               "signature": "MODL",
@@ -2781,7 +2781,7 @@
           ]
         },
         {
-          "header": "424f4f4b290100000000000005080001000000002c000000",
+          "header": "424f4f4b2c0100000000000005080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -2793,7 +2793,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20ec8baced8c9000"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20585820ec8baced8c9000"
             },
             {
               "signature": "MODL",
@@ -2826,7 +2826,7 @@
           ]
         },
         {
-          "header": "424f4f4b280100000000000006080001000000002c000000",
+          "header": "424f4f4b2c0100000000000006080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -2838,7 +2838,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20ec84b8eab38400"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d2058584920ec84b8eab38400"
             },
             {
               "signature": "MODL",
@@ -2871,7 +2871,7 @@
           ]
         },
         {
-          "header": "424f4f4b2a0100000000000007080001000000002c000000",
+          "header": "424f4f4b2e0100000000000007080001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -2883,7 +2883,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20eca088eca09c00"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d2058495620eca088eca09c00"
             },
             {
               "signature": "MODL",
@@ -2916,7 +2916,7 @@
           ]
         },
         {
-          "header": "424f4f4bae01000000000000390a0001000000002c000000",
+          "header": "424f4f4bb101000000000000390a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -2928,7 +2928,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20ed99a9eca09c00"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20495620ed99a9eca09c00"
             },
             {
               "signature": "MODL",
@@ -2961,7 +2961,7 @@
           ]
         },
         {
-          "header": "424f4f4be6010000000000003a0a0001000000002c000000",
+          "header": "424f4f4be9010000000000003a0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -2973,7 +2973,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20ec9d80eb9194ec9e9000"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20495820ec9d80eb9194ec9e9000"
             },
             {
               "signature": "MODL",
@@ -3006,7 +3006,7 @@
           ]
         },
         {
-          "header": "424f4f4bdd010000000000003b0a0001000000002c000000",
+          "header": "424f4f4be1010000000000003b0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3018,7 +3018,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20eca084ecb0a800"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d2056494920eca084ecb0a800"
             },
             {
               "signature": "MODL",
@@ -3051,7 +3051,7 @@
           ]
         },
         {
-          "header": "424f4f4be6010000000000003c0a0001000000002c000000",
+          "header": "424f4f4bea010000000000003c0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3063,7 +3063,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20ed839cec969100"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d2058495820ed839cec969100"
             },
             {
               "signature": "MODL",
@@ -3096,7 +3096,7 @@
           ]
         },
         {
-          "header": "424f4f4bb6010000000000003d0a0001000000002c000000",
+          "header": "424f4f4bbb010000000000003d0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3108,7 +3108,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20ed9e9800"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d205649494920ed9e9800"
             },
             {
               "signature": "MODL",
@@ -3141,7 +3141,7 @@
           ]
         },
         {
-          "header": "424f4f4b14020000000000003e0a0001000000002c000000",
+          "header": "424f4f4b17020000000000003e0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3153,7 +3153,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20eca095ec9d9800"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20584920eca095ec9d9800"
             },
             {
               "signature": "MODL",
@@ -3186,7 +3186,7 @@
           ]
         },
         {
-          "header": "424f4f4b0a020000000000003f0a0001000000002c000000",
+          "header": "424f4f4b0f020000000000003f0a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3198,7 +3198,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20ebb38400"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d205856494920ebb38400"
             },
             {
               "signature": "MODL",
@@ -3231,7 +3231,7 @@
           ]
         },
         {
-          "header": "424f4f4b0602000000000000400a0001000000002c000000",
+          "header": "424f4f4b0a02000000000000400a0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3243,7 +3243,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20ed839100"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d2058564920ed839100"
             },
             {
               "signature": "MODL",
@@ -3276,7 +3276,7 @@
           ]
         },
         {
-          "header": "424f4f4b6d01000000000000960c0001000000002c000000",
+          "header": "424f4f4b6f01000000000000960c0001000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -3288,7 +3288,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab590ec9691eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20eab491eb8c802028eab3b5eca491ebb680ec96912900"
+              "hex": "ec9dbcebb098eab590ec9691eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d203020eab491eb8c802028eab3b5eca491ebb680ec96912900"
             },
             {
               "signature": "MODL",

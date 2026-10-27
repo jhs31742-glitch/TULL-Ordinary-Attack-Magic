@@ -1,15 +1,15 @@
 {
   "format": "TOAM_ORDERED_ESP_V1",
   "path": "Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp",
-  "bytes": 6823,
-  "sha256": "393941B7BA5F8383958F3E1E63C60EEAA5469BB8590992EA570B991EB7A0D1BC",
-  "header": "54455334dd0000000002000000000000000000002c000000484544520c009a99d93f1b00000006090000434e414d050054554c4c00534e414d2b0054554c4c204f7264696e6172792041747461636b204d61676963202d205374616e636573204164646f6e004d4153540b00536b7972696d2e65736d0044415441080000000000000000004d4153541f0054554c4c204f7264696e6172792041747461636b204d616769632e6573700044415441080000000000000000004d41535429005374616e636573202d2044796e616d696320576561706f6e204d6f7665736574732053452e657370004441544108000000000000000000",
+  "bytes": 7030,
+  "sha256": "5B7E571024E0AE3ECBFAC71AC721AD4AC47E397DE06E131904647C7B9E285FA0",
+  "header": "54455334880100000002000000000000000000002c000000484544520c009a99d93f1b00000006090000434e414d050054554c4c00534e414dd600544f414d2076312e302e33202d20ec84a0ed839d205374616e63657320ec95a0eb939cec98a82e20494920ec97acec82aceca09cc2b7585649494920eb8bacec9d9820ec8aa4ed83a0ec8aa420ec97b0eb8f9920eca3bcebacb8eab3bc20ed95b4ebb0a920eca780ed8ca1ec9db4eba5bc20ecb694eab080ed95a9eb8b88eb8ba42e20544f414d20ebb3b8ecb2b420ebb08f205374616e636573202d2044796e616d696320576561706f6e204d6f7665736574732053452e65737020ed9584ec9a942e20534520312e352e393720eca084ec9aa92e004d4153540b00536b7972696d2e65736d0044415441080000000000000000004d4153541f0054554c4c204f7264696e6172792041747461636b204d616769632e6573700044415441080000000000000000004d41535429005374616e636573202d2044796e616d696320576561706f6e204d6f7665736574732053452e657370004441544108000000000000000000",
   "groups": [
     {
-      "header": "47525550bb0400004d474546000000000000000000000000",
+      "header": "47525550c40400004d474546000000000000000000000000",
       "records": [
         {
-          "header": "4d474546470200000000000070080003000000002c000000",
+          "header": "4d4745464a0200000000000070080003000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -17,7 +17,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec97acec82aceca09c00"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20494920ec97acec82aceca09c00"
             },
             {
               "signature": "MDOB",
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "header": "4d4745462c0200000000000071080003000000002c000000",
+          "header": "4d474546320200000000000071080003000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -54,7 +54,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eb8bac00"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20585649494920eb8bac00"
             },
             {
               "signature": "MDOB",
@@ -85,10 +85,10 @@
       ]
     },
     {
-      "header": "47525550b50200005350454c000000000000000000000000",
+      "header": "47525550be0200005350454c000000000000000000000000",
       "records": [
         {
-          "header": "5350454c3e0100000000000000080003000000002c000000",
+          "header": "5350454c410100000000000000080003000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -100,7 +100,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec97acec82aceca09c00"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20494920ec97acec82aceca09c00"
             },
             {
               "signature": "MDOB",
@@ -129,7 +129,7 @@
           ]
         },
         {
-          "header": "5350454c2f0100000000000001080003000000002c000000",
+          "header": "5350454c350100000000000001080003000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -141,7 +141,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eb8bac00"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20585649494920eb8bac00"
             },
             {
               "signature": "MDOB",
@@ -172,10 +172,10 @@
       ]
     },
     {
-      "header": "47525550c9010000454e4348000000000000000000000000",
+      "header": "47525550d2010000454e4348000000000000000000000000",
       "records": [
         {
-          "header": "454e4348c80000000000000010080003000000002c000000",
+          "header": "454e4348cb0000000000000010080003000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -187,7 +187,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20ec97acec82aceca09c20eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20494920ec97acec82aceca09c20eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
             },
             {
               "signature": "ENIT",
@@ -204,7 +204,7 @@
           ]
         },
         {
-          "header": "454e4348b90000000000000011080003000000002c000000",
+          "header": "454e4348bf0000000000000011080003000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -216,7 +216,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9584eba5b4ecb9b4eb8298202d20eb8bac20eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
+              "hex": "ec9584eba5b4ecb9b4eb8298202d20585649494920eb8bac20eca780ed8ca1ec9db420eab3a0ec9ca020ec9db8ecb188ed8ab800"
             },
             {
               "signature": "ENIT",
@@ -410,10 +410,10 @@
       ]
     },
     {
-      "header": "475255504f040000424f4f4b000000000000000000000000",
+      "header": "4752555058040000424f4f4b000000000000000000000000",
       "records": [
         {
-          "header": "424f4f4b110200000000000040080003000000002c000000",
+          "header": "424f4f4b140200000000000040080003000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -425,7 +425,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20ec97acec82aceca09c00"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20494920ec97acec82aceca09c00"
             },
             {
               "signature": "MODL",
@@ -458,7 +458,7 @@
           ]
         },
         {
-          "header": "424f4f4bf60100000000000041080003000000002c000000",
+          "header": "424f4f4bfc0100000000000041080003000000002c000000",
           "subrecords": [
             {
               "signature": "EDID",
@@ -470,7 +470,7 @@
             },
             {
               "signature": "FULL",
-              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20eb8bac00"
+              "hex": "ec9dbcebb098eab3b5eab2a9eba788ebb2953a20ec9584eba5b4ecb9b4eb8298202d20585649494920eb8bac00"
             },
             {
               "signature": "MODL",

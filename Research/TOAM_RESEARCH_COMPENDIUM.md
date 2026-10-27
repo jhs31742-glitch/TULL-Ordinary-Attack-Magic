@@ -4507,3 +4507,119 @@ CP033 recovery R2:the first actual19.61s MSVC build linked AMD64 TOAM.dll SHA6D4
 CP033 final boundary refinement:oversized or non-ASCII AudioSelect values now restore that event default just like invalid numeric IDs,instead of rejecting the whole settings reload. Other malformed volume/camera/color still retain previous valid settings. Actual candidate Win32 host test extended27->31 assertions and passed,including long numeric and Korean IDs. Initial host-test retry exposed ambiguous DirectX Color from forced PCH;fully qualified TOAM::Presentation::Color corrected the test only. No engine/GPU invocation or gameplay change. Final artifact hashes are in CURRENT_RESULT.json.
 
 CP033 final material ownership refinement:actual pinned ModelReferenceEffect owns artObject3D through NiPointer at+C8. Root references must equal that effect owner plus exactly one verified parent child reference when attached,parent child scan is bounded256,and each intermediate NiNode must have one reference. Geometry alone cannot exclude a shared ancestor. These checks precede property/material clone/assignment;extra temporary/cache/active ownership rejects that instance and preserves original appearance. Default remains an immediate return. No model/texture/alpha/geometry/timing change. Live simultaneous engine behavior remains USER_RUNTIME NOT_RUN.
+
+
+<!-- TOAM_CP033_HO01_20261027 -->
+## Research checkpoint — overlapping casts and shared materials
+
+Observed (USER_RUNTIME):
+- TOAM 1.0.1: audio setting change works.
+- TOAM 1.0.1: circle-color change fails.
+- CircleTint rejects color due shared-root refcount guard.
+- TOAM 1.0.0: left/right Hermit started, then World Z charge
+  began, followed by stage 4 and 8 circles; user reported CTD.
+- The crash address/function was not captured.
+
+Hypotheses (NOT VERIFIED):
+- Concurrent actor/hand charge, World state and visual
+  ownership may be involved in the crash.
+- Reference ownership assumptions may not match actual
+  model-root reference accounting.
+
+Approved design intent (NOT YET CODE):
+Use one arbitration contract for Hermit L/R and World Z.
+First owner continues; later conflicting start is denied.
+On denial there must be no resource charge, active session,
+new VFX or projectile; cleanup covers release, cancellation,
+equipment change, load/new game and teardown.
+The exact Native insertion points require full current-source audit.
+
+Separate color repair (NOT YET CODE):
+Prove safe per-instance root and sub-property ownership
+before changing tint. Preserve default visual appearance.
+Do not blindly relax shared-root refcount protection.
+
+Reusability: distinguish runtime observations, inferred causes,
+unimplemented countermeasures and proven post-repair QA.
+
+## CP034-D2R / TOAM 1.0.2 build-only recovery candidate / 2026-10-27
+Parent source and installed DLL are verified CP033 1.0.1 (16DF9E9C1BDBDF89A3B71C2A80A7B5772F76D22C6CDCB45092FF9F304AF97C61). User called the stress-test build 1.0.2; no distinct pre-existing 1.0.2 artifact was found. Preserve that user report without inventing version provenance. CP032 remains immutable.
+D2 failure is confirmed PowerShell command resolution: alias h=Get-History shadows function H. Calling H with file bytes invokes Get-History and can raise GetHistoryNoHistoryForId for byte60. Clean Windows PowerShell5.1 reproduced it. The failing guard is (H $b) in the pre-hash loop, before backup/mutation/build. Use descriptive unaliased function names; parse the final wrapper with PS5.1; retain Exception type, FullyQualifiedErrorId, invocation and stack on failure. Reading a hash is not reviewing a document.
+Hermit left/right and World share atomic first-owner admission. Request acquires before original engine Request and World before charge-session start. CheckCast only tests eligibility, never acquires during menu enumeration. Existing Stop/Complete/Interrupt/Finish/Deselect, equipment reconciliation, death, load/new game and World cancel/release return ownership. Ordinary unrelated dual-hand casting and all original costs/damage/formation/timing remain unchanged. This guard is not a proven CTD repair.
+Circle tint receives the actual ModelReferenceEffect. Expected root count includes artObject3D plus actual equal-pointer aliases hitEffectArtData.attachedArt and current3DRoot and exactly one verified parent edge. Pinned offsets are +C8,+78,+70; native SE Get3D reads +C8. Unknown references still reject. Geometry/intermediate-node uniqueness, property/material/controller clones and alpha/gain checks are unchanged; no root replacement, prototype edit, threshold relaxation, per-frame clone or asset replication. Actual alias counts are logged. Live rendered colors/isolation remain user QA; three retries alone do not prove success.
+The five Framework pages remain. Optional verified Combo/Separator/Tab exports improve only existing menus; missing exports use existing buttons. Audio shows one selected spell and its own events. Page save merges only that page into current values; other pending drafts and active settings remain intact. Stable sound IDs and original INI keys/backends are unchanged.
+User reports frame drop also on older versions, resolved by PC reboot: withdraw the provisional 1.0.1-specific regression. Preserve audio USER_PASS and long multi-enemy no-CTD/no-freeze USER_PASS for the reported session. Earlier intermittent CTD cause remains unconfirmed. No whole-runtime or permanent CTD resolution claim.
+This checkpoint builds only in existing build/msvc; no install/deploy target, profile/save edit, automatic game launch, AE/VR work or public upload. Current test installation is hash-protected. New Native/user QA and final LOCK remain pending. Original007/158 preserved. Detailed actual gates and hashes are external in TOAM_CP034_CODEX_RESULT.txt and the manifest.
+
+
+## CP034-D3 / TOAM v1.0.3 repeated-color and grouped-menu candidate / 2026-10-27
+Parent actual source/build and user-installed test is CP034-D2R v1.0.2, DLL3269BBC2FC5C00403FAA75A24838207279D29D2E6B570E8A39A0BA1FC74C16CD. User confirms World/Hermit exclusive admission works; retain USER_PASS, not a permanent CTD cure. User reports first-only color then Default. Preserved log has346 root-ownership successes,5 tint applications and341 generic property/geometry rejections. Root ownership is no longer the failing stage. Exact old subguard is not recoverable from generic logs; geometry/render-cache sharing remains a hypothesis, not a confirmed unique cause.
+New bounded copy-on-write candidate keeps the proven actual effect root/aliases and strict reference count. Each detached top branch must belong to exactly one verified root edge before replacement. Native NiObject Clone, NiNode Clone, BSTriShape Clone and NiNode SetAt were read from pinned SDK and matched SE1.5.97 executable. Clone AV objects must all be disjoint from originals/each other, have exact reference counts and preserve names/type/local pose/fade/bounds/vertex descriptors. Unknown node kinds, AV controllers, skin or collision reject. Sixteen current active circle assets independently meet this structural scope. Deeper shared geometry is read/copied; original prototypes and materials are never recolored. All private property/material/alpha/gain/controller checks remain. Setup completes off-tree; commit swaps verified branch edges, updates world transforms once; an owning lease restores original branches on final retirement or partial failure. Default bypasses cloning. No root replacement, geometry payload edit, new assets/hooks or per-frame clone. Detailed rejection reasons replace the old combined warning.
+Actual candidate source executed in an intrusive-reference host double:215 checks,100recasts,two simultaneous different colors,500frames without repeated clones,unknown root/top-branch aliases rejected,partial shader-setup rollback and final object-count recovery. Native rendering and game heap behavior are not executed by this test. Existing admission/menu policy test now2199 checks. Actual unchanged settings IO31 retained. No measured FPS or game CPU claim.
+User requests all tarot names numbered while retaining categories. Six existing ESPs change233 FULL values only; every other subrecord/header field/FormID/MASTER/gameplay payload remains exact apart from size fields. EN/root exact; EN/KR typed display-field differences remain. Rider-Waite numbering:StrengthVIII,JusticeXI,Fool0 (no invented Roman zero). INI identifiers and sound IDs remain unchanged. New menu display labels carry numbers; source sound display names are also numbered.
+Color screen now has All spells / Individual spells tabs. All selection edits all13drafts; individual pages show5/5/3spells with names,5choices and real Framework color swatches using the shared shader RGB table. Default means each original artwork. Apply/save remains explicit, per-page and compatible with damage/flight/custom INI entries. Existing five top-level pages, optional Framework fallback and no-preview-audio rules remain.
+Candidate-only failures: initial EN/KR comparison wrongly required non-FULL identity despite existing localized DESC and MGEF DNAM; actual before/after FULL-only identity remained valid, and typed display parity corrected the language gate. A guessed BSGraphics header read failed; actual VertexDesc declaration was found, its8-byte representation compared, no invented operator used. An inherited batch exit skipped syntax after host PASS; syntax was then run separately and its actual result retained. No Production mutation in these preparation failures. Preserve prior history; never upgrade a host or syntax result to game acceptance.
+CP032 immutable anchor, original007/158, current installed test folder and every MO2 profile remain protected. Use only existing build/msvc MSVCx64/Ninja with full mutable backup/rollback and same-transaction008/index. New candidate packages are separate; no automatic install/activation/game launch/save change/public upload. New color/UI/name RUNTIME pending,LOCKNO. Actual build/artifact hashes are external in021_RESULT.json; do not reuse D2R hashes as the new result.
+
+
+### CP034-D3 packaging R1 failure and coherent recovery
+First actual MSVCx64/Ninja compile/link passed in29.078s, DLLF7CDFD444717414CC0DC3126EDAD0BB74578B595ECC9A77D041CC9975B8CD371. Packaging then failed because the assistant inserted README.txt into the5-file addon whose actual existing name is README_Stances.txt, producing6files. This repeats guessed filename/validator lessons; it is not a C++ or game failure. All changed source/docs/assets/index and675mutable Ninja files were restored and independently hash-verified in022_ROLLBACK_VERIFICATION.json. Current installed1.0.2 and CP032 anchors never changed. Preserve021 failure evidence. R2 enumerates the exact archive paths before any source write, reuses verified675file rollback backups, corrects the existing README entry and prevalidates source privacy plus six exact ordered-record reconstructions. Coherent rollback invalidated the temporary Ninja build, so R2 must build again in the same existing cache; never copy the old DLL alone.
+
+
+### CP034-D3 final description/privacy refinement
+Latest user screenshot requests MO2 plugin tooltip descriptions. All six TES4 SNAM values now state1.0.3, Main vs optional Stances roles, supportedSE1.5.97 and actual dependencies. Author CNAM remainsTULL. This explicit later request adds six SNAM display-description changes to the233 FULL name changes; all other bytes except serialized length fields stay exact. Main and addon install ZIP filenames follow TULL Ordinary Attack Magic - v1.0.3.zip / TULL Ordinary Attack Magic - Stances Addon - v1.0.3.zip. Existing active Origin folder1.0.1/1.0.2 is not renamed by editing its profile.
+R2 preflight correctly rejected a private absolute origin in src/Arcana/SOURCE_PROVENANCE.md before source/build mutation. This document is private provenance, not C++ code. The new Source ZIP carries an explicitly redacted current edition with its original and output SHA recorded; all cpp/h/inl bytes remain exact. No gameplay file is altered to satisfy privacy. Source privacy, archive path sets and all six ordered-record reconstructions are validated before the next commit. R2 is FAIL_PRE/NO_WRITES/NO_ROLLBACK_REQUIRED, not a failed C++ build. R1 rollback proof and675-file baseline remain valid.
+
+
+### CP034-D3 final report and artifact closure
+Final MSVCx64/Ninja build28.797s, DLL8329BEF83B08C9990A22B830EF4FC5F38BC7D8BD2CDD771FC5FEB4C5B4257B96. Independent026 verification passed:1181anchor files,933installed files,16profiles unchanged;112exact Native sources,260source files,259manifest rows,258noncyclic provenance rows,six ordered ESP reconstructions. Correct current report build-log pointer from rolled-back R1 log021 to final025 and explicitly include six user-authorized TES4 SNAM descriptions alongside233 FULL names. Finalize source/handoff document hashes and external checksums without rebuilding or changing game data. Original007/158 and CP032 remain unchanged. New USER_RUNTIME pending;LOCKNO. Final external result027_FINAL_RESULT.json.
+
+# CP035-R2 | TOAM v1.0.3 RELEASE PREPARATION
+Date: 2026-10-27
+Parent: CP034-D3
+
+## Runtime
+- Multi-enemy long-combat stress test USER_PASS.
+- No CTD or freezing reported during this test.
+- OrdinaryAttackMagic(10).log: 553 ownership proofs and 553 color applications.
+- Gold 148, Red 174, Purple 231.
+- Zero error-level logs and zero shared-root rejects.
+- Nine warnings: BeamWholeLens Euler nonunique 8; Temperance trace limit 1.
+- Four video clips supplied as gameplay/color evidence.
+- Blue and Default were not rechecked in the latest stress run.
+- Historical isolated CTD has no dump and its cause is unresolved.
+
+## Implementation authority
+- CP034-D3 build/package evidence retained.
+- DLL SHA256: 8329BEF83B08C9990A22B830EF4FC5F38BC7D8BD2CDD771FC5FEB4C5B4257B96.
+- CP035 is documentation-only; no new DLL build, deployment or runtime execution.
+- The existing CP032 protected baseline and QA007 158-item checklist remain unchanged.
+- SOURCE=UNCHANGED; BUILD=EXISTING_D3; DEPLOY=NOT_RUN.
+- USER_RUNTIME=STRESS_PASS_WITH_LIMITS; LOCK=NO; PUBLICATION=NOT_AUTHORIZED.
+
+## Release preparation
+Main package, optional Stances addon and source package are previously packaged.
+Research compendium and standalone Formation Editor must be prepared as separate public uploads.
+Verify privacy, permission and licensing before distribution.
+Rebuild the public Source ZIP with synchronized CP035 documents.
+Review actual addon dependencies, installation instructions, credits, EN/KR descriptions, screenshots and file checksums.
+
+## CP035-R1 failure and correction
+CP035-R1 stopped at PRE because it assumed PUBLICATION_PLAN.md existed at the Production root.
+The document actually exists inside the verified CP034-D3 Source ZIP.
+R1 did not change Production files, docs or deployments and needed no rollback.
+R2 reads that exact ZIP entry and creates a separately named CP035 publication document.
+Do not fabricate a missing root path or overwrite a different publication authority.
+## CP035-R2 / 2026-10-27
+
+CP035-R1 FAIL_PRE: PUBLICATION_PLAN.md was assumed to exist in Production root.
+Actual authority: CP034-D3 public Source ZIP contains PUBLICATION_PLAN.md.
+No Production/docs/build/deploy changes occurred in the failed R1 transaction.
+R2 uses the archive entry as provenance and creates a new distinct CP035 publication document.
+File existence must be established from real current paths, not archive-relative paths.
+
+v1.0.3 stress evidence: 553/553 CircleTint application/ownership records, Gold148 Red174 Purple231, nine diagnostic warnings, no error logs and user-reported zero CTD/freeze. Historical CTD remains unresolved. Do not convert user stress PASS into universal stability or final LOCK.
+
+Release materials: Main, optional Stances, Source, public engineering/art research, standalone Formation Editor.
+The research and editor require privacy, licensing and independent publication checks.
+Never publish internal EVIDENCE or private handoff.

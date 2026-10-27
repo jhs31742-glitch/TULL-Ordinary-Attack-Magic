@@ -12,28 +12,32 @@ enum class Event : std::uint8_t { MagicianLaunch,MagicianHeavyLaunch,JudgementSh
 inline constexpr std::size_t spellCount=std::size_t(Spell::Count),eventCount=std::size_t(Event::Count);
 inline constexpr std::array<const char*,spellCount> spellKeys{"Magician","Judgement","World","Temperance","Emperor","Hermit","Chariot","Sun","Strength","Justice","Star","Tower","Fool"};
 inline constexpr std::array<const char*,spellCount> spellKR{"마법사","심판","세계","절제","황제","은둔자","전차","태양","힘","정의","별","탑","광대"};
+inline constexpr std::array<const char*,spellCount> spellDisplayEN{"I Magician","XX Judgement","XXI World","XIV Temperance","IV Emperor","IX Hermit","VII Chariot","XIX Sun","VIII Strength","XI Justice","XVII Star","XVI Tower","0 Fool"};
+inline constexpr std::array<const char*,spellCount> spellDisplayKR{"I 마법사","XX 심판","XXI 세계","XIV 절제","IV 황제","IX 은둔자","VII 전차","XIX 태양","VIII 힘","XI 정의","XVII 별","XVI 탑","0 광대"};
+struct PresetRGB {float red,green,blue;};
+inline constexpr std::array<PresetRGB,5> colorRGB{{{1,1,1},{.30F,.60F,1.F},{1.F,.16F,.12F},{1.F,.67F,.18F},{.68F,.25F,1.F}}};
 inline constexpr std::array<const char*,5> colorKeys{"Default","Blue","Red","Gold","Purple"};
 struct SoundSource { const char* name;const char* korean;const char* path;std::uint32_t descriptor;bool loop; };
 // Stable IDs are the one-based positions. Append only; never renumber.
 inline constexpr std::array<SoundSource,18> sources{{
- {"Magician launch","마법사 발사","sound\\fx\\TOAM\\Spells\\Arcana_Magician_Launch.xwm",0,false},
- {"Magician heavy launch","마법사 강한 발사","sound\\fx\\TOAM\\Spells\\Arcana_Magician_HeavyLaunch.xwm",0,false},
- {"Judgement launch","심판 발사","sound\\fx\\TOAM\\Spells\\Arcana_Judgement_Launch.xwm",0,false},
- {"Temperance proc","절제 발동","sound\\fx\\TOAM\\Spells\\Arcana_Temperance_Proc.xwm",0,false},
- {"Emperor shot","황제 발사","sound\\fx\\TOAM\\Arcana\\Arcana_Emperor_Shot.wav",0xA51,false},
- {"Strength loop","힘 지속음","sound\\fx\\TOAM\\Arcana\\Arcana_Strength_Loop.wav",0xA52,true},
+ {"I Magician launch","I 마법사 발사","sound\\fx\\TOAM\\Spells\\Arcana_Magician_Launch.xwm",0,false},
+ {"I Magician heavy launch","I 마법사 강한 발사","sound\\fx\\TOAM\\Spells\\Arcana_Magician_HeavyLaunch.xwm",0,false},
+ {"XX Judgement launch","XX 심판 발사","sound\\fx\\TOAM\\Spells\\Arcana_Judgement_Launch.xwm",0,false},
+ {"XIV Temperance proc","XIV 절제 발동","sound\\fx\\TOAM\\Spells\\Arcana_Temperance_Proc.xwm",0,false},
+ {"IV Emperor shot","IV 황제 발사","sound\\fx\\TOAM\\Arcana\\Arcana_Emperor_Shot.wav",0xA51,false},
+ {"VIII Strength loop","VIII 힘 지속음","sound\\fx\\TOAM\\Arcana\\Arcana_Strength_Loop.wav",0xA52,true},
  {"Formation (silent)","전개음 (무음 원본)","sound\\fx\\TOAM\\Arcana\\Arcana_Formation.wav",0xA53,false},
  {"Charge loop (silent)","충전 지속음 (무음 원본)","sound\\fx\\TOAM\\Arcana\\Arcana_Charge_Loop.wav",0xA54,true},
- {"Sun release","태양 발사 원본","sound\\fx\\TOAM\\Arcana\\Arcana_Sun_Release.wav",0xA55,false},
- {"Sun charge","태양 충전음","sound\\fx\\TOAM\\Arcana\\Arcana_Sun_Charge.wav",0xA56,true},
- {"Strength start","힘 시작음","sound\\fx\\TOAM\\Arcana\\Arcana_Strength_Start.wav",0xA57,false},
- {"Strength end","힘 종료음","sound\\fx\\TOAM\\Arcana\\Arcana_Strength_End.wav",0xA58,false},
- {"Tower shot","탑 발사","sound\\fx\\TOAM\\Arcana\\Arcana_Tower_Shot.wav",0xA59,false},
- {"Hermit detonation","은둔자 폭발 원본","sound\\fx\\TOAM\\Arcana\\Arcana_Hermit_Detonation.wav",0xC77,false},
- {"Hermit aftershock","은둔자 여진 원본","sound\\fx\\TOAM\\Arcana\\Arcana_Hermit_Aftershock.wav",0xC78,false},
- {"Sun impact","태양 충격음","sound\\fx\\TOAM\\Arcana\\Arcana_Sun_Impact.wav",0xC85,false},
+ {"XIX Sun release","XIX 태양 발사 원본","sound\\fx\\TOAM\\Arcana\\Arcana_Sun_Release.wav",0xA55,false},
+ {"XIX Sun charge","XIX 태양 충전음","sound\\fx\\TOAM\\Arcana\\Arcana_Sun_Charge.wav",0xA56,true},
+ {"VIII Strength start","VIII 힘 시작음","sound\\fx\\TOAM\\Arcana\\Arcana_Strength_Start.wav",0xA57,false},
+ {"VIII Strength end","VIII 힘 종료음","sound\\fx\\TOAM\\Arcana\\Arcana_Strength_End.wav",0xA58,false},
+ {"XVI Tower shot","XVI 탑 발사","sound\\fx\\TOAM\\Arcana\\Arcana_Tower_Shot.wav",0xA59,false},
+ {"IX Hermit detonation","IX 은둔자 폭발 원본","sound\\fx\\TOAM\\Arcana\\Arcana_Hermit_Detonation.wav",0xC77,false},
+ {"IX Hermit aftershock","IX 은둔자 여진 원본","sound\\fx\\TOAM\\Arcana\\Arcana_Hermit_Aftershock.wav",0xC78,false},
+ {"XIX Sun impact","XIX 태양 충격음","sound\\fx\\TOAM\\Arcana\\Arcana_Sun_Impact.wav",0xC85,false},
  {"Burst explosion","공통 폭발","sound\\fx\\TOAM\\Arcana\\Arcana_Burst_Explosion.wav",0xC88,false},
- {"Fool hover","광대 부유음","sound\\fx\\TOAM\\Arcana\\Arcana_Fool_Hover.wav",0xCA9,true}
+ {"0 Fool hover","0 광대 부유음","sound\\fx\\TOAM\\Arcana\\Arcana_Fool_Hover.wav",0xCA9,true}
 }};
 struct EventDefinition {const char* key;const char* korean;Spell spell;unsigned original;};
 inline constexpr std::array<EventDefinition,eventCount> events{{
@@ -45,6 +49,7 @@ inline constexpr std::array<EventDefinition,eventCount> events{{
  {"StarShot","별 발사",Spell::Star,5},{"JusticeLoop","정의 지속",Spell::Justice,6},{"TowerShot","탑 발사",Spell::Tower,13},
  {"HermitExplosion","은둔자 폭발",Spell::Hermit,17},{"TowerExplosion","탑 폭발",Spell::Tower,17},{"FoolHum","광대 부유",Spell::Fool,18}
 }};
+inline constexpr std::array<const char*,eventCount> eventDisplayEN{"I Magician Launch", "I Magician Heavy Launch", "XX Judgement Shot", "XXI World Release", "XIV Temperance Proc", "IV Emperor Shot", "VII Chariot Shot", "VIII Strength Start", "VIII Strength Loop", "XIX Sun Release", "XIX Sun Cancel", "XVII Star Shot", "XI Justice Loop", "XVI Tower Shot", "IX Hermit Explosion", "XVI Tower Explosion", "0 Fool Hum"};
 inline constexpr std::array<Spell,8> modeSpell{Spell::Emperor,Spell::Hermit,Spell::Chariot,Spell::Sun,Spell::Strength,Spell::Justice,Spell::Star,Spell::Tower};
 constexpr bool Compatible(Event e,unsigned id){return std::size_t(e)<eventCount&&id>0&&id<=sources.size()&&(std::size_t(e)<5||sources[id-1].descriptor!=0)&&sources[id-1].loop==sources[events[std::size_t(e)].original-1].loop;}
 struct Values {
