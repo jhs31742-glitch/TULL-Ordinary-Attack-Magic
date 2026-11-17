@@ -1,3 +1,4 @@
+#include "Core/RuntimeSupport.h"
 #include "Arcana/Integration.h"
 #include "VFX/EngineCircle.h"
 #include "Charge/ChargeRuntime.h"
@@ -211,8 +212,8 @@ namespace TOAM::VFX::Runtime
             return;
         }
 
-        if (REL::Module::get().version() != SKSE::RUNTIME_SSE_1_5_97) {
-            logger::error("[TOAM][VFXRuntime] Install requires SE 1.5.97");
+        if (!TOAM::Compatibility::Supports(REL::Module::get().version())) {
+            logger::error("[TOAM][VFXRuntime] Install requires an audited SE/AE runtime");
             return;
         }
         REL::Relocation<std::uintptr_t> playerVtable{RE::VTABLE_PlayerCharacter[0]};

@@ -1,3 +1,4 @@
+#include "Core/RuntimeSupport.h"
 #include "VFX/CircleTint.h"
 #include "VFX/CircleOwnershipPolicy.h"
 #include <array>
@@ -126,7 +127,7 @@ bool Configure(Entry& e,Presentation::Color color){
 }
 }
 void Prepare() noexcept {
- if(REL::Module::get().version()!=SKSE::RUNTIME_SSE_1_5_97)return;
+ if(!TOAM::Compatibility::Supports(REL::Module::get().version()))return;
  for(std::size_t i=0;i<neutral.size();++i){RE::NiPointer<RE::NiTexture> texture;RE::BSShaderManager::GetTexture(neutralPaths[i],true,texture,false);
   if(texture&&texture->GetRTTI()&&!std::strcmp(texture->GetRTTI()->GetName(),"NiSourceTexture"))neutral[i]=RE::NiPointer<RE::NiSourceTexture>(static_cast<RE::NiSourceTexture*>(texture.get()));
  }
@@ -135,8 +136,8 @@ void Apply(State& state,RE::ModelReferenceEffect* effect) noexcept {
  auto* root=effect&&!effect->finished?effect->Get3D():nullptr;
  if(!root||state.color==Presentation::Color::Default||state.color>=Presentation::Color::Count||root==state.attemptedRoot)return;
  state.lease.reset();state.attemptedRoot=root;const auto start=std::chrono::steady_clock::now();
- if(REL::Module::get().version()!=SKSE::RUNTIME_SSE_1_5_97||!root->GetObjectByName(RE::BSFixedString{"AS_CirclePose"}))return;
- // Pinned SE: effect owns artObject3D(+C8), plus AttachTechniqueInput
+ if(!TOAM::Compatibility::Supports(REL::Module::get().version())||!root->GetObjectByName(RE::BSFixedString{"AS_CirclePose"}))return;
+ // Pinned SE/AE1170 Get3D: artObject3D(+C8), plus AttachTechniqueInput
  // current3DRoot(+70) and attachedArt(+78). Count an alias only when its
  // actual pointer equals THIS root. Parent must contain exactly one edge.
  if(effect->artObject3D.get()!=root){logger::warn("[TOAM][CircleColor] REJECT reason=effect_root_mismatch");return;}

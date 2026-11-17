@@ -19,18 +19,24 @@ namespace TOAM::Combat
 
         ScopedTriggerFirewall firewall{ origin };
 
-        (void)source;
-
-        auto* av = target->AsActorValueOwner();
-        if (!av) {
+        if (!source) {
             return false;
         }
 
-        av->ModActorValue(
-            RE::ACTOR_VALUE_MODIFIERS::kDamage,
-            RE::ActorValue::kHealth,
-            -damage);
+        // Preserve the resolved amount while letting the engine record
+        // the attacker. The final flag skips difficulty adjustment.
+        const bool engineResult = target->DoDamage(damage, source, true);
 
+        if (auto* values = target->AsActorValueOwner();
+            values && values->GetActorValue(RE::ActorValue::kHealth) <= 0.0F) {
+            auto* killer = target->GetKiller();
+            logger::info(
+                "[TOAM-DAMAGE-CREDIT] Source={:08X} Target={:08X} Requested={:.3f} EngineResult={} Killer={:08X}",
+                source->GetFormID(), target->GetFormID(),
+                damage, engineResult, killer ? killer->GetFormID() : 0);
+        }
+
+        // Preserve the existing caller contract: valid damage was submitted.
         return true;
     }
 }

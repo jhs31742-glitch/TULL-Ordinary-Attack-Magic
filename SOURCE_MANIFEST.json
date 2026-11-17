@@ -1,1372 +1,1429 @@
 {
-  "version": "1.0.3",
-  "checkpoint": "CP038-B_GITHUB_PUBLIC",
-  "runtime": "V103_STRESS_USER_PASS;HISTORICAL_SINGLE_CTD_UNRESOLVED",
-  "nativeSourceExact": true,
-  "dependencies": "DEPENDENCIES.lock.json unchanged",
-  "DLLSHA256": "8329BEF83B08C9990A22B830EF4FC5F38BC7D8BD2CDD771FC5FEB4C5B4257B96",
-  "publication": "GITHUB_PUBLIC_AUTHORIZED_2026_10_27;NEXUS_NOT_RUN;LOCK_NO",
+  "format": "TOAM_SOURCE_MANIFEST_GIT_BLOB_V2",
+  "version": "1.0.5",
+  "checkpoint": "SE_AE_EXPERIMENTAL_2026_11_18",
+  "verification": {
+    "nativeSourceFiles": 113,
+    "nativeSourceExact": true,
+    "static": "PASS_WITH_RUNTIME_LIMITS",
+    "build": "PASS_AMD64",
+    "runtime": "NOT_TESTED",
+    "lock": "NO"
+  },
+  "targets": [
+    "1.5.97.0",
+    "1.6.1170.0"
+  ],
+  "dependencies": "DEPENDENCIES.lock.json and both gitlinks unchanged",
+  "DLLSHA256": "A8B407613E08223EBE995A08EFF17C2C591E37F50FDE3AF0C8E65FC32AB0E058",
+  "publication": "PUBLIC_GITHUB_EXPERIMENTAL_PRERELEASE_AUTHORIZED_2026_11_18",
+  "pluginRecordSources": "Historical 1.0.3 authoring snapshot. Current low-drop ESPs are in the 1.0.5 release install archives.",
+  "checksumConvention": "git_blob_sha1 hashes the exact Git blob header and bytes. sha256 is additionally supplied for changed native files. This manifest excludes itself.",
+  "packages": [
+    {
+      "name": "TOAM_1.0.5_SE_AE_Main.zip",
+      "bytes": 34693729,
+      "sha256": "8CD679B7D47ECE679F298D74C2054B011A9718F59F0F3D777549760BAF3E3AE2"
+    },
+    {
+      "name": "TOAM_1.0.5_SE_AE_Stances_Addon.zip",
+      "bytes": 10278,
+      "sha256": "1AA107D582D0AF70621B51FA6FBEECA9CD8172B34339D375C03CD935B1B69649"
+    }
+  ],
+  "submodules": [
+    {
+      "path": "lib/commonlibsse-ng",
+      "commit": "8c4025b01fac2bea1bbe73a3a9da7b4fde338343"
+    },
+    {
+      "path": "lib/vcpkg",
+      "commit": "4bc07e3eb00c5a9539a5a7a83415150a9260f8db"
+    }
+  ],
   "files": [
     {
       "path": ".gitattributes",
       "bytes": 8,
-      "sha256": "705FD4D6451A31D36B3DF7DE96F83F30AC976C9B4A6D1E51671D8E2F33E2D0DA"
+      "git_blob_sha1": "fa1385d99a319b43c06f5309d1aae9fdd3adea46"
     },
     {
       "path": ".gitignore",
       "bytes": 134,
-      "sha256": "E988A47A259768E414CF6740FC0AB69337351D8AC78A5150F769B72619181382"
+      "git_blob_sha1": "dd3c161d60ab9f7490a9a9156f8e0ca03d1d1bdd"
     },
     {
       "path": ".gitmodules",
       "bytes": 205,
-      "sha256": "3345E2BEA118B7D482ED930FDEB4C1C64D1471A20BCE70A890A46D8F7A76ABE7"
+      "git_blob_sha1": "1971a9aee762e81134802f2ce385dd52fa7ab620"
     },
     {
       "path": "AGENTS.md",
-      "bytes": 2101,
-      "sha256": "EF803B40CDF3F34BF1C7467217788623FF735501870D4D5E368747682CC4FA18"
+      "bytes": 3116,
+      "git_blob_sha1": "5aa4c60a90a51b7a1eed7f3dc64bd364b432bd0d"
     },
     {
       "path": "ArtTools/Books/ART_DIRECTION_AND_TEXT.txt",
       "bytes": 959,
-      "sha256": "EFEB21E6F44C505F4600EAF13BC6AAC25239773AD83C9A576F6BFE47B05FA3CC"
+      "git_blob_sha1": "70815a566a12da03b0fb3fdd21a1a0de6e7a6343"
     },
     {
       "path": "ArtTools/Books/BACK_COVER_GENERATION.json",
       "bytes": 535,
-      "sha256": "8EA90FD7EA9307748011B4982F9AB8EED4A9006FBD3CAA62CDD8A69CCDC02C39"
+      "git_blob_sha1": "b8da3c950c758c2cc50509bee6f55808f931e21b"
     },
     {
       "path": "ArtTools/Books/History/014_BOOK_UV_AUDIT.py",
       "bytes": 736,
-      "sha256": "0A5A2F17448FC8F01E8E5DA10B642D6012F87D3320A5A6EECEEFF7D427EDDEF7"
+      "git_blob_sha1": "b2b06b0a80e8da9f55aeb9d43cc434405ffb05c8"
     },
     {
       "path": "ArtTools/Books/History/015_MESH_AUTHOR.cpp",
       "bytes": 2617,
-      "sha256": "86A9DE0B4BC3B6EC69E0A87637F2CF39921FB2FAA3CC72A345F086D1BFD5BAC4"
+      "git_blob_sha1": "2f6781fbd234e6b0e068c07c845be722a452f2d5"
     },
     {
       "path": "ArtTools/Books/History/017_BSA_BOOK_EXTRACT.py",
       "bytes": 3958,
-      "sha256": "5E4017690433A1D31C464DA6889D2EFE3CE3EC2B7CE03B89D02B9D32B1AC7142"
+      "git_blob_sha1": "26d31a7c0dc0e2c0ac08f20ff19c357ce0ecb02d"
     },
     {
       "path": "ArtTools/Books/History/022_BOOK_ASSET_AUTHOR_R2.py",
       "bytes": 9502,
-      "sha256": "AD4708D829DC6B7410D254C1919A936A8A7525EB297504A5A368EA322B3C3753"
+      "git_blob_sha1": "98e12a4719b9a474f1cab07d1c60a78e813d797e"
     },
     {
       "path": "ArtTools/Books/History/023_BOOK_FINALIZE_R3.py",
       "bytes": 5034,
-      "sha256": "1945DC523B6BD2C749DCBBE3BCAC8CA35D2C4FC1610C178247112BECB304E25E"
+      "git_blob_sha1": "bfe588718589008469b3524386a24f338cbc1f32"
     },
     {
       "path": "ArtTools/Books/IMAGEGEN_PROMPTS.json",
       "bytes": 4662,
-      "sha256": "5BCC0EEB2FF0024EFCFF30F694DB7E0A0A2E2A2FC0FED17E8DD868AFB13E99FA"
+      "git_blob_sha1": "cf0b7bc360a20c9d8913552aa9a08e6358f03c83"
     },
     {
       "path": "ArtTools/Circles/ChargeCannon_r3/gen_nifs.py",
       "bytes": 13314,
-      "sha256": "757D9FCB9B75F12946439474298B6A30179DDC01D7DEC15F21FF1D757DD08E69"
+      "git_blob_sha1": "d6db60ffc319454309caba4c469ec24d3e4eb245"
     },
     {
       "path": "ArtTools/Circles/ChargeCannon_r3/make_textures.py",
       "bytes": 10763,
-      "sha256": "D6B60161E7BBFDE125E22E5FE9C9E15843C278D94A6F811D310E3E9D994A193B"
+      "git_blob_sha1": "e7f37e2c19d7c0542e70b4bd6127d550cfacae7b"
     },
     {
       "path": "ArtTools/Circles/ChargeCannon_r3/nifbuild.cpp",
       "bytes": 7069,
-      "sha256": "6FCBEF7DE0BCE79FAF7A0B7694F28F0298FC3886C0781A939452B5B40D3B56F8"
-    },
-    {
-      "path": "ArtTools/Circles/ChargeCannon_r3/previews.py",
-      "bytes": 7395,
-      "sha256": "2C89B9B187160E18B9ACAD428006FD3D1B09B983E9143FFD48C967C10DA0FB84"
+      "git_blob_sha1": "e82c39c95d44cc11a89c8332b125482b6f1ced6d"
     },
     {
       "path": "ArtTools/Circles/ChargeCannon_r3/previews_tintable.py",
       "bytes": 7846,
-      "sha256": "B4F1179AFF4CFD578F90BBD8D24B872720331AC3AE9CDA2D23FC0E266F899A23"
+      "git_blob_sha1": "84e216371e06f69c720e94ebd68bf0317675a427"
+    },
+    {
+      "path": "ArtTools/Circles/ChargeCannon_r3/previews.py",
+      "bytes": 7395,
+      "git_blob_sha1": "91b12f85ef5822df077afc39411667b94cd77153"
     },
     {
       "path": "ArtTools/Circles/S03/gen_circle_parts.py",
       "bytes": 6792,
-      "sha256": "B4EFA0E850C78A0D5053C783DB94331A44C5B7A23665EE8E4148987655E51C14"
+      "git_blob_sha1": "70a9e3cbfd76e977953a573004d011bc6502b3b1"
     },
     {
       "path": "ArtTools/Circles/S03/gen_derived.py",
       "bytes": 9647,
-      "sha256": "516AE3B8DE36F4756C3F432E95CC04F339D459FBB4E87E6C9E91F77829DC1547"
+      "git_blob_sha1": "745755d8b9b1400a676905b8f861e85b9a7c5fdb"
     },
     {
       "path": "ArtTools/Circles/S03/instance_composition.py",
       "bytes": 2791,
-      "sha256": "E6F26DF4C584EBD9AEC073A3136B1D314EC518E4A82885C63FFA04629F52C175"
+      "git_blob_sha1": "92742f46593b10d9b95eb29417ae98d147c0f617"
     },
     {
       "path": "ArtTools/Circles/S03/magician_mixed.candidate.json",
       "bytes": 5382,
-      "sha256": "AC8EAA9E822A269CBD93B2F0154BB1EFA7393DA49FF30532168CC43B9D970A87"
+      "git_blob_sha1": "8d9c1fbf79f25daf905da638d3736cd3e2af008d"
     },
     {
       "path": "ArtTools/Circles/S03/mixed_composition.py",
       "bytes": 4672,
-      "sha256": "67D2AB9E0C29028260A67AB2F6EAF5509B33CE633631898C48AC108CC7799F31"
+      "git_blob_sha1": "0b561d9a76411b1c92e4eac716269b7103994684"
     },
     {
       "path": "ArtTools/Circles/S03/preservation.py",
       "bytes": 2965,
-      "sha256": "3FEED1CF4A8E82B125740E25B181D759145076FA7883E567C3E83E1475B3D800"
+      "git_blob_sha1": "8dc57efa09ca32ce24e9398ce15b5de87ab31284"
     },
     {
       "path": "ArtTools/README.md",
       "bytes": 1163,
-      "sha256": "0D54C69FA9E59CBB67A3CF2B456383CFF960E1D2C1CBF879AA47E220A4FB41A7"
+      "git_blob_sha1": "8c481cb05f8f6310c51f2adb4a7d75209ba9e39d"
     },
     {
       "path": "ArtTools/Staff/Fern_v010/build_model.py",
       "bytes": 15934,
-      "sha256": "50DB14BE42052823DD8218B382ECDABB93B09B9F8D4CA473C32BFB02E2BBA440"
+      "git_blob_sha1": "6ddb2fe26d7329eb9f36486bb0199c718e946432"
     },
     {
       "path": "ArtTools/Staff/Fern_v010/fern_staff.meshspec",
       "bytes": 2900714,
-      "sha256": "8E5CDD1BA5206A5B2D5C4F5BEC8DA0A6B157BF705A7E5C9EA5EEEDF7610A0E46"
+      "git_blob_sha1": "6541bb633fc98aa9afb8e09ae0d3613acc1d8beb"
     },
     {
       "path": "ArtTools/Staff/Fern_v010/make_textures.py",
       "bytes": 2259,
-      "sha256": "B514F0507F868802600EEEA4A4D44495C6A4CAEE683131F2DBDFA934D0CD189C"
+      "git_blob_sha1": "e9a0e4d05ef1072ad146c9f447b1e6ff2aeef49c"
     },
     {
       "path": "ArtTools/Staff/Fern_v010/nifassemble.cpp",
       "bytes": 2571,
-      "sha256": "432C79BC0D5413D30D2F8B66220CCC08362E77FA21F600F1C57585165E682E46"
+      "git_blob_sha1": "2ac571ff770541b80cbb8ec32f5d4c37d2e61029"
     },
     {
       "path": "ArtTools/Staff/Fern_v010/render_exported_nif.py",
       "bytes": 3851,
-      "sha256": "222149E2CFC6A540EFBBF76FCC334DE847CC5D8AC3854192F2ACE672FE4583FB"
+      "git_blob_sha1": "cf04c1020b90a823ccdfdc424b9d283dfebe2fc2"
     },
     {
       "path": "ArtTools/Staff/Fern_v010/verify_assets.py",
       "bytes": 6393,
-      "sha256": "4C5890F70D8FD7C499A846E82E2771D961A75BD84C955ECF77A0E00463BDB970"
+      "git_blob_sha1": "45e2c2b6f39d78b64045493d568ad1037ff1211d"
     },
     {
       "path": "ArtTools/Staff/Fern_v020/build_model.py",
       "bytes": 16978,
-      "sha256": "58BAC4B698604C4E7DFD268DDA42D189AA9DCD40EC49A567341F2F8C5DC6E1AB"
+      "git_blob_sha1": "a32a656ba158191d95d7e0eaea017eb52a68c23b"
     },
     {
       "path": "ArtTools/Staff/Fern_v020/make_rig_source.py",
       "bytes": 3283,
-      "sha256": "D3815D6ED5CDEBAE34C3F66907966245CBE8EE22AB4C49EA23A126CA10F4A906"
+      "git_blob_sha1": "8f619df0ee0b5235a102debff7eb154a9ec9a3a0"
     },
     {
       "path": "ArtTools/Staff/Fern_v020/make_textures.py",
       "bytes": 4015,
-      "sha256": "8B28F43C9A68B40BE2B77F3CA03A507ADF89709E7F427F5B736E99CCD5C0C93F"
+      "git_blob_sha1": "1462e5867ca7d17707cca23a77d8638d441ab461"
     },
     {
       "path": "ArtTools/Staff/Fern_v020/nifassemble.cpp",
       "bytes": 2931,
-      "sha256": "3E8F879CF371B258D5257C8813B2692F4FC70D8D3D6D85C815FA152DBAE58B6A"
+      "git_blob_sha1": "2cd69aed13eabeb7c02b985b78d9b742ddce1f83"
     },
     {
       "path": "ArtTools/Staff/Fern_v020/nifskin.cpp",
       "bytes": 3886,
-      "sha256": "8F22FBBD4095527BE5E3326AC15BE23CC4925D42C115F4AFE09EDBE930D1B9C1"
+      "git_blob_sha1": "8c5b479d753f33932ca1b10792a7f0d814f6b4b6"
     },
     {
       "path": "ArtTools/Staff/Fern_v020/prepare_smp.py",
       "bytes": 3511,
-      "sha256": "DB5BB3F7521659B698A22716243082B930C6375A717DC7C67E32A92B89CB236D"
+      "git_blob_sha1": "774e4c124c88d6154ef7be062fc8aaadc0b234b3"
     },
     {
       "path": "ArtTools/Staff/Fern_v020/verify_smp.py",
       "bytes": 4769,
-      "sha256": "A758E51340A6C49AB54A62310E3DD5D5E57C804620D297568D0EB7FE6F5113D6"
+      "git_blob_sha1": "3831582a2c1d4973d3103aaf5e7887952eed4d60"
     },
     {
       "path": "ArtTools/Staff/Millennial/FrierenStaff.spec",
       "bytes": 1458163,
-      "sha256": "80F3F22F96138D23BFEF3BE67E06CE83E82A838D9B97E3EE7EA06977247A5104"
+      "git_blob_sha1": "aab32d24c509a09569b1a28ffcb63fe4f0e58caf"
     },
     {
       "path": "ArtTools/Staff/Millennial/staff_assemble.cpp",
       "bytes": 3079,
-      "sha256": "111C8133C42B630EDF98395353E64E4DF0476325DC714B632D6C208027B0064A"
+      "git_blob_sha1": "9da7ac0a1d3f2a3a7e2dd9a0025d29252ba87313"
     },
     {
       "path": "ArtTools/Staff/SMP_Withdrawn/037_SMP_AUTHOR.py",
       "bytes": 9887,
-      "sha256": "C33A3CA983028928FEDCB5A64B734083C911BD0BA132610FFC99F57EE05E24B2"
+      "git_blob_sha1": "ffacc49d596f5b9bc22b3b1079bd6019d8e106ae"
     },
     {
       "path": "ArtTools/Staff/SMP_Withdrawn/040_SMP_GATE_AUTHOR.py",
       "bytes": 2329,
-      "sha256": "708D988AD4211E63AA77D1B5A0CDAFD1336B92B41DD25CA413FC8FDC770F1848"
+      "git_blob_sha1": "04ab766ecd4790442a2dcf56a1fb63658531faae"
     },
     {
       "path": "BUILDING.md",
-      "bytes": 3769,
-      "sha256": "19DE69C8C0F1CA9F593D2E81B455B64C1032CE3AB72CB68FF37EB39A9F7EDB6C"
-    },
-    {
-      "path": "CMakeLists.txt",
-      "bytes": 8969,
-      "sha256": "91BF2BB3DB7A9E64E4FD950536CC86781C29B75E97D39746A702DC68CBEE4461"
-    },
-    {
-      "path": "CMakePresets.json",
-      "bytes": 4969,
-      "sha256": "8DABC9EB834CCE92FCA91872B248436772FD491E326AD62702FCD36696179FA5"
-    },
-    {
-      "path": "DEPENDENCIES.lock.json",
-      "bytes": 325,
-      "sha256": "155DA061EC947B494D2B251FB591F9E5B6680A29F9C16CB9EE447E16B3FFD9AD"
-    },
-    {
-      "path": "DataSources/Distribution/TOAM_Stances_CID.ini",
-      "bytes": 71238,
-      "sha256": "2D00466FDAC3A366EB500EE30F6B389294FB5CD05D851DAE2EF37D6E7AD3CE1D"
-    },
-    {
-      "path": "DataSources/Distribution/TOAM_WorldDistribution_CID.ini",
-      "bytes": 68682,
-      "sha256": "40D6E912B1F50E1AC8E53B3FCA03C05490A8B8FBF06482C98688F7EC547D483F"
-    },
-    {
-      "path": "DataSources/FORM_MAP.json",
-      "bytes": 291389,
-      "sha256": "94737447D3E09CD776118AF2B8AC02682332D3E79056A2249EA9D76D39136BCA"
-    },
-    {
-      "path": "DataSources/PluginRecords/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp.json",
-      "bytes": 28442,
-      "sha256": "9A10C4E0E5DAADB5C70A512008F34D6DD880B6BA9DA3C85D769B6758378DD970"
-    },
-    {
-      "path": "DataSources/PluginRecords/Language/en/TULL Ordinary Attack Magic.esp.json",
-      "bytes": 1059781,
-      "sha256": "265D93885B77599E1989A4C5719C2105347FF435EC329970C492365767FEF8F7"
-    },
-    {
-      "path": "DataSources/PluginRecords/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp.json",
-      "bytes": 29502,
-      "sha256": "06E5F8BD95858E4A80961DEEC44A1F6B2039CC6877088A3A172B2998BBCDC1BF"
-    },
-    {
-      "path": "DataSources/PluginRecords/Language/kr/TULL Ordinary Attack Magic.esp.json",
-      "bytes": 1063909,
-      "sha256": "5DC1671DE078378244763F248E64DA1AFC1FF7A97942DB2406F8B3935ED8ABFA"
-    },
-    {
-      "path": "DataSources/PluginRecords/TULL Ordinary Attack Magic - Stances Addon.esp.json",
-      "bytes": 28430,
-      "sha256": "00183DD74266E8AE908EDF95C712ABEF293C11C31FB01A7C1F55B7C69FB0DF72"
-    },
-    {
-      "path": "DataSources/PluginRecords/TULL Ordinary Attack Magic.esp.json",
-      "bytes": 1059769,
-      "sha256": "D060F4BBF1C3D41138275204BD2D2973178FC0F9EFAA867A43A36A765C1009E1"
-    },
-    {
-      "path": "DataSources/RUNTIME_ASSETS_MANIFEST.json",
-      "bytes": 229962,
-      "sha256": "71370B60A978E5C39392955E77E0C699971F788404029FE4A39B8AF190688C6E"
-    },
-    {
-      "path": "DataSources/TOAM.ini",
-      "bytes": 1634,
-      "sha256": "840907E924B259CC63F8F6847F5DD020BBE362F028ACAE9D49D2DBA570BD95B7"
-    },
-    {
-      "path": "Docs/ASSET_ATTRIBUTION_AND_RIGHTS.md",
-      "bytes": 4206,
-      "sha256": "2F3D0E9D35134D6D73858130C15E4D926772812F9ECF220514CD77C11B69B45D"
-    },
-    {
-      "path": "Docs/AUDIO_CATALOG.json",
-      "bytes": 24125,
-      "sha256": "28AC2EF74F72DB091BDA5501E1FD9995CFF01EE03F27E5B330D66E9906E81F5E"
-    },
-    {
-      "path": "Docs/AUDIO_CATALOG.md",
-      "bytes": 7462,
-      "sha256": "32C7E067FEE1228D7DDA036BEF1BA4F23FF59EA53FC379A67612D1C9BA8FA014"
-    },
-    {
-      "path": "Docs/CIRCLE_MATERIAL_AUDIT.json",
-      "bytes": 191974,
-      "sha256": "A1B1B218EC6FD0A989DA470C3775957072AE9EF8A2A5E9E6B6B86F7B17175FF4"
-    },
-    {
-      "path": "Docs/CIRCLE_MATERIAL_AUDIT.md",
-      "bytes": 9366,
-      "sha256": "565BD7BC6FCEC2569C9F8E4AC3EE663830FBA0F4355EEEE34DACF6A2EB413314"
-    },
-    {
-      "path": "Docs/COLOR_PRESET_MAPPING.md",
-      "bytes": 3114,
-      "sha256": "1C96AAF106C1F2C278BF7EB46AED43DEC6EB729606F6699DF15D318B103023DB"
-    },
-    {
-      "path": "Docs/CP031_IMPLEMENTATION_REPORT.md",
-      "bytes": 11216,
-      "sha256": "970340B6B3DBE3E47C67B817A937BD22172C36A3FDB984CECB3D02FF26935C41"
-    },
-    {
-      "path": "Docs/CP032_STAFF_CLOTH_REPORT.md",
-      "bytes": 7001,
-      "sha256": "7B2D96F5A0F41B1144EACFC2CE8547E35E4B784DCAB4E7672511C8EA3B690668"
-    },
-    {
-      "path": "Docs/CP033_ONE_BOOT_QA.md",
-      "bytes": 2264,
-      "sha256": "6565CDE47ECE7AF3277C8128521BAF3D255C95975757336DB5BADAB567A4872F"
-    },
-    {
-      "path": "Docs/CP033_V101_IMPLEMENTATION_REPORT.md",
-      "bytes": 6891,
-      "sha256": "C2A13A187BF3FAA474CE576CA3A50E9ED79229EA2FAF8FEAC77B1997420DC116"
-    },
-    {
-      "path": "Docs/CP034_D3_RECAST_UI_TAROT_REPORT.md",
-      "bytes": 9381,
-      "sha256": "3569863FCD6481EB75C740402F758CF317B92B2158E4EDDBA79116E8BC3C9017"
-    },
-    {
-      "path": "Docs/CP035_PUBLICATION_PLAN_FROM_SOURCE.md",
-      "bytes": 2887,
-      "sha256": "0E6CDF29DAB61C12C78BD58C79D2376BAC9674CDDDF4B6EEA757B5D66D020BAC"
-    },
-    {
-      "path": "Docs/CP035_RELEASE_UPLOAD_MATRIX.md",
-      "bytes": 1429,
-      "sha256": "7033239B6C60B61BBBD0667B515CC6BF0332C9F5AD5668878DEC8014B4AAC93B"
-    },
-    {
-      "path": "Docs/CP035_V103_STRESS_RELEASE_READINESS.md",
-      "bytes": 1978,
-      "sha256": "9B82B4BC87AA93DAEC3058AB674BA842444514A1A72A1419D6A1B1F9FC5B6D16"
-    },
-    {
-      "path": "Docs/CREDITS.txt",
-      "bytes": 6522,
-      "sha256": "41D20136E272CD5711F30D7DEDC7A7A891533C1C722719ECEB0E83B41CF74456"
-    },
-    {
-      "path": "Docs/DAMAGE_SETTINGS.md",
-      "bytes": 1168,
-      "sha256": "984C23CDFB0E8A3B848BB7F3B75ED9271761548CD528756B6CC5E756734AF953"
-    },
-    {
-      "path": "Docs/DISTRIBUTION.json",
-      "bytes": 58148,
-      "sha256": "195A663B7C1617C6D43A3327664D5EDEFA95404093D812998F64DEAD78931FCD"
-    },
-    {
-      "path": "Docs/DISTRIBUTION.md",
-      "bytes": 1834,
-      "sha256": "874E34D7661F63EF156A9C940CABEAB50182FA6214675169057A62052E23EE79"
-    },
-    {
-      "path": "Docs/GITHUB_PUBLICATION.md",
-      "bytes": 1383,
-      "sha256": "1D9A480D3EF906D7236E0B71999F6B4D3CF1FD32434F4CD7540C0F66AF657171"
-    },
-    {
-      "path": "Docs/History_CP030/ARCANA_BALANCE.json",
-      "bytes": 3608,
-      "sha256": "37A4FA9352CD0D166B75CACA52FD6FB1DBD2FF8E5D5DD830152C7DCC6E49DB1D"
-    },
-    {
-      "path": "Docs/History_CP030/BALANCE.md",
-      "bytes": 2179,
-      "sha256": "E8602D78284188557B91B4EB90A210599C410904BFB7B33AEA01E6127D925920"
-    },
-    {
-      "path": "Docs/History_CP030/CP030_IMPLEMENTATION_REPORT.md",
-      "bytes": 17097,
-      "sha256": "7C6D7A47F4AB44DB4A51F3117C58A3BF1C08912C38443724AC505B2335905E2C"
-    },
-    {
-      "path": "Docs/History_CP030/CREDITS_AIR_COMBAT.md",
-      "bytes": 8178,
-      "sha256": "D0EEA1AC3B51D2CB2621B10EC10F0167851B52C427403BA306DA185D6803A802"
-    },
-    {
-      "path": "Docs/History_CP030/DAMAGE_SETTINGS.md",
-      "bytes": 2441,
-      "sha256": "E0F8031526332C5BA1A726E4C01F79A90347D2B7F2EC2C2BE0C8207F81646429"
-    },
-    {
-      "path": "Docs/History_CP030/DISTRIBUTION.json",
-      "bytes": 31619,
-      "sha256": "79CB4F9A8DF4F0750ADC7E75358E907F0C5E79929A059FCD3655C760AAA21352"
-    },
-    {
-      "path": "Docs/History_CP030/DISTRIBUTION.md",
-      "bytes": 3868,
-      "sha256": "E617FF41EBC96B83588D67276A4850BFBBCD38BB15815E348E8D995E037D93C6"
-    },
-    {
-      "path": "Docs/History_CP030/INSTALL_CURRENT.md",
-      "bytes": 3590,
-      "sha256": "8918D44A75C6A6A10338FBC95877BCA0AB7889DADB8E3BB50289A734B8707959"
-    },
-    {
-      "path": "Docs/History_CP030/NEXUS_RELEASE_GUIDE.md",
-      "bytes": 9815,
-      "sha256": "E29018110924D529BF194297EA6B74B11D76114FED32F47C0A4813DBC3F4D1CF"
-    },
-    {
-      "path": "Docs/History_CP030/README_EN.md",
-      "bytes": 3265,
-      "sha256": "147CB3DF7F3C76EC8DC2228C6DC73D38C678A476D79A91F3698BF08C164A4949"
-    },
-    {
-      "path": "Docs/History_CP030/README_KR.md",
-      "bytes": 3338,
-      "sha256": "0A4A79F3D288CD8D27D059331055BD3833D397ADC28751C46889420297534624"
-    },
-    {
-      "path": "Docs/History_CP030/RELEASE_NOTES.md",
-      "bytes": 2121,
-      "sha256": "FBA18ED210F728C246EF686FE69DF2D9705644CE54F5943F2B2051C0469D32F9"
-    },
-    {
-      "path": "Docs/History_CP030/RUNTIME_COMPATIBILITY.md",
-      "bytes": 1891,
-      "sha256": "CC552036564B65E117E95F8227961D610B0EE46CC9A37CDAD4D66A9802B6B3EB"
-    },
-    {
-      "path": "Docs/History_CP030/TECHNICAL_REPORT.md",
-      "bytes": 3493,
-      "sha256": "EFABAD52C09DA302BEEE21875117E70F7B2ACA5067F771EB623315E228FE4D51"
-    },
-    {
-      "path": "Docs/NEXUS_DESCRIPTION_EN.md",
-      "bytes": 11292,
-      "sha256": "041712FE956D521075EFA24E49B01B3AAFD2D0C8C6BDC4B2F7885AF67285041D"
-    },
-    {
-      "path": "Docs/NEXUS_DESCRIPTION_KR.md",
-      "bytes": 8975,
-      "sha256": "7A43227188C7A9FE96F8A78D398B731A069FA07D7FBB8221D4B6C75702326E6B"
-    },
-    {
-      "path": "Docs/PLUGIN_DESCRIPTION_AUDIT.json",
-      "bytes": 2464,
-      "sha256": "BBEB16D78692DFBC5473C6A651D028BC79476DBA3C4D492F690709D1C688F120"
-    },
-    {
-      "path": "Docs/PRESENTATION_SETTINGS_EN_KR.md",
-      "bytes": 4028,
-      "sha256": "FC2D36EAC4C3E3CF9483165E115215F707C862D90A9E5B33FD320B8491448CD1"
-    },
-    {
-      "path": "Docs/README.md",
-      "bytes": 410,
-      "sha256": "17D6DE87138DB714CF0F4DC4207834B4A8924A64684FDA416B30657B6408CE08"
-    },
-    {
-      "path": "Docs/README.txt",
-      "bytes": 3687,
-      "sha256": "78581C69A3D57183A6886E8F0813C6108992E5367C4D9A032F1116F015CA1D44"
-    },
-    {
-      "path": "Docs/README_Stances.txt",
-      "bytes": 721,
-      "sha256": "416CB528C6FEA37AED4DC564C52D6A6B22BD283D935F54D651FC4C4B09B41631"
-    },
-    {
-      "path": "Docs/RELEASE_POLICY_CP038.md",
-      "bytes": 1943,
-      "sha256": "EE21C26086F205EB0C2817BFEDF439F93BDB6C1E32308D1E4676FA3D630024AD"
-    },
-    {
-      "path": "Docs/SHIPPED_HKX_SHA256.csv",
-      "bytes": 180091,
-      "sha256": "51A69F2DB669400BF66148ACD9CBC24DDD3B5FF4A3F15A002E3229CF1897FAC8"
-    },
-    {
-      "path": "Docs/TAROT_NAME_MAPPING.json",
-      "bytes": 58082,
-      "sha256": "389DDB51038038BE23E444CB69B72ED27683E0B2CC3BEA971AED39D98B0FD340"
-    },
-    {
-      "path": "Docs/THIRD_PARTY_NOTICES.md",
-      "bytes": 2568,
-      "sha256": "18E7AE382B6052ABD5340AE6C2D420B8D0876B7B4D235C7E4F947F6A5CCD993A"
-    },
-    {
-      "path": "Docs/TOAM_v1.0.3_Nexus_Description_EN_KR_BBCode.txt",
-      "bytes": 21572,
-      "sha256": "80BA6032DA3F3742893F6E7C30EE9A385D1096F99169639E4F363EB9F7A56677"
-    },
-    {
-      "path": "Docs/TOAM_v1.0.3_Nexus_Description_EN_KR_Plain.txt",
-      "bytes": 20186,
-      "sha256": "3A3EC94C17EDEADC0412A43FEC82BDD968ED0BD3E866E5C8D211B8B506331EB8"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 1061,
-      "sha256": "81AB9E4445ABF0E342A59A3E6E68FC5A866D31DF1342FA03C4CCB29B639B87B6"
-    },
-    {
-      "path": "LICENSE_SCOPE.md",
-      "bytes": 1659,
-      "sha256": "961404426ACAB6C1B7BBC5B9395222FAF0144F3486A128AF11072CF22EED7B6F"
-    },
-    {
-      "path": "LICENSING.md",
-      "bytes": 1239,
-      "sha256": "A76EFC9DB27D249BA6B97A4B90601734EFBFE2702EF7B3DDD6C6CCA165C7D798"
-    },
-    {
-      "path": "PUBLICATION_PLAN.md",
-      "bytes": 1716,
-      "sha256": "D109FF2D052C607613971DE7C4D0A4D760F6A6ECB7FCC56C02D2C361CA883896"
-    },
-    {
-      "path": "QA/007_ONE_BOOT_QA_CHECKLIST.md",
-      "bytes": 33332,
-      "sha256": "00CF6FBC482514684F87DB317EC6A2B433F2286777F25403206BE15BA5F6F0F1"
-    },
-    {
-      "path": "README.md",
-      "bytes": 2623,
-      "sha256": "A98320E85E6FAB63D3A34C8E439CB68A183AEF6F472AA06CE0D03404EEBAAAED"
-    },
-    {
-      "path": "Research/LICENSE-RESEARCH.md",
-      "bytes": 752,
-      "sha256": "4760ADDCFB247BA65F5A6FB95AB215EE495BC05E8F93146C58775FC86BBC93EE"
-    },
-    {
-      "path": "Research/RESEARCH_SOURCE_INDEX.csv",
-      "bytes": 80609,
-      "sha256": "DFC0C1FFF54553A44B8872FAA26FD6A1FF539FAF988604F7F4983CA489B1CF8E"
-    },
-    {
-      "path": "Research/TOAM_RESEARCH_COMPENDIUM.md",
-      "bytes": 381294,
-      "sha256": "08621C6F3506EA5EC20FC5DFBA0693A2A8285F074F294DCDEB0C3E014928631A"
-    },
-    {
-      "path": "THIRD_PARTY_LICENSES/CommonLibSSE-NG.txt",
-      "bytes": 1074,
-      "sha256": "F8F983D0D1E2BB361F117487465F21F5F4047ACCA3610F7ABA3482D524C83CE4"
-    },
-    {
-      "path": "THIRD_PARTY_LICENSES/fmt.txt",
-      "bytes": 1431,
-      "sha256": "07580F2A3B35709CE703D523F447B242F6DFEC7582A8C0DF102C7FA2849375F8"
-    },
-    {
-      "path": "THIRD_PARTY_LICENSES/spdlog.txt",
-      "bytes": 1323,
-      "sha256": "D678C20826E1392578508E1C78649A1E3C31BDA05EF4388D967DBD654461B140"
-    },
-    {
-      "path": "Tests/CircleTint_lifetime_host.cpp",
-      "bytes": 9702,
-      "sha256": "3C067E49311321E39EAF3D8F2369437698F255513A5B610D624245B68EDD0BB4"
-    },
-    {
-      "path": "Tests/Presentation_menu_host.cpp",
-      "bytes": 7281,
-      "sha256": "F702DCE217C1EF90A1F7673158210FD6C409A7645E09A9C3B5DDF600742C29F0"
+      "bytes": 4223,
+      "git_blob_sha1": "841f7831af70af7cff660d64c85cd8a6c5b1dbfc"
     },
     {
       "path": "cmake/ports/directxtk/portfile.cmake",
       "bytes": 1199,
-      "sha256": "B98D5417412AB342EB8B20F9D35691B74700F85DC8D052BA4A6D5500EC9BE3CE"
+      "git_blob_sha1": "fc6a4faaf09e44884112f995c16baa285b8a148c"
     },
     {
       "path": "cmake/ports/directxtk/vcpkg.json",
       "bytes": 275,
-      "sha256": "6F2F1C324BB3FB837AB7DB78B29E435BC0FDD4E16C2A020620B7B38E12D2CF5C"
+      "git_blob_sha1": "c548f7517d4beb80e465325e90bee5f521019194"
     },
     {
       "path": "cmake/toolchains/clang-cl-cross.cmake",
       "bytes": 3383,
-      "sha256": "8DB9A598FA214D7D417954565564E70B2D31E41175BF8F4561E239286A4DED0C"
+      "git_blob_sha1": "eb974136051eccd124dabe91043a73a5e96d3356"
     },
     {
       "path": "cmake/triplets/x64-llvm-mingw-static.cmake",
       "bytes": 424,
-      "sha256": "1A2026DD06F8898C3F1F118CC07737E110810249CE625FE09A96A4B418522D84"
+      "git_blob_sha1": "1f28a18dc2d4a61bfc8cd324e0380edf4d3069a3"
     },
     {
       "path": "cmake/version.rc.in",
       "bytes": 982,
-      "sha256": "F3E3F976843A6E47023CC10353AD6BF27CB94B16E9F3D9FB8A0A9853F3E85F07"
+      "git_blob_sha1": "456f800787580bc25c26eaa63b29b15dea29e934"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 8969,
+      "git_blob_sha1": "4f1bec7b1991cbeb36a07bc987a25ff6204c5098",
+      "sha256": "AA073F4B730E862012E0D155BBC07530C5CFD163E6C27CB15EDD9FFBB5A6F4AB"
+    },
+    {
+      "path": "CMakePresets.json",
+      "bytes": 4969,
+      "git_blob_sha1": "1a6e5b848f867ec8b3866a0ea482f6c3e83f0e66"
+    },
+    {
+      "path": "DataSources/Distribution/TOAM_Stances_CID.ini",
+      "bytes": 71238,
+      "git_blob_sha1": "eed415bf3c4789d6a875cf757c81350ea91c5650"
+    },
+    {
+      "path": "DataSources/Distribution/TOAM_WorldDistribution_CID.ini",
+      "bytes": 68682,
+      "git_blob_sha1": "122f1ea5a70e2b61e90f87cfba364c5bef5e5f01"
+    },
+    {
+      "path": "DataSources/FORM_MAP.json",
+      "bytes": 291389,
+      "git_blob_sha1": "1186a557a5911339133bbf136b34311f2defc109"
+    },
+    {
+      "path": "DataSources/PluginRecords/Language/en/TULL Ordinary Attack Magic - Stances Addon.esp.json",
+      "bytes": 28442,
+      "git_blob_sha1": "b667fcd2844392c68b36269f9c1c4a54130e6010"
+    },
+    {
+      "path": "DataSources/PluginRecords/Language/en/TULL Ordinary Attack Magic.esp.json",
+      "bytes": 1059781,
+      "git_blob_sha1": "dc18f83e5649036235978562a6cdb37fb601729a"
+    },
+    {
+      "path": "DataSources/PluginRecords/Language/kr/TULL Ordinary Attack Magic - Stances Addon.esp.json",
+      "bytes": 29502,
+      "git_blob_sha1": "7a1f9b504f0ac86ed5f853c7944b30cba01aa891"
+    },
+    {
+      "path": "DataSources/PluginRecords/Language/kr/TULL Ordinary Attack Magic.esp.json",
+      "bytes": 1063909,
+      "git_blob_sha1": "89870a7324eca16eb1a06c2ec747083081ada0a7"
+    },
+    {
+      "path": "DataSources/PluginRecords/TULL Ordinary Attack Magic - Stances Addon.esp.json",
+      "bytes": 28430,
+      "git_blob_sha1": "1d67fe51c1ea745ee7bfa9e12241314f5560426c"
+    },
+    {
+      "path": "DataSources/PluginRecords/TULL Ordinary Attack Magic.esp.json",
+      "bytes": 1059769,
+      "git_blob_sha1": "2fadcf1e5d3f6b6322a43d7c0af6de5e66789f9a"
+    },
+    {
+      "path": "DataSources/RUNTIME_ASSETS_MANIFEST.json",
+      "bytes": 229962,
+      "git_blob_sha1": "9408257abe6f87dc739cbbcec6f2336afb345e3c"
+    },
+    {
+      "path": "DataSources/TOAM.ini",
+      "bytes": 1634,
+      "git_blob_sha1": "49f712fcd29fa1bdd91217d44bd776340aa13801"
+    },
+    {
+      "path": "DEPENDENCIES.lock.json",
+      "bytes": 325,
+      "git_blob_sha1": "7f3fb64b1487a96598609210ff50af31bf7bbdfa"
+    },
+    {
+      "path": "Docs/ASSET_ATTRIBUTION_AND_RIGHTS.md",
+      "bytes": 4206,
+      "git_blob_sha1": "00e567cfd5021598bf14ecbb62a85e25b9a22324"
+    },
+    {
+      "path": "Docs/AUDIO_CATALOG.json",
+      "bytes": 24125,
+      "git_blob_sha1": "784b39240d11f8b3d3aa7bfa4e54a943c92b5fae"
+    },
+    {
+      "path": "Docs/AUDIO_CATALOG.md",
+      "bytes": 7462,
+      "git_blob_sha1": "c637a0121366cd18827236003f5596a6bea116d5"
+    },
+    {
+      "path": "Docs/CIRCLE_MATERIAL_AUDIT.json",
+      "bytes": 191974,
+      "git_blob_sha1": "9c341ef2beba3761ea766e5de7bed2f0d1d12724"
+    },
+    {
+      "path": "Docs/CIRCLE_MATERIAL_AUDIT.md",
+      "bytes": 9366,
+      "git_blob_sha1": "7528efd5a640d3fdc2b7b2ae1ee92654e0137ff8"
+    },
+    {
+      "path": "Docs/COLOR_PRESET_MAPPING.md",
+      "bytes": 3114,
+      "git_blob_sha1": "17b53c3c1006d4fb44abb8114101e3be77f6b287"
+    },
+    {
+      "path": "Docs/CP031_IMPLEMENTATION_REPORT.md",
+      "bytes": 11216,
+      "git_blob_sha1": "1bcc2a656e2fa62e09af5b9e666432471e6799c0"
+    },
+    {
+      "path": "Docs/CP032_STAFF_CLOTH_REPORT.md",
+      "bytes": 7001,
+      "git_blob_sha1": "7d28467d5737a31b85856063cfe00b446bb4bf26"
+    },
+    {
+      "path": "Docs/CP033_ONE_BOOT_QA.md",
+      "bytes": 2264,
+      "git_blob_sha1": "72b9398953aee45d3c5819d5cc1b8128a0e188fd"
+    },
+    {
+      "path": "Docs/CP033_V101_IMPLEMENTATION_REPORT.md",
+      "bytes": 6891,
+      "git_blob_sha1": "01ab880166aa26165b874cfb3441cbed9cf1056e"
+    },
+    {
+      "path": "Docs/CP034_D3_RECAST_UI_TAROT_REPORT.md",
+      "bytes": 9381,
+      "git_blob_sha1": "abb9b90369cc7131c908e855dbdb8b5157002195"
+    },
+    {
+      "path": "Docs/CP035_PUBLICATION_PLAN_FROM_SOURCE.md",
+      "bytes": 2887,
+      "git_blob_sha1": "119fab3254bb6c6b689604d5442ece6a87898340"
+    },
+    {
+      "path": "Docs/CP035_RELEASE_UPLOAD_MATRIX.md",
+      "bytes": 1429,
+      "git_blob_sha1": "5985c8777a4b0e7b87023dcfac06a53ca7902564"
+    },
+    {
+      "path": "Docs/CP035_V103_STRESS_RELEASE_READINESS.md",
+      "bytes": 1978,
+      "git_blob_sha1": "70a09313246b59240b513af286c1cd91b90e68c9"
+    },
+    {
+      "path": "Docs/CREDITS.txt",
+      "bytes": 6522,
+      "git_blob_sha1": "3ee4f6586a9ed5e81f8da336354cbf41984e48c1"
+    },
+    {
+      "path": "Docs/DAMAGE_SETTINGS.md",
+      "bytes": 1168,
+      "git_blob_sha1": "50f11efe30bd228f30a41b038a72677002fc928b"
+    },
+    {
+      "path": "Docs/DISTRIBUTION.json",
+      "bytes": 58148,
+      "git_blob_sha1": "8b474be815f9a8d0c0ad8e0b9e071b7b57bc65eb"
+    },
+    {
+      "path": "Docs/DISTRIBUTION.md",
+      "bytes": 1834,
+      "git_blob_sha1": "efcc633fbcaf38427b6b1698b1766c1993f44b05"
+    },
+    {
+      "path": "Docs/GITHUB_PUBLICATION.md",
+      "bytes": 1383,
+      "git_blob_sha1": "4d7f7060a494c5d8b431f0165348a8aea7994af5"
+    },
+    {
+      "path": "Docs/History_CP030/ARCANA_BALANCE.json",
+      "bytes": 3608,
+      "git_blob_sha1": "ff3075259e32ea79e1d000898231a7228463a534"
+    },
+    {
+      "path": "Docs/History_CP030/BALANCE.md",
+      "bytes": 2179,
+      "git_blob_sha1": "743b95c9eebcbd8eb88dab7583ec41e808a4efc2"
+    },
+    {
+      "path": "Docs/History_CP030/CP030_IMPLEMENTATION_REPORT.md",
+      "bytes": 17097,
+      "git_blob_sha1": "c8a7720092b2febf9e4edf71c884e8dd7fa76082"
+    },
+    {
+      "path": "Docs/History_CP030/CREDITS_AIR_COMBAT.md",
+      "bytes": 8178,
+      "git_blob_sha1": "7d0ab32023463bb7036e5cc8fcc7e1e6bd6e36ac"
+    },
+    {
+      "path": "Docs/History_CP030/DAMAGE_SETTINGS.md",
+      "bytes": 2441,
+      "git_blob_sha1": "d061d2f2435720171b0a6f9ad8e8e5083d2d86a6"
+    },
+    {
+      "path": "Docs/History_CP030/DISTRIBUTION.json",
+      "bytes": 31619,
+      "git_blob_sha1": "ccb692363b04af03cf8af14ed6cdab1a29a8f5d9"
+    },
+    {
+      "path": "Docs/History_CP030/DISTRIBUTION.md",
+      "bytes": 3868,
+      "git_blob_sha1": "e1c33cb8aec1556513c0cbb35e58c185d32cdf9a"
+    },
+    {
+      "path": "Docs/History_CP030/INSTALL_CURRENT.md",
+      "bytes": 3590,
+      "git_blob_sha1": "8e82eb456b48217f3c82e59bccc34087d90be3c4"
+    },
+    {
+      "path": "Docs/History_CP030/NEXUS_RELEASE_GUIDE.md",
+      "bytes": 9815,
+      "git_blob_sha1": "abb76f8adff769e6db2c88ea15f65fc999679ea5"
+    },
+    {
+      "path": "Docs/History_CP030/README_EN.md",
+      "bytes": 3265,
+      "git_blob_sha1": "9a6541e005c4c89d141886820ebada7d02ba06ae"
+    },
+    {
+      "path": "Docs/History_CP030/README_KR.md",
+      "bytes": 3338,
+      "git_blob_sha1": "8af6d8590a06d765675954b973295aa087590e2c"
+    },
+    {
+      "path": "Docs/History_CP030/RELEASE_NOTES.md",
+      "bytes": 2121,
+      "git_blob_sha1": "17cdf17b2622498b17f33c2b0beceac4a58ef7ac"
+    },
+    {
+      "path": "Docs/History_CP030/RUNTIME_COMPATIBILITY.md",
+      "bytes": 1891,
+      "git_blob_sha1": "ac1e7999f42c01562d19c5226dd5b0a3e3d6d417"
+    },
+    {
+      "path": "Docs/History_CP030/TECHNICAL_REPORT.md",
+      "bytes": 3493,
+      "git_blob_sha1": "ae1f2de3a133c8defd0697da2e25dd4df74f9a6e"
+    },
+    {
+      "path": "Docs/NEXUS_DESCRIPTION_EN.md",
+      "bytes": 11292,
+      "git_blob_sha1": "d29dfd5954b33b5d177187d4c67d328b0ac68d01"
+    },
+    {
+      "path": "Docs/NEXUS_DESCRIPTION_KR.md",
+      "bytes": 8975,
+      "git_blob_sha1": "11d5291519921752c87de51f1f63c8773a5b659f"
+    },
+    {
+      "path": "Docs/PLUGIN_DESCRIPTION_AUDIT.json",
+      "bytes": 2464,
+      "git_blob_sha1": "bbbdaea0d3ceecacb002126eb71c53daad0823cf"
+    },
+    {
+      "path": "Docs/PRESENTATION_SETTINGS_EN_KR.md",
+      "bytes": 4028,
+      "git_blob_sha1": "e2e82d1afc0074a5c08b492fa0d1f805363c4b03"
+    },
+    {
+      "path": "Docs/README_Stances.txt",
+      "bytes": 721,
+      "git_blob_sha1": "4892918dfc3bd46f7f2077804daed064e4652ac1"
+    },
+    {
+      "path": "Docs/README.md",
+      "bytes": 410,
+      "git_blob_sha1": "204b213592b161432e40e97706796fec4096c2e5"
+    },
+    {
+      "path": "Docs/README.txt",
+      "bytes": 3687,
+      "git_blob_sha1": "d9873acd0a84b80463dc45660dc06944a21fb442"
+    },
+    {
+      "path": "Docs/RELEASE_NOTES_1.0.5.md",
+      "bytes": 3378,
+      "git_blob_sha1": "5aaf9269529e47e0d99142f356b86b168b341a5f"
+    },
+    {
+      "path": "Docs/RELEASE_POLICY_CP038.md",
+      "bytes": 1943,
+      "git_blob_sha1": "9efc144fdc63b905e01e0fffe3e3466dbfcbfb9a"
+    },
+    {
+      "path": "Docs/SHIPPED_HKX_SHA256.csv",
+      "bytes": 180091,
+      "git_blob_sha1": "4575abfabacfcf6fcb6b2894c79a4c082c5c6751"
+    },
+    {
+      "path": "Docs/TAROT_NAME_MAPPING.json",
+      "bytes": 58082,
+      "git_blob_sha1": "c98e681c85f0b511e5d7451981e6ff1f3d560fe7"
+    },
+    {
+      "path": "Docs/THIRD_PARTY_NOTICES.md",
+      "bytes": 2568,
+      "git_blob_sha1": "c68d3e3d831caaa1544206ade1bb4f8f972f1703"
+    },
+    {
+      "path": "Docs/TOAM_v1.0.3_Nexus_Description_EN_KR_BBCode.txt",
+      "bytes": 21572,
+      "git_blob_sha1": "c4295f585ed5e9c025fc7e43397924bacaf32091"
+    },
+    {
+      "path": "Docs/TOAM_v1.0.3_Nexus_Description_EN_KR_Plain.txt",
+      "bytes": 20186,
+      "git_blob_sha1": "e12f97e18d5b809736c3c18485ca254e3cc6247b"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1061,
+      "git_blob_sha1": "0de68736dcfe137b75fc8c585e3a2edfbcaa7d59"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 1659,
+      "git_blob_sha1": "fd4540966803043ef7d4ec3d8fd90d288b4c04c2"
+    },
+    {
+      "path": "LICENSING.md",
+      "bytes": 1239,
+      "git_blob_sha1": "feb5c5b20d04984a50b1d11e8993badc3d76285f"
+    },
+    {
+      "path": "PUBLICATION_PLAN.md",
+      "bytes": 2731,
+      "git_blob_sha1": "c7bdb23a0c793ad8ee2d817a8bbf35c08e2b13ab"
+    },
+    {
+      "path": "QA/007_ONE_BOOT_QA_CHECKLIST.md",
+      "bytes": 33332,
+      "git_blob_sha1": "27b896349706ee565932e9bb602a2823be7b1751"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3326,
+      "git_blob_sha1": "d6f345c17a5b6f3b9ecf72ec6ae2030c585d97a9"
+    },
+    {
+      "path": "Research/LICENSE-RESEARCH.md",
+      "bytes": 752,
+      "git_blob_sha1": "8a5465e4a611e833131fea166e5a528bf35eebb1"
+    },
+    {
+      "path": "Research/RESEARCH_SOURCE_INDEX.csv",
+      "bytes": 80609,
+      "git_blob_sha1": "3a82cb95cd5e0f6f35fa1f861109f26f3695530c"
+    },
+    {
+      "path": "Research/TOAM_RESEARCH_COMPENDIUM.md",
+      "bytes": 383720,
+      "git_blob_sha1": "13c33e0e2b4a6c8fb9467c9ad8fab1ec1194dbc4"
     },
     {
       "path": "src/Arcana/ArsenalFeatures.inl",
-      "bytes": 7575,
-      "sha256": "D25BC18933424C0A66EFF29A213A49B429CC0DF8F27198E3D171A67EA85EE3F8"
+      "bytes": 8660,
+      "git_blob_sha1": "06f8faf1bc66aaf84cfdb41e04a3ec2f6e90e95d",
+      "sha256": "44987985E1B3540F3EA4F2270D8351FDFBAD4954F772AF03D9A74E81E73B7160"
     },
     {
       "path": "src/Arcana/AudioPresentation.inl",
       "bytes": 1420,
-      "sha256": "4447F588D2A068EAF8D33FFFC578CF45B6837E9BBB031B1FC335E4A18A719F0B"
+      "git_blob_sha1": "c8d226162bcfd9e0e4f162187308f74b67dc5f48"
     },
     {
       "path": "src/Arcana/Balance.inl",
       "bytes": 5233,
-      "sha256": "D427AAE80B062AE47357CA7F6A25DDB80BEA9177D6171F1D9E9DD192DB5F6EA0"
+      "git_blob_sha1": "ee58bd737a813bd72286556efe9fb6b578f25ec6"
     },
     {
       "path": "src/Arcana/BeamPresentation.inl",
       "bytes": 8281,
-      "sha256": "0B6FCF38BBA8CC9611E240C857DBC17F4021C209DFF532489716A8BC158D8CF1"
+      "git_blob_sha1": "fc1e53fd8e80ecb3dfa9ba6b5bd579edbedd51c5"
     },
     {
       "path": "src/Arcana/BurstPresentation.inl",
       "bytes": 3866,
-      "sha256": "C5AB31F3FB7E6EEC76470543BBE7C6D75CF7EAF148C3DA1BE3B35FD61E1A01DD"
+      "git_blob_sha1": "b0ad737c92a535c9e4f3507aaa23adf1de31180b"
     },
     {
       "path": "src/Arcana/Casting.inl",
       "bytes": 15437,
-      "sha256": "CE622D3B4F4CE8B7E7B95EB3615E608E071C7BA13038DBB37A953860793FE922"
+      "git_blob_sha1": "c6050e1c8e07f3980c99944445e93d35c821cb58"
     },
     {
       "path": "src/Arcana/CirclePresentation.inl",
       "bytes": 5868,
-      "sha256": "13932ED63692C577368BC887A40822CDB706BEA46A5F1E05BB628C83F95CFB40"
+      "git_blob_sha1": "ae10359842d9cfb3839a858909a547746d045a4c"
     },
     {
       "path": "src/Arcana/Design.h",
       "bytes": 13184,
-      "sha256": "62E98D959642C51929A3C9BF6C7DCBCFE4CC96496D9305D2A6A096E69D7EFE27"
+      "git_blob_sha1": "5700b7ad216e3ff0676d2bcacdd31c5898a00a69"
     },
     {
       "path": "src/Arcana/Flight.inl",
       "bytes": 16886,
-      "sha256": "EEF5344CDC80F71A377A60D5FC873DEF9E39300F0694A27C2A7B1542F3985D72"
+      "git_blob_sha1": "fbf64b50112695df8527be2d21c08481b9f073fd"
     },
     {
       "path": "src/Arcana/FlightCombat.inl",
       "bytes": 7975,
-      "sha256": "D4DF234E43DFAF8678A7880C186FE47E77B16A0E1905222827122D26158AD81A"
+      "git_blob_sha1": "28f636540b1fb7a74e367108cc642c256eaae0e4"
     },
     {
       "path": "src/Arcana/FlightCombatPolicy.h",
       "bytes": 2836,
-      "sha256": "F3958E0613312BCF44F1A277AB7EC9F61ABA12218CB8CF7B4EA7D3D83DFC0D28"
+      "git_blob_sha1": "777702603e19cc68007ba57874f398c4b56c3f52"
     },
     {
       "path": "src/Arcana/FlightLegPoseData.h",
       "bytes": 60354,
-      "sha256": "9BDA93EE03AE3656BC70441270AD9B63CFBB926989CF5295F6DFBCA257C6F6B0"
+      "git_blob_sha1": "9965124f5a9a085da6a5d005a1771546ab0b6fc7"
     },
     {
       "path": "src/Arcana/FlightPolicy.h",
       "bytes": 1851,
-      "sha256": "6E57867B290E6F233CFDFACBBACE82DE1EC0CC5C29A0358EA160E9FD8746A245"
+      "git_blob_sha1": "c457bae9ecaaa27bddb0c8bd1a9dccd0ce920a2c"
     },
     {
       "path": "src/Arcana/GunFlight.inl",
       "bytes": 10983,
-      "sha256": "6B24BEA84FD895016D56F77766A491DF4A0B0760F087B798D6BCE41BB57176C1"
+      "git_blob_sha1": "750e2f92be038488fd72325e7e183fe159c854fa"
     },
     {
       "path": "src/Arcana/HandUpdate.inl",
       "bytes": 7096,
-      "sha256": "72CE88F13FA7A040B0A4F1BFC58D798EAA2135860A177B30F3E599BEE98AAB8E"
+      "git_blob_sha1": "d93822246e07ec2ebb036d40b995d0aef0cd8a83"
     },
     {
       "path": "src/Arcana/IntegratedFormMap.h",
       "bytes": 14462,
-      "sha256": "1069C0AEE9DAEEAFCEF568C3BB4AEF28DA95862D381FF05B9B55AAA258511D1C"
+      "git_blob_sha1": "7b94cce8895be45cf1290b44b789ec45e6f50118"
     },
     {
       "path": "src/Arcana/Integration.h",
-      "bytes": 1798,
-      "sha256": "B10BB10F6997A29E7EBE64BC51C2169711090328AD738963A6A4B7AF56F19D54"
+      "bytes": 1821,
+      "git_blob_sha1": "57317e7e9161c01e0ba17ec38a09305adf5ab03b",
+      "sha256": "289AD7F9D24B876C3AF00218A187AEFFFAE9CD9D727753A29BB61827A1FB4908"
     },
     {
       "path": "src/Arcana/LayoutData.h",
       "bytes": 1808,
-      "sha256": "719C0875F7E19AFAEBFFFE68BE501BF96650DCFDD580BADA5300DA35FDF0B11A"
+      "git_blob_sha1": "6fb18310f9bd99d2ba43f62f90a43de0ad1f8d95"
     },
     {
       "path": "src/Arcana/ParryPolicy.h",
       "bytes": 557,
-      "sha256": "15CEED5A7E3057366C95ACA2BA891CC5BA0B2C2F396ADC15A40E53D5AD11D6F5"
+      "git_blob_sha1": "044b28f505111d8b25dcc4c83588d0dce8fca4dc"
     },
     {
       "path": "src/Arcana/PlacementPolicy.h",
       "bytes": 1595,
-      "sha256": "BFA6A18883B619390C666DB287610A2F1510AA9F41FA06680B700A72440DFA3E"
+      "git_blob_sha1": "e2ab189dc83e31033c3a71788984a58749bdc504"
     },
     {
       "path": "src/Arcana/Plugin.cpp",
-      "bytes": 13911,
-      "sha256": "8877F08CCD778C4598DE3BD68C08275B94B9858CD8EEB07069E52D9D363EDC10"
+      "bytes": 14010,
+      "git_blob_sha1": "bc6adb4efcc65f51cb657b6c38b36aadad264de0",
+      "sha256": "59F8ED5900CD125D8E34493CBC0E132F7C6E11CEC3C3EA5DD63C5BFDDC17DC58"
     },
     {
       "path": "src/Arcana/Rain.inl",
       "bytes": 5936,
-      "sha256": "80901340621BAC782B4FAEB5FE98E52D1E258A39DC3B99796776B06E7BFAF211"
+      "git_blob_sha1": "b35eb490422549eee374fcfcf60967f48343d05a"
     },
     {
       "path": "src/Arcana/RainImpact.inl",
       "bytes": 9509,
-      "sha256": "BAFD691E091A3B5FCF769C57F4B713791C676D614F12E6A5DEE4109CB1E91620"
+      "git_blob_sha1": "ff7ea4b3fc638ef90d4272618ce30143e1734191"
     },
     {
       "path": "src/Arcana/RainMuzzles.inl",
       "bytes": 3103,
-      "sha256": "17881F557A6FCCECEC4A65E7F7CFF9F80EC84BCD306B21C2CB6D6E12F50DBE6C"
+      "git_blob_sha1": "d6236f128cd11887a8d0876dec156fde8ae5eac8"
     },
     {
       "path": "src/Arcana/RainTimeline.h",
       "bytes": 2162,
-      "sha256": "90F268BE37873188E23C8AC11E90DFF5B6D0DD7A32F0617B1FA07FF00FFA6E21"
-    },
-    {
-      "path": "src/Arcana/SOURCE_PROVENANCE.md",
-      "bytes": 3443,
-      "sha256": "339EABA12710315BF172E8E26F9110891D1B64A6DC71960735BEB5D799D21632"
+      "git_blob_sha1": "fdea345d024a2fd9f0aaafae7abf00b785de944b"
     },
     {
       "path": "src/Arcana/Sentry.inl",
       "bytes": 5810,
-      "sha256": "358EFDA4B6E7AE26CAA073A33ACBBE86240397BA6B09E453ED85724615070CB2"
+      "git_blob_sha1": "4a2d64dd6a71350fd38f394edba40e2ea3cffb30"
     },
     {
       "path": "src/Arcana/SentryPolicy.h",
       "bytes": 1259,
-      "sha256": "0E248CF6958C0444CF0B627C6C2669407E07D433AA2B937F19D17EC63E4BBC8F"
+      "git_blob_sha1": "96def906736201a85c606bfd923dc0f99b336316"
     },
     {
       "path": "src/Arcana/SolarFlight.inl",
       "bytes": 4855,
-      "sha256": "5E0A8E6115B25B13C6EACA618F0A478B8C81CDE1EDE0F2AEDD9D18C685381AFB"
+      "git_blob_sha1": "248e8a5207550a70c425b4d2021433ecd841709a"
+    },
+    {
+      "path": "src/Arcana/SOURCE_PROVENANCE.md",
+      "bytes": 3443,
+      "git_blob_sha1": "7f965865624ce489de898b4ccdc6d14ae29320b8"
     },
     {
       "path": "src/Arcana/Tracking.inl",
       "bytes": 3216,
-      "sha256": "BB736A13362574BF14ADBB4A06A671A8DC2D86A661E293E320570DD6618BAEE5"
+      "git_blob_sha1": "1881c23dd7918418d1b54d187aee00e154fa88ca"
     },
     {
       "path": "src/Arcana/WorldFormationData.h",
       "bytes": 1230,
-      "sha256": "7656B8F4821CB3A15C6D476F08F77DD0D7F4D86E3E5243EEA2B9350CAA71F7F4"
+      "git_blob_sha1": "2c8dab99202cb7df080704b29380334b744c2d16"
     },
     {
       "path": "src/Arcana/WorldUpdate.inl",
       "bytes": 2496,
-      "sha256": "DEF80BCC7D714FA8A01DD49544A0ACD757567625C46BBEE98CB819839D754EAE"
+      "git_blob_sha1": "97d1ecff37c03a74c65a2c2f6b63eae8fc3bdb6c"
     },
     {
       "path": "src/Audio/AudioPolicy.h",
       "bytes": 465,
-      "sha256": "B5564F97C126A2AA1A75D722210A2C43BBD4DE7C5C9F68E738F6186F599A1722"
+      "git_blob_sha1": "822e015541a77ef8509241ae449954c15c8c8bc9"
     },
     {
       "path": "src/Audio/SpellAudio.cpp",
-      "bytes": 12000,
-      "sha256": "8CFA7FC504C81FC4F83BA465337A7C8D1D179FCAF20C43E8622B9ACE1B34BEB6"
+      "bytes": 12017,
+      "git_blob_sha1": "7e175f605075547cc24769f357cea61eaf849aea",
+      "sha256": "00D66AE5E8490364031D0C7C40D945F7F5E314DB5B4A78EB2F90CBCE2B7C117A"
     },
     {
       "path": "src/Audio/SpellAudio.h",
       "bytes": 489,
-      "sha256": "30E785F758D5916932AAE4BF9C30C9E2C758B61F197C228028CC8B72A00F755D"
+      "git_blob_sha1": "2239c96c8c5c050e41127b9bf976a9b362541478"
     },
     {
       "path": "src/Charge/ChargeProfile.cpp",
       "bytes": 2578,
-      "sha256": "19F1D6CA6D990EA3D2AE4890C2FD4189F18A049F9B3838CDD50D960785766962"
+      "git_blob_sha1": "ddf2165a969f8a4e8f4accd04cbe7aa2edcdec37"
     },
     {
       "path": "src/Charge/ChargeProfile.h",
       "bytes": 958,
-      "sha256": "307E10839DA3DBFBBF692148A1B092E3FA7BA4CDA26E2862B12D6B1AB519DD50"
+      "git_blob_sha1": "84e756a3e9dc725434c66c3a477c7613ec6bae4b"
     },
     {
       "path": "src/Charge/ChargeRuntime.cpp",
       "bytes": 40189,
-      "sha256": "5FC23FB5FA705D5CC06619A2974F0EC4F58A34783635F0D13ABA9E7A85EA2720"
+      "git_blob_sha1": "f8003f1ead31dd66daf758c517a5f49a48fba262"
     },
     {
       "path": "src/Charge/ChargeRuntime.h",
       "bytes": 294,
-      "sha256": "BE353A92931F5431088FB080983DC94F0CA9CF3810C61948CC651BD7632D575F"
+      "git_blob_sha1": "7b6745f51e5e015578b9a4d4fc7af14279b9a5c0"
     },
     {
       "path": "src/Charge/ChargeSession.cpp",
       "bytes": 5517,
-      "sha256": "EADD41B53EB0FF33D110A88798C91CF84E835C5B5E4311451B278CC5A3A70BF8"
+      "git_blob_sha1": "927db635e1a8148e67d8e65c56b4325e9ca37e3c"
     },
     {
       "path": "src/Charge/ChargeSession.h",
       "bytes": 1876,
-      "sha256": "0645B1D9298AEFDC8D9B97822D57744BD649631784A5E28D999EA1D1A66DD598"
+      "git_blob_sha1": "8552d740e3d8160671c4f217c75ebca8b1cc7bdd"
     },
     {
       "path": "src/Charge/MagickaChargeArbiter.cpp",
       "bytes": 2350,
-      "sha256": "AAC3A23D6C4ED8F5E9A5418298CD744DF2F30E261D85FC79BBBBD286E3732ADF"
+      "git_blob_sha1": "4d69fc06b80628e9d9d5513376dd1df3276976dd"
     },
     {
       "path": "src/Charge/MagickaChargeArbiter.h",
       "bytes": 6724,
-      "sha256": "FFC47AE9B75E7DE2B335E20B372992FEE80AB5FA35C70F6FB44B47B666B2660B"
+      "git_blob_sha1": "9820f13afbe7f39fc0a70774c1615e6ae3040bd6"
     },
     {
       "path": "src/Combat/ActorBounds.cpp",
       "bytes": 2351,
-      "sha256": "CCE7AA2A4AEA51D23DB82B162B920382BE1DEC70CA81841F96EDA1E7532C9FE6"
+      "git_blob_sha1": "21a088c45ad9035bed921dbf532eb8f92cc61e49"
     },
     {
       "path": "src/Combat/ActorBounds.h",
       "bytes": 575,
-      "sha256": "287A906220E7FD789F96A8AD4CFAA385958F4D9AE3D2BDADDF93D2F5731F1055"
+      "git_blob_sha1": "d17e71750086263029457f90f9b264859464396b"
     },
     {
       "path": "src/Combat/BeamCollision.cpp",
       "bytes": 22912,
-      "sha256": "508D5B82B77E9C46F41C817BFE7221D050C1D2DE792FCCB3F060FB818A76AA50"
+      "git_blob_sha1": "886535ade1d66c027e2c6c9b0138e26acc3e62ed"
     },
     {
       "path": "src/Combat/BeamCollision.h",
       "bytes": 2773,
-      "sha256": "A5683FD68F8A29CDF720480F6A1A7384D17C600F35D2B8E9C2466C27FC92068A"
+      "git_blob_sha1": "629f0e717f66a04a3d6349f89ce01c4a509ba802"
     },
     {
       "path": "src/Combat/FixedDamage.cpp",
-      "bytes": 737,
-      "sha256": "2941B1A289F76BFB8B99FC0070C2FCAA896E43C21A7BDB2654DF4868077734F2"
+      "bytes": 1297,
+      "git_blob_sha1": "3f67811d30da376c5d688e9cb86eef7fe8088517",
+      "sha256": "D58537B1CF309B877B7DF8F09772E9D9D435F575C500023DBF4A8C0E6E0B6A39"
     },
     {
       "path": "src/Combat/FixedDamage.h",
       "bytes": 264,
-      "sha256": "D1387392EF062CC31667E69CC35CEBD20D82A06D20FA7321953F8D5E14AF231A"
+      "git_blob_sha1": "f3f06ca12538e6cd98f6313806bb881d2c34ffe8"
     },
     {
       "path": "src/Combat/TargetFormation.cpp",
       "bytes": 17168,
-      "sha256": "AAEE89C25ADD04D506C4889C18CBCE70E991F281AE26A3BF74B602677F8648E2"
+      "git_blob_sha1": "620b10fd1abea416ce973a24043b3971c197665d"
     },
     {
       "path": "src/Combat/TargetFormation.h",
       "bytes": 2358,
-      "sha256": "B5745773E7CBE4EB7EDDB86377226A8E933D9B760C3F024BFCED5223F6758411"
+      "git_blob_sha1": "8e4366aac18f0c226ec0700a131b467ff167fa78"
     },
     {
       "path": "src/Combat/TriggerFirewall.h",
       "bytes": 1848,
-      "sha256": "F40047D73FA79884B5DA678F89C23359C44BC8F17B11B859D49FF78C991DDF10"
+      "git_blob_sha1": "7bf56600f193e9006b9960e7eff97222ef5be742"
     },
     {
       "path": "src/Combat/WeaponHitSource.cpp",
-      "bytes": 4638,
-      "sha256": "83DE6CD6D98FCE1FBF4CD7D8BC4368255FBE00221DA62A41F32274FAAFF782A0"
+      "bytes": 5118,
+      "git_blob_sha1": "ea2af34e8eb90f4924010fb795d3fee00ab63e2b",
+      "sha256": "4B8DB1D3A792CA4B994030DFEDC72126645E6D9F4907C2C328912D41BD6732D7"
     },
     {
       "path": "src/Combat/WeaponHitSource.h",
-      "bytes": 482,
-      "sha256": "F8E12038C7A872D47631B2AE8C27AF7CCAFA7C41AE3E6FBEC9E6BEF58B80AC90"
+      "bytes": 520,
+      "git_blob_sha1": "19b82b59f9ecc3ff87cf8066e1384cd5bf67a86b",
+      "sha256": "9C59D0015BE6D8B083B02285FB08BF20FE561F5D134172EE4E56E5F9A71BD911"
     },
     {
       "path": "src/Core/DamagePolicy.h",
       "bytes": 842,
-      "sha256": "B5EBC343F172525B0750B45368508023974423720FB9E8DC0BAC04EB60582C4F"
+      "git_blob_sha1": "9f875b783181c1818ff4bab02874dd2995347bae"
     },
     {
       "path": "src/Core/DamageSettings.cpp",
       "bytes": 13336,
-      "sha256": "F9FE2C9BBBE18C54E43BD0D644F94FA42C39C9C002ED82A0F227048B6D8E509E"
+      "git_blob_sha1": "3f711376b107ed20a8b9fde465079d2869fa03db"
     },
     {
       "path": "src/Core/DamageSettings.h",
       "bytes": 358,
-      "sha256": "EC75DA838D46A70E130A430880CC1B7814210240FAAE0ECE486BED0B03EEA7DB"
+      "git_blob_sha1": "76b2b4a951ece8775f64052c06aa491822d27a9a"
     },
     {
       "path": "src/Core/DataCache.cpp",
       "bytes": 2460,
-      "sha256": "1EDE8F8E0879E0FD5EFBEF8212D42938AE2435CDF0807DE67949F72F93F39AAA"
+      "git_blob_sha1": "7cc765ca22fa40d0aa35636dc8d94a600b62ff77"
     },
     {
       "path": "src/Core/DataCache.h",
       "bytes": 646,
-      "sha256": "2E5DC708870B1065C7DF9737E2FC9C3DE27F5346A3F63B1D13422B1D66F01752"
+      "git_blob_sha1": "2f57f08d48f78da42b679061f842a46c9b086368"
     },
     {
       "path": "src/Core/ExclusiveCast.h",
       "bytes": 942,
-      "sha256": "211CEA8FFF372FCC3040BBA9C89ACEF6B37B553CC0EA46C64EA0584BEAEAB679"
+      "git_blob_sha1": "eaa56389bad395ebe702738e397e34eda0440531"
     },
     {
       "path": "src/Core/FlightMenuPolicy.h",
       "bytes": 877,
-      "sha256": "0B12CDAB1BC8D50DD810A62772D00135A4D2B8A0BF1E2033F6A8D4039F18C555"
+      "git_blob_sha1": "feae139097210c667f9d0b813408f4e0f9d11017"
     },
     {
       "path": "src/Core/MagickaTransaction.cpp",
       "bytes": 1057,
-      "sha256": "E2DC6C1D6992ADBC6D4B62F7D167D957AC7DCBA992C50D313583B73AAF7F6AA5"
+      "git_blob_sha1": "2ac7acda1ca310e6331675847a6de27445b543f8"
     },
     {
       "path": "src/Core/MagickaTransaction.h",
       "bytes": 319,
-      "sha256": "420B344DCCAC735A54B8E9D0F56C40EC734386E1FD96C614F965A7EC15CBD8DE"
+      "git_blob_sha1": "56f05b0c1db699924134c51d71baabe4f978c5ad"
     },
     {
       "path": "src/Core/PresentationMenu.inl",
       "bytes": 11805,
-      "sha256": "4587BE3715752CE8A3DC5716BB2CCF8CCAEE21C57888DCA950D986FB5B09D7A2"
+      "git_blob_sha1": "f9607be42f94a20138c90e71ebc4b26230e5fcd7"
     },
     {
       "path": "src/Core/PresentationPolicy.h",
       "bytes": 7779,
-      "sha256": "01901E9AEAE2B9C6E9A20BBDB6AE2446D6E0250D27AAAD80CDD2DD5FA64B23B0"
+      "git_blob_sha1": "0fd811b6e41ce26bfd5259812b996f573c9e0225"
     },
     {
       "path": "src/Core/PresentationSettings.cpp",
       "bytes": 5987,
-      "sha256": "3DCBD289C8D9B0FF25D27F2E1CE1676B9114415EFBA63267D86C2803E8338F3C"
+      "git_blob_sha1": "26bb2f794e199caf1a059925fde4ad962c383a97"
     },
     {
       "path": "src/Core/PresentationSettings.h",
       "bytes": 479,
-      "sha256": "3746C0BC7A2706C6E849B9A5A840AD797EBDE76B3ABDB8F908CE63D395604A2C"
+      "git_blob_sha1": "0bd97f83afa5472cecd477c166f31df5fd1fb1f7"
     },
     {
       "path": "src/Core/Runtime.cpp",
       "bytes": 4790,
-      "sha256": "F945D594575D183B7F6369DF733A17C5929946A0DC51F7269E87C20140305A2C"
+      "git_blob_sha1": "b99d069727c69a52ff93a36f99ab38e1dc0b7da0"
     },
     {
       "path": "src/Core/Runtime.h",
       "bytes": 378,
-      "sha256": "9BD5DD25AA1BA0882CFEDF3A57256D21CBEF8922629144D4A729DA4AD90C72E4"
+      "git_blob_sha1": "557172b5cccddc55af16b4d389df484a0636d6aa"
+    },
+    {
+      "path": "src/Core/RuntimeSupport.h",
+      "bytes": 573,
+      "git_blob_sha1": "1d5017b9200adc17e21564ffcb113f6ade9cc45e",
+      "sha256": "F9FE95B73822D99B3403D87CC96292743FC8ADDB169DD6E4FEC3E3FDEC18577C"
     },
     {
       "path": "src/PCH.h",
       "bytes": 382,
-      "sha256": "1267125FC39CA099998059CF198BFEF80212B5C4EB5CA43C47808A3B8FCE0145"
+      "git_blob_sha1": "5ecc6363ad69266ba19da100e93b7b2442fde0c2"
     },
     {
       "path": "src/Plugin.cpp",
-      "bytes": 4101,
-      "sha256": "AA01257E39867E8EAAECD862CAC5CEDF0E6589C4060BCDFEF75DCC8E1DD629CB"
+      "bytes": 4506,
+      "git_blob_sha1": "a43749a0a8c2613278400edf68ba3a2378329c4d",
+      "sha256": "8B5A3DAAE5191B291130CC12DDDCFD1496AA1958B5A17ABCC288832E9F8ACA9C"
     },
     {
       "path": "src/Spells/ArcanaLimiterRuntime.cpp",
       "bytes": 4867,
-      "sha256": "205E5FC7FF980CA293A5AA8D1DCFDA850260ED591151B13228F9F96D387FDBBA"
+      "git_blob_sha1": "20ce8736edd6350694b9be282d2a740e4647f100"
     },
     {
       "path": "src/Spells/ArcanaLimiterRuntime.h",
       "bytes": 381,
-      "sha256": "49F45085AB7D88A54AD98C8EE114FD1AAB4C5B90D860BBE17E2A9C4022DD54DE"
+      "git_blob_sha1": "75fa37c54eb51c7b0f5a34560ef6d38727048118"
     },
     {
       "path": "src/Spells/JudgementProfile.cpp",
       "bytes": 5226,
-      "sha256": "96F4A757A5C960F57333EB54066CCD4F65F708C18AC5BBC61C422089AB3425D7"
+      "git_blob_sha1": "6d38b4f763b4015998a03b32223132b4e51a736b"
     },
     {
       "path": "src/Spells/JudgementProfile.h",
       "bytes": 2707,
-      "sha256": "BA48460302065505A632BD09BF72763B9B2809BE560265E30A97E09EFE7EEE38"
+      "git_blob_sha1": "9b9bb05aa18fc1ddd50e4a84347c3beebf1a55d8"
     },
     {
       "path": "src/Spells/JudgementRuntime.cpp",
       "bytes": 66026,
-      "sha256": "663216146F4064006FC9E19F49BD403944B2AB0EADB45270D4138E501D66C677"
+      "git_blob_sha1": "eed1626ec2457aa9a8409ca288a3a778af55847b"
     },
     {
       "path": "src/Spells/JudgementRuntime.h",
       "bytes": 7094,
-      "sha256": "BEBBD6ED6F62C92ACB5FCEC146C9B072EC096CD01F57B4D25D2A2815B1F2B43A"
+      "git_blob_sha1": "0ff314af5717be0f6e4e7f08778f53192054bd3e"
     },
     {
       "path": "src/Spells/MagicianChargeVisual.cpp",
       "bytes": 16558,
-      "sha256": "E56F3E43E66D90B6C7A25FC43588F4300DCC7981A1CB6D6501839024424450C4"
+      "git_blob_sha1": "02ce6c501846c737daaccfd7fae6278b89f12a24"
     },
     {
       "path": "src/Spells/MagicianChargeVisual.h",
       "bytes": 2932,
-      "sha256": "427C649D168FF838E3DEF7A19BC0E7BC149EE345EAA2DCF3F678BDFE14444050"
+      "git_blob_sha1": "1913782f772918cba62b070f5e424595d79c292a"
     },
     {
       "path": "src/Spells/MagicianProfile.cpp",
       "bytes": 10615,
-      "sha256": "5D5CB28BD300F486C421679017310F710BCC6D079AAF04D27363654184C8CC57"
+      "git_blob_sha1": "5d54621e27a6171de1796463e230749d08b47d45"
     },
     {
       "path": "src/Spells/MagicianProfile.h",
       "bytes": 1153,
-      "sha256": "91F94C793785BA503DB37DE98E86885584EF4D214B0C349590D71546644D046C"
+      "git_blob_sha1": "f9d79a58d8c3c206608ead9062cb2a514b1d4f77"
     },
     {
       "path": "src/Spells/MagicianRuntime.cpp",
       "bytes": 31402,
-      "sha256": "1670210A8D9FF76EE2E3073C42C855414895DC0AC47D5EB27A84F9912F5A41F0"
+      "git_blob_sha1": "353e520b812159f79651c30be9b04c8ebed35504"
     },
     {
       "path": "src/Spells/MagicianRuntime.h",
       "bytes": 1037,
-      "sha256": "F5B87A2FDF821CAB8DC43BBDAE6F0CF13806E19F5190CA71FF208BDD780B3905"
+      "git_blob_sha1": "85d1c4e46622af09fa2de956229cdc9df2b57be2"
     },
     {
       "path": "src/Spells/TemperanceRuntime.cpp",
       "bytes": 57625,
-      "sha256": "D5899FA97D90BFECC54D7DE69A886A9C1E19189A69EDB5AA21DCF87B39880FCA"
+      "git_blob_sha1": "2e2882511310f04d337e3636dfdb82cbff6c157e"
     },
     {
       "path": "src/Spells/TemperanceRuntime.h",
       "bytes": 350,
-      "sha256": "4D339E728F0BBAF09A5D46D5B21085BDCCF2B8D1849F657948B197EFDBDF9981"
+      "git_blob_sha1": "e26fdc41b4b99d5a28769d066614c000ef094124"
     },
     {
       "path": "src/Spells/WorldFormation.cpp",
       "bytes": 1488,
-      "sha256": "370839372A13EEB192FD41EDF54F0DBE7ABE260B2164E8B93281E7DF87437053"
+      "git_blob_sha1": "ecb5ac88f3c63ec9ccb4c9b6d97df148a5c54946"
     },
     {
       "path": "src/Spells/WorldFormation.h",
       "bytes": 786,
-      "sha256": "0B942447F9505A455BA2D3799B3B8A8778E29D73B80ADDBFF27F061D4639D7B6"
+      "git_blob_sha1": "59775ec3f01dcd71ba730da0c3238535f10ed806"
     },
     {
       "path": "src/Spells/WorldFormationData.h",
       "bytes": 1247,
-      "sha256": "24513FC3CF623A7ED6ED2E4A271331423BF1C562D3011E12D266020AC60F9E0B"
+      "git_blob_sha1": "03018d7e3707a5a20025043a81ebbdb0e8479c9e"
     },
     {
       "path": "src/Spells/WorldProfile.cpp",
       "bytes": 1555,
-      "sha256": "783791DD71AB0B6BF8D5680A10CCD78D2A64284F7FB087DE91E15D664CA02DA1"
+      "git_blob_sha1": "77bbc15f10632f2686bc8125c10049926d606afb"
     },
     {
       "path": "src/Spells/WorldProfile.h",
       "bytes": 1093,
-      "sha256": "15392F10E363BE36950C910159A06EC0F0F3C99D16894C01C4B16D890512835E"
+      "git_blob_sha1": "7c878c6964430b6a99d2dd061e0389f212cd0d88"
     },
     {
       "path": "src/Spells/WorldRuntime.cpp",
       "bytes": 55285,
-      "sha256": "8903B38CE3FA6C655E17C96226D314894E404F715AF7C8B43389B5A2D63B3D10"
+      "git_blob_sha1": "ffd2c19c8a4c3d5574ff14583fec57d9c5720446"
     },
     {
       "path": "src/Spells/WorldRuntime.h",
       "bytes": 1300,
-      "sha256": "E53A344CBB25616B4CC09E54BA07C2F9E2743AC1439341D2DCA907AAF8D0936A"
+      "git_blob_sha1": "a6ff0052643391b92c661f013b0f9d51e50756c9"
     },
     {
       "path": "src/VFX/AssetCatalog.cpp",
       "bytes": 4652,
-      "sha256": "61E347DB720560F376306F32D0F31BDB3A64827EB04AC2E4D3D4089A35F9392E"
+      "git_blob_sha1": "f6ce6143966be317f32ef38f5f082793cebf1cfc"
     },
     {
       "path": "src/VFX/AssetCatalog.h",
       "bytes": 885,
-      "sha256": "180898CEFB241598CA6DDFC153F71DF432313F6FE83D7E09856A1BC52834AC6B"
+      "git_blob_sha1": "71bc726199e1fb6b45e11228bb182e3278af6113"
     },
     {
       "path": "src/VFX/BeamRenderer.cpp",
       "bytes": 14759,
-      "sha256": "1C17050FF279C36175C50CFE438E0D16EE6FC2F1A682AB3BC231BF668513229A"
+      "git_blob_sha1": "8ba92b8564c8cd8756c3ce4018b20bb93db84d3f"
     },
     {
       "path": "src/VFX/BeamRenderer.h",
       "bytes": 3076,
-      "sha256": "148044CE78AC16F9804BBE36FFAF0C326325101DA7F326608AFAA903DE9CF411"
+      "git_blob_sha1": "895a60dd0c4137aed81e23e620a660118be2b772"
     },
     {
       "path": "src/VFX/Choreography.cpp",
       "bytes": 16894,
-      "sha256": "EEE13F8DD822DF554602AC94A89E6879564D6B84355388EE05569426C594A023"
+      "git_blob_sha1": "96d4110735b99d43eaf08c1a9cd4622fa4b9bc3f"
     },
     {
       "path": "src/VFX/Choreography.h",
       "bytes": 2789,
-      "sha256": "919E3E88A10EDEC3DD3C4BAACF406942DF133B5935E86304FF2B0FFC397A2F38"
+      "git_blob_sha1": "1c9afa00216bdefcc5530056a5273d0b556a8ed3"
     },
     {
       "path": "src/VFX/CircleMotion.h",
       "bytes": 867,
-      "sha256": "7D9C87E51794736C6EB187ACF9A909ACE9E26A5B25FE12A940EA1B6CEE9712D0"
+      "git_blob_sha1": "0911de05b31f73d7283c5be83650905c17b556eb"
     },
     {
       "path": "src/VFX/CircleOwnershipPolicy.h",
       "bytes": 483,
-      "sha256": "7CAF695109A8E34E30F599C4DA9907359A31ACAE385264C48789FD19705063B2"
+      "git_blob_sha1": "9a04efb2ef573b1f6f38a0a041b408366d4b8b90"
     },
     {
       "path": "src/VFX/CircleRenderer.cpp",
       "bytes": 3052,
-      "sha256": "1B620030C6178B635EC22A93D943C294A7B1A61ADA54EA256696C3F70D9C53E8"
+      "git_blob_sha1": "691efdf96780f2c49efbd1158cfc8b444a067b68"
     },
     {
       "path": "src/VFX/CircleRenderer.h",
       "bytes": 2994,
-      "sha256": "CD2AE8024D3C1AFDB4CE87505FEFE35E5671B99745E76E3BD9DF93D5D1B9E07A"
+      "git_blob_sha1": "dde206c54be650bb4f11a1c83903fed038c8c253"
     },
     {
       "path": "src/VFX/CircleTint.cpp",
-      "bytes": 14024,
-      "sha256": "3B200491C015CD6391820CAEC7EFEAD6A9EFE3B81002A0ECCCE7101A47F43424"
+      "bytes": 14071,
+      "git_blob_sha1": "21c50d624ffc10db937e07052dde80b5e5558f00",
+      "sha256": "64878B17CC854FF1BD1718B50A7D2BECB7F53CC18297883F0A1632A2E33E3119"
     },
     {
       "path": "src/VFX/CircleTint.h",
       "bytes": 523,
-      "sha256": "60AD3EFE6C4563F75B6BFC66E0ED93FB907218D6BEA7360B972F5636CEB6AFA4"
+      "git_blob_sha1": "9aa59e4677473abf48cd9870109921f8e9d172a0"
     },
     {
       "path": "src/VFX/EngineCircle.cpp",
       "bytes": 11882,
-      "sha256": "F30F024F7D1DBC83AEFD69BF11E5C8E8EC474E8F116A058F31544E1A35B9226C"
+      "git_blob_sha1": "258758356b9781afccb80a34894c464e3f05662c"
     },
     {
       "path": "src/VFX/EngineCircle.h",
       "bytes": 767,
-      "sha256": "E488BBEFA3254DE4B05BF4F9AAE2CD295DAB23FB193486C456CC7BB1DD5FB871"
+      "git_blob_sha1": "75b9526030147efd7a0f753acd9c2ecbda0ae1c6"
     },
     {
       "path": "src/VFX/PresentationMath.h",
       "bytes": 612,
-      "sha256": "B36EEE0BFE01644DB13818C7FE095AD1C42CB9F479B0623F216B9DDD2133AD27"
+      "git_blob_sha1": "fa952cc52365947c4d3a7d2847a01e1ca507368e"
     },
     {
       "path": "src/VFX/TransientVFXManager.cpp",
-      "bytes": 60722,
-      "sha256": "009DDD46501037B2A5274F618D7F2702243B15770E61C85FFD5F00FC00A6C985"
+      "bytes": 60759,
+      "git_blob_sha1": "99ddaf512cc783491bac711b1482bb23a56a9f25",
+      "sha256": "CC86A683C26BFD7507AAD9C6193C8E6C34225E5B6134E6A449DA00D77EF3DB2A"
     },
     {
       "path": "src/VFX/TransientVFXManager.h",
       "bytes": 4774,
-      "sha256": "B8863C0A21BCC91F042B9EE80B616AF8E49D629920018993779FC5CADE300F98"
+      "git_blob_sha1": "38b288b18795b0afb1e14da2f7390dea9faa97ed"
     },
     {
       "path": "src/VFX/VFXInstance.cpp",
       "bytes": 16100,
-      "sha256": "A11EFCD4A54898931AA6D16247200B01CB4C2AFD3EB0F51549B2B7B10BCF00CF"
+      "git_blob_sha1": "530ea034f077fdea0cdc334be61637ad444f0335"
     },
     {
       "path": "src/VFX/VFXInstance.h",
       "bytes": 1682,
-      "sha256": "9DC48920FA2CD60778BD9F20BF8037A5C50F32A23352573CD661F52282FC8921"
+      "git_blob_sha1": "8d54d26bc2938e7a0b4d8e623b5d31923a19b9e8"
     },
     {
       "path": "src/VFX/VFXRuntime.cpp",
-      "bytes": 6862,
-      "sha256": "B07C184B34331F3F5591B5A58CC082931EC60E58404A9C1400EC1914BF991963"
+      "bytes": 6915,
+      "git_blob_sha1": "81f1f5f3222fd7a8aee7c578e13c1d887fa2601c",
+      "sha256": "8F9242990C4D0FBBC01C9C56FD22847703D3E6CF9157C150470EF70081D500E2"
     },
     {
       "path": "src/VFX/VFXRuntime.h",
       "bytes": 284,
-      "sha256": "2453F974BE2A32AE658439A7AA298BAA0E317D5E6AA2455159C87AD40334C2B0"
+      "git_blob_sha1": "2d537ca4aab0054dacefe1a0bd8c930bbef72fdd"
     },
     {
       "path": "tests/cap_policy_tests.cpp",
       "bytes": 640,
-      "sha256": "32AF06F9FBE56F457ABED69762A68E120E42CE64ACE8A1ED80775D8EBA978174"
+      "git_blob_sha1": "797cfae6dccd36fdaa3eaf11c389c7b522cee612"
     },
     {
       "path": "tests/circle_flight_policy_tests.cpp",
       "bytes": 1098,
-      "sha256": "901E8E7DA283A630F154497D169DF050FD63ED8EBB97CA46BFF5AF46F1706ADD"
+      "git_blob_sha1": "81658316ec6fdb9bde1c910271793d15e3fa0ad6"
+    },
+    {
+      "path": "Tests/CircleTint_lifetime_host.cpp",
+      "bytes": 9702,
+      "git_blob_sha1": "74ff77701a6b3247100a5d1d74431210c27c3b57"
     },
     {
       "path": "tests/damage_policy_tests.cpp",
       "bytes": 678,
-      "sha256": "EEB6FF884240B2BDA657B10CEBBBA0267AE4A71F49ED43B06FF4A92FEAAF80AB"
+      "git_blob_sha1": "66ba8dab5b09970b518c2f89d281d40ad8101078"
+    },
+    {
+      "path": "Tests/Presentation_menu_host.cpp",
+      "bytes": 7281,
+      "git_blob_sha1": "78998b6c4e58b3fd1549d16b004d3ba0f245b5f2"
     },
     {
       "path": "tests/presentation_policy_tests.cpp",
       "bytes": 2328,
-      "sha256": "F912D7F475DF1A3D58B4A63FA5E40DB30950E4F71313163000F20FF92E179739"
+      "git_blob_sha1": "e72eeccf8e2f438f844174c105e5d2e98b36aee8"
     },
     {
       "path": "tests/presentation_settings_win32_tests.cpp",
       "bytes": 3438,
-      "sha256": "81BB6416A30BEAE639434DE617E1723400D9A66FE9348D6DA1EC78CB5A655677"
+      "git_blob_sha1": "55692ca0944235b5157d1580bfc8ba413a53cc00"
+    },
+    {
+      "path": "THIRD_PARTY_LICENSES/CommonLibSSE-NG.txt",
+      "bytes": 1074,
+      "git_blob_sha1": "664256ddd1b95b36a9c493611f432cd97b85deb7"
+    },
+    {
+      "path": "THIRD_PARTY_LICENSES/fmt.txt",
+      "bytes": 1431,
+      "git_blob_sha1": "1cd1ef92696b65b2ecb0e560e622f0a0e869dcf3"
+    },
+    {
+      "path": "THIRD_PARTY_LICENSES/spdlog.txt",
+      "bytes": 1323,
+      "git_blob_sha1": "4b1b23357f9685fb6b6291aa33489fc9fe1c122c"
     },
     {
       "path": "tools/circle_adapter.cpp",
       "bytes": 1725,
-      "sha256": "4C35C560FF51BEFC6A795F073CC8075EEFB89238AA6084146E591DFA2EF2AD87"
+      "git_blob_sha1": "8cba6ba044ee3f6530ab134b89728280dd231b30"
     },
     {
       "path": "tools/esp_integration.cs",
       "bytes": 5661,
-      "sha256": "6BE97468CBDFD51A19C8C2BB4029E8652308D31546F1056F86889138FDFBC138"
+      "git_blob_sha1": "9315d3ac90f308683ee2758831637b8c0d36e94a"
     },
     {
       "path": "tools/esp_records.py",
       "bytes": 1393,
-      "sha256": "B3A8018FCE98ABFF9979301CCFF08717202E78DDDE2463628310CC8D1C5F207F"
-    },
-    {
-      "path": "tools/formation_editor/LICENSE",
-      "bytes": 1061,
-      "sha256": "81AB9E4445ABF0E342A59A3E6E68FC5A866D31DF1342FA03C4CCB29B639B87B6"
-    },
-    {
-      "path": "tools/formation_editor/PUBLICATION_NOTICE.md",
-      "bytes": 802,
-      "sha256": "0A214C08EEB36F773E1F7AE952E7DF303285F0423C2FED27D425147AA0AF1058"
-    },
-    {
-      "path": "tools/formation_editor/README_EN.md",
-      "bytes": 8299,
-      "sha256": "FEEC59B559C7F1A38C73BD8DD73969502992C98CBF39A6DA5603662CF3C68EAB"
-    },
-    {
-      "path": "tools/formation_editor/README_KR.md",
-      "bytes": 8622,
-      "sha256": "5AFA25F7AFDE79FDD68657D15C811D9D9F81998254ECF7814B06004D362774B8"
-    },
-    {
-      "path": "tools/formation_editor/SCHEMA.md",
-      "bytes": 2503,
-      "sha256": "2631E7E14704E0352E1E864CA94BEFFDB767846C65A7DBFA35158C17CF45D036"
-    },
-    {
-      "path": "tools/formation_editor/VERIFICATION.md",
-      "bytes": 659,
-      "sha256": "6AE89652767C27EAF8433D7AB7C032EF30E6528CE646B30FA872F5A7FB6578E3"
+      "git_blob_sha1": "9f3f60fb75a862186856233cdb99863861110e89"
     },
     {
       "path": "tools/formation_editor/app.js",
       "bytes": 22973,
-      "sha256": "B0F20C7692C7E56CD177E3ACCC4822328BD550798BFD9694075789BF2E833703"
+      "git_blob_sha1": "bb72c2b62492a68ce3e12910b41cfcfd7a5bfa2b"
     },
     {
       "path": "tools/formation_editor/engine.js",
       "bytes": 5140,
-      "sha256": "BF90D5008168B4FF33B41FD432ABED399F8B4BD6E8A6575EFC1101E9F0D4D7BF"
+      "git_blob_sha1": "4aaf224facf4d25f15512787a0a27ac372485334"
     },
     {
       "path": "tools/formation_editor/examples/ai-coordinate-examples.json",
       "bytes": 18197,
-      "sha256": "16DEBE08BDA73E9E931E45336D4D0C1170390AF71B5DAE3B1EBCD6727CAC606D"
+      "git_blob_sha1": "48c6800fe7c4a673352bd5904dc09ddda3c3cf51"
     },
     {
       "path": "tools/formation_editor/examples/ai-reference-guide.json",
       "bytes": 2552,
-      "sha256": "5CA7EF60615EDD8DE9E63D7B2BC10EA31AFE3DCD73C4FCD34605CB458AA41D15"
+      "git_blob_sha1": "0464f470d318ce0297482a8f72f51fe727dd76b5"
     },
     {
       "path": "tools/formation_editor/index.html",
       "bytes": 10559,
-      "sha256": "2B21B81C7B9996EC0BF886E8FAA170F0AF5F788A84B91BA95E5E744FFE5028F6"
+      "git_blob_sha1": "2b55539ee26e884808c654261e5337ddccdc6a8b"
+    },
+    {
+      "path": "tools/formation_editor/LICENSE",
+      "bytes": 1061,
+      "git_blob_sha1": "0de68736dcfe137b75fc8c585e3a2edfbcaa7d59"
     },
     {
       "path": "tools/formation_editor/presets.js",
       "bytes": 49992,
-      "sha256": "E39155386CF2F0CB832194576905E3370F264AB36BF3CB54156C254C1C90939D"
+      "git_blob_sha1": "f870c02a2047a92f8c8b12daee55339bd6d6fc36"
     },
     {
       "path": "tools/formation_editor/presets/toam-reviewed.json",
       "bytes": 120916,
-      "sha256": "06745772825AA84452D79835AB311B9415AA9257DEA4AB2D381607578EE8B724"
+      "git_blob_sha1": "4a31ae9efb3c45929ddce108d55fde13288c1cc2"
+    },
+    {
+      "path": "tools/formation_editor/PUBLICATION_NOTICE.md",
+      "bytes": 802,
+      "git_blob_sha1": "c5db85f6fb4b2b0a47c0841a8b111e76b2ba8e67"
+    },
+    {
+      "path": "tools/formation_editor/README_EN.md",
+      "bytes": 8299,
+      "git_blob_sha1": "c467a09fabffcf4d4f1dccc1512f8959e55d3865"
+    },
+    {
+      "path": "tools/formation_editor/README_KR.md",
+      "bytes": 8622,
+      "git_blob_sha1": "0975b513c8bbd4e2910f276ec37404683db6f51b"
     },
     {
       "path": "tools/formation_editor/reference/current-runtime-layout.json",
       "bytes": 4282,
-      "sha256": "727A5B079F4C7BEF56D8A656ECD44270A71361CEC2F0C30391C9BE2AE5B60BD4"
+      "git_blob_sha1": "e9a26e65363c41508e9f063def51af764d20183a"
     },
     {
       "path": "tools/formation_editor/reference/manual-layout-20261023-0145.json",
       "bytes": 9239,
-      "sha256": "746AE822155172A757FCE4475669A922B6B1D878759B90D331A97BEF3940A742"
+      "git_blob_sha1": "3ab5f50357da8547e853489c067300c674311179"
     },
     {
       "path": "tools/formation_editor/reference/source-parameters.json",
       "bytes": 1717,
-      "sha256": "DA13220A60D312F1CABD840674456E4AFFBB34D35DC56934F6D923040C2926E8"
+      "git_blob_sha1": "71f05a1c656b7594e6531a0c0d74918751fd167b"
+    },
+    {
+      "path": "tools/formation_editor/SCHEMA.md",
+      "bytes": 2503,
+      "git_blob_sha1": "8b6e9298bdd5cb3497cf749d0cff2a6bd249feca"
     },
     {
       "path": "tools/formation_editor/tests/engine.test.cjs",
       "bytes": 2016,
-      "sha256": "5321F7B4E4D874FA3144805E33180541AFC91682F0009152037A0EC3494CF589"
+      "git_blob_sha1": "b9d9705663ff7fb5befbd63365a8453dc9851aba"
     },
     {
-      "path": "tools/layout_editor/PROVENANCE.json",
-      "bytes": 1078,
-      "sha256": "560E9871571F5350422591AA2B8DCBD0350CB9517837FA01A4034E106B949453"
-    },
-    {
-      "path": "tools/layout_editor/README_KO.md",
-      "bytes": 1299,
-      "sha256": "48344978087625CB656D6FC58FA90E3B750C8F7CADFC3321DD24AA63CEF7D95C"
-    },
-    {
-      "path": "tools/layout_editor/README_TOAM.md",
-      "bytes": 2305,
-      "sha256": "3D5B4116BD76087DD158973FD105B4949DA55669ADAAC40757A6F43111898CFD"
+      "path": "tools/formation_editor/VERIFICATION.md",
+      "bytes": 659,
+      "git_blob_sha1": "719cc0540663aad10fa83d4df4cad6cd108c4062"
     },
     {
       "path": "tools/layout_editor/baseline.json",
       "bytes": 8808,
-      "sha256": "E7C5A400B3BEDBD59DC4E146A513B6BFA72BE97545A5512D1AF8EFC1F30D0E92"
+      "git_blob_sha1": "2d6981de9217a79246f0f0675a738b5899984ec0"
     },
     {
       "path": "tools/layout_editor/current-runtime-layout.json",
       "bytes": 4282,
-      "sha256": "727A5B079F4C7BEF56D8A656ECD44270A71361CEC2F0C30391C9BE2AE5B60BD4"
+      "git_blob_sha1": "e9a26e65363c41508e9f063def51af764d20183a"
     },
     {
       "path": "tools/layout_editor/index.html",
       "bytes": 152431,
-      "sha256": "52134E34468CFA9EBE2B14DA083664304D47F9729F23EEAC6212782F64A4B420"
+      "git_blob_sha1": "f2589e6167fc73d52a55d03b9bc4c22b8c40f3fd"
     },
     {
       "path": "tools/layout_editor/manual-layout-20261023-0145.json",
       "bytes": 9239,
-      "sha256": "746AE822155172A757FCE4475669A922B6B1D878759B90D331A97BEF3940A742"
+      "git_blob_sha1": "3ab5f50357da8547e853489c067300c674311179"
     },
     {
-      "path": "tools/staff_cloth/README.md",
-      "bytes": 2242,
-      "sha256": "D933145B7B9859952BCB62D7C609E94D064ACA6F8C6A68A7730A7BA74EBC9E04"
+      "path": "tools/layout_editor/PROVENANCE.json",
+      "bytes": 1078,
+      "git_blob_sha1": "76b6e5ad722161ff54956bd93af1a2b634a7d648"
     },
     {
-      "path": "tools/staff_cloth/STATIC_REFERENCE.json",
-      "bytes": 7492,
-      "sha256": "8DF3C8EA6961CB3E6E653C03FA60859769C19F6B23AA2AAFCD84FA0F185EAABB"
+      "path": "tools/layout_editor/README_KO.md",
+      "bytes": 1299,
+      "git_blob_sha1": "fc20287186566fda5702377a2570da4f8879c1a9"
+    },
+    {
+      "path": "tools/layout_editor/README_TOAM.md",
+      "bytes": 2305,
+      "git_blob_sha1": "b44108615e306660acf6bf69d8196a9ca3813f45"
     },
     {
       "path": "tools/staff_cloth/nifly_mesh_audit.cpp",
       "bytes": 1656,
-      "sha256": "6B2EFB33663C1BC4C2CF10665B33BE54F94AB01A69A9207A0D218DC0F749E917"
+      "git_blob_sha1": "d075c08ca3f45829dd1bdb97e40cb033be5da777"
+    },
+    {
+      "path": "tools/staff_cloth/README.md",
+      "bytes": 2242,
+      "git_blob_sha1": "4a753e5bb743e143b397ead62e320daa69ce8d32"
     },
     {
       "path": "tools/staff_cloth/repair_sse_ribbon.py",
       "bytes": 7446,
-      "sha256": "0B34D68AA1F9AF3A7C8E2368F6635330D1F420B04FD98F474C185281E9987DE1"
+      "git_blob_sha1": "08572c8f4ef5482490ee082f2dda857f49d302cd"
+    },
+    {
+      "path": "tools/staff_cloth/STATIC_REFERENCE.json",
+      "bytes": 7492,
+      "git_blob_sha1": "0ea3b9fbe731bd091b991fadbd5f89b9246556d4"
     },
     {
       "path": "tools/toam_package.py",
       "bytes": 7250,
-      "sha256": "F65067D248AF39AFF36501B39A02C14473C53FA0547E43079CA7BA4400913E42"
+      "git_blob_sha1": "d23fb89ad83d1f96371acc997f57084bd0fa7eb9"
     },
     {
       "path": "vcpkg.json",
       "bytes": 465,
-      "sha256": "EF0EE52DBDAC1BF296AE75F802AB7039EDF7836C24E7AC66C97ABB0FFA31C26C"
+      "git_blob_sha1": "1633dca68933b6f908eadc66fbed56e792f39acd"
     }
-  ],
-  "publicationBaseSHA256": "53649DD0348E16CF8C455DBFA4583B16B36B9F8380E818EADDA1199C95A29EB4"
+  ]
 }

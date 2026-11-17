@@ -1,3 +1,4 @@
+#include "Core/RuntimeSupport.h"
 #include "Audio/SpellAudio.h"
 #include "Audio/AudioPolicy.h"
 #include "Core/PresentationSettings.h"
@@ -31,19 +32,19 @@ namespace TOAM::Audio
             // Exact SE1.5.97 positioned-file precedent, RVA 0x5E9128..0x5E918E.
             // ID constructor RVA0xC4A420 zeroes ID then calls GenerateFromPath.
             // See S03-013/NATIVE_FILE_CONTRACT_PROOF.json; these are not guessed values.
-            const auto version=REL::Module::get().version();
-            if(version.major()!=1 || version.minor()!=5 || version.patch()!=97 || version.build()!=0) {
-                return std::nullopt; // AE is compile compatibility only.
+            // AE1170 vanilla caller RVA67B539..67B59F uses flags10/priority80.
+            if(!TOAM::Compatibility::Supports(REL::Module::get().version())) {
+                return std::nullopt;
             }
             return FileContract{0x10u,0x80u};
         }
         // Pinned SetPosition(NiPoint3) has an ABI mismatch on SE1.5.97.
-        // The native function at SE ID66370 takes three scalar floats.
+        // SE ID66370 and native-audited AE1170 ID67631 take scalar floats.
         // See NATIVE_AUDIO_UNPACKED_AUDIT.json and DEV_LESSONS S03-R11-AUDIO-01.
-        [[nodiscard]] bool SetPositionSE97(RE::BSSoundHandle& sound,const RE::NiPoint3& p) noexcept
+        [[nodiscard]] bool SetPositionScalars(RE::BSSoundHandle& sound,const RE::NiPoint3& p) noexcept
         {
             using Function=bool (*)(RE::BSSoundHandle*,float,float,float);
-            static REL::Relocation<Function> function{REL::ID{66370}};
+            static REL::Relocation<Function> function{REL::RelocationID{66370,67631}};
             return function(std::addressof(sound),p.x,p.y,p.z);
         }
         struct Voice
@@ -129,7 +130,7 @@ namespace TOAM::Audio
                 logger::warn("[TOAM][Audio] File handle allocation failed | File={}",path);return;
             }
             sound.SetOutputModel(output);
-            if ((!use2DControl && !SetPositionSE97(sound,p)) || !sound.SetVolume(volume)) {
+            if ((!use2DControl && !SetPositionScalars(sound,p)) || !sound.SetVolume(volume)) {
                 logger::warn("[TOAM][Audio] Position/volume request failed | File={} | Mode={}",path,outputMode);
                 static_cast<void>(sound.Stop()); return;
             }

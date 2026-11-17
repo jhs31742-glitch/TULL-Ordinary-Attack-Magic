@@ -4623,3 +4623,19 @@ v1.0.3 stress evidence: 553/553 CircleTint application/ownership records, Gold14
 Release materials: Main, optional Stances, Source, public engineering/art research, standalone Formation Editor.
 The research and editor require privacy, licensing and independent publication checks.
 Never publish internal EVIDENCE or private handoff.
+
+
+# TOAM 1.0.5 SE/AE experimental adapter and publication — 2026-11-18
+
+SOURCE: 113 native files exactly match the local candidate. STATIC: bounded native verification on SE1.5.97 and the user's AE1.6.1170 executable. BUILD: actual MSVC x64 compile/link passed. DEPLOY: NOT_RUN. USER_RUNTIME: NOT_RUN. LOCK: NO.
+
+The exact runtime allowlist rejects other AE/1.7/VR versions before hooks. The damage commit uses SE37523/AE38468 with the five-argument ABI and a complete five-byte prologue. Unknown entries and non-executable detour targets reject. Dome installation failure is checked before the remaining Arcana hook writes. File audio uses SE66370/AE67631 scalar floats, avoiding the SDK NiPoint3 ABI mismatch. The AE vanilla caller confirms file flags0x10/priority0x80. AE weapon-hit call is ID38586+0xFA with AIProcess*/HitData&. ModelReferenceEffect Get3D reads+C8; existing private-root/branch/material ownership guards remain.
+
+The exact 1.0.4 FixedDamage implementation forwards the source to Actor::DoDamage and preserves its submitted-request return contract. This is not proof of Experience XP awards. Approved UltraRare ESP overlays are integrated in the install archives with exact existing bytes: main book0.1%/staff0.03%, Stances book0.001%/staff0.0002%. These are patch targets, not measured per-container rates. Merchant/CID configuration remains unchanged.
+
+Build DLL SHA256: A8B407613E08223EBE995A08EFF17C2C591E37F50FDE3AF0C8E65FC32AB0E058.
+Main ZIP SHA256: 8CD679B7D47ECE679F298D74C2054B011A9718F59F0F3D777549760BAF3E3AE2.
+Optional Stances ZIP SHA256: 1AA107D582D0AF70621B51FA6FBEECA9CD8172B34339D375C03CD935B1B69649.
+GitHub source tree retains the existing dependency gitlinks and license scope. Historical record/asset authoring snapshots remain1.0.3 and are identified as such; the current install ESPs are in release assets. No executable, Address Library database, private native audit or personal logs are redistributed. The user's original AE executable and installed mods/profiles/saves are unchanged.
+
+The source prerelease is explicitly authorized by the user's current request. No game boot, runtime acceptance, broad1.6.x promise, performance claim or final LOCK is inferred from publication. Future verification questions: does AE preserve damage/defense/payment behavior; do direct kills receive Experience XP; do repeated casts and load transitions preserve circle ownership and lifecycle?

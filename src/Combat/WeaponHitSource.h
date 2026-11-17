@@ -16,5 +16,6 @@ namespace TOAM::Combat::WeaponHitSource
 
     // S01: compiled but intentionally not called.
     // Installation is deferred until Temperance implementation.
+    [[nodiscard]] bool CanInstall();
     void Install();
 }

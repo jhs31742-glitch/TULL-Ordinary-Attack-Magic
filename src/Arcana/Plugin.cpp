@@ -1,3 +1,4 @@
+#include "Core/RuntimeSupport.h"
 #include <RE/Skyrim.h>
 #include <SKSE/SKSE.h>
 #include <spdlog/sinks/basic_file_sink.h>
@@ -207,9 +208,10 @@ void BindHostRequest(HostRequestFn next){originalRequest=reinterpret_cast<std::u
 void RequestFromHost(RE::ActorMagicCaster* caster){
  if(originalRequest.address()==0){logger::critical("HOST_REQUEST_UNBOUND");return;}Request(caster);
 }
+bool ValidateHooks(){return TOAM::Compatibility::Supports(REL::Module::get().version())&&ValidateDomeCommitHook();}
 bool InstallHooks(){
  static bool installed=false;if(installed)return true;
- if(REL::Module::get().version()!=SKSE::RUNTIME_SSE_1_5_97)return false;
+ if(!ValidateHooks()||!InstallDomeCommitHook())return false;
  REL::Relocation<std::uintptr_t> t{RE::VTABLE_ActorMagicCaster[0]};
  Arcana::original=t.write_vfunc(0x1D,Arcana::Update);
 #ifndef ARCANA_EMBEDDED
@@ -220,7 +222,7 @@ bool InstallHooks(){
 #ifndef ARCANA_EMBEDDED
  REL::Relocation<std::uintptr_t> playerTable{RE::VTABLE_PlayerCharacter[0]};originalPlayerFrame=playerTable.write_vfunc(0xAD,PlayerFrame);
 #endif
- InstallDomeCommitHook();InstallRainImpactHook();InstallFlightInputHooks();
+ InstallRainImpactHook();InstallFlightInputHooks();
  installed=true;logger::info("ArcanaStaffs 0.7.4 hooks installed; runtime ActorState accessor repaired; firearm flight HKX and six-leg pose; no Papyrus");return true;
 }
 }
@@ -229,7 +231,7 @@ SKSEPluginLoad(const SKSE::LoadInterface* skse){
  SKSE::Init(skse);auto dir=logger::log_directory();if(!dir)return false;*dir/="ArcanaStaffs.log";
  auto log=std::make_shared<spdlog::logger>("ArcanaStaffs",std::make_shared<spdlog::sinks::basic_file_sink_mt>(dir->string(),true));
  spdlog::set_default_logger(log);spdlog::set_level(spdlog::level::info);spdlog::flush_on(spdlog::level::info);
- if(REL::Module::get().version()!=SKSE::RUNTIME_SSE_1_5_97){logger::error("SE 1.5.97 required");return false;}
+ if(!ValidateHooks()){logger::error("Audited SE/AE runtime and entry required");return false;}
  auto* m=SKSE::GetMessagingInterface();if(!m||!m->RegisterListener(Arcana::Message))return false;
  return Arcana::InstallHooks();
 

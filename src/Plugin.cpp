@@ -1,7 +1,9 @@
+#include "Core/RuntimeSupport.h"
 #include "Arcana/Integration.h"
 #include "VFX/EngineCircle.h"
 #include "PCH.h"
 #include "Core/Runtime.h"
+#include "Combat/WeaponHitSource.h"
 #include "Core/DamageSettings.h"
 #include "Core/PresentationSettings.h"
 
@@ -88,10 +90,15 @@ SKSEPluginLoad(const SKSE::LoadInterface* skse)
         return false;
     }
     Arcana::ConfigureFormSource("TULL Ordinary Attack Magic.esp",0);
-    if(REL::Module::get().version()!=SKSE::RUNTIME_SSE_1_5_97) {
-        logger::critical("[TOAM][Compatibility] AE preparation is incomplete: Hermit/Tower precommit ABI and audio file contract need native verification. No hooks installed. Runtime={}",REL::Module::get().version().string());
+    if(!TOAM::Compatibility::Supports(REL::Module::get().version())) {
+        logger::critical("[TOAM][Compatibility] Supported candidate runtimes: SE 1.5.97 and AE 1.6.1170 only. Rejected before hooks. Runtime={}",REL::Module::get().version().string());
         return false;
     }
+    if (!Arcana::ValidateHooks() || !TOAM::Combat::WeaponHitSource::CanInstall()) {
+        logger::critical("[TOAM][Compatibility] Hook preflight rejected; no hooks installed");
+        return false;
+    }
+    logger::info("[TOAM][Compatibility] Candidate 1.0.5 runtime={} native preflight accepted; gameplay NOT_VERIFIED", REL::Module::get().version().string());
     auto* messaging =
         SKSE::GetMessagingInterface();
 

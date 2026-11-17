@@ -1,3 +1,4 @@
+#include "Core/RuntimeSupport.h"
 #include "Combat/WeaponHitSource.h"
 
 namespace TOAM::Combat::WeaponHitSource
@@ -138,6 +139,13 @@ namespace TOAM::Combat::WeaponHitSource
         return g_installed;
     }
 
+    bool CanInstall()
+    {
+        if (!TOAM::Compatibility::Supports(REL::Module::get().version())) { return false; }
+        REL::Relocation<std::uintptr_t> target{Hook::kTargetID, Hook::kTargetOffset};
+        return *reinterpret_cast<const std::uint8_t*>(target.address()) == 0xE8;
+    }
+
     void Install()
     {
         if (g_installed) {
@@ -149,6 +157,10 @@ namespace TOAM::Combat::WeaponHitSource
             Hook::kTargetOffset
         };
 
+        if (!CanInstall()) {
+            logger::critical("[TOAM][WeaponHit] Unrecognized call site; hook not installed");
+            return;
+        }
         auto& trampoline = SKSE::GetTrampoline();
 
         if (REL::Module::IsAE()) {

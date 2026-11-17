@@ -59,13 +59,28 @@ void CommitActorValue(RE::Actor* target,RE::ACTOR_VALUE_MODIFIER modifier,RE::Ac
  if(owner&&own)logger::info("ARCANA_HEALTH_COMMIT mode={} target={:08X} requested={} before={} after={} [synchronous missile impact context]",currentDamageMode,target->GetFormID(),delta,before,owner->GetActorValue(RE::ActorValue::kHealth));
  else if(owner)logger::info("OUTGOING_HEALTH_COMMIT target={:08X} requested={} before={} after={} [all player damage, not solely Arcana]",target->GetFormID(),delta,before,owner->GetActorValue(RE::ActorValue::kHealth));
 }
+bool ValidateDomeCommitHook(){
+ if(!TOAM::Compatibility::Supports(REL::Module::get().version()))return false;
+ REL::Relocation<std::uintptr_t> entry{REL::RelocationID(37523,38468)};
+ const auto address=entry.address();auto* code=reinterpret_cast<const std::uint8_t*>(address);
+ constexpr std::array<std::uint8_t,5> prologue{{0x48,0x89,0x5C,0x24,0x10}};
+ if(std::memcmp(code,prologue.data(),5)==0)return true;
+ if(code[0]!=0xE9)return false;
+ std::int32_t displacement{};std::memcpy(&displacement,code+1,4);
+ const auto destination=address+5+displacement;
+ MEMORY_BASIC_INFORMATION memory{};
+ if(destination==address||!VirtualQuery(reinterpret_cast<const void*>(destination),&memory,sizeof(memory)))return false;
+ const auto executable=PAGE_EXECUTE|PAGE_EXECUTE_READ|PAGE_EXECUTE_READWRITE|PAGE_EXECUTE_WRITECOPY;
+ return memory.State==MEM_COMMIT&&!(memory.Protect&(PAGE_GUARD|PAGE_NOACCESS))&&(memory.Protect&executable)!=0;
+}
 bool InstallDomeCommitHook(){
  if(domeCommitReady)return true;
- REL::Relocation<std::uintptr_t> entry{REL::ID(37523)};
+ if(!ValidateDomeCommitHook()){logger::error("DOME_PRECOMMIT_REJECTED: unknown entry or chain");return false;}
+ REL::Relocation<std::uintptr_t> entry{REL::RelocationID(37523,38468)};
  const auto address=entry.address();auto* code=reinterpret_cast<const std::uint8_t*>(address);
  constexpr std::array<std::uint8_t,5> prologue{{0x48,0x89,0x5C,0x24,0x10}};
  const bool pristine=std::memcmp(code,prologue.data(),5)==0;const bool chained=code[0]==0xE9;
- if(!pristine&&!chained){logger::error("DOME_PRECOMMIT_DISABLED: unrecognized SE37523 entry; no unsafe patch");return false;}
+ if(!pristine&&!chained){logger::error("DOME_PRECOMMIT_DISABLED: unrecognized SE37523/AE38468 entry; no unsafe patch");return false;}
  domeTrampoline.create(128);
  if(pristine){
   auto* stub=static_cast<std::uint8_t*>(domeTrampoline.allocate(19));std::memcpy(stub,code,5);
@@ -73,7 +88,7 @@ bool InstallDomeCommitHook(){
   const auto resume=address+5;std::memcpy(stub+11,&resume,8);FlushInstructionCache(GetCurrentProcess(),stub,19);originalCommit=reinterpret_cast<CommitFn>(stub);
  }else{std::int32_t displacement{};std::memcpy(&displacement,code+1,4);originalCommit=reinterpret_cast<CommitFn>(address+5+displacement);}
  static_cast<void>(domeTrampoline.write_branch<5>(address,CommitActorValue));
- domeCommitReady=true;logger::info("DOME_PRECOMMIT_READY SE37523 chained={}",chained);return true;
+ domeCommitReady=true;logger::info("DOME_PRECOMMIT_READY SE37523/AE38468 chained={}",chained);return true;
 }
 #include "Sentry.inl"
 #include "WorldUpdate.inl"

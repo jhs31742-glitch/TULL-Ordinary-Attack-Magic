@@ -1,3 +1,4 @@
+#include "Core/RuntimeSupport.h"
 #include "VFX/PresentationMath.h"
 #include "VFX/TransientVFXManager.h"
 
@@ -414,7 +415,7 @@ namespace TOAM::VFX
             slot.asset == AssetID::kFlashCloud ||
             slot.asset == AssetID::kFlashCloudTintable;
         if (!supportedArt || slotIndex >= kCapacity ||
-            REL::Module::get().version() != SKSE::RUNTIME_SSE_1_5_97) {
+            !TOAM::Compatibility::Supports(REL::Module::get().version())) {
             return;
         }
         auto* player = RE::PlayerCharacter::GetSingleton();

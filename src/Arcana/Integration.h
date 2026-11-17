@@ -6,6 +6,7 @@ namespace Arcana {
 // Host integration: compile Plugin.cpp with ARCANA_EMBEDDED=1.
 // Configure before DataLoaded. Offsets rebase this module's documented local FormIDs.
 void ConfigureFormSource(const char* pluginName,std::uint32_t localIDOffset=0);
+bool ValidateHooks();
 bool InstallHooks();
 // Explicit host dispatch: embedded mode never writes the shared 03/AD slots.
 using HostRequestFn = void (*)(RE::ActorMagicCaster*);
